@@ -47,6 +47,9 @@ def processJson(inputJsonFile):
     js['special_rank_data']['special_rank_list'][8] = []
     print js	
 
+if len(sys.argv) != 2:
+    print "请输入: %s 平台名 服ID" %sys.argv[0]
+    sys.exit()
 #配置文件
 conf_file='/g2/centerg2/0/rsync/conf/%s/%s_s%s.conf' %(sys.argv[1],sys.argv[1],sys.argv[2])
 #读取配置文件
@@ -63,4 +66,4 @@ processJson(dump_file)
 #处理后的json转换为str格式
 insert_str = json.dumps(js,separators=(',',':'),ensure_ascii = False) + ','
 #插入回数据库
-insertData(insert_str.strip().encode('latin1'))
+#insertData(insert_str.strip().encode('latin1'))
