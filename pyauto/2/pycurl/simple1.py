@@ -4,7 +4,7 @@ import time
 import sys
 import pycurl
 
-URL="http://www.google.com.hk"
+URL="http://manager.ssqy.q-dazzle.com/control/login.php"
 c = pycurl.Curl()
 c.setopt(pycurl.URL, URL)
                 

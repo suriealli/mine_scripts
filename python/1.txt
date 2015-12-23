@@ -1,0 +1,15 @@
+Enter passphrase for key '/home/suriealli/.ssh/Identity': dazzleq
+
+Last login: Tue Dec 22 14:14:29 2015 from 121.42.176.120
+
+Welcome to aliyun Elastic Compute Service!
+
+[Joklin@Joklin ~]$ sudo su
+sudo su
+[sudo] password for Joklin: 121212
+
+[root@Joklin Joklin]# ls
+ls
+get-pip.py    [0m[01;34mPython-2.7.10[0m      [01;34mpython-django[0m
+[01;34mmine_scripts[0m  [01;31mPython-2.7.10.tgz[0m  [01;34mpython-scrapy[0m
+[m[root@Joklin Joklin]# 
