@@ -1,0 +1,1358 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="UTF-8" />
+<meta content="all" name="robots" />
+<meta name="author" content="运维进行时" />
+<meta name="description" content="互联网运维技术架构" />
+<meta name="keywords" content="运维进行时,运维,架构,Linux,数据库,缓存,云计算,python,python博客,python技术,Python自动化运维：技术与最佳实践,python书籍,刘天斯,Docker,rrdtool,MongoDB,LVS,kubernets,负载均衡,saltstack,ansible,func,云计算,大数据" />
+<base href="http://blog.liuts.com/" />
+<link rel="alternate" title="运维进行时" href="feed.php" type="application/rss+xml" />
+<link rel="stylesheet" rev="stylesheet" href="template/neowin3/styles.css" type="text/css" media="all" />
+
+<title>运维进行时 - 互联网运维技术架构</title>
+<script type="text/javascript" src="images/js/common.js?jsver=2.1.1.3626.3"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.liuts.com/inc/rsd.php" />
+<script type="text/javascript" src="lang/zh-cn/jslang.js?jsver=2.1.1.3626.3"></script>
+<script type="text/javascript" src="images/js/ajax.js?jsver=2.1.1.3626.3"></script>
+<script type="text/javascript" src="images/js/swfobject.js?jsver=2.1.1.3626.3"></script>
+<script type="text/javascript">
+//<![CDATA[
+var moreimagepath="template/neowin3/images";
+var shutajax=0;
+var absbaseurl='http://blog.liuts.com/';
+//]]>
+</script>
+<link title="搜索 运维进行时" rel="search"  type="application/opensearchdescription+xml"  href="http://blog.liuts.com/inc/opensearch.php" />
+
+<link type="text/css" rel="stylesheet" href="images/css/SyntaxHighlighter.css" />
+<meta name="baidu-site-verification" content="tn3elFICDT" />
+</head>
+<body id="pagelocation-index">
+<div id="wrapper">
+        <div id="header">
+            <div id="header-r">
+                <div id="header-l">
+                    <div id="innerHeader">
+                        <div id="blogLogo">
+                        </div>
+                        <div class="blog-header">
+                            <h1 class="blog-title"><a href="/">运维进行时</a></h1>
+                            <div class="blog-desc">互联网运维技术架构</div>
+                        </div><table border="0" cellpadding="0" cellspacing="0" height=2><tr><td></td></tr></table>
+			<a href="http://www.jiankongbao.com" target="_blank"><img src="http://blog.liuts.com/images/gg/zhihui.jpg" border="0" width="900" height="85"></a>
+                        <div id="header-search">
+                            <form action="visit.php" method="post">
+                            <div id="header-search-box">
+                            <input type="hidden" value="search" name="job" />
+                            <input type="hidden" value="2" name="searchmethod" />
+                            <input type="text" name="keyword" value="Search Blog" maxlength="255" size="31" onfocus="if(this.value=='Search Blog') this.value='';" onblur="if(this.value=='') this.value='Search Blog';" />
+                            </div>
+                            </form>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="header-bot">
+                        <div id="header-nav">
+                            <ul id="nav">
+                            <li><span id="nav_index" class="activepage"><a href="index.php" ><span id="navitem_index" class="activepageitem">首页</span></a></span></li>
+<li><span id="nav_component_2Fid_2F3_2F"><a href="component/id/3/" ><span id="navitem_component_2Fid_2F3_2F">开源项目</span></a></span></li>
+<li><span id="nav_component_2Fid_2F5_2F"><a href="component/id/5/" ><span id="navitem_component_2Fid_2F5_2F">书籍纠错汇总</span></a></span></li>
+<li><span id="nav_component_2Fid_2F7_2F"><a href="component/id/7/" ><span id="navitem_component_2Fid_2F7_2F">招聘专栏</span></a></span></li>
+<li><span id="nav_tag"><a href="tag.php" ><span id="navitem_tag">标签</span></a></span></li>
+<li><span id="nav_guestbook"><a href="guestbook.php" ><span id="navitem_guestbook">留言</span></a></span></li>
+<li><span id="nav_javascript_3AshowHideSidebar_28_29_3B"><a href="javascript:showHideSidebar();" ><span id="navitem_javascript_3AshowHideSidebar_28_29_3B">边栏</span></a></span></li>
+<li><span id="nav_archive"><a href="archive.php" ><span id="navitem_archive">归档</span></a></span></li>
+<li><span id="nav_star"><a href="star.php" ><span id="navitem_star">星标日志</span></a></span></li>
+                            <li id="nav-rss"><a href="feed.php" target="_blank"><span>RSS</span></a></li>
+                            </ul>
+                        </div>
+                        <div id="header-userbar">
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-box-tbar">
+            <div class="content-box-tbar-r">
+            <div class="content-box-tbar-l">
+            <span class="right-links"></span>
+            </div>
+            </div>
+        </div>
+		<div id="mainWrapper">
+			<div id="content" class="content">
+				<div id="innerContent">
+					<div class="announce" style="display: block">
+						<div class="announce-content">
+						本人于2009年12月迁移至独立BLOG。<br>1、欢迎光临运维进行时，希望认识更多志向相同的朋友!<br>2、本站部分资源来源于网络，如有侵权请及时与我联系!<br>3、强烈建议使用Firefox、Opera、Safari及IE7以上的浏览器访问，以获得最佳浏览质量!<br>4、请勿发表与中华人民共和国法律、法规相抵触的言论,谢谢合作!<br>5、本人发布的文章与评论内容仅代表本人观点。<br>
+						</div>
+					</div>
+					<div class="article-top" style="display: block">
+						<div class="pages">
+							<span class="pagebar-mainbody"> 分页： 1/30  <a href="page/1/1/"><img src="template/neowin3/images/arrows/doubleleft.gif" alt="第一页" title="第一页" border="0"/></a> <span class="pagebar-selections"> <span class="pagelink-current">1</span>  <a href="page/1/2/">2</a>  <a href="page/1/3/">3</a>  <a href="page/1/4/">4</a>  <a href="page/1/5/">5</a>  <a href="page/1/6/">6</a>  <a href="page/1/7/">7</a>  <a href="page/1/8/">8</a>  <a href="page/1/9/">9</a>  <a href="page/1/10/">10</a> </span> <a href="page/1/2/"><img src="template/neowin3/images/arrows/singleright.gif" alt="下页" title="下页" border="0"/></a>  <a href="page/1/30/"><img src="template/neowin3/images/arrows/doubleright.gif" alt="最后页" title="最后页" border="0"/></a> </span> [ 显示模式： <a href="page/1/1/" title="切换到摘要模式">摘要</a> | <a href="page/2/1/" title="切换到列表模式">列表</a> ]
+						</div>
+					</div>
+					<div class="textbox">
+	<div class="textbox-title">
+		<h4>
+		<a href="post/248/">基于Django与Celery实现异步对列任务</a> <span id="starid248"><img src="template/neowin3/images/others/starred.gif" alt="" title="已加星标" border="0"/></span> <img src="images/weather/blank.gif" alt="不指定" title="不指定"/>
+		</h4>
+		<div class="textbox-label">
+		<a href="user/3/" target="_blank">刘天斯</a> , 2015/08/18 19:42 , <a href="category/15/" title="查看分类： Python">Python</a> , <a href="post/248/#reply" title="发表您的评论">评论(2)</a> ,  <a href="post/248/">阅读(3906)</a> , Via 本站原创 
+		</div>
+	</div>
+	<div id="tb248" style="display: none;" class="textbox-tburl"><strong>引用地址：</strong>  <span id='tbb248'></span><br/><strong>注意：</strong> 该地址仅在今日23:59:59之前有效</div>
+	
+	<div class="textbox-content">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在运营系统中经常用到异步方式来处理我们的任务，比如将业务上线流程串成任务再写入队列，通过后台作业节点去调度执行。比较典型的案例为腾讯的蓝鲸、织云、云智慧等平台。本译文结合Django+Celery+Redis实现一个定期从Flickr 获取图片并展示的简单案例，方便大家理解实现异步对列任务的过程。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;刚接触django的时候，我经历过的最让人沮丧的事情是需要定期运行一段代码。我写了一个需要每天上午12点执行一个动作的不错的函数。很简单是不是？错了。事实证明，这对我来说是一个巨大的困难点，因为，那时我使用Cpane类型的虚拟主机管理系统，它能专门提供一个很友好，很方便的图形用户界面来设置cron作业。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 经过反复研究，我发现了一个很好的解决方案 - Celery，一个用于在后台运行任务的强大的异步作业队列。但是，这也导致了其它的问题，因为我无法找到一系列简单的指令将celery集成到Django项目中。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 当然，我最终还是设法成功搞定了它 - 这正是本文将介绍的内容：如何将celery集成到一个Django项目，创建周期性任务。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 该项目利用Python3.4，Django的1.8.2，celery3.1.18和Redis3.0.2.<br/><br/><strong>一、概述</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 由于大篇幅的文字，为了您的方便，请参阅下表中的每一步的简要信息，并获取相关的代码。<br/>步骤&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;概要&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Git标签<br/>样板&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;样板下载&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/realpython/Picha/releases/tag/v1" target="_blank">V1</a><br/>建立&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;集成Celery和Django&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/realpython/Picha/releases/tag/v2" target="_blank">V2</a><br/>Celery任务&nbsp;&nbsp;&nbsp;&nbsp;添加基本的Celery任务&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/realpython/Picha/releases/tag/v3" target="_blank">V3</a><br/>周期性任务&nbsp;&nbsp;&nbsp;&nbsp;添加周期性任务&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/realpython/Picha/releases/tag/v4" target="_blank">V4</a><br/>本地运行&nbsp;&nbsp;&nbsp;&nbsp;本地运行我们的应用程序&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/realpython/Picha/releases/tag/v5" target="_blank">V5</a><br/>远程运行&nbsp;&nbsp;&nbsp;&nbsp;远程运行我们的应用程序&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/realpython/Picha/releases/tag/v5" target="_blank">V5</a><br/><br/><strong>二、什么是Celery</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; “Celery是一个异步任务队列/基于分布式消息传递的作业队列。它侧重于实时操作，但对调度的支持也很好。”本文，我们将重点讲解周期性执行任务的调度特点。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 为什么这一点有用呢？<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•回想一下你不得不在将来运行某一特定任务的经历。也许你需要每隔一小时访问一个API。或者，也许你需要在这一天结束时发送一批电子邮件。不论任务大小，Celery都可以使得调度周期性任务变的很容易。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•你永远不希望终端用户等待那些不必要的页面加载或动作执行完成。如果你的应用程序工作流的一部分是一个需要很长时间的程序，当资源可用时，你就可以使用Celery在后台执行这段程序，从而使你的应用程序可以继续响应客户端的请求。这样可以使任务在应用程序的环境之外运行。<br/><br/><strong>三、构建项目</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在深入了解Celery之前，先从Github库中获取开始项目。确保激活一个虚拟的环境，安装必要的软件，并运行迁移。然后启动服务器，通过你的浏览器导航到http://localhost:8000/。你应当能看到‘恭喜你的第一个Django页面’。完成后，关闭服务器。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 接下来，我们开始安装celery。<br/><textarea name="code" class="c" rows="15" cols="100">
+$ pip install celery==3.1.18
+$ pip freeze > requirements.txt
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 现在，我们通过简单的三步将celery集成到django项目中。<br/><strong>步骤一：创建celery.py</strong><br/>在“picha“目录下，创建celery.py，代码如下：<br/><textarea name="code" class="python" rows="15" cols="100">
+from __future__ import absolute_import
+import os
+from celery import Celery
+from django.conf import settings
+
+# set the default Django settings module for the 'celery' program.
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'picha.settings')
+app = Celery('picha')
+
+# Using a string here means the worker will not have to
+# pickle the object when using Windows.
+app.config_from_object('django.conf:settings')
+app.autodiscover_tasks(lambda: settings.INSTALLED_APPS)
+
+
+@app.task(bind=True)
+def debug_task(self):
+&nbsp;&nbsp;&nbsp;&nbsp;print('Request: &#123;0!r&#125;'.format(self.request))
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 请注意代码中的注释。<br/><strong>步骤二：引入celery应用</strong><br/>为了确保在django启动时加载了celery应用，在settings.py旁边新建__init__.py，并添加以下代码到__init__.py中。<br/><textarea name="code" class="python" rows="15" cols="100">
+from __future__ import absolute_import
+
+# This will make sure the app is always imported when
+# Django starts so that shared_task will use this app.
+from .celery import app as celery_app
+</textarea><br/>完成以上步骤后，你的项目目录应该是这样的：<br/><textarea name="code" class="c" rows="15" cols="100">
+├── manage.py
+├── picha
+│&nbsp;&nbsp; ├── __init__.py
+│&nbsp;&nbsp; ├── celery.py
+│&nbsp;&nbsp; ├── settings.py
+│&nbsp;&nbsp; ├── urls.py
+│&nbsp;&nbsp; └── wsgi.py
+└── requirements.txt
+</textarea><br/><strong>步骤三：安装 Redis作为Celery的“中间件”</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;Celery使用中间件在django项目与celery监控者之间传递消息。在本教程中，我们使用redis作为消息中间代理。<br/>首先，从官方下载页面或通过brew（BREW安装Redis）安装Redis，然后打开你的终端上，在一个新的终端窗口，启动服务器：<br/><textarea name="code" class="c" rows="15" cols="100">
+$ redis-server
+</textarea><br/>你可以通过在终端中输入如下命令测试Redis是否正常工作。<br/><textarea name="code" class="c" rows="15" cols="100">
+$ redis-cli ping
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Redis应该回复PONG - 试试吧！<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 一旦Redis正常启动了，把下面的代码添加到你的settings.py文件中：<br/><textarea name="code" class="python" rows="15" cols="100">
+# CELERY STUFF
+BROKER_URL = 'redis://localhost:6379'
+CELERY_RESULT_BACKEND = 'redis://localhost:6379'
+CELERY_ACCEPT_CONTENT = ['application/json']
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
+CELERY_TIMEZONE = 'Africa/Nairobi'
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 你还需要添加Redis的作为Django项目的依赖：<br/><textarea name="code" class="c" rows="15" cols="100">
+$ pip install redis==2.10.3
+$ pip freeze > requirements.txt
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 就是这样了！你现在应该能够在Django中使用Celery。有关设置Celery与Django的更多信息，请查看官方Celery文档。<br/>在继续下面步骤之前，让我们进行一些完整性检查，以确保一切都是正常的。<br/>测试Celery worker已准备好接收任务：<br/><textarea name="code" class="c" rows="15" cols="100">
+$ celery -A picha worker -l info
+...
+[2015-07-07 14:07:07,398: INFO/MainProcess] Connected to redis://localhost:6379//
+[2015-07-07 14:07:07,410: INFO/MainProcess] mingle: searching for neighbors
+[2015-07-07 14:07:08,419: INFO/MainProcess] mingle: all alone
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 使用CTRL-C杀死该段程序。现在，测试Celery任务调度程序是否已经准备好：<br/><textarea name="code" class="c" rows="15" cols="100">
+$ celery -A picha beat -l info
+...
+[2015-07-07 14:08:23,054: INFO/MainProcess] beat: Starting...
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在上述完成时再次终止该进程。<br/><br/><strong>1、Celery任务</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Celery利用celery调用的常规Python函数作为任务。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 例如，让我们把这个基本函数变为celery的任务：<br/><textarea name="code" class="python" rows="15" cols="100">
+def add(x, y):
+&nbsp;&nbsp;&nbsp;&nbsp;return x + y
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 首先，添加一个装饰器。<br/><textarea name="code" class="python" rows="15" cols="100">
+from celery.decorators import task
+
+@task(name="sum_two_numbers")
+def add(x, y):
+&nbsp;&nbsp;&nbsp;&nbsp;return x + y
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 然后你可以通过以下方式利用celery异步运行该任务：<br/><textarea name="code" class="python" rows="15" cols="100">
+add.delay(7, 8)
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 很简单，对不对？<br/>所以，这对于解决类似你要加载一个网页，而不需要用户等待一些后台程序的完成这些类型的任务来说是非常完美的。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;让我们来看一个例子...<br/>让我们再回到Django项目的版本3，它包括一个接受来自用户的反馈的应用程序，人们形象地称之为反馈：<br/><textarea name="code" class="c" rows="15" cols="100">
+├── feedback
+│&nbsp;&nbsp; ├── __init__.py
+│&nbsp;&nbsp; ├── admin.py
+│&nbsp;&nbsp; ├── emails.py
+│&nbsp;&nbsp; ├── forms.py
+│&nbsp;&nbsp; ├── models.py
+│&nbsp;&nbsp; ├── tests.py
+│&nbsp;&nbsp; └── views.py
+├── manage.py
+├── picha
+│&nbsp;&nbsp; ├── __init__.py
+│&nbsp;&nbsp; ├── celery.py
+│&nbsp;&nbsp; ├── settings.py
+│&nbsp;&nbsp; ├── urls.py
+│&nbsp;&nbsp; └── wsgi.py
+├── requirements.txt
+└── templates
+&nbsp;&nbsp;&nbsp;&nbsp;├── base.html
+&nbsp;&nbsp;&nbsp;&nbsp;└── feedback
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── contact.html
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── email
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── feedback_email_body.txt
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── feedback_email_subject.txt
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 安装新的必要软件，启动应用程序，并导航到http://localhost:8000/feedback/。你应该看到如下结果：<br/><a href="attachment.php?fid=376" target="_blank"><img src="attachment.php?fid=376" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/>让我们连接celery任务。<br/><br/><strong>2、添加任务</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 基本上，用户提交反馈表后，我们希望让他继续以他舒服的方式往下进行，而我们在后台进行处理反馈，发送电子邮件等等。<br/>要做到这一点，首先添加一个叫tasks.py的文件到“feedback”目录：<br/><textarea name="code" class="python" rows="15" cols="100">
+from celery.decorators import task
+from celery.utils.log import get_task_logger
+
+from feedback.emails import send_feedback_email
+
+logger = get_task_logger(__name__)
+
+
+@task(name="send_feedback_email_task")
+def send_feedback_email_task(email, message):
+&nbsp;&nbsp;&nbsp;&nbsp;"""sends an email when feedback form is filled successfully"""
+&nbsp;&nbsp;&nbsp;&nbsp;logger.info("Sent feedback email")
+&nbsp;&nbsp;&nbsp;&nbsp;return send_feedback_email(email, message)
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 然后按照如下内容更新forms.py：<br/><textarea name="code" class="python" rows="15" cols="100">
+from django import forms
+from feedback.tasks import send_feedback_email_task
+
+
+class FeedbackForm(forms.Form):
+&nbsp;&nbsp;&nbsp;&nbsp;email = forms.EmailField(label="Email Address")
+&nbsp;&nbsp;&nbsp;&nbsp;message = forms.CharField(
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;label="Message", widget=forms.Textarea(attrs=&#123;'rows': 5&#125;))
+&nbsp;&nbsp;&nbsp;&nbsp;honeypot = forms.CharField(widget=forms.HiddenInput(), required=False)
+
+&nbsp;&nbsp;&nbsp;&nbsp;def send_email(self):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# try to trick spammers by checking whether the honeypot field is
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# filled in; not super complicated/effective but it works
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if self.cleaned_data['honeypot']:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return False
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;send_feedback_email_task.delay(
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.cleaned_data['email'], self.cleaned_data['message'])
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 大体上，send_feedback_email_task.delay(email, message)的函数过程，并发送反馈电子邮件等都是在用户继续使用该网站的同时作为后台进程运行。<br/>注：在views.py中的success_url被设置为将用户重定向到/ 目录，这个目录还不存在。我们会在下一节设置这个终点启动。<br/><br/><strong>3、周期任务</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 通常情况下，你经常需要安排一个任务在特定的时间运行 - 例如，一个web scraper 可能需要每天都运行。这样的任务，被称为周期性任务，很容易建立利用celery启动。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; celery使用“celery beat”来安排定期任务。celery beat定期运行任务，然后由celery worker执行任务。<br/>例如，下面的任务计划每15分钟运行一次：<br/><textarea name="code" class="python" rows="15" cols="100">
+from celery.task.schedules import crontab
+from celery.decorators import periodic_task
+
+
+@periodic_task(run_every=(crontab(minute='*/15')), name="some_task", ignore_result=True)
+def some_task():
+&nbsp;&nbsp;&nbsp;&nbsp;# do something
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 让我们通过往Django项目中添加功能来看一个更强大的例子。<br/>回到Django项目版本4，它包括另一个新的应用程序，叫做photos，这个应用程序使用 Flickr API获取新照片用来显示在网站：<br/><textarea name="code" class="c" rows="15" cols="100">
+├── feedback
+│&nbsp;&nbsp; ├── __init__.py
+│&nbsp;&nbsp; ├── admin.py
+│&nbsp;&nbsp; ├── emails.py
+│&nbsp;&nbsp; ├── forms.py
+│&nbsp;&nbsp; ├── models.py
+│&nbsp;&nbsp; ├── tasks.py
+│&nbsp;&nbsp; ├── tests.py
+│&nbsp;&nbsp; └── views.py
+├── manage.py
+├── photos
+│&nbsp;&nbsp; ├── __init__.py
+│&nbsp;&nbsp; ├── admin.py
+│&nbsp;&nbsp; ├── models.py
+│&nbsp;&nbsp; ├── settings.py
+│&nbsp;&nbsp; ├── tests.py
+│&nbsp;&nbsp; ├── utils.py
+│&nbsp;&nbsp; └── views.py
+├── picha
+│&nbsp;&nbsp; ├── __init__.py
+│&nbsp;&nbsp; ├── celery.py
+│&nbsp;&nbsp; ├── settings.py
+│&nbsp;&nbsp; ├── urls.py
+│&nbsp;&nbsp; └── wsgi.py
+├── requirements.txt
+└── templates
+&nbsp;&nbsp;&nbsp;&nbsp;├── base.html
+&nbsp;&nbsp;&nbsp;&nbsp;├── feedback
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp; ├── contact.html
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp; └── email
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ├── feedback_email_body.txt
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── feedback_email_subject.txt
+&nbsp;&nbsp;&nbsp;&nbsp;└── photos
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── photo_list.html
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 安装新的必要软件，运行迁移，然后启动服务器，以确保一切都是好的。重新测试反馈表。这次，它应该重定向好了。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 下一步是什么？<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 既然我们需要周期性的调用Flickr API，以获取更多的照片添加到我们的网站，我们可以添加一个celery任务。<br/><br/><strong>4、添加任务</strong><br/>往photos应用中添加一个tasks.py。<br/><textarea name="code" class="python" rows="15" cols="100">
+from celery.task.schedules import crontab
+from celery.decorators import periodic_task
+from celery.utils.log import get_task_logger
+
+from photos.utils import save_latest_flickr_image
+
+logger = get_task_logger(__name__)
+
+
+@periodic_task(
+&nbsp;&nbsp;&nbsp;&nbsp;run_every=(crontab(minute='*/15')),
+&nbsp;&nbsp;&nbsp;&nbsp;name="task_save_latest_flickr_image",
+&nbsp;&nbsp;&nbsp;&nbsp;ignore_result=True
+)
+def task_save_latest_flickr_image():
+&nbsp;&nbsp;&nbsp;&nbsp;"""
+&nbsp;&nbsp;&nbsp;&nbsp;Saves latest image from Flickr
+&nbsp;&nbsp;&nbsp;&nbsp;"""
+&nbsp;&nbsp;&nbsp;&nbsp;save_latest_flickr_image()
+&nbsp;&nbsp;&nbsp;&nbsp;logger.info("Saved image from Flickr")
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在这里，我们通过在一个task中包装这个函数，来实现每15分钟运行一次save_latest_flickr_image()函数。该@periodic_task装饰器抽象出代码来运行celery任务，使得tasks.py干净，易于阅读！<br/><br/><strong>5、本地运行</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 准备开始运行了？<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在Django应用程序和Redis运行的前提下，打开两个新的终端窗口/标签。在每一个新的窗口中，导航到你的项目目录，激活你的虚拟环境，然后运行下面的命令（每个窗口一个）：<br/><textarea name="code" class="c" rows="15" cols="100">
+$ celery -A picha worker -l info
+$ celery -A picha beat -l info
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 当你访问http://127.0.0.1:8000/ 网址的时候，你现在应该能看到一个图片。我们的应用程序每15分钟从Flickr 获取一张图片。<br/><a href="attachment.php?fid=377" target="_blank"><img src="attachment.php?fid=377" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/><a href="attachment.php?fid=378" target="_blank"><img src="attachment.php?fid=378" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/>通过photos/tasks.py查看代码。点击“Feedback”按钮发送一些反馈意见：<br/><a href="attachment.php?fid=379" target="_blank"><img src="attachment.php?fid=379" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/><a href="attachment.php?fid=380" target="_blank"><img src="attachment.php?fid=380" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 以上是通过celery任务运行的。更多的请查看<span style="color: #FF4500;">feedback/tasks.py</span>。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 就这样，你成功的启动并运行了 Picha项目！<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 当你本地开发Django项目时，这是一个很好的测试，但是当你需要部署到生产环境- 就像 DigitalOcean时，就不那么合适了。为此，建议你通过使用Supervisor在后台作为一个守护进程运行celery worker和调度器。<br/><br/><strong>6、远程运行</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 安装很简单。从版本库中获取版本5（如果你还没有的话）。然后，SSH到远程服务器，并运行：<br/><textarea name="code" class="c" rows="15" cols="100">
+$ sudo apt-get install supervisor
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 然后，通过在远程服务器上“/etc/supervisor/conf.d/” 目录下添加配置文件来告知Supervisor celery的workers。在我们的例子中，我们需要两个这样的配置文件 - 一个用于Celery worker，一个是Celery scheduler。<br/>在本地，在项目的根目录下创建一个“supervisor”的文件夹，然后添加下面的文件。<br/><span style="color: #8B0000;">Celery Worker: picha_celery.conf</span><br/><textarea name="code" class="python" rows="15" cols="100">
+; ==================================
+;&nbsp;&nbsp;celery worker supervisor example
+; ==================================
+
+; the name of your supervisord program
+[program:pichacelery]
+
+; Set full path to celery program if using virtualenv
+command=/home/mosh/.virtualenvs/picha/bin/celery worker -A picha --loglevel=INFO
+
+; The directory to your Django project
+directory=/home/mosh/sites/picha
+
+; If supervisord is run as the root user, switch users to this UNIX user account
+; before doing any processing.
+user=mosh
+
+; Supervisor will start as many instances of this program as named by numprocs
+numprocs=1
+
+; Put process stdout output in this file
+stdout_logfile=/var/log/celery/picha_worker.log
+
+; Put process stderr output in this file
+stderr_logfile=/var/log/celery/picha_worker.log
+
+; If true, this program will start automatically when supervisord is started
+autostart=true
+
+; May be one of false, unexpected, or true. If false, the process will never
+; be autorestarted. If unexpected, the process will be restart when the program
+; exits with an exit code that is not one of the exit codes associated with this
+; process’ configuration (see exitcodes). If true, the process will be
+; unconditionally restarted when it exits, without regard to its exit code.
+autorestart=true
+
+; The total number of seconds which the program needs to stay running after
+; a startup to consider the start successful.
+startsecs=10
+
+; Need to wait for currently executing tasks to finish at shutdown.
+; Increase this if you have very long running tasks.
+stopwaitsecs = 600
+
+; When resorting to send SIGKILL to the program to terminate it
+; send SIGKILL to its whole process group instead,
+; taking care of its children as well.
+killasgroup=true
+
+; if your broker is supervised, set its priority higher
+; so it starts first
+priority=998
+</textarea><br/><span style="color: #8B0000;">Celery Scheduler: picha_celerybeat.conf</span><br/><textarea name="code" class="python" rows="15" cols="100">
+; ================================
+;&nbsp;&nbsp;celery beat supervisor example
+; ================================
+
+; the name of your supervisord program
+[program:pichacelerybeat]
+
+; Set full path to celery program if using virtualenv
+command=/home/mosh/.virtualenvs/picha/bin/celerybeat -A picha --loglevel=INFO
+
+; The directory to your Django project
+directory=/home/mosh/sites/picha
+
+; If supervisord is run as the root user, switch users to this UNIX user account
+; before doing any processing.
+user=mosh
+
+; Supervisor will start as many instances of this program as named by numprocs
+numprocs=1
+
+; Put process stdout output in this file
+stdout_logfile=/var/log/celery/picha_beat.log
+
+; Put process stderr output in this file
+stderr_logfile=/var/log/celery/picha_beat.log
+
+; If true, this program will start automatically when supervisord is started
+autostart=true
+
+; May be one of false, unexpected, or true. If false, the process will never
+; be autorestarted. If unexpected, the process will be restart when the program
+; exits with an exit code that is not one of the exit codes associated with this
+; process’ configuration (see exitcodes). If true, the process will be
+; unconditionally restarted when it exits, without regard to its exit code.
+autorestart=true
+
+; The total number of seconds which the program needs to stay running after
+; a startup to consider the start successful.
+startsecs=10
+
+; if your broker is supervised, set its priority higher
+; so it starts first
+priority=999
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 注：确保更新这些文件的路径，以匹配你的远程服务器的文件系统。<br/>基本上，这些supervisor 配置文件告诉supervisord如何运行并管理我们的'programs'（因为它们是由supervisord调用）。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在上面的例子中，我们已经创建了两个名为“pichacelery”和“pichacelerybeat”的supervisord程序。<br/>现在，只需将这些文件拷贝到远程服务器的/etc/supervisor/conf.d/目录下。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 我们还需要在远程服务器上创建上面脚本中提到的日志文件：<br/><textarea name="code" class="c" rows="15" cols="100">
+$ touch /var/log/celery/picha_worker.log
+$ touch /var/log/celery/picha_beat.log
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 最后，运行以下命令，使 Supervisor 知道它所管理的程序的存在 - 例如，pichacelery和pichacelerybeat：<br/><textarea name="code" class="c" rows="15" cols="100">
+$ sudo supervisorctl reread
+$ sudo supervisorctl update
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 运行以下命令停止，启动，和/或检查pichacelery程序的状态：<br/><textarea name="code" class="c" rows="15" cols="100">
+$ sudo supervisorctl stop pichacelery
+$ sudo supervisorctl start pichacelery
+$ sudo supervisorctl status pichacelery
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 你可以通过阅读官方文档获取Supervisor的更多信息。<br/><br/><strong>7、最后提示</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. 千万不要传递Django模型对象到celery任务。为了避免模型对象在传递给celery任务之前已经改变了，传递celery的主键给celery。然后，在运行之前使用主键从数据库中获取对象。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. 默认celery调度会在本地创建一些文件存储它的调度表。这些文件是“celerybeat-schedule.db”和“celerybeat.pid”。如果你在使用版本控制系统，比如Git（你应该使用！），请忽略这个文件，不要将它们添加到你的代码库中，因为它们是为本地运行的进程服务的。<br/><br/><strong>8、下一步</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 以上就是将celery集成到一个django项目的基本介绍。<br/>想要更多？<br/>1. 深入研究官方celery用户指南，以了解更多信息。<br/>2. 创建一个Fabfile来设置Supervisor和配置文件。确保添加命令到reread和 update Supervisor。<br/>3. 从repo中获取这个项目，并打开一个Pull 请求来添加一个新的celery任务。<br/>编码快乐！<br/><br/>原文：<a href="https://realpython.com/blog/python/asynchronous-tasks-with-django-and-celery/" target="_blank">https://realpython.com/blog/python/asynchronous-tasks-with-django-and-celery/</a>
+	</div>
+	<div class="textbox-bottom">
+	</div>
+	<div class="tags" style="display: block">Tags:  <a href="tags/django/" title="Tags:  django" rel="tag">django</a> , <a href="tags/celery/" title="Tags:  celery" rel="tag">celery</a> , <a href="tags/%25E5%25BC%2582%25E6%25AD%25A5/" title="Tags:  异步" rel="tag">异步</a> , <a href="tags/%25E4%25BB%25BB%25E5%258A%25A1/" title="Tags:  任务" rel="tag">任务</a> , <a href="tags/%25E5%25AF%25B9%25E5%2588%2597/" title="Tags:  对列" rel="tag">对列</a>
+	</div>
+</div><div class="textbox">
+	<div class="textbox-title">
+		<h4>
+		<a href="post/247/">基于kubernetes构建Docker集群管理详解</a> <span id="starid247"><img src="template/neowin3/images/others/starred.gif" alt="" title="已加星标" border="0"/></span> <img src="images/weather/blank.gif" alt="不指定" title="不指定"/>
+		</h4>
+		<div class="textbox-label">
+		<a href="user/3/" target="_blank">刘天斯</a> , 2014/12/22 21:41 , <a href="category/42/" title="查看分类： Docker">Docker</a> , <a href="post/247/#reply" title="发表您的评论">评论(22)</a> ,  <a href="post/247/">阅读(33405)</a> , Via 本站原创 
+		</div>
+	</div>
+	<div id="tb247" style="display: none;" class="textbox-tburl"><strong>引用地址：</strong>  <span id='tbb247'></span><br/><strong>注意：</strong> 该地址仅在今日23:59:59之前有效</div>
+	
+	<div class="textbox-content">
+	<br/><strong>一、前言</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kubernetes 是Google开源的容器集群管理系统，基于Docker构建一个容器的调度服务，提供资源调度、均衡容灾、服务注册、动态扩缩容等功能套件，目前最新版本为0.6.2。本文介绍如何基于Centos7.0构建Kubernetes平台，在正式介绍之前，大家有必要先理解Kubernetes几个核心概念及其承担的功能。以下为Kubernetes的架构设计图：<br/><a href="attachment.php?fid=368" target="_blank"><img src="attachment.php?fid=368" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/>1. Pods<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在Kubernetes系统中，调度的最小颗粒不是单纯的容器，而是抽象成一个Pod，Pod是一个可以被创建、销毁、调度、管理的最小的部署单元。比如一个或一组容器。<br/>2. Replication Controllers<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Replication Controller是Kubernetes系统中最有用的功能，实现复制多个Pod副本，往往一个应用需要多个Pod来支撑，并且可以保证其复制的副本数，即使副本所调度分配的主宿机出现异常，通过Replication Controller可以保证在其它主宿机启用同等数量的Pod。Replication Controller可以通过repcon模板来创建多个Pod副本，同样也可以直接复制已存在Pod，需要通过Label selector来关联。<br/>3、Services<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Services是Kubernetes最外围的单元，通过虚拟一个访问IP及服务端口，可以访问我们定义好的Pod资源，目前的版本是通过iptables的nat转发来实现，转发的目标端口为Kube_proxy生成的随机端口，目前只提供GOOGLE云上的访问调度，如GCE。如果与我们自建的平台进行整合？请关注下篇《kubernetes与HECD架构的整合》文章。<br/>4、Labels<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Labels是用于区分Pod、Service、Replication Controller的key/value键值对，仅使用在Pod、Service、 Replication Controller之间的关系识别，但对这些单元本身进行操作时得使用name标签。<br/>5、Proxy<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proxy不但解决了同一主宿机相同服务端口冲突的问题，还提供了Service转发服务端口对外提供服务的能力，Proxy后端使用了随机、轮循负载均衡算法。<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;说说个人一点看法，目前Kubernetes 保持一周一小版本、一个月一大版本的节奏，迭代速度极快，同时也带来了不同版本操作方法的差异，另外官网文档更新速度相对滞后及欠缺，给初学者带来一定挑战。在上游接入层官方侧重点还放在GCE（Google Compute Engine）的对接优化，针对个人私有云还未推出一套可行的接入解决方案。在v0.5版本中才引用service代理转发的机制，且是通过iptables来实现，在高并发下性能令人担忧。但作者依然看好Kubernetes未来的发展，至少目前还未看到另外一个成体系、具备良好生态圈的平台，相信在V1.0时就会具备生产环境的服务支撑能力。<br/><br/><strong>一、环境部署</strong><br/>1、平台版本说明<br/>&nbsp;&nbsp;&nbsp;&nbsp;1）Centos7.0 OS<br/>&nbsp;&nbsp;&nbsp;&nbsp;2）Kubernetes V0.6.2<br/>&nbsp;&nbsp;&nbsp;&nbsp;3）etcd version 0.4.6<br/>&nbsp;&nbsp;&nbsp;&nbsp;4）Docker version 1.3.2<br/><br/>2、平台环境说明<br/><a href="attachment.php?fid=369" target="_blank"><img src="attachment.php?fid=369" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/><br/>3、环境安装<br/>&nbsp;&nbsp;&nbsp;&nbsp;1）系统初始化工作（所有主机）<br/>&nbsp;&nbsp;&nbsp;&nbsp;系统安装-选择[最小化安装]<br/>&nbsp;&nbsp;&nbsp;&nbsp;<div class="quote"><div class="quote-title">引用</div><div class="quote-content"><br/>&nbsp;&nbsp;&nbsp;&nbsp;# yum -y install wget ntpdate bind-utils<br/>&nbsp;&nbsp;&nbsp;&nbsp;# wget http://mirror.centos.org/centos/7/extras/x86_64/Packages/epel-release-7-2.noarch.rpm<br/>&nbsp;&nbsp;&nbsp;&nbsp;# yum update<br/>&nbsp;&nbsp;&nbsp;&nbsp;</div></div><br/>&nbsp;&nbsp;&nbsp;&nbsp;CentOS 7.0默认使用的是firewall作为防火墙，这里改为iptables防火墙（熟悉度更高，非必须）。<br/>&nbsp;&nbsp;&nbsp;&nbsp;1.1、关闭firewall：<br/>&nbsp;&nbsp;&nbsp;&nbsp;<div class="quote"><div class="quote-title">引用</div><div class="quote-content"><br/>&nbsp;&nbsp;&nbsp;&nbsp;# systemctl stop firewalld.service #停止firewall<br/>&nbsp;&nbsp;&nbsp;&nbsp;# systemctl disable firewalld.service #禁止firewall开机启动<br/>&nbsp;&nbsp;&nbsp;&nbsp;</div></div><br/>&nbsp;&nbsp;&nbsp;&nbsp;1.2、安装iptables防火墙<br/>&nbsp;&nbsp;&nbsp;&nbsp;<div class="quote"><div class="quote-title">引用</div><div class="quote-content"><br/>&nbsp;&nbsp;&nbsp;&nbsp;# yum install iptables-services #安装<br/>&nbsp;&nbsp;&nbsp;&nbsp;# systemctl start iptables.service #最后重启防火墙使配置生效<br/>&nbsp;&nbsp;&nbsp;&nbsp;# systemctl enable iptables.service #设置防火墙开机启动<br/>&nbsp;&nbsp;&nbsp;&nbsp;</div></div><br/>&nbsp;&nbsp;&nbsp;&nbsp;2）安装Etcd（192.168.1.10主机）<br/>&nbsp;&nbsp;&nbsp;&nbsp;<div class="quote"><div class="quote-title">引用</div><div class="quote-content"><br/>&nbsp;&nbsp;&nbsp;&nbsp;# mkdir -p /home/install && cd /home/install&nbsp;&nbsp;<br/>&nbsp;&nbsp;&nbsp;&nbsp;# wget https://github.com/coreos/etcd/releases/download/v0.4.6/etcd-v0.4.6-linux-amd64.tar.gz&nbsp;&nbsp;<br/>&nbsp;&nbsp;&nbsp;&nbsp;# tar -zxvf etcd-v0.4.6-linux-amd64.tar.gz&nbsp;&nbsp;<br/>&nbsp;&nbsp;&nbsp;&nbsp;# cd etcd-v0.4.6-linux-amd64&nbsp;&nbsp;<br/>&nbsp;&nbsp;&nbsp;&nbsp;# cp etcd* /bin/&nbsp;&nbsp;<br/>&nbsp;&nbsp;&nbsp;&nbsp;# /bin/etcd -version&nbsp;&nbsp;<br/>&nbsp;&nbsp;&nbsp;&nbsp;etcd version 0.4.6&nbsp;&nbsp;<br/>&nbsp;&nbsp;&nbsp;&nbsp;</div></div><br/>&nbsp;&nbsp;&nbsp;&nbsp;启动服务etcd服务，如有提供第三方管理需求，另需在启动参数中添加“-cors='*'”参数。<br/>&nbsp;&nbsp;&nbsp;&nbsp;<div class="quote"><div class="quote-title">引用</div><div class="quote-content"><br/>&nbsp;&nbsp;&nbsp;&nbsp;# mkdir /data/etcd&nbsp;&nbsp;<br/>&nbsp;&nbsp;&nbsp;&nbsp;# /bin/etcd -name etcdserver -peer-addr 192.168.1.10:7001 -addr 192.168.1.10:4001 -data-dir /data/etcd -peer-bind-addr 0.0.0.0:7001 -bind-addr 0.0.0.0:4001 &<br/>&nbsp;&nbsp;&nbsp;&nbsp;</div></div><br/>&nbsp;&nbsp;&nbsp;&nbsp;配置etcd服务防火墙，其中4001为服务端口，7001为集群数据交互端口。<br/>&nbsp;&nbsp;<div class="quote"><div class="quote-title">引用</div><div class="quote-content"><br/>&nbsp;&nbsp;&nbsp;&nbsp;# iptables -I INPUT -s 192.168.1.0/24 -p tcp --dport 4001 -j ACCEPT<br/>&nbsp;&nbsp;&nbsp;&nbsp;# iptables -I INPUT -s 192.168.1.0/24 -p tcp --dport 7001 -j ACCEPT<br/>&nbsp;&nbsp; </div></div><br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;3）安装Kubernetes（涉及所有Master、Minion主机）<br/>&nbsp;&nbsp;&nbsp;&nbsp;通过yum源方式安装，默认将安装etcd, docker, and cadvisor相关包。<br/>&nbsp;&nbsp;&nbsp;&nbsp;<div class="quote"><div class="quote-title">引用</div><div class="quote-content"><br/>&nbsp;&nbsp;&nbsp;&nbsp;# curl https://copr.fedoraproject.org/coprs/eparis/kubernetes-epel-7/repo/epel-7/eparis-kubernetes-epel-7-epel-7.repo -o /etc/yum.repos.d/eparis-kubernetes-epel-7-epel-7.repo<br/>&nbsp;&nbsp;&nbsp;&nbsp;#yum -y install kubernetes<br/>&nbsp;&nbsp;&nbsp;&nbsp;</div></div><br/>&nbsp;&nbsp;&nbsp;&nbsp;升级至v0.6.2，覆盖bin文件即可，方法如下：<br/>&nbsp;&nbsp;&nbsp;&nbsp;<div class="quote"><div class="quote-title">引用</div><div class="quote-content"><br/>&nbsp;&nbsp;&nbsp;&nbsp;# mkdir -p /home/install && cd /home/install<br/>&nbsp;&nbsp;&nbsp;&nbsp;# wget https://github.com/GoogleCloudPlatform/kubernetes/releases/download/v0.6.2/kubernetes.tar.gz<br/>&nbsp;&nbsp;&nbsp;&nbsp;# tar -zxvf kubernetes.tar.gz<br/>&nbsp;&nbsp;&nbsp;&nbsp;# tar -zxvf kubernetes/server/kubernetes-server-linux-amd64.tar.gz<br/>&nbsp;&nbsp;&nbsp;&nbsp;# cp kubernetes/server/bin/kube* /usr/bin<br/>&nbsp;&nbsp;&nbsp;&nbsp;</div></div><br/>&nbsp;&nbsp;&nbsp;&nbsp;校验安装结果，出版以下信息说明安装正常。<br/>&nbsp;&nbsp;&nbsp;&nbsp;<div class="quote"><div class="quote-title">引用</div><div class="quote-content"><br/>&nbsp;&nbsp;&nbsp;&nbsp;[root@SN2014-12-200 bin]# /usr/bin/kubectl version<br/>&nbsp;&nbsp;&nbsp;&nbsp;Client Version: version.Info&#123;Major:"0", Minor:"6+", GitVersion:"v0.6.2", GitCommit:"729fde276613eedcd99ecf5b93f095b8deb64eb4", GitTreeState:"clean"&#125;<br/>&nbsp;&nbsp;&nbsp;&nbsp;Server Version: &version.Info&#123;Major:"0", Minor:"6+", GitVersion:"v0.6.2", GitCommit:"729fde276613eedcd99ecf5b93f095b8deb64eb4", GitTreeState:"clean"&#125;<br/>&nbsp;&nbsp;&nbsp;&nbsp;</div></div><br/>&nbsp;&nbsp;&nbsp;&nbsp;4）Kubernetes配置（仅Master主机）<br/>&nbsp;&nbsp;&nbsp;&nbsp;master运行三个组件,包括apiserver、scheduler、controller-manager，相关配置项也只涉及这三块。<br/>4.1、【/etc/kubernetes/config】<br/><textarea name="code" class="c" rows="15" cols="100">
+# Comma seperated list of nodes in the etcd cluster
+KUBE_ETCD_SERVERS="--etcd_servers=http://192.168.1.10:4001"
+
+# logging to stderr means we get it in the systemd journal
+KUBE_LOGTOSTDERR="--logtostderr=true"
+
+# journal message level, 0 is debug
+KUBE_LOG_LEVEL="--v=0"
+
+# Should this cluster be allowed to run privleged docker containers
+KUBE_ALLOW_PRIV="--allow_privileged=false"
+</textarea><br/>4.2、【/etc/kubernetes/apiserver】<br/><textarea name="code" class="c" rows="15" cols="100">
+# The address on the local server to listen to.
+KUBE_API_ADDRESS="--address=0.0.0.0"
+
+# The port on the local server to listen on.
+KUBE_API_PORT="--port=8080"
+
+# How the replication controller and scheduler find the kube-apiserver
+KUBE_MASTER="--master=192.168.1.200:8080"
+
+# Port minions listen on
+KUBELET_PORT="--kubelet_port=10250"
+
+# Address range to use for services
+KUBE_SERVICE_ADDRESSES="--portal_net=10.254.0.0/16"
+
+# Add you own!
+KUBE_API_ARGS=""
+</textarea><br/>4.3、【/etc/kubernetes/controller-manager】<br/><textarea name="code" class="c" rows="15" cols="100">
+# Comma seperated list of minions
+KUBELET_ADDRESSES="--machines= 192.168.1.201,192.168.1.202"
+
+# Add you own!
+KUBE_CONTROLLER_MANAGER_ARGS=""
+</textarea><br/>4.4、【/etc/kubernetes/scheduler】<br/><textarea name="code" class="c" rows="15" cols="100">
+# Add your own!
+KUBE_SCHEDULER_ARGS=""
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;启动master侧相关服务<br/>&nbsp;&nbsp;&nbsp;&nbsp;<div class="quote"><div class="quote-title">引用</div><div class="quote-content"><br/>&nbsp;&nbsp;&nbsp;&nbsp;# systemctl daemon-reload<br/>&nbsp;&nbsp;&nbsp;&nbsp;# systemctl start kube-apiserver.service kube-controller-manager.service kube-scheduler.service<br/>&nbsp;&nbsp;&nbsp;&nbsp;# systemctl enable kube-apiserver.service kube-controller-manager.service kube-scheduler.service<br/>&nbsp;&nbsp;&nbsp;&nbsp;</div></div><br/>&nbsp;&nbsp;&nbsp;&nbsp;5）Kubernetes配置（仅minion主机）<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;minion运行两个组件,包括kubelet、proxy，相关配置项也只涉及这两块。<br/>&nbsp;&nbsp;&nbsp;&nbsp;Docker启动脚本更新<br/>&nbsp;&nbsp;&nbsp;&nbsp;# vi /etc/sysconfig/docker<br/>&nbsp;&nbsp;&nbsp;&nbsp;添加：-H tcp://0.0.0.0:2375，最终配置如下，以便以后提供远程API维护。<br/>&nbsp;&nbsp;&nbsp;&nbsp;OPTIONS=--selinux-enabled -H tcp://0.0.0.0:2375 -H fd://<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;修改minion防火墙配置，通常master找不到minion主机多半是由于端口没有连通。<br/>&nbsp;&nbsp;&nbsp;&nbsp;iptables -I INPUT -s 192.168.1.200 -p tcp --dport 10250 -j ACCEPT<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;修改kubernetes minion端配置，以192.168.1.201主机为例，其它minion主机同理。<br/>5.1、【/etc/kubernetes/config】<br/><textarea name="code" class="c" rows="15" cols="100">
+# Comma seperated list of nodes in the etcd cluster
+KUBE_ETCD_SERVERS="--etcd_servers=http://192.168.1.10:4001"
+
+# logging to stderr means we get it in the systemd journal
+KUBE_LOGTOSTDERR="--logtostderr=true"
+
+# journal message level, 0 is debug
+KUBE_LOG_LEVEL="--v=0"
+
+# Should this cluster be allowed to run privleged docker containers
+KUBE_ALLOW_PRIV="--allow_privileged=false"
+</textarea><br/>5.2、【/etc/kubernetes/kubelet】<br/><textarea name="code" class="c" rows="15" cols="100">
+###
+# kubernetes kubelet (minion) config
+
+# The address for the info server to serve on (set to 0.0.0.0 or "" for all interfaces)
+KUBELET_ADDRESS="--address=0.0.0.0"
+
+# The port for the info server to serve on
+KUBELET_PORT="--port=10250"
+
+# You may leave this blank to use the actual hostname
+KUBELET_HOSTNAME="--hostname_override=192.168.1.201"
+
+# Add your own!
+KUBELET_ARGS=""
+</textarea><br/>5.3、【/etc/kubernetes/proxy】<br/><textarea name="code" class="c" rows="15" cols="100">
+KUBE_PROXY_ARGS=""
+</textarea><br/>启动kubernetes服务<br/>&nbsp;&nbsp;&nbsp;&nbsp;<div class="quote"><div class="quote-title">引用</div><div class="quote-content"><br/># systemctl daemon-reload<br/># systemctl enable docker.service kubelet.service kube-proxy.service<br/># systemctl start docker.service kubelet.service kube-proxy.service<br/>&nbsp;&nbsp;&nbsp;&nbsp;</div></div><br/>3、校验安装(在master主机操作，或可访问master主机8080端口的client api主机)<br/>&nbsp;&nbsp;1) kubernetes常用命令<br/>&nbsp;&nbsp;&nbsp;&nbsp;<div class="quote"><div class="quote-title">引用</div><div class="quote-content"><br/># kubectl get minions&nbsp;&nbsp;&nbsp;&nbsp;#查查看minion主机<br/># kubectl get pods&nbsp;&nbsp;&nbsp;&nbsp;#查看pods清单<br/># kubectl get services 或 kubectl get services -o json&nbsp;&nbsp;&nbsp;&nbsp;#查看service清单<br/># kubectl get replicationControllers&nbsp;&nbsp;&nbsp;&nbsp;#查看replicationControllers清单<br/># for i in `kubectl get pod&#124;tail -n +2&#124;awk '&#123;print $1&#125;'`; do kubectl delete pod $i; done&nbsp;&nbsp;&nbsp;&nbsp;#删除所有pods<br/>&nbsp;&nbsp;&nbsp;&nbsp;</div></div><br/>&nbsp;&nbsp;&nbsp;&nbsp;或者通过Server api for REST方式（推荐，及时性更高）：<br/>&nbsp;&nbsp;&nbsp;&nbsp;<div class="quote"><div class="quote-title">引用</div><div class="quote-content"><br/># curl -s -L http://192.168.1.200:8080/api/v1beta1/version &#124; python -mjson.tool&nbsp;&nbsp;&nbsp;&nbsp;#查看kubernetes版本<br/># curl -s -L http://192.168.1.200:8080/api/v1beta1/pods &#124; python -mjson.tool&nbsp;&nbsp;&nbsp;&nbsp;#查看pods清单<br/># curl -s -L http://192.168.1.200:8080/api/v1beta1/replicationControllers &#124; python -mjson.tool&nbsp;&nbsp;&nbsp;&nbsp;#查看replicationControllers清单<br/># curl -s -L http://192.168.1.200:8080/api/v1beta1/minions &#124; python -m json.tool&nbsp;&nbsp;&nbsp;&nbsp;#查查看minion主机<br/># curl -s -L http://192.168.1.200:8080/api/v1beta1/services &#124; python -m json.tool&nbsp;&nbsp;&nbsp;&nbsp;#查看service清单<br/>&nbsp;&nbsp;&nbsp;&nbsp; </div></div><br/><span style="color: #DC143C;">注：在新版kubernetes中，所有的操作命令都整合至kubectl，包括kubecfg、kubectl.sh、kubecfg.sh等</span><br/><br/>&nbsp;&nbsp;2）创建测试pod单元<br/>&nbsp;&nbsp; # /home/kubermange/pods && cd /home/kubermange/pods<br/>&nbsp;&nbsp; # vi apache-pod.json<br/><textarea name="code" class="python" rows="15" cols="100">
+&#123;
+&nbsp;&nbsp;"id": "fedoraapache",
+&nbsp;&nbsp;"kind": "Pod",
+&nbsp;&nbsp;"apiVersion": "v1beta1",
+&nbsp;&nbsp;"desiredState": &#123;
+&nbsp;&nbsp;&nbsp;&nbsp;"manifest": &#123;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"version": "v1beta1",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id": "fedoraapache",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"containers": [&#123;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name": "fedoraapache",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"image": "fedora/apache",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"ports": [&#123;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"containerPort": 80,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"hostPort": 8080
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#125;]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#125;]
+&nbsp;&nbsp;&nbsp;&nbsp;&#125;
+&nbsp;&nbsp;&#125;,
+&nbsp;&nbsp;"labels": &#123;
+&nbsp;&nbsp;&nbsp;&nbsp;"name": "fedoraapache"
+&nbsp;&nbsp;&#125;
+&#125;
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;# kubectl create -f apache-pod.json<br/>&nbsp;&nbsp;&nbsp;&nbsp;# kubectl get pod<br/><div class="quote"><div class="quote-title">引用</div><div class="quote-content"><br/>NAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IMAGE(S)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOST&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LABELS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STATUS<br/>fedoraapache&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fedora/apache&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 192.168.1.202/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name=fedoraapache&nbsp;&nbsp; Running<br/></div></div><br/>&nbsp;&nbsp;&nbsp;&nbsp;启动浏览器访问http://192.168.1.202:8080/，对应的服务端口切记在iptables中已添加。效果图如下：<br/><a href="attachment.php?fid=370" target="_blank"><img src="attachment.php?fid=370" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/>&nbsp;&nbsp;&nbsp;&nbsp;观察kubernetes在etcd中的数据存储结构<br/><a href="attachment.php?fid=373" target="_blank"><img src="attachment.php?fid=373" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;观察单个pods的数据存储结构，以json的格式存储。<br/><a href="attachment.php?fid=374" target="_blank"><img src="attachment.php?fid=374" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/><br/><strong>二、实战操作</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;任务：通过Kubernetes创建一个LNMP架构的服务集群，以及观察其负载均衡，涉及镜像“yorko/webserver”已经push至registry.hub.docker.com，大家可以通过“docker pull yorko/webserver”下载。<br/>&nbsp;&nbsp;&nbsp;&nbsp;<div class="quote"><div class="quote-title">引用</div><div class="quote-content"><br/>&nbsp;&nbsp;&nbsp;&nbsp;# mkdir -p /home/kubermange/replication && mkdir -p /home/kubermange/service<br/>&nbsp;&nbsp;&nbsp;&nbsp;# cd /home/kubermange/replication <br/>&nbsp;&nbsp;&nbsp;&nbsp;</div></div><br/>1、 创建一个replication ，本例直接在replication模板中创建pod并复制，也可独立创建pod再通过replication来复制。<br/>【replication/lnmp-replication.json】<br/><textarea name="code" class="python" rows="15" cols="100">
+&#123;
+&nbsp;&nbsp;"id": "webserverController",
+&nbsp;&nbsp;"kind": "ReplicationController",
+&nbsp;&nbsp;"apiVersion": "v1beta1",
+&nbsp;&nbsp;"labels": &#123;"name": "webserver"&#125;,
+&nbsp;&nbsp;"desiredState": &#123;
+&nbsp;&nbsp;&nbsp;&nbsp;"replicas": 2,
+&nbsp;&nbsp;&nbsp;&nbsp;"replicaSelector": &#123;"name": "webserver_pod"&#125;,
+&nbsp;&nbsp;&nbsp;&nbsp;"podTemplate": &#123;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"desiredState": &#123;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "manifest": &#123;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "version": "v1beta1",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "id": "webserver",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "volumes": [
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#123;"name":"httpconf", "source":&#123;"hostDir":&#123;"path":"/etc/httpd/conf"&#125;&#125;&#125;,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#123;"name":"httpconfd", "source":&#123;"hostDir":&#123;"path":"/etc/httpd/conf.d"&#125;&#125;&#125;,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#123;"name":"httproot", "source":&#123;"hostDir":&#123;"path":"/data"&#125;&#125;&#125;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "containers": [&#123;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "name": "webserver",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "image": "yorko/webserver",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "command": ["/bin/sh", "-c", "/usr/bin/supervisord -c /etc/supervisord.conf"],
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "volumeMounts": [
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#123;"name":"httpconf", "mountPath":"/etc/httpd/conf"&#125;,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#123;"name":"httpconfd", "mountPath":"/etc/httpd/conf.d"&#125;,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#123;"name":"httproot", "mountPath":"/data"&#125;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "cpu": 100,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "memory": 50000000,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "ports": [&#123;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "containerPort": 80,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#125;,&#123;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "containerPort": 22,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#125;]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#125;]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#125;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#125;,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "labels": &#123;"name": "webserver_pod"&#125;,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#125;,
+&nbsp;&nbsp;&#125;
+&#125;
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;执行创建命令<br/>&nbsp;&nbsp;&nbsp;&nbsp;#kubectl create -f lnmp-replication.json<br/>&nbsp;&nbsp;&nbsp;&nbsp;观察生成的pod副本清单：<br/>[root@SN2014-12-200 replication]# kubectl get pod<br/><div class="quote"><div class="quote-title">引用</div><div class="quote-content"><br/>NAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IMAGE(S)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOST&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LABELS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; STATUS<br/>84150ab7-89f8-11e4-970d-000c292f1620&nbsp;&nbsp; yorko/webserver&nbsp;&nbsp;&nbsp;&nbsp; 192.168.1.202/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name=webserver_pod&nbsp;&nbsp; Running<br/>84154ed5-89f8-11e4-970d-000c292f1620&nbsp;&nbsp; yorko/webserver&nbsp;&nbsp;&nbsp;&nbsp; 192.168.1.201/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name=webserver_pod&nbsp;&nbsp; Running<br/>840beb1b-89f8-11e4-970d-000c292f1620&nbsp;&nbsp; yorko/webserver&nbsp;&nbsp;&nbsp;&nbsp; 192.168.1.202/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name=webserver_pod&nbsp;&nbsp; Running<br/>84152d93-89f8-11e4-970d-000c292f1620&nbsp;&nbsp; yorko/webserver&nbsp;&nbsp;&nbsp;&nbsp; 192.168.1.202/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name=webserver_pod&nbsp;&nbsp; Running<br/>840db120-89f8-11e4-970d-000c292f1620&nbsp;&nbsp; yorko/webserver&nbsp;&nbsp;&nbsp;&nbsp; 192.168.1.201/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name=webserver_pod&nbsp;&nbsp; Running<br/>8413b4f3-89f8-11e4-970d-000c292f1620&nbsp;&nbsp; yorko/webserver&nbsp;&nbsp;&nbsp;&nbsp; 192.168.1.201/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name=webserver_pod&nbsp;&nbsp; Running<br/></div></div><br/>2、创建一个service，通过selector指定 "name": "webserver_pod"与pods关联。<br/>【service/lnmp-service.json】<br/><textarea name="code" class="python" rows="15" cols="100">
+&#123;
+&nbsp;&nbsp;"id": "webserver",
+&nbsp;&nbsp;"kind": "Service",
+&nbsp;&nbsp;"apiVersion": "v1beta1",
+&nbsp;&nbsp;"selector": &#123;
+&nbsp;&nbsp;&nbsp;&nbsp;"name": "webserver_pod",
+&nbsp;&nbsp;&#125;,
+&nbsp;&nbsp;"protocol": "TCP",
+&nbsp;&nbsp;"containerPort": 80,
+&nbsp;&nbsp;"port": 8080
+&#125;
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;执行创建命令：<br/>&nbsp;&nbsp;&nbsp;&nbsp;# kubectl create -f lnmp-service.json<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;登录minion主机（192.168.1.201），查询主宿机生成的iptables转发规则（最后一行）<br/>&nbsp;&nbsp;&nbsp;&nbsp;# iptables -nvL -t nat<br/><div class="quote"><div class="quote-title">引用</div><div class="quote-content"><br/>Chain KUBE-PROXY (2 references)<br/> pkts bytes target&nbsp;&nbsp;&nbsp;&nbsp; prot opt in&nbsp;&nbsp;&nbsp;&nbsp; out&nbsp;&nbsp;&nbsp;&nbsp; source&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; destination&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br/>&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp; 120 REDIRECT&nbsp;&nbsp; tcp&nbsp;&nbsp;--&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.0.0.0/0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.254.102.162&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /* kubernetes */ tcp dpt:443 redir ports 47700<br/>&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;60 REDIRECT&nbsp;&nbsp; tcp&nbsp;&nbsp;--&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.0.0.0/0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.254.28.74&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /* kubernetes-ro */ tcp dpt:80 redir ports 60099<br/>&nbsp;&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp; 0 REDIRECT&nbsp;&nbsp; tcp&nbsp;&nbsp;--&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.0.0.0/0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.254.216.51&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/* webserver */ tcp dpt:8080 redir ports 40689<br/></div></div><br/>&nbsp;&nbsp;&nbsp;&nbsp;访问测试，http://192.168.1.201:40689/info.php，刷新浏览器发现proxy后端的变化，默认为随机轮循算法。<br/><a href="attachment.php?fid=371" target="_blank"><img src="attachment.php?fid=371" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/><a href="attachment.php?fid=372" target="_blank"><img src="attachment.php?fid=372" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/><br/><strong>三、测试过程</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;1、pods自动复制、销毁测试，观察kubernetes自动保持副本数（6份）<br/>删除replicationcontrollers中一个副本fedoraapache<br/>[root@SN2014-12-200 pods]# kubectl delete pods fedoraapache<br/>I1219 23:59:39.305730&nbsp;&nbsp;&nbsp;&nbsp;9516 restclient.go:133] Waiting for completion of operation 142530<br/>fedoraapache<br/><div class="quote"><div class="quote-title">引用</div><div class="quote-content"><br/>[root@SN2014-12-200 pods]# kubectl get pods<br/>NAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IMAGE(S)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOST&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LABELS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STATUS<br/>5d70892e-8794-11e4-970d-000c292f1620&nbsp;&nbsp; fedora/apache&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 192.168.1.201/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name=fedoraapache&nbsp;&nbsp; Running<br/>5d715e56-8794-11e4-970d-000c292f1620&nbsp;&nbsp; fedora/apache&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 192.168.1.202/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name=fedoraapache&nbsp;&nbsp; Running<br/>5d717f8d-8794-11e4-970d-000c292f1620&nbsp;&nbsp; fedora/apache&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 192.168.1.202/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name=fedoraapache&nbsp;&nbsp; Running<br/>5d71c584-8794-11e4-970d-000c292f1620&nbsp;&nbsp; fedora/apache&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 192.168.1.201/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name=fedoraapache&nbsp;&nbsp; Running<br/>5d71a494-8794-11e4-970d-000c292f1620&nbsp;&nbsp; fedora/apache&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 192.168.1.202/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name=fedoraapache&nbsp;&nbsp; Running<br/></div></div><br/>#自动生成出一个副本，保持6份的效果<br/><div class="quote"><div class="quote-title">引用</div><div class="quote-content"><br/>[root@SN2014-12-200 pods]# kubectl get pods<br/>NAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IMAGE(S)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOST&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LABELS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STATUS<br/>5d717f8d-8794-11e4-970d-000c292f1620&nbsp;&nbsp; fedora/apache&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 192.168.1.202/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name=fedoraapache&nbsp;&nbsp; Running<br/>5d71c584-8794-11e4-970d-000c292f1620&nbsp;&nbsp; fedora/apache&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 192.168.1.201/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name=fedoraapache&nbsp;&nbsp; Running<br/>5d71a494-8794-11e4-970d-000c292f1620&nbsp;&nbsp; fedora/apache&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 192.168.1.202/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name=fedoraapache&nbsp;&nbsp; Running<br/>2a8fb993-8798-11e4-970d-000c292f1620&nbsp;&nbsp; fedora/apache&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 192.168.1.201/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name=fedoraapache&nbsp;&nbsp; Running<br/>5d70892e-8794-11e4-970d-000c292f1620&nbsp;&nbsp; fedora/apache&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 192.168.1.201/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name=fedoraapache&nbsp;&nbsp; Running<br/>5d715e56-8794-11e4-970d-000c292f1620&nbsp;&nbsp; fedora/apache&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 192.168.1.202/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name=fedoraapache&nbsp;&nbsp; Running<br/></div></div><br/>2、测试不同角色模块中的hostPort<br/>&nbsp;&nbsp;&nbsp;&nbsp;1）pod中hostPort为空，而replicationcontrollers为指定端口，则异常；两侧都指定端口，相同或不同时都异常；pod的hostport为指定，另replicationcon为空，则正常；pod的hostport为空，另replicationcon为空，则正常；结论是在replicationcontrollers场景不能指定hostport，否则异常，待持续测试。<br/>&nbsp;&nbsp;&nbsp;&nbsp;2）结论：在replicationcontronllers.json中，"replicaSelector": &#123;"name": "webserver_pod"&#125;要与"labels": &#123;"name": "webserver_pod"&#125;以及service中的"selector": &#123;"name": "webserver_pod"｝保持一致；<br/><br/>请关注下篇《kubernetes与HECD架构的整合》，近期推出。<br/><br/>参考文献：<br/>https://github.com/GoogleCloudPlatform/kubernetes/blob/master/docs/getting-started-guides/fedora/fedora_manual_config.md<br/>https://github.com/GoogleCloudPlatform/kubernetes/blob/master/DESIGN.md<br/>http://www.infoq.com/cn/articles/Kubernetes-system-architecture-introduction<br/><br/>转载请注明来源 http://blog.liuts.com/post/247/
+	</div>
+	<div class="textbox-bottom">
+	</div>
+	<div class="tags" style="display: block">Tags:  <a href="tags/docker/" title="Tags:  docker" rel="tag">docker</a> , <a href="tags/kubernetes/" title="Tags:  kubernetes" rel="tag">kubernetes</a> , <a href="tags/%25E5%25AE%25B9%25E5%2599%25A8%25E7%25AE%25A1%25E7%2590%2586/" title="Tags:  容器管理" rel="tag">容器管理</a> , <a href="tags/%25E5%2588%2598%25E5%25A4%25A9%25E6%2596%25AF/" title="Tags:  刘天斯" rel="tag">刘天斯</a>
+	</div>
+</div><div class="textbox">
+	<div class="textbox-title">
+		<h4>
+		<a href="post/246/">《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【主控制端】</a> <span id="starid246"><img src="template/neowin3/images/others/starred.gif" alt="" title="已加星标" border="0"/></span> <img src="images/weather/blank.gif" alt="不指定" title="不指定"/>
+		</h4>
+		<div class="textbox-label">
+		<a href="user/3/" target="_blank">刘天斯</a> , 2014/12/21 06:34 , <a href="category/15/" title="查看分类： Python">Python</a> , <a href="post/246/#reply" title="发表您的评论">评论(15)</a> ,  <a href="post/246/">阅读(9592)</a> , Via 本站原创 
+		</div>
+	</div>
+	<div id="tb246" style="display: none;" class="textbox-tburl"><strong>引用地址：</strong>  <span id='tbb246'></span><br/><strong>注意：</strong> 该地址仅在今日23:59:59之前有效</div>
+	
+	<div class="textbox-content">
+	<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;主控端是OMServer的核心角色，负责接收加密的协议串且进行解密，解析成OMServer调用的任务模块，同时结合角色中的saltstack、ansible或func组件，向目标业务服务器集群（被控机）发送执行任务，执行完毕后，将返回的执行结果加解密处理，最后逐级返回给系统管理员，角色所在位置见以下架构图：<br/><a href="attachment.php?fid=366" target="_blank"><img src="attachment.php?fid=366" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/><strong>一、环境部署</strong><br/>1、部署saltstack、ansible或func组件，详细见本书相关章节，此处省略；<br/><br/>2、安装rpyc模块<br/><textarea name="code" class="c" rows="15" cols="100">
+# wget https://pypi.python.org/packages/source/r/rpyc/rpyc-3.2.3.tar.gz --no-check-certificate
+# tar -zxvf rpyc-3.2.3.tar.gz
+# cd rpyc-3.2.3
+# python setup.py install
+</textarea><br/>3、下载主控端源码<br/>#cd /home <br/>download github地址：https://github.com/yorkoliu/pyauto/tree/master/第十三章/OMServer<br/><br/>修改OMServer/config.py主配置文件<br/><textarea name="code" class="python" rows="15" cols="100">
+# -*- coding: utf-8 -*-
+#!/usr/bin/env python
+AUTO_PLATFORM = "saltstack"&nbsp;&nbsp;&nbsp;&nbsp;#指定组件环境，支持saltstack、ansible、func
+
+#密钥，与项目中setting.py的SECRET_KEY变量保持一致
+SECRET_KEY = "ctmj#&amp;8hrgow_^sj$ejt@9fzsmh_o)-=(byt5jmg=e3#foya6u"
+</textarea><br/>4、编写任务模块<br/>&nbsp;&nbsp;&nbsp;&nbsp;1）在WEB前端点击【添加模块】，指定模块名称、描述、参数接口信息，提交后记录生成的模块ID（数字）；<br/>&nbsp;&nbsp;&nbsp;&nbsp;2）在主控端OMServer/modules目录存放了各个组件的模块，以不同目录名作为区分，任务模块名称由“Mid_”+模块ID组成，与前端生成的模块ID进行关联，如Mid_1007.py，可参考现有示例进行修改。<br/><br/>5、启动服务<br/><textarea name="code" class="c" rows="15" cols="100">
+&nbsp;&nbsp;&nbsp;&nbsp;# cd /home/OMServer
+&nbsp;&nbsp;&nbsp;&nbsp;# python OMservermain.py &
+
+&nbsp;&nbsp;&nbsp;&nbsp;检查11511端口是否已监听
+&nbsp;&nbsp;&nbsp;&nbsp;# netstat -an&#124;grep 11511
+</textarea><br/><br/><strong>二、校验环境</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最后，打开浏览器访问http://omserver.domain.com（自定义域名，可通过修改hosts实现），效果图如下。<br/><a href="attachment.php?fid=367" target="_blank"><img src="attachment.php?fid=367" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/><br/><strong>三、基于Python构建可扩展的自动化运维平台（WOT分享主题）</strong><br/><iframe src="//www.slideshare.net/slideshow/embed_code/42901993?startSlide=2" width="510" height="420" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/liutiansi/python-42901993" title="基于Python构建可扩展的自动化运维平台" target="_blank">基于Python构建可扩展的自动化运维平台</a> </strong> from <strong><a href="//www.slideshare.net/liutiansi" target="_blank">我在slideshare.net上的所有分享</a></strong> </div>
+	</div>
+	<div class="textbox-bottom">
+	</div>
+	<div class="tags" style="display: block">Tags:  <a href="tags/python%25E8%2587%25AA%25E5%258A%25A8%25E5%258C%2596%25E8%25BF%2590%25E7%25BB%25B4%25EF%25BC%259A%25E6%258A%2580%25E6%259C%25AF%25E4%25B8%258E%25E6%259C%2580%25E4%25BD%25B3%25E5%25AE%259E%25E8%25B7%25B5/" title="Tags:  python自动化运维：技术与最佳实践" rel="tag">python自动化运维：技术与最佳实践</a> , <a href="tags/python/" title="Tags:  python" rel="tag">python</a> , <a href="tags/omserver/" title="Tags:  omserver" rel="tag">omserver</a> , <a href="tags/%25E7%258E%25AF%25E5%25A2%2583%25E9%2583%25A8%25E7%25BD%25B2/" title="Tags:  环境部署" rel="tag">环境部署</a>
+	</div>
+</div><div class="textbox">
+	<div class="textbox-title">
+		<h4>
+		<a href="post/245/">《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【Web服务端】</a> <span id="starid245"><img src="template/neowin3/images/others/starred.gif" alt="" title="已加星标" border="0"/></span> <img src="images/weather/blank.gif" alt="不指定" title="不指定"/>
+		</h4>
+		<div class="textbox-label">
+		<a href="user/3/" target="_blank">刘天斯</a> , 2014/12/07 13:11 , <a href="category/15/" title="查看分类： Python">Python</a> , <a href="post/245/#reply" title="发表您的评论">评论(26)</a> ,  <a href="post/245/">阅读(13974)</a> , Via 本站原创 
+		</div>
+	</div>
+	<div id="tb245" style="display: none;" class="textbox-tburl"><strong>引用地址：</strong>  <span id='tbb245'></span><br/><strong>注意：</strong> 该地址仅在今日23:59:59之前有效</div>
+	
+	<div class="textbox-content">
+	<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 《python自动化运维：技术与最佳实践》书籍发布已经1个月有余，根据读者反馈，在部署OMServer平台时遇到很多困难及问题，尤其是第一次部署Django环境的读者。因此，作者对书籍中OMServer环境部署章节的内容进行扩充，以便让每位读者都可以轻易完成平台搭建。OMServer平台涉及两个角色，其中一个为Web服务端，运行在Django及rpyc环境，另一角色为主控端，需要部署saltstack、ansible或func主控端环境，本文介绍Web服务端的部署详细步骤。<br/><br/>---环境版本说明---<br/>* Python&nbsp;&nbsp;版本&nbsp;&nbsp;2.6.6<br/>* Django&nbsp;&nbsp;版本&nbsp;&nbsp; 1.4.9<br/>* nginx&nbsp;&nbsp;版本&nbsp;&nbsp;1.5.9<br/>* pcre&nbsp;&nbsp;版本&nbsp;&nbsp;8.34<br/>* rpyc&nbsp;&nbsp;版本&nbsp;&nbsp;3.2.3<br/>* uwsgi&nbsp;&nbsp;版本&nbsp;&nbsp;2.0.4<br/>* django-debug-toolbar&nbsp;&nbsp;版本&nbsp;&nbsp;0.8.5<br/><br/> <strong>一、Django环境部署</strong><br/><textarea name="code" class="c" rows="15" cols="100">
+# yum install -y zlib-devel #Nginx环境初始化，安装gzip包
+# yum -y install python-devel mysql-devel zlib-devel openssl-devel&nbsp;&nbsp;#MySQL-python关联包
+
+# mkdir –p /data/logs/&nbsp;&nbsp;&nbsp;&nbsp;#创建uwsgi日志目录
+# mkdir –p /data/www/&nbsp;&nbsp;&nbsp;&nbsp;#创建项目目录
+# mkdir -p /home/install/Django && cd /home/install/Django&nbsp;&nbsp;&nbsp;&nbsp;#创建安装包目录
+</textarea><br/>1、安装pcre，pcre是一个轻量级的正则表达式函数库，Nginx的HTTP Rewrite模块会用到，最新版本为8.34（对于OMServer平台环境来说是非必选项）。<br/><textarea name="code" class="c" rows="15" cols="100">
+# wget ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.34.tar.gz
+# tar -zxvf pcre-8.34.tar.gz
+# cd pcre-8.34
+#./configure
+# make && make install
+# cd ..
+</textarea><br/>2、安装Nginx，Nginx是最流行的高性能HTTP服务器，最新版本为1.5.9。<br/><textarea name="code" class="c" rows="15" cols="100">
+# wget http://nginx.org/download/nginx-1.5.9.tar.gz
+# tar -zxvf nginx-1.5.9.tar.gz
+# cd nginx-1.5.9
+#./configure --user=nobody --group=nobody --prefix=/usr/local/nginx --with-http_stub_status_module --with-cc-opt='-O3' --with-cpu-opt=opteron
+# make && make install
+# cd ..
+</textarea><br/>3、安装 MySQL-python，MySQL-python是Python访问MySQL数据库的第三方模块库，最新版本为1.2.3c1。<br/><textarea name="code" class="c" rows="15" cols="100">
+# wget http://pypi.python.org/packages/source/M/MySQL-python/MySQL-python-1.2.5.zip --no-check-certificate
+# unzip MySQL-python-1.2.5.zip
+# cd MySQL-python-1.2.5
+# python setup.py install
+# cd ..
+</textarea><br/>4、rpyc模块安装，用于平台与主控端做数据通讯交互。<br/><textarea name="code" class="c" rows="15" cols="100">
+# wget https://pypi.python.org/packages/source/r/rpyc/rpyc-3.2.3.tar.gz --no-check-certificate
+# tar -zxvf rpyc-3.2.3.tar.gz
+# cd rpyc-3.2.3
+# python setup.py install
+</textarea><br/>5、安装uwsgi。uwsgi是一个快速的、纯C语言开发的、自维护、对开发者友好的WSGI服务器，旨在提供专业的Python web应用发布和开发，最新版本为2.0.4。<br/><textarea name="code" class="c" rows="15" cols="100">
+# wget http://projects.unbit.it/downloads/uwsgi-2.0.4.tar.gz
+# tar -zxvf uwsgi-2.0.4.tar.gz
+# cd uwsgi-2.0.4
+# make
+</textarea><br/>出现如下代码成功安装：<br/>################# uWSGI configuration #################<br/>pcre = True<br/>kernel = Linux<br/>malloc = libc<br/>execinfo = False<br/>ifaddrs = True<br/>ssl = True<br/>zlib = True<br/>locking = pthread_mutex<br/>plugin_dir = .<br/>timer = timerfd<br/>yaml = embedded<br/>json = False<br/>filemonitor = inotify<br/>routing = True<br/>debug = False<br/>capabilities = False<br/>xml = False<br/>event = epoll<br/>############## end of uWSGI configuration #############<br/>total build time: 17 seconds<br/>*** uWSGI is ready, launch it with ./uwsgi ***<br/><textarea name="code" class="c" rows="15" cols="100">
+# vi /etc/ld.so.conf&nbsp;&nbsp;&nbsp;&nbsp;#添加动态链接库目录/usr/local/lib
+添加行：/usr/local/lib
+# ldconfig&nbsp;&nbsp;&nbsp;&nbsp;#使之生效
+
+# cp uwsgi /usr/bin
+# cd ..
+</textarea><br/>6、安装Django，Django是一个Python最流行的开源Web开发框架，最新版本为1.6.5。考虑到兼容与稳定性，本案例使用1.4.9版本进行开发。<br/><textarea name="code" class="c" rows="15" cols="100">
+# wget https://www.djangoproject.com/m/releases/1.4/Django-1.4.9.tar.gz
+# tar -zxvf Django-1.4.9.tar.gz
+# cd Django-1.4.9
+# python setup.py install
+</textarea><br/>创建一个demo项目，以便验证环境是否正确安装部署。<br/><textarea name="code" class="python" rows="15" cols="100">
+# cd /data/www
+# django-admin.py startproject demo
+
+# 由于Django1.4版本后对项目目录做了改动，即将manage.py管理任务命令单独放在项目根目录。为后续与OMServer平台目录结构相兼容，我们对目录结构进行调整。
+# cd demo/demo && mv * ../ && cd .. && rm -rf demo
+
+# 最终文件目录结构如下：
+# ls
+__init__.py&nbsp;&nbsp;manage.py&nbsp;&nbsp;settings.py&nbsp;&nbsp;urls.py&nbsp;&nbsp;wsgi.py
+</textarea><br/>7、django-debug-toolbar的安装（Django调试利器）<br/><textarea name="code" class="c" rows="15" cols="100">
+# wget http://blog.liuts.com/Django/django-debug-toolbar-master.tar.gz
+# tar -zxvf django-debug-toolbar-master.tar.gz
+# cd django-debug-toolbar-master/
+# python setup.py install
+</textarea><br/>8、配置Nginx，修改/usr/local/nginx/conf/nginx.conf，最终完整配置如下：<br/><textarea name="code" class="c" rows="15" cols="100">
+user&nbsp;&nbsp;nobody;
+worker_processes&nbsp;&nbsp;2;
+
+#error_log&nbsp;&nbsp;logs/error.log;
+#error_log&nbsp;&nbsp;logs/error.log&nbsp;&nbsp;notice;
+#error_log&nbsp;&nbsp;logs/error.log&nbsp;&nbsp;info;
+
+#pid&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;logs/nginx.pid;
+
+
+events &#123;
+&nbsp;&nbsp;&nbsp;&nbsp;worker_connections&nbsp;&nbsp;10240;
+&#125;
+
+
+http &#123;
+&nbsp;&nbsp;&nbsp;&nbsp;include&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mime.types;
+&nbsp;&nbsp;&nbsp;&nbsp;default_type&nbsp;&nbsp;application/octet-stream;
+
+&nbsp;&nbsp;&nbsp;&nbsp;#log_format&nbsp;&nbsp;main&nbsp;&nbsp;'$remote_addr - $remote_user [$time_local] "$request" '
+&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'$status $body_bytes_sent "$http_referer" '
+&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'"$http_user_agent" "$http_x_forwarded_for"';
+
+&nbsp;&nbsp;&nbsp;&nbsp;#access_log&nbsp;&nbsp;logs/access.log&nbsp;&nbsp;main;
+
+&nbsp;&nbsp;&nbsp;&nbsp;sendfile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;on;
+&nbsp;&nbsp;&nbsp;&nbsp;tcp_nopush&nbsp;&nbsp;&nbsp;&nbsp; on;
+
+&nbsp;&nbsp;&nbsp;&nbsp;keepalive_timeout&nbsp;&nbsp;65;
+
+&nbsp;&nbsp;&nbsp;&nbsp;gzip&nbsp;&nbsp;on;
+&nbsp;&nbsp;&nbsp;&nbsp;server &#123;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;listen 80;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;server_name demo.domain.com;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;location / &#123;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uwsgi_pass 127.0.0.1:9000;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;include uwsgi_params;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uwsgi_param UWSGI_CHDIR&nbsp;&nbsp;/data/www/demo;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uwsgi_param UWSGI_SCRIPT wsgi;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;access_log off;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#125;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&#125;
+
+&#125;
+</textarea><br/><span style="color: #DC143C;">* uwsgi_param UWSGI_SCRIPT wsgi;参数值wsgi对应项目目录中的wsgi.py，此处文件前缀与参数值要保持一致。</span><br/><br/>9、配置uwsgi，创建uwsgi配置文件/usr/local/nginx/conf/uwsgi.ini，详细内容如下：<br/><textarea name="code" class="c" rows="15" cols="100">
+[uwsgi]
+socket = 0.0.0.0:9000
+master = true
+pidfile = /usr/local/nginx/uwsgi.pid
+processes = 8
+workers = 2
+chdir = /data/www/demo
+pythonpath = /data/www
+profiler=true
+memory-report=true
+enable-threads = true
+logdate=true
+limit-as=6048
+daemonize=/data/logs/django.log
+</textarea><br/>---关键参数及说明---<br/>1）chdir 指定项目目录；<br/>2）pythonpath 指定项目目录上一级<br/>3）processes 指定进程数<br/>4）workers 分配CPU的核数<br/>5）limit-as 子进程分配的内存大小<br/>6）max-requests 分配最大的请求数<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;启动uwsgi与nginx服务，建议配置成服务自启动脚本，便于后续的日常维护。详细启动脚本这里不展开说明，有兴趣的读者可参阅互联网上已经存在的相关资源。<br/>&nbsp;&nbsp;&nbsp;&nbsp;最后启动uwsgi与nginx服务<br/><textarea name="code" class="c" rows="15" cols="100">
+# /usr/bin/uwsgi --ini /usr/local/nginx/conf/uwsgi.ini
+# /usr/local/nginx/sbin/nginx
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;访问http://demo.domain.com，出现如图所示的页面说明Django+uwsgi环境部署成功！<br/><a href="attachment.php?fid=364" target="_blank"><img src="attachment.php?fid=364" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/><br/><strong>二、OMServer项目部署</strong><br/>1、修改Nginx配置<br/>添加OMServer项目站点配置，[server]域具体内容如下：<br/><textarea name="code" class="c" rows="15" cols="100">
+&nbsp;&nbsp;&nbsp;&nbsp;server &#123;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;listen 80;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;server_name omserver.domain.com;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;location / &#123;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uwsgi_pass 127.0.0.1:9001;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;include uwsgi_params;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uwsgi_param UWSGI_CHDIR&nbsp;&nbsp;/data/www/OMserverweb;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uwsgi_param UWSGI_SCRIPT django_wsgi;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;access_log off;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#125;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;location ^~ /static &#123;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;root /data/www/OMserverweb;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#125;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;location ~* ^.+&#92;.(mpg&#124;avi&#124;mp3&#124;swf&#124;zip&#124;tgz&#124;gz&#124;rar&#124;bz2&#124;doc&#124;xls&#124;exe&#124;ppt&#124;txt&#124;tar&#124;mid&#124;midi&#124;wav&#124;rtf&#124;mpeg)$ &#123;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;root /data/www/OMserverweb/static;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;access_log off;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#125;
+&nbsp;&nbsp;&nbsp;&nbsp;&#125;
+</textarea><br/><span style="color: #DC143C;"><br/>&nbsp;&nbsp;1）切记修改UWSGI_SCRIPT为django_wsgi;<br/>&nbsp;&nbsp;2）监听uwsgi端口修改成127.0.0.1:9001;&nbsp;&nbsp;&nbsp;&nbsp;#多个站点使用不同端口区分<br/></span><br/><br/>2、添加omserver项目uwsgi配置<br/><textarea name="code" class="c" rows="15" cols="100">
+# cd /usr/local/nginx/conf
+# vi uwsgi_omserver.ini
+[uwsgi]
+socket = 0.0.0.0:9001
+master = true
+pidfile = /usr/local/nginx/uwsgi_omserver.pid
+processes = 8
+chdir = /data/www/OMserverweb
+pythonpath = /data/www
+profiler=true
+memory-report=true
+enable-threads = true
+logdate=true
+limit-as=6048
+daemonize=/data/logs/django_omserver.log
+</textarea><br/>3、项目源码配置<br/>&nbsp;&nbsp;1）项目源码：<br/>&nbsp;&nbsp;&nbsp;&nbsp;# cd /data/www<br/>&nbsp;&nbsp;&nbsp;&nbsp;下载地址：https://github.com/yorkoliu/pyauto/tree/master/第十三章/OMserverweb<br/>&nbsp;&nbsp;2）导入数据库结构(Mysql)<br/>&nbsp;&nbsp;&nbsp;&nbsp;下载地址：https://github.com/yorkoliu/pyauto/blob/master/第十三章/SQL/OMServer.sql<br/>&nbsp;&nbsp;3）修改setting.py（数据库信息）<br/><textarea name="code" class="python" rows="15" cols="100">
+DATABASES = &#123;
+&nbsp;&nbsp;&nbsp;&nbsp;'default': &#123;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'NAME': 'OMServer',&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Or path to database file if using sqlite3.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'USER': 'omserver_user',&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Not used with sqlite3.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'PASSWORD': 'J8w3jZXSG#y34',&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Not used with sqlite3.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'HOST': '192.168.1.10',&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Set to empty string for localhost. Not used with sqlite3.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'PORT': '3306',&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Set to empty string for default. Not used with sqlite3.
+&nbsp;&nbsp;&nbsp;&nbsp;&#125;
+&#125;
+</textarea><br/>&nbsp;&nbsp; 4）修改主控端rpyc主机IP<br/>&nbsp;&nbsp;&nbsp;&nbsp;OMserverweb/autoadmin/views.py<br/>&nbsp;&nbsp;&nbsp;&nbsp;<textarea name="code" class="python" rows="15" cols="100">
+&nbsp;&nbsp;&nbsp;&nbsp;... ...
+&nbsp;&nbsp;&nbsp;&nbsp;try:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;conn=rpyc.connect('192.168.1.20',11511)&nbsp;&nbsp;&nbsp;&nbsp;#修改此处的rpyc主机地址；
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;conn.root.login('OMuser','KJS23o4ij09gHF734iuhsdfhkGYSihoiwhj38u4h')
+&nbsp;&nbsp;&nbsp;&nbsp;except Exception,e:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;logger.error('connect rpyc server error:'+str(e))
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return HttpResponse('connect rpyc server error:'+str(e))
+&nbsp;&nbsp;&nbsp;&nbsp;... ...
+&nbsp;&nbsp;&nbsp;&nbsp;</textarea><br/>启动项目uwsgi及Nginx服务<br/><textarea name="code" class="c" rows="15" cols="100">
+# /usr/bin/uwsgi --ini /usr/local/nginx/conf/uwsgi_omserver.ini
+# killall -9 nginx
+# /usr/local/nginx/sbin/nginx
+</textarea><br/>4、访问http://omserver.domain.com，出现以下系统界面说明部署成功！<br/><a href="attachment.php?fid=365" target="_blank"><img src="attachment.php?fid=365" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/><br/>下一步配置<a href="http://blog.liuts.com/post/246/" target="_blank">《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【主控制端】</a><br/><br/>补：平台涉及开源组件包下载：<br/>Django-1.4.9.tar.gz <a href="http://blog.liuts.com/Django/Django-1.4.9.tar.gz" target="_blank">下载</a><br/>uwsgi-2.0.4.tar.gz <a href="http://blog.liuts.com/Django/uwsgi-2.0.4.tar.gz" target="_blank">下载</a><br/>rpyc-3.2.3.tar.gz <a href="http://blog.liuts.com/Django/rpyc-3.2.3.tar.gz" target="_blank">下载</a><br/>pcre-8.34.tar.gz <a href="http://blog.liuts.com/Django/pcre-8.34.tar.gz" target="_blank">下载</a><br/>nginx-1.5.9.tar.gz <a href="http://blog.liuts.com/Django/nginx-1.5.9.tar.gz" target="_blank">下载</a><br/>MySQL-python-1.2.5.zip <a href="http://blog.liuts.com/Django/MySQL-python-1.2.5.zip" target="_blank">下载</a><br/>django-debug-toolbar-master.tar.gz <a href="http://blog.liuts.com/Django/django-debug-toolbar-master.tar.gz" target="_blank">下载</a>
+	</div>
+	<div class="textbox-bottom">
+	</div>
+	<div class="tags" style="display: block">Tags:  <a href="tags/omserver/" title="Tags:  omserver" rel="tag">omserver</a> , <a href="tags/django%25E7%258E%25AF%25E5%25A2%2583/" title="Tags:  django环境" rel="tag">django环境</a> , <a href="tags/python%25E8%25BF%2590%25E7%25BB%25B4%25E8%2587%25AA%25E5%258A%25A8%25E5%258C%2596/" title="Tags:  python运维自动化" rel="tag">python运维自动化</a>
+	</div>
+</div><div class="textbox">
+	<div class="textbox-title">
+		<h4>
+		<a href="post/244/">《Python自动化运维：技术与最佳实践》开始预售了</a> <span id="starid244"><img src="template/neowin3/images/others/starred.gif" alt="" title="已加星标" border="0"/></span> <img src="images/weather/blank.gif" alt="不指定" title="不指定"/>
+		</h4>
+		<div class="textbox-label">
+		<a href="user/3/" target="_blank">刘天斯</a> , 2014/11/05 16:29 , <a href="category/43/" title="查看分类： 我的著作">我的著作</a> , <a href="post/244/#reply" title="发表您的评论">评论(19)</a> ,  <a href="post/244/">阅读(16915)</a> , Via 本站原创 
+		</div>
+	</div>
+	<div id="tb244" style="display: none;" class="textbox-tburl"><strong>引用地址：</strong>  <span id='tbb244'></span><br/><strong>注意：</strong> 该地址仅在今日23:59:59之前有效</div>
+	
+	<div class="textbox-content">
+	【当当】 <a href="http://product.dangdang.com/23593858.html" target="_blank">http://product.dangdang.com/23593858.html</a><br/>【京东】 <a href="http://item.jd.com/11571426.html" target="_blank">http://item.jd.com/11571426.html</a><br/>【亚马逊】 <a href="http://www.amazon.cn/%E5%9B%BE%E4%B9%A6/dp/B00P5VKZWW" target="_blank">http://www.amazon.cn/%E5%9B%BE%E4%B9%A6/dp/B00P5VKZWW</a><br/>【天猫】 <a href="http://detail.tmall.com/item.htm?spm=a1z10.3.w4011-7555161747.28.SgDdii&id=42141530490&rn=3a7da8b28eea552fb6ebb6ed43ab024d&abbucket=18" target="_blank">http://detail.tmall.com/item.htm?spm=a1z10.3.w4011-7555161747.28.SgDdii&id=42141530490&rn=3a7da8b28eea552fb6ebb6ed43ab024d&abbucket=18</a><br/>【China-pub】 <a href="http://product.china-pub.com/3804188" target="_blank">http://product.china-pub.com/3804188</a><br/><br/>《python自动化运维：技术与最佳实践》附带示例及案例源码<br/>【国内镜像】（JD云汇）https://code.jd.com/yorkoliu/pyauto<br/>【国外镜像】（Github）https://github.com/yorkoliu/pyauto<br/>【源码打包下载】（zip）http://share.weiyun.com/9e4bfc70a9af8840927b92910ab80d8b<br/><br/><a href="attachment.php?fid=363" target="_blank"><img src="attachment.php?fid=363" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/><strong>一、内容简介</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本书在中国运维领域将有“划时代”的重要意义：一方面，这是国内第一本从纵、深和实践角度探讨Python在运维领域应用的著作；一方面本书的作者是中国运维领域的“偶像级”人物，本书是他在天涯社区和腾讯近10年工作经验的结晶。因为作者实战经验丰富，所以能高屋建瓴、直指痛处，围绕Python自动化运维这个主题，不仅详细介绍了系统基础信息、服务监控、数据报表、系统安全等基础模块，而且深入讲解了自动化操作、系统管理、配置管理、集群管理及大数据应用等高级功能。最重要的是，完整重现了4个来自实际生产环境的不同功能运维平台的综合案例，展示了完整的平台架构及开发流程。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;全书一共16章：基础篇（1-4章）详细介绍了系统基础信息、业务服务监控、定制业务质量报表、系统安全等基础和常用模块；高级篇（5-12章）深入讲解了批量运维管理器pexpect、paramiko、Fabric，集中化管理平台Ansible、Saltstack，统一网络控制器Func等高级功能，涵盖自动化操作、系统管理、配置管理、集群管理及大数据应用等主题；案例篇（13-16章）详细介绍了4个来自不同平台的运维案例，如何从零开始打造一个B/S自动化运维平台、如何打造Linux系统安全审计功能、如何构建分布式质量监控平台、如何构建桌面版C/S自动化运维平台，这4个案例均来自实际生产环境。<br/><br/><strong>二、目录</strong><br/>前　　言<br/>第一部分　基础篇<br/>第1章　系统基础信息模块详解 2<br/>1.1　系统性能信息模块psutil 2<br/>1.1.1　获取系统性能信息 3<br/>1.1.2　系统进程管理方法 6<br/>1.2　实用的IP地址处理模块IPy 7<br/>1.2.1　IP地址、网段的基本处理 8<br/>1.2.2　多网络计算方法详解 9<br/>1.3　DNS处理模块dnspython 11<br/>1.3.1　模块域名解析方法详解 11<br/>1.3.2　常见解析类型示例说明 12<br/>1.3.3　实践：DNS域名轮循业务监控 14<br/>第2章　业务服务监控详解 17<br/>2.1　文件内容差异对比方法 17<br/>2.1.1　示例1：两个字符串的差异对比 17<br/>2.1.2　生成美观的对比HTML格式文档 19<br/>2.1.3　示例2：对比Nginx配置文件差异 19<br/>2.2　文件与目录差异对比方法 21<br/>2.2.1　模块常用方法说明 21<br/>2.2.2　实践：校验源与备份目录差异 25<br/>2.3　发送电子邮件模块smtplib 27<br/>2.3.1　smtplib模块的常用类与方法 27<br/>2.3.2　定制个性化的邮件格式方法 28<br/>2.3.3　定制常用邮件格式示例详解 29<br/>2.4　探测Web服务质量方法 34<br/>2.4.1　模块常用方法说明 35<br/>2.4.2　实践：实现探测Web服务质量 36<br/>第3章　定制业务质量报表详解 39<br/>3.1　数据报表之Excel操作模块 39<br/>3.1.1　模块常用方法说明 41<br/>3.1.2　实践：定制自动化业务流量报表周报 48<br/>3.2　Python与rrdtool的结合模块 50<br/>3.2.1　rrdtool模块常用方法说明 51<br/>3.2.2　实践：实现网卡流量图表绘制 53<br/>3.3　生成动态路由轨迹图 56<br/>3.3.1　模块常用方法说明 56<br/>3.3.2　实践：实现TCP探测目标服务路由轨迹 57<br/>第4章　Python与系统安全 60<br/>4.1　构建集中式的病毒扫描机制 60<br/>4.1.1　模块常用方法说明 61<br/>4.1.2　实践：实现集中式的病毒扫描 61<br/>4.2　实现高效的端口扫描器 64<br/>4.2.1　模块常用方法说明 64<br/>4.2.2　实践：实现高效的端口扫描 66<br/>第二部分　高级篇<br/>第5章　系统批量运维管理器pexpect详解 70<br/>5.1　pexpect的安装 70<br/>5.2　pexpect的核心组件 71<br/>5.2.1　spawn类 71<br/>5.2.2　run函数 74<br/>5.2.3　pxssh类 75<br/>5.3　pexpect应用示例 76<br/>5.3.1　实现一个自动化FTP操作 76<br/>5.3.2　远程文件自动打包并下载 77<br/>第6章　系统批量运维管理器paramiko详解 79<br/>6.1　paramiko的安装 79<br/>6.2　paramiko的核心组件 81<br/>6.2.1　SSHClient类 81<br/>6.2.2　SFTPClient类 82<br/>6.3　paramiko应用示例 85<br/>6.3.1　实现密钥方式登录远程主机 85<br/>6.3.2　实现堡垒机模式下的远程命令执行 85<br/>6.3.3　实现堡垒机模式下的远程文件上传 88<br/>第7章　系统批量运维管理器Fabric详解 91<br/>7.1　Fabric的安装 91<br/>7.2　fab的常用参数 92<br/>7.3　fabfile的编写 93<br/>7.3.1　全局属性设定 93<br/>7.3.2　常用API 94<br/>7.3.3　示例1：查看本地与远程主机信息 95<br/>7.3.4　示例2：动态获取远程目录列表 96<br/>7.3.5　示例3：网关模式文件上传与执行 97<br/>7.4　Fabric应用示例 98<br/>7.4.1　示例1：文件打包、上传与校验 98<br/>7.4.2　示例2：部署LNMP业务服务环境 99<br/>7.4.3　示例3：生产环境代码包发布管理 101<br/>第8章　从“零”开发一个轻量级WebServer 104<br/>8.1　Yorserver介绍 104<br/>8.1.1　功能特点 104<br/>8.1.2　配置文件 105<br/>8.2　功能实现方法 106<br/>8.2.1　HTTP缓存功能 107<br/>8.2.2　HTTP压缩功能 111<br/>8.2.3　HTTP SSL功能 111<br/>8.2.4　目录列表功能 114<br/>8.2.5　动态CGI功能 114<br/>第9章　集中化管理平台Ansible详解 118<br/>9.1　YAML语言 119<br/>9.1.1　块序列描述 120<br/>9.1.2　块映射描述 120<br/>9.2　Ansible的安装 121<br/>9.2.1　业务环境说明 121<br/>9.2.2　安装EPEL 122<br/>9.2.3　安装Ansible 122<br/>9.2.4　Ansible配置及测试 122<br/>9.2.5　配置Linux主机SSH无密码访问 123<br/>9.3　定义主机与组规则 124<br/>9.3.1　定义主机与组 124<br/>9.3.2　定义主机变量 125<br/>9.3.3　定义组变量 125<br/>9.3.4　分离主机与组特定数据 126<br/>9.4　匹配目标 127<br/>9.5　Ansible常用模块及API 127<br/>9.6　playbook介绍 132<br/>9.6.1　定义主机与用户 132<br/>9.6.2　任务列表 133<br/>9.6.3　执行playbook 134<br/>9.7　playbook角色与包含声明 135<br/>9.7.1　包含文件，鼓励复用 135<br/>9.7.2　角色 136<br/>9.8　获取远程主机系统信息：Facts 141<br/>9.9　变量 142<br/>9.9.1　Jinja2过滤器 143<br/>9.9.2　本地Facts 143<br/>9.9.3　注册变量 144<br/>9.10　条件语句 145<br/>9.11　循环 146<br/>9.12　示例讲解 147<br/>第10章　集中化管理平台Saltstack详解 155<br/>10.1　Saltstack的安装 156<br/>10.1.1　业务环境说明 156<br/>10.1.2　安装EPEL 156<br/>10.1.3　安装Saltstack 156<br/>10.1.4　Saltstack防火墙配置 157<br/>10.1.5　更新Saltstack配置及安装校验 157<br/>10.2　利用Saltstack远程执行命令 158<br/>10.3　Saltstack常用模块及API 161<br/>10.4　grains组件 166<br/>10.4.1　grains常用操作命令 167<br/>10.4.2　定义grains数据 167<br/>10.5　pillar组件 170<br/>10.5.1　pillar的定义 171<br/>10.5.2　pillar的使用 173<br/>10.6　state介绍 174<br/>10.6.1　state的定义 174<br/>10.6.2　state的使用 175<br/>10.7　示例：基于Saltstack实现的配置集中化管理 177<br/>10.7.1　环境说明 177<br/>10.7.2　主控端配置说明 177<br/>10.7.3　配置pillar 179<br/>10.7.4　配置state 180<br/>10.7.5　校验结果 183<br/>第11章　统一网络控制器Func详解 185<br/>11.1　Func的安装 186<br/>11.1.1　业务环境说明 186<br/>11.1.2　安装Func 186<br/>11.2　Func常用模块及API 189<br/>11.2.1　选择目标主机 190<br/>11.2.2　常用模块详解 190<br/>11.3　自定义Func模块 194<br/>11.4　非Python API接口支持 198<br/>11.5　Func的Facts支持 199<br/>第12章　Python大数据应用详解 202<br/>12.1　环境说明 202<br/>12.2　Hadoop部署 203<br/>12.3　使用Python编写MapReduce 207<br/>12.3.1　用原生Python编写MapReduce详解 208<br/>12.3.2　用Mrjob框架编写MapReduce详解 212<br/>12.4　实战分析 216<br/>12.4.1　示例场景 216<br/>12.4.2　网站访问流量统计 217<br/>12.4.3　网站HTTP状态码统计 219<br/>12.4.4　网站分钟级请求数统计 220<br/>12.4.5　网站访问来源IP统计 221<br/>12.4.6　网站文件访问统计 222<br/>第三部分　案例篇<br/>第13章　从零开始打造B/S自动化运维平台 226<br/>13.1　平台功能介绍 226<br/>13.2　系统构架设计 227<br/>13.3　数据库结构设计 228<br/>13.3.1　数据库分析 228<br/>13.3.2　数据字典 228<br/>13.3.3　数据库模型 229<br/>13.4　系统环境部署 230<br/>13.4.1　系统环境说明 230<br/>13.4.2　系统平台搭建 230<br/>13.4.3　开发环境优化 233<br/>13.5　系统功能模块设计 235<br/>13.5.1　前端数据加载模块 235<br/>13.5.2　数据传输模块设计 237<br/>13.5.3　平台功能模块扩展 240<br/>第14章　打造Linux系统安全审计功能 245<br/>14.1　平台功能介绍 245<br/>14.2　系统构架设计 246<br/>14.3　数据库结构设计 247<br/>14.3.1　数据库分析 247<br/>14.3.2　数据字典 247<br/>14.4　系统环境部署 248<br/>14.4.1　系统环境说明 248<br/>14.4.2　上报主机配置 248<br/>14.5　服务器端功能设计 252<br/>14.5.1　Django配置 252<br/>14.5.2　功能实现方法 253<br/>第15章　构建分布式质量监控平台 256<br/>15.1　平台功能介绍 256<br/>15.2　系统构架设计 257<br/>15.3　数据库结构设计 258<br/>15.3.1　数据库分析 258<br/>15.3.2　数据字典 258<br/>15.3.3　数据库模型 259<br/>15.4　系统环境部署 260<br/>15.4.1　系统环境说明 260<br/>15.4.2　数据采集角色 260<br/>15.4.3　rrdtool作业 261<br/>15.5　服务器端功能设计 263<br/>15.5.1　Django配置 263<br/>15.5.2　业务增加功能 264<br/>15.5.3　业务报表功能 266<br/>第16章　构建桌面版C/S自动化运维平台 269<br/>16.1　平台功能介绍 269<br/>16.2　系统构架设计 270<br/>16.3　数据库结构设计 271<br/>16.3.1　数据库分析 271<br/>16.3.2　数据字典 272<br/>16.3.3　数据库模型 272<br/>16.4　系统环境部署 273<br/>16.4.1　系统环境说明 273<br/>16.4.2　系统环境搭建 273<br/>16.5　系统功能模块设计 274<br/>16.5.1　用户登录模块 274<br/>16.5.2　系统配置功能 275<br/>16.5.3　服务器分类模块 277<br/>16.5.4　系统升级功能 280<br/>16.5.5　客户端模块编写 284<br/>16.5.6　执行功能模块 287<br/>16.5.7　平台程序发布 289<br/><br/><strong>三、书摘与插画</strong><br/><a href="http://img32.ddimg.cn/imgother/201411/04_1/201411041308481672.jpg" target="_blank"><img src="http://img32.ddimg.cn/imgother/201411/04_1/201411041308481672.jpg" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/><br/><a href="http://img37.ddimg.cn/imgother/201411/04_1/201411041308511387.jpg" target="_blank"><img src="http://img37.ddimg.cn/imgother/201411/04_1/201411041308511387.jpg" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/><br/><a href="http://img38.ddimg.cn/imgother/201411/04_1/201411041308531388.jpg" target="_blank"><img src="http://img38.ddimg.cn/imgother/201411/04_1/201411041308531388.jpg" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/><br/><a href="http://img39.ddimg.cn/imgother/201411/04_1/201411041308531389.jpg" target="_blank"><img src="http://img39.ddimg.cn/imgother/201411/04_1/201411041308531389.jpg" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a>
+	</div>
+	<div class="textbox-bottom">
+	</div>
+	<div class="tags" style="display: block">Tags:  <a href="tags/python%25E8%2587%25AA%25E5%258A%25A8%25E5%258C%2596%25E8%25BF%2590%25E7%25BB%25B4%25EF%25BC%259A%25E6%258A%2580%25E6%259C%25AF%25E4%25B8%258E%25E6%259C%2580%25E4%25BD%25B3%25E5%25AE%259E%25E8%25B7%25B5/" title="Tags:  python自动化运维：技术与最佳实践" rel="tag">python自动化运维：技术与最佳实践</a> , <a href="tags/python/" title="Tags:  python" rel="tag">python</a> , <a href="tags/%25E8%2587%25AA%25E5%258A%25A8%25E5%258C%2596/" title="Tags:  自动化" rel="tag">自动化</a> , <a href="tags/%25E8%25BF%2590%25E7%25BB%25B4/" title="Tags:  运维" rel="tag">运维</a> , <a href="tags/%25E5%2588%2598%25E5%25A4%25A9%25E6%2596%25AF/" title="Tags:  刘天斯" rel="tag">刘天斯</a> , <a href="tags/python%25E4%25B9%25A6%25E7%25B1%258D/" title="Tags:  python书籍" rel="tag">python书籍</a>
+	</div>
+</div><div class="textbox">
+	<div class="textbox-title">
+		<h4>
+		<a href="post/243/">【2014WOT深圳站讲师专访】刘天斯：Docker的到来，运维准备好了么？</a> <span id="starid243"><img src="template/neowin3/images/others/starred.gif" alt="" title="已加星标" border="0"/></span> <img src="images/weather/blank.gif" alt="不指定" title="不指定"/>
+		</h4>
+		<div class="textbox-label">
+		<a href="user/3/" target="_blank">刘天斯</a> , 2014/10/30 14:43 , <a href="category/0/" title="查看分类： 默认分类">默认分类</a> , <a href="post/243/#reply" title="发表您的评论">评论(1)</a> ,  <a href="post/243/">阅读(4269)</a> , Via 本站原创 
+		</div>
+	</div>
+	<div id="tb243" style="display: none;" class="textbox-tburl"><strong>引用地址：</strong>  <span id='tbb243'></span><br/><strong>注意：</strong> 该地址仅在今日23:59:59之前有效</div>
+	
+	<div class="textbox-content">
+	 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2014年11月21日至22日，51CTO传媒主办的2014WOT全球软件技术峰会·深圳站将在深圳召开，技术人员和企业实践用户将齐聚深圳。WOT是由51CTO传媒主办的国内最具有影响的技术峰会，自2012年以来，秉承专注技术、服务技术人员的理念，获得了广大IT从业者和技术爱好者的一致认可，成为了业界重要的技术分享交流平台以及人脉拓展平台。<br/>&nbsp;&nbsp;&nbsp;&nbsp;本次2014 WOT·深圳站将邀请国内外顶级的互联网及创新企业技术负责人，首次对外公开其当下最in技术，分享涵盖六大主题，共有30+课程，移动游戏运营、运维开发、Web安全、数据挖掘、团队管理等以及未来两三年的技术趋势。<a href="http://wot.51cto.com/2014shenzhen/tickets.html" target="_blank">点击报名>></a><br/><br/>本次采访对象是本次2014WOT深圳站<自动化运维>论坛的演讲人刘天斯，目前为腾讯的高级运维工程师<br/><br/><a href="http://s2.51cto.com/wyfs02/M01/4D/5E/wKiom1RQV-LjftwgAAHZWexeBPM205.png" target="_blank"><img src="http://s2.51cto.com/wyfs02/M01/4D/5E/wKiom1RQV-LjftwgAAHZWexeBPM205.png" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/><br/><strong>1、您目前在贵公司负责哪些事情？能否先简单谈谈您在运维领域的从业经验，和您对此运维的理解？</strong><br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;从事运维方面的工作刚满10年，前6年负责天涯社区的系统架构及运维的工作，2011年入职腾讯，先后负责静态类、大游戏下载业务的CDN运营，以及负责公司所有游戏的大数据接入、分析、提取等工作。<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>简单分享个人在运维领域从业的两个经验：</strong><br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1）关于运维自动化这件事情，几乎所有的IT企业都在做，看似是一件非常好的事情，忽略了前提条件，往往付出更大的代价及运营成本。所提到的前提条件便是运维体系“标准化”、“流程化”、“规范化”的建设，覆盖企业中资源、版本、业务发布、监控、事件管理等环节。有了这些作为基础铺垫，运维自动化的建设才会很顺利实施，达成预期。<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2）业务的生命周期管理，运维扮演的角色。当一个产品在规划之初运维人员须第一时间介入参与，根据产品特点，提供业务平台前期架构设计、资源评估等数据。当产品进入开发阶段，须与开发人员保持密切沟通与互动，提供业务接入、缓存、存储、监控、安全等方面规范，以便在编码阶段更好磨合与对接，避免上线后反复做不必要的版本迭代，也使得开发出来的产品具备更高的可运维性。待业务上线后，务必定期同步相关运营数据给产品与开发人员侧，为后续优化、改进的工作提供数据支持，这也恰恰能体现运维人员的专业性及团队合作意识。<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;运维体系中各个环节的工作犹如散落在地上的珠子，每个珠子分别代表事件、资源、监控、安全、自动化、日常工作等，看似是七零八落的，我们需要利用“流程”这条线将所有的珠子串起来，珠子的前后顺序及间隔由“标准规范”来控制。这样就形成了一条完整的链子，是一个有机的整体，最后会促使运维工作开展得井井有条。这条链子扣在三个点子上，就是“质量”、“效率”、“成本”。<br/><br/><strong>2、能否讲讲这么多年运维工作的变化与演进？</strong><br/><br/>云计算给IT行业带来的巨大冲击，从最初的不信任逐渐到认可，到最后各类云计算应用的落地普及。当然，这也给运维人员带来非常大的挑战，尤其承担企业私有云的建设，运维人员除了具备传统运维的能力外，还需要深入理解业务资源使用的特点，例如区分是计算性、内存型、IO型还是存储型，同时需要对资源进行合理的规划及定义扩容规则。私有云作为资源的一个大池子，如何保持其弹性，需要具备一套精准的监控手段，配合自动化运维工具来保障，包括自动化安装部署、配置管理、存储管理、故障处理、备份容灾等。实现业务快速上线，资源快速扩容，同时具备高可用的能力。在这种大背景下，运维人员除了会用“云”，且要求用好“云”，才能给企业带来价值。另外基于容器实现的虚拟化（Docker）已经兴起，将给业务的打包、部署、迁移、测试等都会带来革命性的变革，运维准备好了吗？<br/><br/><strong>3、随着如今大数据的爆发，这给运维工作带来了怎样的冲击与改变？</strong><br/><br/>大数据在企业做精细运营方面发挥了巨大的作用，作为底层服务支撑的运维，需要掌握大数据生态圈中关键技术点，包括Hadoop、hive、hbase、spark、storm等平台的日常运营，需要解决包括资源调度、数据接入、快速扩容、节点故障处理、高可用、数据存储生命周期管理等问题，这给运维人员提出了更高的要求，同时也给运维工作带来了新的机遇，一典型案例是将所有告警接入storm实时计算分析，过滤出有效告警，同时将信息入库Hadoop，以便做历史档的离线分析，让运维人员更懂业务。<br/><br/><strong>4、贵公司在监控上用了哪些技术？使用开源的还是自主研发？</strong><br/><br/>公司内部使用了自研方式实现监控体系的构建，局部会使用开源工具作为补充。<br/><br/><strong>5、您认为目前国内的自动化平台以及数据可视化平台建设如何？还需要加强哪方面发展？</strong><br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;自动化运维是每个企业都在追求的终极目标，做到一键触发业务上线、故障自愈、资源自动调度、高质量数据报表及业务智能分析等，既然是目标，说明大部分都还在路上，即使国内一线的互联网企业也未能达到该理想的状态。自动化之路是一个复杂的系统工程，是一个长期积累、沉淀且不断优化的过程。由于互联网行业的特殊性，包括新技术不断涌入及快速迭代，另一方面是互联网业务日新月异，各种颠覆性的产品层出不穷。作为服务支撑，这也给自动化运维带来变数及挑战。<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在国内需要加强的部分还是资源与技术的共享，很多时候大家都在同一件事情，贡献一个成熟且通用的组件对业界的影响是深远的，阿里在这方面做得就非常好。在个人著作《Python自动化运维：技术与最佳实践》中也分享一些实现方法与实践案例，可作参考。<br/><br/><strong>6、您认为一名合格的运维工程师是如何定义的？需要具备哪些因素？</strong><br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我认为一名合格的运维工程师需要具备高度的责任心，有一定的沟通及协调能力，同时需要具备发现问题及解决问题的能力，平时要多思考，多总结，多输出，以便将现有的沉淀更好传承下去，即使人员变动也不会出现断层。另外对资源、质量要非常敏感，有一定的规划及ITIL能力。对运营的业务要做到全面性的了解，包括提供的服务、总体架构、技术实现原理以及存在的问题等。在技能方面需要熟悉主流的运维相关技术，包括网络、设备、操作系统、负载均衡、缓存、数据库、云计算技术等方面，并关注最新技术发展动向，评估并思考如何运用到实际工作当中，解决工作中碰到的问题。同时，需要具有很好的开发能力，理由是没有人比我们更清楚我们需要什么的平台或工具，在与产品或开发沟通时，才有更多的发言权，甚至是主导权。<br/><br/>原文：<a href="http://os.51cto.com/art/201410/455697.htm" target="_blank">【2014WOT深圳站讲师专访】刘天斯：Docker的到来，运维准备好了么？</a>
+	</div>
+	<div class="textbox-bottom">
+	</div>
+	<div class="tags" style="display: block">Tags:  <a href="tags/51cto/" title="Tags:  51cto" rel="tag">51cto</a> , <a href="tags/wot/" title="Tags:  wot" rel="tag">wot</a> , <a href="tags/%25E4%25B8%2593%25E8%25AE%25BF/" title="Tags:  专访" rel="tag">专访</a> , <a href="tags/%25E5%2588%2598%25E5%25A4%25A9%25E6%2596%25AF/" title="Tags:  刘天斯" rel="tag">刘天斯</a>
+	</div>
+</div><div class="textbox">
+	<div class="textbox-title">
+		<h4>
+		<a href="post/242/">构建一个高可用及自动发现的Docker基础架构-HECD[原创]</a> <span id="starid242"><img src="template/neowin3/images/others/starred.gif" alt="" title="已加星标" border="0"/></span> <img src="images/weather/blank.gif" alt="不指定" title="不指定"/>
+		</h4>
+		<div class="textbox-label">
+		<a href="user/3/" target="_blank">刘天斯</a> , 2014/10/19 23:36 , <a href="category/42/" title="查看分类： Docker">Docker</a> , <a href="post/242/#reply" title="发表您的评论">评论(20)</a> ,  <a href="post/242/">阅读(27220)</a> , Via 本站原创 
+		</div>
+	</div>
+	<div id="tb242" style="display: none;" class="textbox-tburl"><strong>引用地址：</strong>  <span id='tbb242'></span><br/><strong>注意：</strong> 该地址仅在今日23:59:59之前有效</div>
+	
+	<div class="textbox-content">
+	<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Docker的生态日趋成熟，开源社区也不断孵化出优秀的周边项目，覆盖网络、监控、维护、部署、开发等方面。帮助开发、运维人员快速构建、运营Docker服务环境，其中也不乏有大公司的影子，如Google、IBM、Redhat，甚至微软也宣称后续将提供Docker在Windows平台的支持。Docker的发展前景一片大好。但在企业当中，如何选择适合自己的Docker构建方案？可选的方案有kubernetes与CoreOS（都已整合各类组件），另外一种方案为Haproxy+etcd+confd，采用松散式的组织结构，但各个组件之间的通讯是非常严密的，且扩展性更强，定制也更加灵活。下面详细介绍如何使用Haproxy+etcd+confd构建一个高可用及自动发现的Docker基础架构。<br/><strong>一、架构优势</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;约定由Haproxy+etcd+confd+Docker构建的基础服务平台简称“HECD” 架构，整合了多种开源组件，看似松散的结构，事实上已经是一个有机的整体，它们互相联系、互相作用，是Docker生态圈中最理想的组合之一，具有以下优势：<br/>&nbsp;&nbsp;&nbsp;&nbsp;  自动、实时发现及无感知服务刷新；<br/>&nbsp;&nbsp;&nbsp;&nbsp;  支持任意多台Docker主宿机；<br/>&nbsp;&nbsp;&nbsp;&nbsp;  支持多种APP接入且打散至不分主宿机；<br/>&nbsp;&nbsp;&nbsp;&nbsp;  采用Etcd存储信息，集群支持可靠性高；<br/>&nbsp;&nbsp;&nbsp;&nbsp;  采用Confd配置引擎，支持各类接入层，如Nginx；<br/>&nbsp;&nbsp;&nbsp;&nbsp;  支持负载均衡、故障迁移；<br/>&nbsp;&nbsp;&nbsp;&nbsp;  具备资源弹性，伸缩自如（通过生成、销毁容器实现）；<br/><br/><strong>二、架构说明</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在HECD架构中，首先管理员操作Docker Client，除了提交容器（Container）启动与停止指令外，还通过REST-API方式向Etcd（K/V）存储组件注册容器信息，包括容器名称、主宿机IP、映射端口等。Confd配置组件会定时查询Etcd组件获取最新的容器信息，根据定义好的配置模板生成Haproxy配置文件Haproxy.cfg，并且自动reload haproxy服务。用户在访问业务服务时，完全没有感知后端APP的上线、下线、切换及迁移，达到了自动发现、高可用的目的。详细架构图见图1-1。<br/><a href="attachment.php?fid=356" target="_blank"><img src="attachment.php?fid=356" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/><p align="center">图1-1 平台架构图</p><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为了方便大家理解各组件间的关系，通过图1-2进行架构流程梳理，首先管理员通过Shell或api操作容器，下一步将容器信息注册到Etcd组件，Confd组件会定时查询Etcd，获取已经注册到Etcd中容器信息，最后通过Confd的模板引擎生成Haproxy配置，整个流程结束。<br/><a href="attachment.php?fid=357" target="_blank"><img src="attachment.php?fid=357" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/><p align="center">图1-2架构流程图</p><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;了解架构流程后，我们逐一对流程中各组件进行详细介绍。<br/>1、Etcd介绍<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Etcd是一个高可用的 Key/Value 存储系统，主要用于分享配置和服务发现。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  简单：支持 curl 方式的用户 API (HTTP+JSON)<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  安全：可选 SSL 客户端证书认证<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  快速：单实例可达每秒 1000 次写操作<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  可靠：使用 Raft 实现分布式<br/>2、Confd介绍<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Confd是一个轻量级的配置管理工具。通过查询Etcd，结合配置模板引擎，保持本地配置最新，同时具备定期探测机制，配置变更自动reload。<br/>3、Haproxy介绍<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HAProxy是提供高可用性、负载均衡以及基于TCP和HTTP应用的代理，支持虚拟主机，它是免费、快速并且可靠的一种解决方案。（来源百科）<br/><br/><strong>三、架构部署</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;平台环境基于Centos6.5+Docker1.2构建，其中Etcd的版本为etcd version 0.5.0-alpha，Confd版本为confd 0.6.2，Haproxy版本为HA-Proxy version 1.4.24。下面对平台的运行环境、安装部署、组件说明等进行详细说明，环境设备角色表如下：<br/><a href="attachment.php?fid=360" target="_blank"><img src="attachment.php?fid=360" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/><br/>1、组件安装<br/>&nbsp;&nbsp;&nbsp;&nbsp;1.1 Docker安装<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SSH终端登录192.168.1.22服务器，执行以下命令：<br/><textarea name="code" class="c" rows="15" cols="100">
+ # yum -y install docker-io
+ # service docker start
+ # chkconfig docker on
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;1.2 Haproxy、confd安装<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SSH终端登录192.168.1.20服务器，执行以下命令：<br/><textarea name="code" class="c" rows="15" cols="100">
+1、haproxy
+# yum –y install haproxy
+
+2、confd
+# wget https://github.com/kelseyhightower/confd/releases/download/v0.6.3/confd-0.6.3-linux-amd64
+# mv confd /usr/local/bin/confd
+# chmod +x /usr/local/bin/confd
+# /usr/local/bin/confd -version
+confd 0.6.2
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;1.3 Etcd(v0.4.6)安装<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SSH终端登录192.168.1.21服务器，执行以下命令：<br/><textarea name="code" class="c" rows="15" cols="100">
+# mkdir -p /home/install && cd /home/install
+# wget https://github.com/coreos/etcd/releases/download/v0.4.6/etcd-v0.4.6-linux-amd64.tar.gz
+# tar -zxvf etcd-v0.4.6-linux-amd64.tar.gz
+# cd etcd-v0.4.6-linux-amd64
+# cp etcd* /bin/
+# /bin/etcd -version
+etcd version 0.4.6
+</textarea><br/>2、组件配置<br/>&nbsp;&nbsp;&nbsp;&nbsp;2.1 Etcd配置<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;由于etcd是一个轻量级的K/V存储平台，启动时指定相关参数即可，无需配置。<br/><textarea name="code" class="c" rows="15" cols="100">
+# mkdir /data/etcd
+# /bin/etcd -name etcdserver -peer-addr 192.168.1.21:7001 -addr 192.168.1.21:4001 -data-dir /data/etcd -peer-bind-addr 0.0.0.0:7001 -bind-addr 0.0.0.0:4001 &
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;由于etcd具备多机支持，参数“-peer-addr”指定与其它节点通讯的地址；参数“-addr”指定服务监听地址；参数“-data-dir”为指定数据存储目录。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;由于etcd是通过REST-API方式进行交互，常见操作如下：<br/>&nbsp;&nbsp;&nbsp;&nbsp;1) 设置(set) key操作<br/><textarea name="code" class="c" rows="15" cols="100">
+# curl -L http://192.168.1.21:4001/v2/keys/mykey -XPUT -d value="this is awesome"
+&#123;"action":"set","node":&#123;"key":"/mykey","value":"this is awesome","modifiedIndex":28,"createdIndex":28&#125;&#125;
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;2) 获取(get) key信息<br/><textarea name="code" class="c" rows="15" cols="100">
+# curl -L http://192.168.1.21:4001/v2/keys/mykey
+&#123;"action":"get","node":&#123;"key":"/mykey","value":"this is awesome","modifiedIndex":28,"createdIndex":28&#125;&#125;
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;3) 删除key信息<br/><textarea name="code" class="c" rows="15" cols="100">
+# curl -L http://192.168.1.21:4001/v2/keys/mykey -XDELETE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#123;"action":"delete","node":&#123;"key":"/mykey","modifiedIndex":29,"createdIndex":28&#125;,"prevNode":&#123;"key":"/mykey","value":"this is awesome","modifiedIndex":28,"createdIndex":28&#125;&#125;
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;更多操作API见https://github.com/coreos/etcd/blob/master/Documentation/api.md。<br/><br/> 2.2 Confd+Haproxy配置<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;由于Haproxy的配置文件是由Confd组件生成，要求Confd务必要与haproxy安装在同一台主机上，Confd的配置有两种，一种为Confd资源配置文件，默认路径为“/etc/confd/conf.d”目录，另一种为配置模板文件，默认路径为“/etc/confd/templates”。具体配置如下：<br/>创建配置文件目录<br/># mkdir -p /etc/confd/&#123;conf.d,templates&#125;<br/>（1）配置资源文件<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;详细见以下配置文件，其中“src”为指定模板文件名称（默认到路径/etc/confd/templates中查找）；“dest”指定生成的Haproxy配置文件路径；“keys”指定关联Etcd中key的URI列表；“reload_cmd”指定服务重载的命令，本例中配置成haproxy的reload命令。<br/>【/etc/confd/conf.d/ haproxy.toml】<br/><textarea name="code" class="c" rows="15" cols="100">
+[template]
+src = "haproxy.cfg.tmpl"
+dest = "/etc/haproxy/haproxy.cfg"
+keys = [
+&nbsp;&nbsp;"/app/servers",
+]
+reload_cmd = "/etc/init.d/haproxy reload"
+</textarea><br/>（2）配置模板文件<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Confd模板引擎采用了Go语言的文本模板，更多见http://golang.org/pkg/text/template/，具备简单的逻辑语法，包括循环体、处理函数等，本示例的模板文件如下，通过range循环输出Key及Value信息。<br/>【/etc/confd/templates/haproxy.cfg.tmpl】<br/><textarea name="code" class="c" rows="15" cols="100">
+global
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;log 127.0.0.1 local3
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maxconn 5000
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uid 99
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gid 99
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;daemon
+
+defaults
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;log 127.0.0.1 local3
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mode http
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;option dontlognull
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;retries 3
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;option redispatch
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maxconn 2000
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;contimeout&nbsp;&nbsp;5000
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;clitimeout&nbsp;&nbsp;50000
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;srvtimeout&nbsp;&nbsp;50000
+
+listen frontend 0.0.0.0:80
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mode http
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;balance roundrobin
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maxconn 2000
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;option forwardfor
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#123;&#123;range gets "/app/servers/*"&#125;&#125;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;server &#123;&#123;base .Key&#125;&#125; &#123;&#123;.Value&#125;&#125; check inter 5000 fall 1 rise 2
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#123;&#123;end&#125;&#125;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;stats enable
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;stats uri /admin-status
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;stats auth admin:123456
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;stats admin if TRUE
+</textarea><br/>（3）模板引擎说明<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本小节详细说明Confd模板引擎基础语法与示例，下面为示例用到的KEY信息。<br/><textarea name="code" class="c" rows="15" cols="100">
+# curl -XPUT http://192.168.1.21:4001/v2/keys/app/servers/backstabbing_rosalind -d value="192.168.1.22:49156"
+# curl -XPUT http://192.168.1.21:4001/v2/keys/app/servers/cocky_morse -d value="192.168.1.22:49158"
+# curl -XPUT http://192.168.1.21:4001/v2/keys/app/servers/goofy_goldstine -d value="192.168.1.22:49160"
+# curl -XPUT http://192.168.1.21:4001/v2/keys/app/servers/prickly_blackwell -d value="192.168.1.22:49162"
+</textarea><br/> 1、base<br/>&nbsp;&nbsp;&nbsp;&nbsp;作为path.Base函数的别名，获取路径最后一段。<br/>&#123;&#123; with get "/app/servers/prickly_blackwell"&#125;&#125;<br/>&nbsp;&nbsp;&nbsp;&nbsp;server &#123;&#123;base .Key&#125;&#125; &#123;&#123;.Value&#125;&#125; check<br/>&#123;&#123;end&#125;&#125;<br/><textarea name="code" class="c" rows="15" cols="100">
+prickly_blackwell 192.168.1.22:49162
+</textarea><br/> 2、get<br/>&nbsp;&nbsp;&nbsp;&nbsp;返回一对匹配的KV，找不到则返回错误。<br/>&#123;&#123;with get "/app/servers/prickly_blackwell"&#125;&#125;<br/>&nbsp;&nbsp;&nbsp;&nbsp;key: &#123;&#123;.Key&#125;&#125;<br/>&nbsp;&nbsp;&nbsp;&nbsp;value: &#123;&#123;.Value&#125;&#125;<br/>&#123;&#123;end&#125;&#125;<br/><textarea name="code" class="c" rows="15" cols="100">
+/app/servers/prickly_blackwell 192.168.1.22:49162
+</textarea><br/>3、gets<br/>&nbsp;&nbsp;&nbsp;&nbsp;返回所有匹配的KV，找不到则返回错误。<br/> &#123;&#123;range gets "/app/servers/*"&#125;&#125;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&#123;&#123;.Key&#125;&#125; &#123;&#123;.Value&#125;&#125;<br/>&nbsp;&nbsp;&nbsp;&nbsp; &#123;&#123;end&#125;&#125;<br/><textarea name="code" class="c" rows="15" cols="100">
+&nbsp;&nbsp;&nbsp;&nbsp;/app/servers/backstabbing_rosalind 192.168.1.22:49156
+&nbsp;&nbsp;&nbsp;&nbsp;/app/servers/cocky_morse 192.168.1.22:49158
+&nbsp;&nbsp;&nbsp;&nbsp;/app/servers/goofy_goldstine 192.168.1.22:49160
+&nbsp;&nbsp; /app/servers/prickly_blackwell 192.168.1.22:49162
+</textarea><br/>4、getv<br/>&nbsp;&nbsp;&nbsp;&nbsp;返回一个匹配key的字符串型Value，找不到则返回错误。<br/>&#123;&#123;getv "/app/servers/cocky_morse"&#125;&#125;<br/><textarea name="code" class="c" rows="15" cols="100">
+192.168.1.22:49158
+</textarea><br/>5、getvs <br/>&nbsp;&nbsp;&nbsp;&nbsp;返回所有匹配key的字符串型Value，找不到则返回错误。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#123;&#123;range getvs "/app/servers/*"&#125;&#125;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; value: &#123;&#123;.&#125;&#125;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#123;&#123;end&#125;&#125;<br/><textarea name="code" class="c" rows="15" cols="100">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; value: 192.168.1.22:49156
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; value: 192.168.1.22:49158
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; value: 192.168.1.22:49160
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; value: 192.168.1.22:49162
+</textarea><br/>6、split<br/>&nbsp;&nbsp;&nbsp;&nbsp;对输入的字符串做split处理，即将字符串按指定分隔符拆分成数组。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#123;&#123; $url := split (getv "/app/servers/cocky_morse") ":" &#125;&#125;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;host: &#123;&#123;index $url 0&#125;&#125;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;port: &#123;&#123;index $url 1&#125;&#125;<br/><textarea name="code" class="c" rows="15" cols="100">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;host: 192.168.1.22
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;port: 49158
+</textarea><br/>7、ls<br/>&nbsp;&nbsp;&nbsp;&nbsp;返回所有的字符串型子key，找不到则返回错误。<br/>&#123;&#123;range ls "/app/servers/"&#125;&#125;<br/>&nbsp;&nbsp; subkey: &#123;&#123;.&#125;&#125;<br/>&#123;&#123;end&#125;&#125;<br/><textarea name="code" class="c" rows="15" cols="100">
+&nbsp;&nbsp; subkey: backstabbing_rosalind
+&nbsp;&nbsp; subkey: cocky_morse
+&nbsp;&nbsp; subkey: goofy_goldstine
+&nbsp;&nbsp; subkey: prickly_blackwell
+</textarea><br/>8、lsdir<br/>&nbsp;&nbsp;&nbsp;&nbsp;返回所有的字符串型子目录，找不到则返回一个空列表。<br/>&#123;&#123;range lsdir "/app/"&#125;&#125;<br/>&nbsp;&nbsp; subdir: &#123;&#123;.&#125;&#125;<br/>&#123;&#123;end&#125;&#125;<br/><textarea name="code" class="c" rows="15" cols="100">
+subdir: servers
+</textarea><br/>（4）启动confd及haproxy服务<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下面为启动Confd服务命令行，参数“interval”为指定探测etcd的频率，单位为秒，参数“-node”为指定etcd监听服务主地址，以便获取容器信息。<br/><textarea name="code" class="c" rows="15" cols="100">
+# /usr/local/bin/confd -verbose -interval 10 -node '192.168.1.21:4001' -confdir /etc/confd > /var/log/confd.log &
+# /etc/init.d/haproxy start
+</textarea><br/>3、容器配置<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;前面HECD架构说明内容，有讲到容器的操作会即时注册到etcd组件中，是通过curl命令进行REST-API方式提交的，下面详细介绍通过SHELL及Python-api两种方式的实现方法，支持容器启动、停止的联动。<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;3.1、SHELL实现方法<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;实现的原理是通过获取“Docker run ***”命令输出的Container ID，通过“docker inspect Container ID”得到详细的容器信息，分析出容器服务映射的外部端口及容器名称，将以“/app/servers/容器名称”作为Key，“主宿机: 映射端口”作为Value注册到etcd中。其中Key信息前缀(/app/servers)与“/etc/confd/conf.d/haproxy.toml”中的keys参数是保持一致的。<br/>【docker.sh】<br/><textarea name="code" class="c" rows="15" cols="100">
+#!/bin/bash
+
+if [ -z $1 ]; then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo "Usage: c run <image name>:<version>"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c stop <container name>"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;exit 1
+fi
+
+if [ -z $ETCD_HOST ]; then
+&nbsp;&nbsp;ETCD_HOST="192.168.1.21:4001"
+fi
+
+if [ -z $ETCD_PREFIX ]; then
+&nbsp;&nbsp;ETCD_PREFIX="app/servers"
+fi
+
+if [ -z $CPORT ]; then
+&nbsp;&nbsp;CPORT="80"
+fi
+
+if [ -z $FORREST_IP ]; then
+&nbsp;&nbsp;FORREST_IP=`ifconfig eth0&#124; grep "inet addr" &#124; head -1 &#124; cut -d : -f2 &#124; awk '&#123;print $1&#125;'`
+fi
+
+function launch_container &#123;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo "Launching $1 on $FORREST_IP ..."
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CONTAINER_ID=`docker run -d --dns 172.17.42.1 -P -v /data:/data -v /etc/httpd/conf:/etc/httpd/conf -v /etc/httpd/conf.d:/etc/httpd/conf.d -v /etc/localtime:/etc/localtime:ro $1 /bin/sh -c "/usr/bin/supervisord -c /etc/supervisord.conf"`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PORT=`docker inspect $CONTAINER_ID&#124;grep "&#92;"Ports&#92;"" -A 50&#124;grep "&#92;"$CPORT/tcp&#92;"" -A 3&#124; grep HostPort&#124;cut -d '"' -f4&#124;head -1`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NAME=`docker inspect $CONTAINER_ID &#124; grep Name &#124; cut -d '"' -f4 &#124; sed "s/&#92;///g"&#124;sed -n 2p`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo "Announcing to $ETCD_HOST..."
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;curl -XPUT "http://$ETCD_HOST/v2/keys/$ETCD_PREFIX/$NAME" -d value="$FORREST_IP:$PORT"
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo "$1 running on Port $PORT with name $NAME"
+&#125;
+
+function stop_container &#123;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo "Stopping $1..."
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CONTAINER_ID=`docker ps -a&#124; grep $1 &#124; awk '&#123;print $1&#125;'`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo "Found container $CONTAINER_ID"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;docker stop $CONTAINER_ID
+&nbsp;&nbsp;echo http://$ETCD_HOST/v2/keys/$ETCD_PREFIX/$1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;curl -XDELETE http://$ETCD_HOST/v2/keys/$ETCD_PREFIX/$1 &> /dev/null
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo "Stopped."
+&#125;
+
+
+if [ $1 = "run" ]; then
+&nbsp;&nbsp;launch_container $2
+else
+&nbsp;&nbsp;stop_container $2
+fi
+</textarea><br/>docker.sh使用方法:<br/>&nbsp;&nbsp;&nbsp;&nbsp;1) 启动一个容器<br/>&nbsp;&nbsp;&nbsp;&nbsp;# ./docker.sh run yorko/webserver:v3(镜像)<br/>&nbsp;&nbsp;&nbsp;&nbsp;2) 停止一个容器<br/>&nbsp;&nbsp;&nbsp;&nbsp;# ./docker.sh stop berserk_hopper(容器名)<br/><br/> 3.2、Docker-py API实现方法<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;通过Python语言调用Docker-py的API实现容器的远程操作（创建、运行、停止），并结合python-etcd模块对etcd进行操作(set、delete)，达到与SHELL方式一样的效果，很明显，Docker-py方式更加容易扩展，可以无缝与现有运营平台对接。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为兼顾到远程API支持，需对docker启动文件“exec”处进行修改，详细见如下：<br/># vi /etc/init.d/docker<br/><textarea name="code" class="c" rows="15" cols="100">
+$exec -H tcp://0.0.0.0:2375 -H unix:///var/run/docker.sock -d &>> $logfile &
+</textarea><br/>启动容器的程序如下：<br/>【docker_run.py】<br/><textarea name="code" class="python" rows="15" cols="100">
+#!/usr/local/Python/bin/python
+import docker
+import etcd
+import sys
+
+Etcd_ip="192.168.1.21"
+Server_ip="192.168.1.22"
+App_port="80"
+App_protocol="tcp"
+Image="yorko/webserver:v3"
+
+Port=""
+Name=""
+
+idict=&#123;&#125;
+rinfo=&#123;&#125;
+try:
+&nbsp;&nbsp;&nbsp;&nbsp;c = docker.Client(base_url='tcp://'+Server_ip+':2375',version='1.14',timeout=15)
+except Exception,e:
+&nbsp;&nbsp;&nbsp;&nbsp;print "Connection docker server error:"+str(e)
+&nbsp;&nbsp;&nbsp;&nbsp;sys.exit()
+
+try:
+&nbsp;&nbsp;&nbsp;&nbsp;rinfo=c.create_container(image=Image,stdin_open=True,tty=True,command="/usr/bin/supervisord -c /etc/supervisord.conf",volumes=['/data','/etc/httpd/conf','/etc/httpd/conf.d
+','/etc/localtime'],ports=[80,22],name=None)
+&nbsp;&nbsp;&nbsp;&nbsp;containerId=rinfo['Id']
+except Exception,e:
+&nbsp;&nbsp;&nbsp;&nbsp;print "Create docker container error:"+str(e)
+&nbsp;&nbsp;&nbsp;&nbsp;sys.exit()
+
+try:
+&nbsp;&nbsp;&nbsp;&nbsp;c.start(container=containerId, binds=&#123;'/data':&#123;'bind': '/data','ro': False&#125;,'/etc/httpd/conf':&#123;'bind': '/etc/httpd/conf','ro': True&#125;,'/etc/httpd/conf.d':&#123;'bind': '/etc/htt
+pd/conf.d','ro': True&#125;,'/etc/localtime':&#123;'bind': '/etc/localtime','ro': True&#125;&#125;, port_bindings=&#123;80:None,22:None&#125;, lxc_conf=None,publish_all_ports=True, links=None, privileged=F
+alse,dns='172.17.42.1', dns_search=None, volumes_from=None, network_mode=None,restart_policy=None, cap_add=None, cap_drop=None)
+except Exception,e:
+&nbsp;&nbsp;&nbsp;&nbsp;print "Start docker container error:"+str(e)
+&nbsp;&nbsp;&nbsp;&nbsp;sys.exit()
+
+try:
+&nbsp;&nbsp;&nbsp;&nbsp;idict=c.inspect_container(containerId)
+&nbsp;&nbsp;&nbsp;&nbsp;Name=idict["Name"][1:]
+&nbsp;&nbsp;&nbsp;&nbsp;skey=App_port+'/'+App_protocol
+&nbsp;&nbsp;&nbsp;&nbsp;for _key in idict["NetworkSettings"]["Ports"].keys():
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if _key==skey:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Port=idict["NetworkSettings"]["Ports"][skey][0]["HostPort"]
+except Exception,e:
+&nbsp;&nbsp;&nbsp;&nbsp;print "Get docker container inspect error:"+str(e)
+&nbsp;&nbsp;&nbsp;&nbsp;sys.exit()
+
+if Name!="" and Port!="":
+&nbsp;&nbsp;&nbsp;&nbsp;try:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;client = etcd.Client(host=Etcd_ip, port=4001)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;client.write('/app/servers/'+Name, Server_ip+":"+str(Port))
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print Name+" container run success!"
+&nbsp;&nbsp;&nbsp;&nbsp;except Exception,e:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print "set etcd key error:"+str(e)
+else:
+&nbsp;&nbsp;&nbsp;&nbsp;print "Get container name or port error."
+</textarea><br/>停止容器的程序如下：<br/>【docker_stop.py】<br/><textarea name="code" class="python" rows="15" cols="100">
+#!/usr/local/Python/bin/python
+import docker
+import etcd
+import sys
+
+Etcd_ip="192.168.1.21"
+Server_ip="192.168.1.22"
+containerName="grave_franklin" #指定需要停止容器的名称
+
+try:
+&nbsp;&nbsp;&nbsp;&nbsp;c = docker.Client(base_url='tcp://'+Server_ip+':2375',version='1.14',timeout=10)
+&nbsp;&nbsp;&nbsp;&nbsp;c.stop('furious_heisenberg')
+except Exception,e:
+&nbsp;&nbsp;&nbsp;&nbsp;print str(e)
+&nbsp;&nbsp;&nbsp;&nbsp;sys.exit()
+
+try:
+&nbsp;&nbsp;&nbsp;&nbsp;client = etcd.Client(host=Etcd_ip, port=4001)
+&nbsp;&nbsp;&nbsp;&nbsp;client.delete('/app/servers/'+containerName)
+&nbsp;&nbsp;&nbsp;&nbsp;print containerName+" container stop success!"
+except Exception,e:
+print str(e)
+</textarea><br/>注意：<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;由于容器是无状态的，尽量让其以松散的形式存在，映射端口选项要求使用“-P”参数，即使用随机端口的模式，减少人手干预。<br/><br/><strong>四、业务上线</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HECD架构已部署完毕，接下来就是让其为我们服务，案例中使用的镜像“yorko/webserver:v3”为已经构建好的LAMP平台。类似的镜像也可以在docker-pub中下载到，开始跑起,运行dockery.sh创建两个容器：<br/><textarea name="code" class="c" rows="15" cols="100">
+# ./docker.sh run yorko/webserver:v3
+Launching yorko/webserver:v3 on 192.168.1.22 ...
+Announcing to 192.168.1.21:4001...
+&#123;"action":"set","node":&#123;"key":"/app/servers/berserk_hopper","value":"192.168.1.22:49170","modifiedIndex":33,"createdIndex":33&#125;&#125;
+yorko/webserver:v3 running on Port 49170 with name berserk_hopper
+
+# ./docker.sh run yorko/webserver:v3
+Launching yorko/webserver:v3 on 192.168.1.22 ...
+Announcing to 192.168.1.21:4001...
+&#123;"action":"set","node":&#123;"key":"/app/servers/lonely_meitner","value":"192.168.1.22:49172","modifiedIndex":34,"createdIndex":34&#125;&#125;
+yorko/webserver:v3 running on Port 49172 with name lonely_meitner
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;访问Haproxy监控地址：http://192.168.1.20/admin-status，刚创建的容器已经添加到haproxy中，见图1-3。<br/><a href="attachment.php?fid=358" target="_blank"><img src="attachment.php?fid=358" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a> <br/><p align="center"> 图1-3 Haproxy监控后台截图</p><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1）观察Haproxy的配置文件(更新部分)：<br/><textarea name="code" class="c" rows="15" cols="100">
+# vi /etc/haproxy/haproxy.cfg
+… …
+listen frontend 0.0.0.0:80
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mode http
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;balance roundrobin
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maxconn 2000
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;option forwardfor
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;server berserk_hopper 192.168.1.22:49170 check inter 5000 fall 1 rise 2
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;server lonely_meitner 192.168.1.22:49172 check inter 5000 fall 1 rise 2
+… …
+</textarea><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2）访问php测试文件http://192.168.1.20/info.php<br/> <a href="attachment.php?fid=359" target="_blank"><img src="attachment.php?fid=359" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/><p align="center"> 图1-4 php测试文件截图</p><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;从图1-4可以看出，获取的服务器端IP为容器本身的IP地址（172.17.0.11），在System环境变量处输出容器名为“598cf10a50a2”的信息。<br/><br/>参考：<br/>http://ox86.tumblr.com/post/90554410668/easy-scaling-with-docker-haproxy-and-confd<br/>https://github.com/AVGP/forrest/blob/master/forrest.sh
+	</div>
+	<div class="textbox-bottom">
+	</div>
+	<div class="tags" style="display: block">Tags:  <a href="tags/docker/" title="Tags:  docker" rel="tag">docker</a> , <a href="tags/confd/" title="Tags:  confd" rel="tag">confd</a> , <a href="tags/etcd/" title="Tags:  etcd" rel="tag">etcd</a> , <a href="tags/haproxy/" title="Tags:  haproxy" rel="tag">haproxy</a> , <a href="tags/hecd%25E6%259E%25B6%25E6%259E%2584/" title="Tags:  hecd架构" rel="tag">hecd架构</a>
+	</div>
+</div><div class="textbox">
+	<div class="textbox-title">
+		<h4>
+		<a href="post/241/">Docker远程python API操作容器一例[原创]</a> <span id="starid241"><img src="template/neowin3/images/others/starred.gif" alt="" title="已加星标" border="0"/></span> <img src="images/weather/blank.gif" alt="不指定" title="不指定"/>
+		</h4>
+		<div class="textbox-label">
+		<a href="user/3/" target="_blank">刘天斯</a> , 2014/09/08 23:48 , <a href="category/42/" title="查看分类： Docker">Docker</a> , <a href="post/241/#reply" title="发表您的评论">评论(5)</a> ,  <a href="post/241/">阅读(11258)</a> , Via 本站原创 
+		</div>
+	</div>
+	<div id="tb241" style="display: none;" class="textbox-tburl"><strong>引用地址：</strong>  <span id='tbb241'></span><br/><strong>注意：</strong> 该地址仅在今日23:59:59之前有效</div>
+	
+	<div class="textbox-content">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/docker/docker-py" target="_blank">Docker-py</a>作为官方推出的客户端API，功能可以满足我们大部分操作需求，API涉及镜像(images)及容器(CONTAINER)的功能操作，利用docker-py可以轻松开发出Docker的管理平台，以便维护大规模的Docker集群，本文介绍如何通过DockerFile创建一个WEB服务的镜像，再通过远程API对容器进行管理。<br/><br/><strong>一、环境准备</strong><br/>1、环境说明<br/>192.168.1.20 #Docker python API主机<br/>192.168.1.22 #Docker服务主机<br/>2、Docker环境部署(略)<br/>3、修改自启动服务文件，支持远程TCP接口与本地SOCK连接；<br/># vi /etc/init.d/docker<br/><textarea name="code" class="c" rows="15" cols="100">
+$exec -H tcp://0.0.0.0:2375 -H unix:///var/run/docker.sock -d &>> $logfile &
+</textarea>#service docker restart<br/><br/><strong>二、创建镜像</strong><br/>1、获取最新的centos镜像<br/># docker pull centos:latest<br/>2、编写Dockerfile（支持apache+ssh服务）<br/># mkdir /home/Dockerfile/webserver<br/># cd /home/Dockerfile/webserver<br/># vi Dockerfile<br/><textarea name="code" class="python" rows="15" cols="100">
+# This is a base comment
+FROM centos:latest
+MAINTAINER yorko Liu <liutiansi@gmail.com>
+
+#yum install Package
+RUN yum -y install net-tools
+RUN yum -y install iputils&nbsp;&nbsp;iproute&nbsp;&nbsp;man&nbsp;&nbsp;vim-minimal&nbsp;&nbsp;openssh-server&nbsp;&nbsp;openssh-clients
+RUN yum -y install httpd
+RUN yum -y install python-setuptools
+RUN easy_install supervisor
+
+#set sshd
+RUN ssh-keygen -q -N "" -t dsa -f /etc/ssh/ssh_host_dsa_key
+RUN ssh-keygen -q -N "" -t rsa -f /etc/ssh/ssh_host_rsa_key
+RUN ssh-keygen -t ecdsa -f /etc/ssh/ssh_host_ecdsa_key -N ""
+RUN sed -ri 's/session&nbsp;&nbsp;&nbsp;&nbsp;required&nbsp;&nbsp;&nbsp;&nbsp; pam_loginuid.so/#session&nbsp;&nbsp;&nbsp;&nbsp;required&nbsp;&nbsp;&nbsp;&nbsp; pam_loginuid.so/g' /etc/pam.d/sshd
+RUN mkdir -p /root/.ssh && chown root.root /root && chmod 700 /root/.ssh
+RUN echo 'root:Ksjhg34TDju' &#124; chpasswd
+
+#set supervisor
+RUN mkdir -p /var/log/supervisor
+ADD supervisord.conf /etc/supervisord.conf
+
+#set port
+EXPOSE 22
+EXPOSE 80
+
+#set ENV
+ENV LANG en_US.UTF-8
+ENV LC_ALL en_US.UTF-8
+
+#run supervisor
+CMD ["/usr/bin/supervisord -c /etc/supervisord.conf"]
+</textarea><br/>通过supervisord来维护Docker容器中服务进程，编写supervisord.conf<br/># vi supervisord.conf<br/><textarea name="code" class="c" rows="15" cols="100">
+[supervisord]
+nodaemon=true
+
+[program:sshd]
+command=/usr/sbin/sshd -D
+
+[program:httpd]
+command=/usr/sbin/httpd -DFOREGROUND
+</textarea><br/>创建镜像，运行：<br/># docker build -t yorko/webserver:v1 .<br/><span style="color: #DC143C;">注：最后有一个“.”，别遗漏。</span><br/><br/>镜像生成完毕后运行docker images查看，见下图：<br/><a href="attachment.php?fid=348" target="_blank"><img src="attachment.php?fid=348" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/><br/><strong>三、编写操作API</strong><br/>登录192.168.1.20服务器<br/># mkdir /home/test/docker-py<br/># cd /home/test/docker-py<br/>1、安装docker-py<br/># wget https://github.com/docker/docker-py/archive/master.zip<br/># unzip master<br/># cd docker-py-master/<br/># python setup.py install<br/>如正常导入模块（import docker）说明安装成功。<br/><br/>2、创建容器docker_create.py<br/><textarea name="code" class="python" rows="15" cols="100">
+import docker
+
+c = docker.Client(base_url='tcp://192.168.1.22:2375',version='1.14',timeout=10)
+c.create_container(image="yorko/webserver:v1",stdin_open=True,tty=True,command="/usr/bin/supervisord -c /etc/supervisord.conf",volumes=['/data'],ports=[80,22],name="webserver11")
+#通过create_container方法创建容器，指定"yorko/webserver:v1"镜像名称，使用supervisord接管进程服务，挂载主宿机/data作为数据卷，容器监听80与22端口，容器的名称为webserver11
+print str(r)
+</textarea><br/>3、运行容器docker_start.py<br/><textarea name="code" class="python" rows="15" cols="100">
+import docker
+
+c = docker.Client(base_url='tcp://192.168.1.22:2375',version='1.14',timeout=10)
+r=c.start(container='webserver11', binds=&#123;'/data':&#123;'bind': '/data','ro': False&#125;&#125;, port_bindings=&#123;80:80,22:2022&#125;, lxc_conf=None,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;publish_all_ports=True, links=None, privileged=False,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dns=None, dns_search=None, volumes_from=None, network_mode=None,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;restart_policy=None, cap_add=None, cap_drop=None)
+#通过start方法启动容器，指定数据卷的挂载关系及权限，以及端口与主宿机的映射关系等
+print str(r)
+</textarea><br/>4、运行<br/># python docker_create.py<br/># python docker_start.py<br/>更多API参考<a href="https://github.com/docker/docker-py" target="_blank">https://github.com/docker/docker-py</a><br/><br/>5、在Docker主机观察结果，见下图：<br/><a href="attachment.php?fid=349" target="_blank"><img src="attachment.php?fid=349" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/><br/><strong>三、校验服务</strong><br/>1、校验SSH服务<br/><a href="attachment.php?fid=351" target="_blank"><img src="attachment.php?fid=351" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/><br/>2、校验WEB服务<br/><a href="attachment.php?fid=350" target="_blank"><img src="attachment.php?fid=350" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a><br/><br/>3、检查数据卷<br/><a href="attachment.php?fid=352" target="_blank"><img src="attachment.php?fid=352" class="insertimage" alt="点击在新窗口中浏览此图片" title="点击在新窗口中浏览此图片" border="0"/></a>
+	</div>
+	<div class="textbox-bottom">
+	</div>
+	<div class="tags" style="display: block">Tags:  <a href="tags/docker/" title="Tags:  docker" rel="tag">docker</a> , <a href="tags/docker-py/" title="Tags:  docker-py" rel="tag">docker-py</a> , <a href="tags/dockerfile/" title="Tags:  dockerfile" rel="tag">dockerfile</a> , <a href="tags/supervisord/" title="Tags:  supervisord" rel="tag">supervisord</a>
+	</div>
+</div>
+					<div class="article-bottom" style="display: block">
+						<div class="pages">
+							<span class="pagebar-mainbody"> 分页： 1/30  <a href="page/1/1/"><img src="template/neowin3/images/arrows/doubleleft.gif" alt="第一页" title="第一页" border="0"/></a> <span class="pagebar-selections"> <span class="pagelink-current">1</span>  <a href="page/1/2/">2</a>  <a href="page/1/3/">3</a>  <a href="page/1/4/">4</a>  <a href="page/1/5/">5</a>  <a href="page/1/6/">6</a>  <a href="page/1/7/">7</a>  <a href="page/1/8/">8</a>  <a href="page/1/9/">9</a>  <a href="page/1/10/">10</a> </span> <a href="page/1/2/"><img src="template/neowin3/images/arrows/singleright.gif" alt="下页" title="下页" border="0"/></a>  <a href="page/1/30/"><img src="template/neowin3/images/arrows/doubleright.gif" alt="最后页" title="最后页" border="0"/></a> </span> [ 显示模式： <a href="page/1/1/" title="切换到摘要模式">摘要</a> | <a href="page/2/1/" title="切换到列表模式">列表</a> ]
+						</div>
+					</div>
+				</div>
+			</div>
+		<div id="sidebar" class="sidebar">
+			<div id="innerSidebar">
+				<div id="innerSidebarOne">
+					<div class="panel">
+<h5 onclick='showhidediv("sidebar_myself");'>个人简介</h5>
+<div class="panel-content" id="sidebar_myself" style="display: block">
+<img src="http://blog.liuts.com/attachment/201004/1272107944_7097ed15.png" width="80" align="center"><br>
+姓名：刘天斯<br>
+BLOG：<a href="http://blog.liuts.com" target=_blank>http://blog.liuts.com</a><br>
+<font color="#33CCFF"><b>微博</b></font>：<a href="http://t.qq.com/yorkoliu" target=_blank>http://t.qq.com/yorkoliu</a><br>
+<a href="http://weibo.com/yorkoliu" target=_blank>http://weibo.com/yorkoliu</a><br><br>
+<b>工作经历：</b><br>
+1、天涯社区(2005~2011)<br>
+2、腾讯(2011~今)<br>
+职务：架构师、高级系统工程师<br>
+发明专利：<font color=red><b>7</b></font> 个<br>
+籍贯：海南琼海<br>
+Email、MSN：<img src=http://blog.liuts.com/attachment/200910/1255755308_65292f12.gif align=absmiddle><br><br>
+<b>个人著作：</b><br>
+<a href='http://blog.liuts.com/post/244/' target=_blank><img width=170 src=http://blog.liuts.com/attachment/201412/1419393811_5769a019.jpg align=absmiddle></a><br>
+技术交流QQ群：<b><br><font color=red>106651609[1号] 满<br>106651547[2号] 满
+<br>37654606[3号] 满
+<br>8672312[4号] 满
+<br>158926355[5号] 满
+<br>251989396[6号]
+<br>203734755[资深]
+</font></b>
+<br><br><a href="http://blog.liuts.com/post/220/"><img src="http://blog.liuts.com/attachment/201103/1298995796_87711d0f.jpg"></a>
+</div>
+</div><div id='panelCategory' class="panel">
+<h5 style="cursor: pointer" onclick='showhidediv("sideblock_category");'>分类</h5>
+<div class="panel-content" id="sideblock_category" style="display: block">
+<ul><li><a href="category/0/" title="这是程序自动创建的分类。">默认分类</a> [3] <a href="feed.php?go=category_0"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/42/" title="Docker 技术相关">Docker</a> [3] <a href="feed.php?go=category_42"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/1/" title="Unix/Linux日志">Linux</a> [44] <a href="feed.php?go=category_1"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/40/" title="Architecture">Architecture</a> [1] <a href="feed.php?go=category_40"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/39/" title="SA">SA</a> [2] <a href="feed.php?go=category_39"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/38/" title="rrdtool">rrdtool</a> [1] <a href="feed.php?go=category_38"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/3/" title="Windows类日志">Windows</a> [2] <a href="feed.php?go=category_3"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/20/" title="Ubuntu类日志">Ubuntu</a> [10] <a href="feed.php?go=category_20"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/4/" title="MYSQL类日志">MYSQL</a> [17] <a href="feed.php?go=category_4"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/5/" title="SQLSERVER类日志">SQLSERVER</a> [1] <a href="feed.php?go=category_5"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/18/" title="Memcached类日志">Memcached</a> [2] <a href="feed.php?go=category_18"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/36/" title="MongoDB">MongoDB</a> [2] <a href="feed.php?go=category_36"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/35/" title="LVS">LVS</a> [4] <a href="feed.php?go=category_35"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/2/" title="DNS日志">DNS</a> [6] <a href="feed.php?go=category_2"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/9/" title="Apache类日志">Apache</a> [8] <a href="feed.php?go=category_9"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/11/" title="Lighttpd类日志">Lighttpd</a> [3] <a href="feed.php?go=category_11"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/12/" title="Resin类日志">Resin</a> [1] <a href="feed.php?go=category_12"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/29/" title="Haproxy类日志">Haproxy</a> [2] <a href="feed.php?go=category_29"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/21/" title="Squid类日志">Squid</a> [1] <a href="feed.php?go=category_21"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/22/" title="Varnish类日志">Varnish</a> [3] <a href="feed.php?go=category_22"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/10/" title="Nginx类日志">Nginx</a> [2] <a href="feed.php?go=category_10"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/6/" title="SHELL类日志">SHELL</a> [14] <a href="feed.php?go=category_6"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/7/" title="JAVA类日志">JAVA</a> [4] <a href="feed.php?go=category_7"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/14/" title="C/C++类日志">C/C++</a> [7] <a href="feed.php?go=category_14"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/8/" title="PHP类日志">PHP</a> [11] <a href="feed.php?go=category_8"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/15/" title="Python类日志">Python</a> [39] <a href="feed.php?go=category_15"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/41/" title="saltstack">saltstack</a> [1] <a href="feed.php?go=category_41"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/17/" title="Perl类日志">Perl</a> [2] <a href="feed.php?go=category_17"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/25/" title="Ajax类日志">Ajax</a> [3] <a href="feed.php?go=category_25"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/19/" title="CSS类日志">CSS</a> [2] <a href="feed.php?go=category_19"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/16/" title="Javascript类日志">Javascript</a> [6] <a href="feed.php?go=category_16"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/13/" title="Adode类日志">Adode</a> [2] <a href="feed.php?go=category_13"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/37/" title="MooseFS">MooseFS</a> [3] <a href="feed.php?go=category_37"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/26/" title="Cfengine类日志">Cfengine</a> [2] <a href="feed.php?go=category_26"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/27/" title="Splunk类日志">Splunk</a> [1] <a href="feed.php?go=category_27"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/28/" title="Func类日志">Func</a> [6] <a href="feed.php?go=category_28"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/31/" title="Qmail/Postfix类日志">Qmail/Postfix</a> [2] <a href="feed.php?go=category_31"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/24/" title="RSA类日志">RSA</a> [3] <a href="feed.php?go=category_24"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/32/" title="Hardware/Network类日志">Hardware/Network</a> [1] <a href="feed.php?go=category_32"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/34/" title="TOOL/Software类日志">TOOL/Software</a> [0] <a href="feed.php?go=category_34"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/33/" title="My Life类日志">My Life</a> [10] <a href="feed.php?go=category_33"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li><li><a href="category/43/" title="我的著作">我的著作</a> [1] <a href="feed.php?go=category_43"><img src="template/neowin3/images/rss.png" border="0" alt="RSS" title="追踪这个分类的RSS" /></a></li></ul>
+</div>
+</div><div class="panel">
+<h5 onclick='showhidediv("sidebar_calendar");'>日历</h5>
+<div class="panel-content" id="sidebar_calendar" style="display: block">
+
+</div>
+</div><div class="panel">
+<h5 onclick='showhidediv("sidebar_entries");'>最新日志</h5>
+<div class="panel-content" id="sidebar_entries" style="display: block">
+<ul><li class='rowcouple'><a href="post/248/" title="基于Django与Celery实现异步对列任务">基于Django与Cel...</a></li><li class='rowodd'><a href="post/247/" title="基于kubernetes构建Docker集群管理详解">基于kubernetes...</a></li><li class='rowcouple'><a href="post/246/" title="《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【主控制端】">《python自动化运维...</a></li><li class='rowodd'><a href="post/245/" title="《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【Web服务端】">《python自动化运维...</a></li><li class='rowcouple'><a href="post/244/" title="《Python自动化运维：技术与最佳实践》开始预售了">《Python自动化运维...</a></li><li class='rowodd'><a href="post/243/" title="【2014WOT深圳站讲师专访】刘天斯：Docker的到来，运维准备好了么？">【2014WOT深圳站讲...</a></li><li class='rowcouple'><a href="post/242/" title="构建一个高可用及自动发现的Docker基础架构-HECD[原创]">构建一个高可用及自动发现...</a></li><li class='rowodd'><a href="post/241/" title="Docker远程python API操作容器一例[原创]">Docker远程pyth...</a></li><li class='rowcouple'><a href="post/240/" title="基于saltstack实现的配置集中化管理[原创]">基于saltstack实...</a></li><li class='rowodd'><a href="post/238/" title="maptail实现实时、美观的用户访问视图">maptail实现实时、...</a></li></ul>
+</div>
+</div>
+                    <div class="panel">
+<h5 onclick='showhidediv("sidebar_replies");'>最新评论</h5>
+<div class="panel-content" id="sidebar_replies" style="display: block">
+<ul><li class='rowcouple'><a href="post/244/#blogcomment2627" title="[田飞雨] - 《Python自动化运维：技术与最佳实践》开始预售了">吐槽一下你的书，上周刚买...</a></li><li class='rowodd'><a href="post/215/#blogcomment2626" title="[無名套裝] - rrdtool学习笔记">谢谢分享哦！</a></li><li class='rowcouple'><a href="post/215/#blogcomment2625" title="[無名套裝] - rrdtool学习笔记">写的真好!</a></li><li class='rowodd'><a href="post/248/#blogcomment2623" title="[xyz] - 基于Django与Celery实现异步对列任务">好文哦，赞一个！</a></li><li class='rowcouple'><a href="post/247/#blogcomment2622" title="[sunvim] - 基于kubernetes构建Docker集群管理详解">请问您的架构图 是用什么...</a></li><li class='rowodd'><a href="post/245/#blogcomment2621" title="[lytsing] - 《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【Web服务端】">django-debug...</a></li><li class='rowcouple'><a href="post/216/#blogcomment2620" title="[balabalaaaa] - Centos5.4+Nginx-0.8.50+UWSGI-0.9.6.2+Django-1.2.3搭建高性能WEB服务器[原创]">细节没讲清楚.菜鸟按这流...</a></li><li class='rowodd'><a href="post/246/#blogcomment2619" title="[leemon] - 《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【主控制端】">接上：在librarie...</a></li><li class='rowcouple'><a href="post/246/#blogcomment2618" title="[leemon] - 《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【主控制端】">saltstack执行命...</a></li><li class='rowodd'><a href="post/245/#blogcomment2617" title="[test] - 《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【Web服务端】">刘老师，现在报No mo...</a></li><li class='rowcouple'><a href="post/245/#blogcomment2616" title="[tester] - 《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【Web服务端】">刘老师，按照上述说明配置...</a></li><li class='rowodd'><a href="post/247/#blogcomment2615" title="[taozi_cd] - 基于kubernetes构建Docker集群管理详解">你好，最近在测试kube...</a></li><li class='rowcouple'><a href="post/245/#blogcomment2614" title="[xiaoming] - 《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【Web服务端】"># source pro...</a></li><li class='rowodd'><a href="post/244/#blogcomment2612" title="[记忆] - 《Python自动化运维：技术与最佳实践》开始预售了">有没有电子版？</a></li><li class='rowcouple'><a href="post/248/#blogcomment2611" title="[MorningSong] - 基于Django与Celery实现异步对列任务">好文！前段时间刚搞定这块...</a></li><li class='rowodd'><a href="post/246/#blogcomment2610" title="[狂奔的骆驼] - 《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【主控制端】">刘天斯，你这个网站是用什...</a></li><li class='rowcouple'><a href="post/213/#blogcomment2609" title="[卡卡] - 制作python模块安装包[原创]">我想知道 在运行pyth...</a></li><li class='rowodd'><a href="post/245/#blogcomment2608" title="[whyseu] - 《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【Web服务端】">OMserver页面中的...</a></li><li class='rowcouple'><a href="post/240/#blogcomment2603" title="[718097281] - 基于saltstack实现的配置集中化管理[原创]">LZ的书我买了，我觉得s...</a></li><li class='rowodd'><a href="post/247/#blogcomment2602" title="[GB1973] - 基于kubernetes构建Docker集群管理详解">直接复制你的json，用...</a></li><li class='rowcouple'><a href="post/247/#blogcomment2601" title="[icecream] - 基于kubernetes构建Docker集群管理详解">直接复制你的json，用...</a></li><li class='rowodd'><a href="post/186/#blogcomment2600" title="[ifstillfly] - 部署Func/Certmaster平台[原创]">天斯哥，打扰了，最近在使...</a></li><li class='rowcouple'><a href="post/180/#blogcomment2599" title="[少林功夫好] - 编译内核及制作RPM包[原创]"># vi Makefil...</a></li><li class='rowodd'><a href="post/138/#blogcomment2598" title="[aaa] - Pyinstaller建立linux下Python的独立可执行文件">scriptalert(...</a></li><li class='rowcouple'><a href="post/247/#blogcomment2597" title="[Jack003] - 基于kubernetes构建Docker集群管理详解">大师，想了解一下你的个人...</a></li><li class='rowodd'><a href="post/247/#blogcomment2596" title="[cuidong008] - 基于kubernetes构建Docker集群管理详解">大神什么时候给个json...</a></li><li class='rowcouple'><a href="post/247/#blogcomment2595" title="[roadog] - 基于kubernetes构建Docker集群管理详解">我也遇到了和 YUN 同...</a></li><li class='rowodd'><a href="post/206/#blogcomment2594" title="[beijixiaolan] - 实现真实的机柜模拟图[原创]">请问ServerMap1...</a></li><li class='rowcouple'><a href="post/247/#blogcomment2593" title="[lajie008] - 基于kubernetes构建Docker集群管理详解">天斯大神，你这个流程图我...</a></li><li class='rowodd'><a href="post/234/#blogcomment2592" title="[lue] - 一例千万级pv高性能高并发网站架构[原创]">你好。请问下全局负载均衡...</a></li><li class='rowcouple'><a href="post/247/#blogcomment2591" title="[ceshi] - 基于kubernetes构建Docker集群管理详解">博主：不清楚是否有人跟我...</a></li><li class='rowodd'><a href="post/247/#blogcomment2590" title="[问心] - 基于kubernetes构建Docker集群管理详解">mesos + mara...</a></li><li class='rowcouple'><a href="post/246/#blogcomment2589" title="[xieqn] - 《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【主控制端】">#tail -fomsy...</a></li><li class='rowodd'><a href="post/246/#blogcomment2588" title="[xieqn] - 《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【主控制端】">部署是成功了，还整明白到...</a></li><li class='rowcouple'><a href="post/247/#blogcomment2587" title="[haha] - 基于kubernetes构建Docker集群管理详解">大师，想请问下：““”中...</a></li><li class='rowodd'><a href="post/244/#blogcomment2586" title="[liming] - 《Python自动化运维：技术与最佳实践》开始预售了">hi 正在读这本书在pa...</a></li><li class='rowcouple'><a href="post/206/#blogcomment2585" title="[o] - 实现真实的机柜模拟图[原创]">怎么实现自动检测宕机呢？</a></li><li class='rowodd'><a href="post/241/#blogcomment2584" title="[wangjifeng] - Docker远程python API操作容器一例[原创]">Dockerfile 中...</a></li><li class='rowcouple'><a href="post/209/#blogcomment2583" title="[小宝] - LAMP+logzilla2.9.9+syslog-ng实现集中日志管理(第二版)[原创]">看是看官方文档吧 nms...</a></li><li class='rowodd'><a href="post/101/#blogcomment2582" title="[xiaobao] - 编写防DDOS脚本">还可以</a></li><li class='rowcouple'><a href="post/247/#blogcomment2581" title="[dannyzhang] - 基于kubernetes构建Docker集群管理详解"># kubectl ge...</a></li><li class='rowodd'><a href="post/101/#blogcomment2580" title="[my] - 编写防DDOS脚本">iptables DRO...</a></li><li class='rowcouple'><a href="post/245/#blogcomment2579" title="[logon] - 《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【Web服务端】">我在部署完 访问的时候 ...</a></li><li class='rowodd'><a href="post/240/#blogcomment2578" title="[hanxiao] - 基于saltstack实现的配置集中化管理[原创]">我知道是什么问题了,是因...</a></li><li class='rowcouple'><a href="post/240/#blogcomment2577" title="[hanxiao] - 基于saltstack实现的配置集中化管理[原创]">其实我知道上午的主要问题...</a></li><li class='rowodd'><a href="post/242/#blogcomment2576" title="[michaelmin] - 构建一个高可用及自动发现的Docker基础架构-HECD[原创]">老师我觉的这里是不是有点...</a></li><li class='rowcouple'><a href="post/240/#blogcomment2575" title="[hanxiao] - 基于saltstack实现的配置集中化管理[原创]">感觉 YAML格式要求很...</a></li><li class='rowodd'><a href="post/240/#blogcomment2574" title="[hanxiao] - 基于saltstack实现的配置集中化管理[原创]">感觉YAML的格式要求很...</a></li><li class='rowcouple'><a href="post/199/#blogcomment2573" title="[hihi] - 编写Func自定义模块[原创]">运行func * pin...</a></li><li class='rowodd'><a href="post/186/#blogcomment2572" title="[hihi] - 部署Func/Certmaster平台[原创]">{func.slave....</a></li><li class='rowcouple'><a href="post/246/#blogcomment2571" title="[奢侈] - 《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【主控制端】">天斯：昨天的出现的问题已...</a></li><li class='rowodd'><a href="post/246/#blogcomment2570" title="[奢侈] - 《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【主控制端】">运行出错No hosts...</a></li><li class='rowcouple'><a href="post/245/#blogcomment2569" title="[奢侈] - 《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【Web服务端】">求帮助为啥安装完后，点击...</a></li><li class='rowodd'><a href="post/245/#blogcomment2568" title="[奢侈] - 《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【Web服务端】">访问包205错误。#ca...</a></li><li class='rowcouple'><a href="post/245/#blogcomment2567" title="[hihi] - 《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【Web服务端】">书上是不是 没有下 创建...</a></li><li class='rowodd'><a href="post/245/#blogcomment2566" title="[hihi] - 《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【Web服务端】">Django+uwsgi...</a></li><li class='rowcouple'><a href="post/247/#blogcomment2565" title="[liuyt] - 基于kubernetes构建Docker集群管理详解">请教一下。我在ubunt...</a></li><li class='rowodd'><a href="post/244/#blogcomment2564" title="[大官人] - 《Python自动化运维：技术与最佳实践》开始预售了">已经买下</a></li><li class='rowcouple'><a href="post/246/#blogcomment2563" title="[ww] - 《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【主控制端】">搞来搞去。都是 入库失败...</a></li><li class='rowodd'><a href="post/242/#blogcomment2562" title="[sk] - 构建一个高可用及自动发现的Docker基础架构-HECD[原创]">跨机器的docker内部...</a></li><li class='rowcouple'><a href="post/219/#blogcomment2561" title="[黑夜] - 搭建多节点应用监控平台[原创]">请问下DNS查询时间，链...</a></li><li class='rowodd'><a href="post/247/#blogcomment2560" title="[hiker] - 基于kubernetes构建Docker集群管理详解">天斯大人: Python...</a></li><li class='rowcouple'><a href="post/247/#blogcomment2559" title="[汤佳兴] - 基于kubernetes构建Docker集群管理详解">天斯兄....小弟在测试...</a></li><li class='rowodd'><a href="post/244/#blogcomment2558" title="[思齐] - 《Python自动化运维：技术与最佳实践》开始预售了">好书，博主的博客已经关注...</a></li><li class='rowcouple'><a href="post/227/#blogcomment2557" title="[gaowei] - 常见负载均衡器禁(启)用成员汇总[原创]">您好，请问nginx p...</a></li><li class='rowodd'><a href="post/246/#blogcomment2556" title="[KEVIN] - 《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【主控制端】">天斯兄，麻烦看看是什么问...</a></li><li class='rowcouple'><a href="post/246/#blogcomment2555" title="[qitan] - 《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【主控制端】">天斯兄，modules目...</a></li><li class='rowodd'><a href="post/247/#blogcomment2554" title="[YUN] - 基于kubernetes构建Docker集群管理详解">我方向可能找错了。E01...</a></li><li class='rowcouple'><a href="post/199/#blogcomment2553" title="[five] - 编写Func自定义模块[原创]">天斯，这个关于json的...</a></li><li class='rowodd'><a href="post/247/#blogcomment2552" title="[Yun] - 基于kubernetes构建Docker集群管理详解">请教下，我用自己的容器测...</a></li><li class='rowcouple'><a href="post/120/#blogcomment2551" title="[five] - 终于找到问题了(about func)">天斯你好：还是这个问题我...</a></li><li class='rowodd'><a href="post/247/#blogcomment2550" title="[Tom] - 基于kubernetes构建Docker集群管理详解">天斯哥...这个json...</a></li><li class='rowcouple'><a href="post/247/#blogcomment2549" title="[Tom] - 基于kubernetes构建Docker集群管理详解">天斯哥....想问问你....</a></li><li class='rowodd'><a href="post/120/#blogcomment2547" title="[five] - 终于找到问题了(about func)">天斯你好：请我下面这个报...</a></li><li class='rowcouple'><a href="post/199/#blogcomment2546" title="[five] - 编写Func自定义模块[原创]">api模式的怎么运行啊</a></li><li class='rowodd'><a href="post/246/#blogcomment2545" title="[景天] - 《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【主控制端】">对了，新的主机什么的 主...</a></li><li class='rowcouple'><a href="post/246/#blogcomment2544" title="[景天] - 《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【主控制端】">安装部署好了，添加模块还...</a></li><li class='rowodd'><a href="post/246/#blogcomment2543" title="[景天] - 《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【主控制端】">好。。。书上和源代码 运...</a></li><li class='rowcouple'><a href="post/245/#blogcomment2542" title="[景天] - 《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【Web服务端】">看到了 数据库连接重新配...</a></li><li class='rowodd'><a href="post/245/#blogcomment2541" title="[景天] - 《python自动化运维：技术与最佳实践》之OMServer平台环境部署详解【Web服务端】">安装好了，，omserv...</a></li></ul>
+</div>
+</div><div class="panel">
+<h5 onclick='showhidediv("sidebar_link");'>链接</h5>
+<div class="panel-content" id="sidebar_link" style="display: block">
+<ul><li><strong>同事好友</strong></li><li class="indent"><a href="http://blog.zhanxb.com/" target="_blank" title="蒙其·B·宾森的博客 - 蒙其·B·宾森的博客">蒙其·B·宾森的博客</a></li><li class="indent"><a href="http://wangliang.blog.tianya.cn" target="_blank" title="嘻嘻9_9 BLOG - 嘻嘻9_9 BLOG">嘻嘻9_9 BLOG</a></li><li class="indent"><a href="http://samtianya.blog.tianya.cn" target="_blank" title="Sam in Tianya - Sam in Tianya">Sam in Tianya</a></li><li class="indent"><a href="http://blog.linsc.net" target="_blank" title="粗苶淡饭 - 粗苶淡饭">粗苶淡饭</a></li><li class="indent"><a href="http://www.vimer.cn/" target="_blank" title="Vimer的程序世界 - ">Vimer的程序世界</a></li><li class="indent"><a href="http://chauvetxiao.com" target="_blank" title="chauvet&#039;s blog - ">chauvet&#039;s blog</a></li><li class="indent"><a href="http://www.minunix.com" target="_blank" title="MinUnix系统运维 - minunix是一个基于unix/linux运维技术于一体的个人博客,内容涉及到web,DB,HA,monitor,自动化等">MinUnix系统运维</a></li><li class="indent"><a href="http://nornor.net/" target="_blank" title="Nornor&#039;s Blog - ">Nornor&#039;s Blog</a></li><li class="indent"><a href="http://www.osyunwei.com/" target="_blank" title="系统运维 - 系统运维">系统运维</a></li><li><strong>IT好友</strong></li><li class="indent"><a href="http://www.bmforum.com" target="_blank" title="BMForum - BMForum - 带给您全新的论坛体验">BMForum</a></li><li class="indent"><a href="http://blog.s135.com" target="_blank" title="回忆未来[张宴] - 回忆未来[张宴]">回忆未来[张宴]</a></li><li class="indent"><a href="http://www.zhangyiqun.net" target="_blank" title="Jean – 记录成长历程 - Jean – 记录成长历程">Jean – 记录成长历程</a></li><li class="indent"><a href="http://www.oulan.com/w/" target="_blank" title="鱼常游而忘飞 - 鱼常游而忘飞">鱼常游而忘飞</a></li><li class="indent"><a href="http://www.dbasky.net" target="_blank" title="dba blog - dba blog">dba blog</a></li><li class="indent"><a href="http://www.efansonline.cn/" target="_blank" title="恋上E人 - 恋上E人-PHP互联网应用程序开发">恋上E人</a></li><li class="indent"><a href="http://cqfish.blog.51cto.com/" target="_blank" title="网海过客 - 网海过客">网海过客</a></li><li class="indent"><a href="http://www.unixhot.com" target="_blank" title="unixhot - unixhot">unixhot</a></li><li class="indent"><a href="http://www.yy520.net" target="_blank" title="灰太狼的blog - 灰太狼的blog">灰太狼的blog</a></li><li class="indent"><a href="http://andrewyu.blog.51cto.com" target="_blank" title="抚琴煮酒 - 抚琴煮酒">抚琴煮酒</a></li><li class="indent"><a href="http://selboo.com.cn/" target="_blank" title="selboo&#039;s blog - selboo&#039;s blog">selboo&#039;s blog</a></li><li class="indent"><a href="http://www.lazyom.com" target="_blank" title="懒人运维 - 懒人思维,自动化运维,懒人运维主要关注和IT运维相关的主题:包括操作系统,网络技术,数据库,脚本编程,项目管理,信息安全,数据/存储/容灾,软件应用,流程/方法管理等。">懒人运维</a></li><li class="indent"><a href="http://www.kissuki.com" target="_blank" title="K.I.S.S. – 简单哲学 - K.I.S.S. – 简单哲学">K.I.S.S. – 简单哲学</a></li><li class="indent"><a href="http://badb0y.cublog.cn" target="_blank" title="badb0y&#039;s blog - ">badb0y&#039;s blog</a></li><li class="indent"><a href="http://179401.cn" target="_blank" title="young for you - ">young for you</a></li><li class="indent"><a href="http://www.thinksoa.cn" target="_blank" title="ThinkSOA - ">ThinkSOA</a></li><li class="indent"><a href="http://hou90.com" target="_blank" title="IT工地 - IT工地">IT工地</a></li><li class="indent"><a href="http://www.freebsdsystem.org" target="_blank" title="晓辉工作室 - ">晓辉工作室</a></li><li class="indent"><a href="http://www.queryer.cn" target="_blank" title="Queryer - ">Queryer</a></li><li class="indent"><a href="http://www.tickecho.com/" target="_blank" title="tickecho老吴 - ">tickecho老吴</a></li><li class="indent"><a href="http://storysky.blog.51cto.com/" target="_blank" title=" story的天空 - "> story的天空</a></li><li class="indent"><a href="http://www.selfcai.com.cn/" target="_blank" title="英才and栋梁&#039;S Blog - ">英才and栋梁&#039;S Blog</a></li><li class="indent"><a href="http://chenzh.91linux.cn/&nbsp;&nbsp;" target="_blank" title="疯子的视界 - ">疯子的视界</a></li><li class="indent"><a href="http://www.gaojinbo.com" target="_blank" title="雨林木风-高进波  - ">雨林木风-高进波 </a></li><li class="indent"><a href="http://isadba.com" target="_blank" title="ISADBA&#124;FH.CN - ">ISADBA&#124;FH.CN</a></li><li class="indent"><a href="http://hi.baidu.com/ipress" target="_blank" title="老万-不知所谓 - ">老万-不知所谓</a></li><li class="indent"><a href="http://www.viyin.net/" target="_blank" title="Vi&#96;blog - ">Vi&#96;blog</a></li><li class="indent"><a href="http://blog.linxun.info" target="_blank" title="linxun&#039;s blog - ">linxun&#039;s blog</a></li><li class="indent"><a href="http://opkeep.com" target="_blank" title="运维人生 - ">运维人生</a></li><li class="indent"><a href="http://key0.cn/" target="_blank" title="kindle&#039;s blog - ">kindle&#039;s blog</a></li><li class="indent"><a href="http://www.e2fsck.org" target="_blank" title="e2fsck&#039;s blog - 专注linux系统管理">e2fsck&#039;s blog</a></li><li class="indent"><a href="http://meridian.dyndns.org/" target="_blank" title="Phoenix的实验室 - ">Phoenix的实验室</a></li><li class="indent"><a href="http://www.xtgly.com" target="_blank" title="SYSTEMADMIN - ">SYSTEMADMIN</a></li><li class="indent"><a href="http://cnctblog.com/" target="_blank" title="安静的角落！ - ">安静的角落！</a></li><li class="indent"><a href="http://blog.mgcrazy.com" target="_blank" title="专注linux领域 - ">专注linux领域</a></li><li class="indent"><a href="http://www.sudu.us/" target="_blank" title="Sudu&#039;s Blog - ">Sudu&#039;s Blog</a></li><li class="indent"><a href="http://blog.laird-sa.com" target="_blank" title="Laird-SA - ">Laird-SA</a></li><li class="indent"><a href="http://www.zhegutian.com/" target="_blank" title="鹧鸪天BLOG - ">鹧鸪天BLOG</a></li><li class="indent"><a href="http://www.darkmi.com/blog/" target="_blank" title="darkmi&#039;blog - ">darkmi&#039;blog</a></li><li class="indent"><a href="http://blog.yunvi.com" target="_blank" title="运维日志 - ">运维日志</a></li><li class="indent"><a href="http://www.sbear.cn" target="_blank" title="阿熊的窝 - 阿熊的窝">阿熊的窝</a></li><li class="indent"><a href="http://bolg.malu.me/" target="_blank" title="陋室博客  - ">陋室博客 </a></li><li class="indent"><a href="http://www.51yunwei.net" target="_blank" title="51运维管理社区 - ">51运维管理社区</a></li><li class="indent"><a href="http://www.msits.com" target="_blank" title="青年怪客 - ">青年怪客</a></li><li class="indent"><a href="http://yemaosheng.com/" target="_blank" title="叶茂盛 - ">叶茂盛</a></li><li class="indent"><a href="http://itsafe.org/" target="_blank" title="Pw - ">Pw</a></li><li class="indent"><a href="http://m114.org" target="_blank" title="飛飛&#039;s Blog - ">飛飛&#039;s Blog</a></li><li class="indent"><a href="http://www.vtyao.com" target="_blank" title="Virtual World - 云计算、虚拟化、Citrix、Vmware">Virtual World</a></li><li class="indent"><a href="http://www.centoscn.com" target="_blank" title="centos中文站 - ">centos中文站</a></li><li class="indent"><a href="http://blog.fity.cn" target="_blank" title="未来往事 - ">未来往事</a></li><li class="indent"><a href="http://www.itf5.com/" target="_blank" title="IT自学网 - ">IT自学网</a></li><li class="indent"><a href="http://rfyiamcool.blog.51cto.com/" target="_blank" title=" 峰云，就她了。 - "> 峰云，就她了。</a></li><li class="indent"><a href="http://lisux.me/lishuai/" target="_blank" title="linux菜园子 - ">linux菜园子</a></li><li class="indent"><a href="http://www.51ou.com" target="_blank" title="51运维网 - ">51运维网</a></li><li class="indent"><a href="http://linux.cn" target="_blank" title="Linux中国 - ">Linux中国</a></li><li class="indent"><a href="http://www.tshare365.com" target="_blank" title="tshare365 - ">tshare365</a></li><li class="indent"><a href="http://www.z-dig.com" target="_blank" title="Dig All Possible - Linux系统运维笔记">Dig All Possible</a></li><li class="indent"><a href="http://www.oneapm.com/" target="_blank" title="应用性能管理 - 本人qq 1549590563">应用性能管理</a></li><li><strong>开源项目</strong></li><li class="indent"><a href="http://code.google.com/p/tianyalvs/" target="_blank" title="天涯LVS管理系统 - ">天涯LVS管理系统</a></li><li class="indent"><a href="http://code.google.com/p/tianyaservmanager/" target="_blank" title="天涯服务器管理系统(C/S版) - ">天涯服务器管理系统(C/S版)</a></li><li class="indent"><a href="http://code.google.com/p/tianyamobile/" target="_blank" title="天涯服务器管理系统(手机版) - ">天涯服务器管理系统(手机版)</a></li><li class="indent"><a href="http://code.google.com/p/onlineps/" target="_blank" title="在线图片处理平台 - ">在线图片处理平台</a></li><li class="indent"><a href="http://code.google.com/p/servermap/" target="_blank" title="服务器机柜模拟图平台 - ">服务器机柜模拟图平台</a></li><li class="indent"><a href="http://code.google.com/p/tysdr/" target="_blank" title="SDR-Linux主机集中管理 - ">SDR-Linux主机集中管理</a></li><li class="indent"><a href="http://code.google.com/p/puregsys/" target="_blank" title="Varnish缓存推送平台V1.0 - ">Varnish缓存推送平台V1.0</a></li><li><strong>网址收藏</strong></li><li class="indent"><a href="http://sed.sourceforge.net/sed1line_zh-CN.html" target="_blank" title="SED单行脚本快速参考 - ">SED单行脚本快速参考</a></li><li class="indent"><a href="http://www.cppreference.com/wiki/start" target="_blank" title="C++ 标准库 - ">C++ 标准库</a></li><li class="indent"><a href="http://shell.appspot.com/" target="_blank" title="python在线命令行 - ">python在线命令行</a></li><li class="indent"><a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython/LpyAttach2ResIdx" target="_blank" title="Python资源索引 - ">Python资源索引</a></li><li class="indent"><a href="http://www.htaccesseditor.com/sc.shtml" target="_blank" title="htaccess在线生成 - ">htaccess在线生成</a></li><li class="indent"><a href="http://web-sniffer.net/" target="_blank" title="在线检查HTTP HEAD - ">在线检查HTTP HEAD</a></li><li class="indent"><a href="http://www.iaibi.com" target="_blank" title="有奖积分小游戏 - ">有奖积分小游戏</a></li><li class="indent"><a href="http://nullege.com/" target="_blank" title="python代码搜索引擎 - ">python代码搜索引擎</a></li><li class="indent"><a href="http://talks.php.net/show/digg/" target="_blank" title="php作者之PHP Performance - ">php作者之PHP Performance</a></li><li class="indent"><a href="https://www.google.com/adsense/login/zh_CN/?destination=/adsense/home" target="_blank" title="Google AdSense - ">Google AdSense</a></li><li class="indent"><a href="http://www.webdesignerwall.com/demo/css-buttons.html" target="_blank" title="CSS-BUTTON - ">CSS-BUTTON</a></li><li class="indent"><a href="http://www.gliffy.com" target="_blank" title="在线绘图 - ">在线绘图</a></li><li class="indent"><a href="https://i.doit.im/" target="_blank" title="doit时间管理 - ">doit时间管理</a></li><li class="indent"><a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/" target="_blank" title="python模块集中营 - ">python模块集中营</a></li></ul>
+</div>
+</div><div class="panel">
+<h5 onclick='showhidediv("sidebar_archive");'>归档</h5>
+<div class="panel-content" id="sidebar_archive" style="display: block">
+<ul><li><a href="archiver/12/2015/" rel="noindex,nofollow">2015/12</a></li>
+<li><a href="archiver/11/2015/" rel="noindex,nofollow">2015/11</a></li>
+<li><a href="archiver/10/2015/" rel="noindex,nofollow">2015/10</a></li>
+<li><a href="archiver/9/2015/" rel="noindex,nofollow">2015/09</a></li>
+<li><a href="archiver/8/2015/" rel="noindex,nofollow">2015/08</a></li></ul>
+</div>
+</div><div class="panel">
+<h5 onclick='showhidediv("sidebar_misc");'>其他</h5>
+<div class="panel-content" id="sidebar_misc" style="display: block">
+<a href='login.php'>登入</a><br/><a href='login.php?job=register'>注册</a><br/><a href='login.php?job=applylink'>申请链接</a><br/>RSS： <a href='feed.php'>日志</a> | <a href='feed.php?go=comment'>评论</a><br/>编码：UTF-8<br/><a href="http://validator.w3.org/check?uri=referer" target="_blank">XHTML 1.0</a>
+</div>
+</div>
+				</div>
+                <div class="clear"></div>
+			</div>
+		</div>
+            <div class="clear"> </div>
+		</div>
+        <div class="content-box-b">
+            <div class="content-box-b-r">
+            <div class="content-box-b-l"></div>
+            </div>
+        </div>
+		<div id="footer">
+            <div id="footer-r">
+                <div id="footer-l">
+                    <div id="footer-misc">
+                        Skin By <a href="http://www.neowin.net/" target="_blank">Neowin</a><br />
+                        Transplanted By <a href="http://blog.meiu.cn/" target="_blank">Lingter</a>
+                    </div>
+                    <div id="footer-copyright">
+                         Powered by <a href="http://www.bo-blog.com" target="_blank">Bo-Blog 2.1.1 Release</a><span id="footer-security"><a href="http://www.cnbct.org" target="_blank" title="Code detection by Bug.Center.Team"><img src="images/others/detect.gif" alt="Code detection by Bug.Center.Team" border="0" /></a></span><script type="text/javascript" src="images/hl/shCore.js"></script>
+<script type="text/javascript" src="images/hl/shBrushCSharp.js"></script>
+<script type="text/javascript" src="images/hl/shBrushPhp.js"></script>
+<script type="text/javascript" src="images/hl/shBrushJScript.js"></script>
+<script type="text/javascript" src="images/hl/shBrushJava.js"></script>
+<script type="text/javascript" src="images/hl/shBrushVb.js"></script>
+<script type="text/javascript" src="images/hl/shBrushSql.js"></script>
+<script type="text/javascript" src="images/hl/shBrushXml.js"></script>
+<script type="text/javascript" src="images/hl/shBrushCss.js"></script>
+<script type="text/javascript" src="images/hl/shBrushCpp.js"></script>
+<script type="text/javascript" src="images/hl/shBrushDelphi.js"></script>
+<script type="text/javascript" src="images/hl/shBrushPython.js"></script>
+<script type="text/javascript" src="images/hl/shBrushRuby.js"></script>
+<script class="javascript">dp.SyntaxHighlighter.HighlightAll('code');</script>&nbsp;&nbsp;<a href="http://www.cloudwise.com" target="_blank">本网站应用性能由云智慧提供</a>&nbsp;&nbsp;<script src="http://s139.cnzz.com/stat.php?id=1884884&web_id=1884884&show=pic1" language="JavaScript" charset="gb2312"></script>
+
+                        <div id="processtime">
+				        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+		</div>
+</div>
+<script type="text/javascript">
+loadSidebar();
+</script>
+<script type='text/javascript'>
+//<![CDATA[
+if (document.getElementById('processtime')) document.getElementById('processtime').innerHTML="<span class='runtimedisplay'>Run in 66 ms, 6 Queries.</span>";
+//]]>
+</script></body>
+</html>
