@@ -1,29 +1,98 @@
 HTTP/1.1 200 OK
-Date: Fri, 25 Apr 2014 12:26:34 GMT
-Expires: -1
-Cache-Control: private, max-age=0
-Content-Type: text/html; charset=Big5
-Set-Cookie: PREF=ID=c56236c89468b40e:FF=0:NW=1:TM=1398428794:LM=1398428794:S=9r4ijqBWdubkPPge; expires=Sun, 24-Apr-2016 12:26:34 GMT; path=/; domain=.google.com.hk
-Set-Cookie: NID=67=LAeGwy0FyIcqDMCUId-5wGBz5uTYJW1EsWhF9raHwiHJMxThaQ8YR7U3FTje_tRCg_eN1KetMK8mpldtpxg3nafbbGOMAfQdWEj8MMZglBlRynavY7u0pNGulw9VItgh; expires=Sat, 25-Oct-2014 12:26:34 GMT; path=/; domain=.google.com.hk; HttpOnly
-P3P: CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info."
-Server: gws
-X-XSS-Protection: 1; mode=block
-X-Frame-Options: SAMEORIGIN
-Alternate-Protocol: 80:quic
+Server: nginx
+Date: Mon, 11 Jan 2016 08:40:15 GMT
+Content-Type: text/html; charset=utf-8
 Transfer-Encoding: chunked
+Connection: keep-alive
+Keep-Alive: timeout=60
+Set-Cookie: PHPSESSID=d4142b6fc5160641a46e1b4cb3bcd18b; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
 
-<!doctype html><html itemscope="" itemtype="http://schema.org/WebPage" lang="zh-HK"><head><meta content="/images/google_favicon_128.png" itemprop="image"><title>Google</title><script>(function(){
-window.google={kEI:"elRaU9WoJZCHkgXt1oHIAw",getEI:function(a){for(var b;a&&(!a.getAttribute||!(b=a.getAttribute("eid")));)a=a.parentNode;return b||google.kEI},https:function(){return"https:"==window.location.protocol},kEXPI:"17259,4000116,4007661,4007830,4008142,4009033,4009352,4009641,4010806,4010858,4010899,4011228,4011258,4011679,4011959,4012373,4012504,4012859,4013374,4013414,4013591,4013723,4013787,4013823,4013941,4013967,4013979,4014016,4014093,4014431,4014515,4014636,4014671,4014804,4014810,4014813,4014828,4014991,4015119,4015155,4015234,4015260,4015339,4015519,4015550,4015635,4015638,4015639,4015772,4015901,4016005,4016127,4016309,4016323,4016363,4016367,4016373,4016391,4016425,4016466,4016479,4016487,4016623,4016703,4016730,4016767,4016786,4016800,4016815,4016824,4016851,4016855,4016933,4016949,4016952,4016969,4016978,4016979,4017042,4017079,4017177,4017202,4017206,4017261,4017280,4017284,4017300,4017336,4017556,4017606,8300015,8300017,8500165,8500223,8500240,8500252,8500283,8500306,8500314,8500325,8500331,8500349,10200002,10200012,10200029,10200038,10200040,10200048,10200053,10200055,10200066,10200083,10200120,10200134,10200136,10200155,10200157,10200159,10200164,10200178,10200195,10200211,10200215,10200221,10200224,10200226,10200231,10200246",kCSI:{e:"17259,4000116,4007661,4007830,4008142,4009033,4009352,4009641,4010806,4010858,4010899,4011228,4011258,4011679,4011959,4012373,4012504,4012859,4013374,4013414,4013591,4013723,4013787,4013823,4013941,4013967,4013979,4014016,4014093,4014431,4014515,4014636,4014671,4014804,4014810,4014813,4014828,4014991,4015119,4015155,4015234,4015260,4015339,4015519,4015550,4015635,4015638,4015639,4015772,4015901,4016005,4016127,4016309,4016323,4016363,4016367,4016373,4016391,4016425,4016466,4016479,4016487,4016623,4016703,4016730,4016767,4016786,4016800,4016815,4016824,4016851,4016855,4016933,4016949,4016952,4016969,4016978,4016979,4017042,4017079,4017177,4017202,4017206,4017261,4017280,4017284,4017300,4017336,4017556,4017606,8300015,8300017,8500165,8500223,8500240,8500252,8500283,8500306,8500314,8500325,8500331,8500349,10200002,10200012,10200029,10200038,10200040,10200048,10200053,10200055,10200066,10200083,10200120,10200134,10200136,10200155,10200157,10200159,10200164,10200178,10200195,10200211,10200215,10200221,10200224,10200226,10200231,10200246",ei:"elRaU9WoJZCHkgXt1oHIAw"},authuser:0,ml:function(){},kHL:"zh-TW",time:function(){return(new Date).getTime()},log:function(a,b,c,h,k){var d=
-new Image,f=google.lc,e=google.li,g="";d.onerror=d.onload=d.onabort=function(){delete f[e]};f[e]=d;c||-1!=b.search("&ei=")||(g="&ei="+google.getEI(h));c=c||"/"+(k||"gen_204")+"?atyp=i&ct="+a+"&cad="+b+g+"&zx="+google.time();a=/^http:/i;a.test(c)&&google.https()?(google.ml(Error("GLMM"),!1,{src:c}),delete f[e]):(d.src=c,google.li=e+1)},lc:[],li:0,y:{},x:function(a,b){google.y[a.id]=[a,b];return!1},load:function(a,b,c){google.x({id:a+l++},function(){google.load(a,b,c)})}};var l=0;})();
-(function(){google.sn="webhp";google.timers={};google.startTick=function(a,b){var f=google.time();google.timers[a]={t:{start:f},bfr:!!b};};google.tick=function(a,b,f){google.timers[a]||google.startTick(a);google.timers[a].t[b]=f||google.time()};google.startTick("load",!0);
-try{}catch(d){}})();
-var _gjwl=location;function _gjuc(){var a=_gjwl.href.indexOf("#");if(0<=a&&(a=_gjwl.href.substring(a),0<a.indexOf("&q=")||0<=a.indexOf("#q="))&&(a=a.substring(1),-1==a.indexOf("#"))){for(var d=0;d<a.length;){var b=d;"&"==a.charAt(b)&&++b;var c=a.indexOf("&",b);-1==c&&(c=a.length);b=a.substring(b,c);if(0==b.indexOf("fp="))a=a.substring(0,d)+a.substring(c,a.length),c=d;else if("cad=h"==b)return 0;d=c}_gjwl.href="/search?"+a+"&cad=h";return 1}return 0}
-function _gjh(){!_gjuc()&&window.google&&google.x&&google.x({id:"GJH"},function(){google.nav&&google.nav.gjh&&google.nav.gjh()})};
-window._gjh&&_gjh();</script><style>#gbar,#guser{font-size:13px;padding-top:1px !important;}#gbar{height:22px}#guser{padding-bottom:7px !important;text-align:right}.gbh,.gbd{border-top:1px solid #c9d7f1;font-size:1px}.gbh{height:0;position:absolute;top:24px;width:100%}@media all{.gb1{height:22px;margin-right:.5em;vertical-align:top}#gbar{float:left}}a.gb1,a.gb4{text-decoration:underline !important}a.gb1,a.gb4{color:#00c !important}.gbi .gb4{color:#dd8e27 !important}.gbf .gb4{color:#900 !important}</style><style>body,td,a,p,.h{font-family:arial,sans-serif}body{margin:0;overflow-y:scroll}#gog{padding:3px 8px 0}td{line-height:.8em}.gac_m td{line-height:17px}form{margin-bottom:20px}.h{color:#36c}.q{color:#00c}.ts td{padding:0}.ts{border-collapse:collapse}em{color:#c03;font-style:normal;font-weight:normal}a em{text-decoration:underline}.lst{height:25px;width:496px}.gsfi,.lst{font:18px arial,sans-serif}.gsfs{font:17px arial,sans-serif}.ds{display:inline-box;display:inline-block;margin:3px 0 4px;margin-left:4px}input{font-family:inherit}a.gb1,a.gb2,a.gb3,a.gb4{color:#11c !important}body{background:#fff;color:black}a{color:#11c;text-decoration:none}a:hover,a:active{text-decoration:underline}.fl a{color:#36c}a:visited{color:#551a8b}a.gb1,a.gb4{text-decoration:underline}a.gb3:hover{text-decoration:none}#ghead a.gb2:hover{color:#fff !important}.sblc{padding-top:5px}.sblc a{display:block;margin:2px 0;margin-left:13px;font-size:11px}.lsbb{background:#eee;border:solid 1px;border-color:#ccc #999 #999 #ccc;height:30px}.lsbb{display:block}.ftl,#fll a{display:inline-block;margin:0 12px}.lsb{background:url(/images/srpr/nav_logo80.png) 0 -258px repeat-x;border:none;color:#000;cursor:pointer;height:30px;margin:0;outline:0;font:15px arial,sans-serif;vertical-align:top}.lsb:active{background:#ccc}.lst:focus{outline:none}#addlang a{padding:0 3px}</style><script></script></head><body bgcolor="#fff"><script>(function(){var src='/images/nav_logo176.png';var iesg=false;document.body.onload = function(){window.n && window.n();if (document.images){new Image().src=src;}
-if (!iesg){document.f&&document.f.q.focus();document.gbqf&&document.gbqf.q.focus();}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ÁÆ°ÁêÜ‰∏≠ÂøÉ</title>
+<style type="text/css">
+<!--
+body {
+	background: #57c3e7 url(../style/images/v2/hh_1.jpg) repeat-x 0 top;
+	text-align: center;
+	padding: 0;
+	margin: 0;
 }
-})();</script><textarea id="csi" style="display:none"></textarea><div id="mngb"> <div id=gbar><nobr><b class=gb1>∑j¥M</b> <a class=gb1 href="http://www.google.com.hk/imghp?hl=zh-TW&tab=wi">πœ§˘</a> <a class=gb1 href="http://maps.google.com.hk/maps?hl=zh-TW&tab=wl">¶aπœ</a> <a class=gb1 href="https://play.google.com/?hl=zh-TW&tab=w8">Play</a> <a class=gb1 href="http://www.youtube.com/?gl=HK&tab=w1">YouTube</a> <a class=gb1 href="http://news.google.com.hk/nwshp?hl=zh-TW&tab=wn">∑sªD</a> <a class=gb1 href="https://mail.google.com/mail/?tab=wm">Gmail</a> <a class=gb1 href="https://drive.google.com/?tab=wo">∂≥∫›µw∫–</a> <a class=gb1 style="text-decoration:none" href="http://www.google.com.hk/intl/zh-TW/options/"><u>ßÛ¶h</u> &raquo;</a></nobr></div><div id=guser width=100%><nobr><span id=gbn class=gbi></span><span id=gbf class=gbf></span><span id=gbe></span><a href="http://www.google.com.hk/history/optout?hl=zh-TW" class=gb4>∫Ù≠∂¨ˆø˝</a> | <a  href="/preferences?hl=zh-TW" class=gb4>≥]©w</a> | <a target=_top id=gb_70 href="https://accounts.google.com/ServiceLogin?hl=zh-TW&continue=http://www.google.com.hk/" class=gb4>µn§J</a></nobr></div><div class=gbh style=left:0></div><div class=gbh style=right:0></div>  </div><center><br clear="all" id="lgpd"><div id="lga"><div style="padding:28px 0 3px"><div title="Google" align="left" id="hplogo" onload="window.lol&&lol()" style="height:110px;width:276px;background:url(/images/srpr/logo9w.png) no-repeat"><div nowrap="" style="color:#777;font-size:16px;font-weight:bold;position:relative;top:70px;left:218px">≠ª¥‰</div></div></div><br></div><form action="/search" name="f"><table cellpadding="0" cellspacing="0"><tr valign="top"><td width="25%">&nbsp;</td><td align="center" nowrap=""><input name="ie" value="Big5" type="hidden"><input value="zh-HK" name="hl" type="hidden"><input name="source" type="hidden" value="hp"><div class="ds" style="height:32px;margin:4px 0"><input style="color:#000;margin:0;padding:5px 8px 0 6px;vertical-align:top" autocomplete="off" class="lst" value="" title="Google ∑j¥M" maxlength="2048" name="q" size="57"></div><br style="line-height:0"><span class="ds"><span class="lsbb"><input class="lsb" value="Google ∑j¥M" name="btnG" type="submit"></span></span><span class="ds"><span class="lsbb"><input class="lsb" value="¶n§‚Æ" name="btnI" onclick="if(this.form.q.value)this.checked=1; else top.location='/doodles/'" type="submit"></span></span></td><td class="fl sblc" align="left" nowrap="" width="25%"><a href="/advanced_search?hl=zh-HK&amp;authuser=0">∂i∂•∑j¥M</a><a href="/language_tools?hl=zh-HK&amp;authuser=0">ªy®•§u®„</a></td></tr></table><input id="gbv" name="gbv" type="hidden" value="1"></form><div id="gac_scont"></div><div style="font-size:83%;min-height:3.5em"><br><div id=als><font size=-1 id=addlang>Google.com.hk ¡Ÿ¥£®—°G <a href="http://www.google.com.hk/setprefs?sig=0_anOikeTbhKO53DicJr5rY1Ur9WI%3D&amp;hl=zh-CN&amp;source=homepage">§§§Â(&#31616; ^)</a> <a href="http://www.google.com.hk/setprefs?sig=0_anOikeTbhKO53DicJr5rY1Ur9WI%3D&amp;hl=en&amp;source=homepage">English</a></font><br><br></div></div><span id="footer"><div style="font-size:10pt"><div style="margin:19px auto;text-align:center" id="fll"><a href="/intl/zh-TW/ads/">ºsßi™A∞»</a><a href="/intl/zh-TW/about.html">Google ßπ•˛§‚•U</a><a href="http://www.google.com.hk/setprefdomain?prefdom=US&amp;sig=0___IgR1e3j74MAYqa90D6ilCBGU0%3D" id="fehl">Google.com</a></div></div><p style="color:#767676;font-size:8pt">&copy; 2013 - <a href="/intl/zh-TW/policies/">®p¡Ù≈vªP±¯¥⁄</a></p></span></center><div id=xjsd></div><div id=xjsi data-jiis="bp"><script>if(google.y)google.y.first=[];(function(){function b(a){window.setTimeout(function(){var c=document.createElement("script");c.src=a;document.getElementById("xjsd").appendChild(c)},0)}google.dljp=function(a){google.xjsu=a;b(a)};google.dlj=b;})();
-if(!google.xjs){window._=window._||{};window._._DumpException=function(e){throw e};if(google.timers&&google.timers.load.t){google.timers.load.t.xjsls=new Date().getTime();}google.dljp('/xjs/_/js/k\x3dxjs.hp.en_US.RLLpSOAzMFM.O/m\x3dsb_he,pcc/rt\x3dj/d\x3d1/sv\x3d1/rs\x3dAItRSTOBXfxSyWrXjOGBi9e9cIs5cEBO6A');google.xjs=1;}google.pmc={"sb_he":{"agen":true,"cgen":true,"client":"heirloom-hp","dh":true,"ds":"","eqch":true,"fl":true,"host":"google.com.hk","jam":0,"msgs":{"cibl":"≤M∞£∑j¥M","dym":"±z¨O§£¨O≠n¨d°G","lcky":"¶n§‚Æ","lml":"¡A∏—∏‘±°","oskt":"øÈ§J§u®„","psrc":"§w±q±z™∫°u\u003Ca href=\"/history\"\u003E∫Ù≠∂¨ˆø˝\u003C/a\u003E°v§§≤æ∞£≥oµß∑j¥M¨ˆø˝","psrl":"≤æ∞£","sbit":"•Hπœ∑j¥M","srch":"Google ∑j¥M"},"ovr":{},"pq":"","qcpw":false,"scd":10,"sce":5,"stok":"NC1Jt2iE7kYl2_NCxJotNqnYfzo"},"pcc":{}};google.y.first.push(function(){if(google.med){google.med('init');google.initHistory();google.med('history');}});if(google.j&&google.j.en&&google.j.xi){window.setTimeout(google.j.xi,0);}</script></div><script>(function(){if(google.timers&&google.timers.load.t){var b,c,d,e,g=function(a,f){a.removeEventListener?(a.removeEventListener("load",f,!1),a.removeEventListener("error",f,!1)):(a.detachEvent("onload",f),a.detachEvent("onerror",f))},h=function(a){e=(new Date).getTime();++c;a=a||window.event;a=a.target||a.srcElement;g(a,h)},k=document.getElementsByTagName("img");b=k.length;for(var l=c=0,m;l<b;++l)m=k[l],m.complete||"string"!=typeof m.src||!m.src?++c:m.addEventListener?(m.addEventListener("load",h,!1),m.addEventListener("error",
-h,!1)):(m.attachEvent("onload",h),m.attachEvent("onerror",h));d=b-c;var n=function(){if(google.timers.load.t){google.timers.load.t.ol=(new Date).getTime();google.timers.load.t.iml=e;google.kCSI.imc=c;google.kCSI.imn=b;google.kCSI.imp=d;void 0!==google.stt&&(google.kCSI.stt=google.stt);google.csiReport&&google.csiReport()}};window.addEventListener?window.addEventListener("load",n,!1):window.attachEvent&&
-window.attachEvent("onload",n);google.timers.load.t.prt=e=(new Date).getTime()};})();
-</script></body></html>
+
+.box {
+	width: 789px;
+	height: 550px;
+	background: url(../style/images/v2/login_bg.jpg) no-repeat;
+	margin: auto;
+	text-align: left;
+}
+
+.login {
+	width: 244px;
+	font: 12px/20px Verdana;
+	padding: 280px 0 0 340px;
+}
+
+.editbox4 {
+	background: url(../style/images/v2/inputbg.gif) repeat-x;
+	border: 1px solid #D1D1D1;
+	height: 25px;
+	padding-left: 5px;
+	width: 150px;
+	font: bold 16px/25px Arial, Helvetica, sans-serif;
+}
+-->
+</style>
+</head>
+
+<body>
+<div class="box">
+<div class="login">
+<form method="post" action="./login.php?ac=login" name="login">
+
+<table height="143" cellspacing="0" cellpadding="0" border="0"
+	width="100%" id="table212">
+	<tbody>
+		<tr>
+			<td height="38" width="20%" class="top_hui_text"><span
+				class="login_txt">Ë¥¶Êà∑Ôºö&nbsp;&nbsp; </span></td>
+			<td width="80%" height="38" colspan="2" align="left"
+				class="top_hui_text"><input size="20" value="" class="editbox4"
+				name="passport"></td>
+
+		</tr>
+		<tr>
+			<td height="35" width="20%" class="top_hui_text"><span
+				class="login_txt">ÂØÜÁ†ÅÔºö&nbsp;&nbsp; </span></td>
+
+			<td height="35" align="left" class="top_hui_text" colspan="2"><input
+				type="password" value="" name="password" size="20" class="editbox4">
+			<img align="absmiddle" height="18" width="19"
+				src="../style/images/v2/luck.gif"></td>
+		</tr>
+
+		<!--  <tr>
+                            <td width="13%" height="35" ><span class="login_txt">È™åËØÅÁ†ÅÔºö</span></td>
+                            <td height="35" colspan="2" class="top_hui_text"><input class=wenbenkuang name=randcode type=text value="" maxLength=4 size=10><img  style="vertical-align:middle;margin-left:5px;" src="/admin/rand.php?"+ Math.random(); onclick="this.src='/admin/rand.php'"/>
+                              </td>
+                          </tr>
+						-->
+		<tr>
+			<td height="35" width="20%">&nbsp;</td>
+			<td height="35" align="left" class="top_hui_text" colspan="2"><input
+				style="background: url(../style/images/v2/dl.png); cursor: pointer; border: none; width: 95px; height: 34px;"
+				type="submit" value="" id="Submit" class="button" name="Submit"></td>
+		</tr>
+	</tbody>
+</table>
+<br>
+</form>
+</div>
+</div>
+</body>
+</html>
