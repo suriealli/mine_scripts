@@ -1,0 +1,8 @@
+goodNumber	minLevel	goodCoding1	ShowPrice1	needUnindRMB1	needUnbindRMB_Q1	goodCoding2	ShowPrice2	needUnindRMB2	needUnbindRMB_Q2	limitCnt
+商品编号	最小等级	第一波商品coding	原价1	第一波需要神石(系统神石和充值神石都可)	第一波需要神石(只能用充值神石)	第二波商品coding	原价2	第二波需要神石(系统神石和充值神石都可)	第二波需要神石(只能用充值神石)	限购个数
+1	30	27594	98	0	18	27600	98	0	18	1
+1	60	27597	98	0	18	27603	98	0	18	1
+2	30	27595	320	188	0	27601	320	188	0	20
+2	60	27598	320	188	0	27604	320	188	0	20
+3	30	27596	1560	888	0	27602	1560	888	0	5
+3	60	27599	1560	888	0	27605	1560	888	0	5

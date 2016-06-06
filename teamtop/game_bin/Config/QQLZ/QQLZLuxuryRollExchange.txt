@@ -1,0 +1,4 @@
+exchangeId	needCnt	item
+兑换ID	需要次数	兑换的物品(coding,cnt)
+1	12	(27039,1)
+2	20	(37030,1)

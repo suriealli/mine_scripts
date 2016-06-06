@@ -1,0 +1,5 @@
+itemCoding	needUnbindRMB
+物品coding	物品单价(神石)
+26154	188
+26155	1688
+26156	14888

@@ -1,0 +1,6 @@
+key	open_level	desc1	desc2	trigger
+	开启等级	描述1	描述2	点击进入命令字段
+1	35	当前可以强化装备	强化装备冷却中 {0}	ZBQH
+2	31	当前可挑战英雄竞技	英雄竞技冷却中 {0}	OPEN_ARENA
+3	34	当前可副本挂机	副本扫荡冷却中 {0}	SHOW_DUNGEON
+4	34	当前恶魔深渊可扫荡	恶魔深渊扫荡中 {0}	EMSY

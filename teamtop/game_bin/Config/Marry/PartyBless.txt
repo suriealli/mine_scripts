@@ -1,0 +1,4 @@
+grade	needMoney	needRMB	rewardCoding	giftCoding
+祝福档次	需要金币	需要的神石	获得物品	送出的道具
+1	0		27871	27869
+2		10	27872	27870

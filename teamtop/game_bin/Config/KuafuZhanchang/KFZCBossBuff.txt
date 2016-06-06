@@ -1,0 +1,5 @@
+judian_type	damageupgrade	deephurt
+据点类型（1 2小 ，3大）	增伤	伤害加深
+1	15	15
+2	10	10
+3	10	10

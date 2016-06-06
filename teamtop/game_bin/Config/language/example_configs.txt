@@ -1,0 +1,2 @@
+source_text	target_text	need_translate
+原文	译文	是否需要重新翻译

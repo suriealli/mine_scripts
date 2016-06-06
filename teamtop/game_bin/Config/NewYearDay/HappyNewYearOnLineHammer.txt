@@ -1,0 +1,5 @@
+OnLineIndex	NeedTime	HammersNumbers
+在线索引	需要在线时间	获得的锤子数
+1	60	1
+2	120	1
+3	240	1

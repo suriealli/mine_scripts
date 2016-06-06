@@ -1,0 +1,7 @@
+visionId	visionName	unlockNeedItem	talentSkillId	maxhp	attackspeed	anger	attack_p	defense_p	attack_m	defense_m	crit	critpress	antibroken	notbroken	parry	puncture	damageupgrade	damagereduce
+幻化ID	幻化名称	解锁需要道具coding	解锁天赋技能ID	生命	攻击速度	怒气	物攻	物防	法攻	法防	暴击	免暴	破防	免破	格挡	破挡	增伤	免伤
+1	骑士之剑	26681	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2	骑士头盔	26682	2	576	0	0	144	144	144	144	144	144	0	0	144	144	0	0
+3	骑士之戒	26683	3	864	0	0	216	216	216	216	216	216	0	0	216	216	0	0
+4	骑士之毛	26684	4	1152	0	0	288	288	288	288	288	288	0	0	288	288	0	0
+5	洪荒之力	26685	5	1440	0	0	360	360	360	360	360	360	0	0	360	360	0	0

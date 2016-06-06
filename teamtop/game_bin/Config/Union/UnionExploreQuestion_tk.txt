@@ -1,0 +1,56 @@
+questionId	question	answer1	answer2	right
+问题ID	问题	答案A	答案B	正确答案（1 or 2）
+1	Bir yıl kaç haftadır?	52	64	1
+2	Trabzon hangi bölgededir?	Karadeniz	İçanadolu	1
+3	Dünyanın uydusu?	Ay	Mars	1
+4	Selimiye hangi ildedir?	Edirne	İstanbul	1
+5	Hangisi yaylı çalgıdır?	Keman	Gitar	1
+6	At sütünden yapılan içki?	Kımız	Kımran	1
+7	Atatürk'ün doğduğu şehir?	Selanik	Üsküp	1
+8	Irak'ın başkenti?	Bağdat	Erbil	1
+9	TBMM ne zaman kurulmuştur? 	23 Nisan 1920	23 Nisan 1923	1
+10	Altın Boynuz neresidir? 	Haliç	Boğaziçi	1
+11	Pierre Loti kimdir?	Batılı gezgin	Büyükelçi	1
+12	81'in kare kökü kaçtır?	9	8	1
+13	7'nin karesi kaçtır? 	49	77	1
+14	Humus neyden yapılır?	Nohut	Bulgur	1
+15	Üçgenin iç açıları toplamı?	180	270	1
+16	Sonsuz kere sonsuz kaç eder?	0	Sonsuz	1
+17	Çanakkale zaferinin tarihi?	18 Mart 1918	18 Mart 1917	1
+18	Nobel ödülü alan Türk yazar?	Yaşar Kemal	Orhan Pamuk	2
+19	Microsoft'un kurucusu?	Steve Jobs	Bill Gates	2
+20	Suyun formülü?	CO2	H2O	2
+21	Tuz nedir?	Karbondioksit	Sodyum klorür	2
+22	Kuşbilim?	Morfoloji	Ornitoloji	2
+23	Hava olaylarını inceleyen bilim?	Klimatoloji	Meteoroloji	2
+24	Bodrum hangi ile bağlıdır?	Antalya	Muğla	2
+25	Van Gölü hangi iki ildedir?	Van-Ağrı	Van-Bitlis	2
+26	Hangisi Türki halklardan değildir?	Tatar	Tacik	2
+27	Türkçe hangi dil grubundandır?	Arami	Altay	2
+28	Leh ve Çek'in üçüncü biraderleri kimdir?	Fin	Rus	2
+29	Stockholm nerenin başkentidir?	İsviçre	İsveç	2
+30	Hangi yıl Latin alfabesine geçtik?	1923	1928	2
+31	Nesil eşanlamlısı?	Gençlik	Kuşak	2
+32	Kabe nerededir?	Medine	Mekke	2
+33	Osmanlı Devleti kaç yılında kurulmuştur?	1320	1299	2
+34	Gül'ün Adı romanının yazarı?	Dan Brown	Umberto Eco	2
+35	Harry Potter'ın okuduğu okul?	Oxford	Hogwarts	2
+36	Tüm dünyada fındık üretiminin yüzde %75'ini hangi ülke yapmaktadır?	Türkiye	İtalya	1
+37	Amerika kıtası adını İtalyan seyyah Amerigo Vespucci'den almıştır.	Yanlış	Doğru	2
+38	Birleşmiş Milletler hangi yılda kurulmuştur?	1918	1945	2
+39	Tarım sektörünün Türkiye GSYH’sı içindeki payı yüzde kaçtır?	%8,4	.2	1
+40	Aşağıdakilerden hangisi keseli hayvandır?	Koala	Köstebek	1
+41	SalaGame'in yayına hazırlamakta olduğu yeni oyununun teması nedir?	II. Dünya Savaşı	Vampirler	1
+42	Göktürk Yazıtları, diğer adıyla Orhun Abideleri, hangi yüzyıla aittir?	8	12	1
+43	Türkiye'nin en yüksek noktası Ağrı Dağı kaç metredir?	8848	5137	2
+44	Aşağıdaki kaynaklardan hangisi Türkiye’de çıkarılmaz?	Altın	Doğal Gaz	1
+45	Aşağıdaki AB ülkelerinden hangisi kara yolu yoğunluğu bakımından daha ileridedir?	Çek Cumhuriyeti 	Almanya	1
+46	Beethoven'ın 1823 tarihli Ode to Joy aşağıdakilerden hangisinin resmi marşıdır?	Avrupa Birliği	Dünya Bankası	1
+47	Dünyanın en zehirli yılanı hangisidir?	Engerek	Deniz kobrası	2
+48	N. B. Ceylan hangi filmiyle 67'inci Cannes Film Festivali'nde Altın Palmiye ödülü aldı?	Uzak	Kış Uykusu	2
+49	Aşağıdakilerden hangisi gagalı-memeli hayvandır?	Kunduz	Ornitorenk	2
+50	Taş devri diyetinin mucidi kimdir?	Ender Saraç	Ahmet Aydın	2
+51	Krizantem hangi çiçektir?	Açelya	Kasımpatı	2
+52	Nobel Ödülleri kaç yılında verilmeye başlanmıştır?	1865	1901	2
+53	Türkiye dünyada en çok turist ağırlayan kaçıncı ülkedir?	6	20	1
+54	Türkiye dünyada turizm gelirleri en yüksek kaçıncı ülkedir?	30	11	2

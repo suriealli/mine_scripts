@@ -1,0 +1,1089 @@
+9:29:48 GE_EXC, save time(2016-03-29 09:30:00) <= now(2016-03-29 09:29:48)
+BLUE, change config txt  /MountIllusion_yy.txt
+BLUE, change config txt  /MountItem_yy.txt
+BLUE, change config txt  /MountGrade_yy.txt
+BLUE, change config txt  /MountExchange_yy.txt
+BLUE, change config txt  /KaifuBossMonster_yy.txt
+BLUE, change config txt  /Item_yy.txt
+BLUE, change config txt  /StarGirlBase_yy.txt
+BLUE, change config txt  /PowerProperty_yy.txt
+BLUE, change config txt  /DailyDoConfig_yy.txt
+BLUE, change config txt  /DailyDoRewardConfig_yy.txt
+BLUE, change config txt  /Title_yy.txt
+BLUE, change config txt  /CircularActive_yy.txt
+BLUE, change config txt  /BraveHeroActive_yy.txt
+BLUE, change config txt  /LianChongRebateActive_yy.txt
+BLUE, change config txt  /SuperPromptionControl_yy.txt
+BLUE, change config txt  /TurnTableActive_yy.txt
+BLUE, change config txt  /GuBaoTanMiActive_yy.txt
+BLUE, change config txt  /KuafuFlowerRankActive_yy.txt
+BLUE, change config txt  /WonderfulAct_yy.txt
+BLUE, change config txt  /WonderfulReward_yy.txt
+BLUE, change config txt  /God_yy.txt
+BLUE, change config txt  /UnionFBBase_yy.txt
+BLUE, change config txt  /UnionExploreTreasureReward_yy.txt
+BLUE, change config txt  /MarryGrade_yy.txt
+BLUE, change config txt  /PartyBless_yy.txt
+BLUE, change config txt  /HoneymoonGrade_yy.txt
+BLUE, change config txt  /Ring_yy.txt
+BLUE, change config txt  /TeamTowerReward_yy.txt
+BLUE, change config txt  /TeamTower_yy.txt
+BLUE, change config txt  /VIPBase_yy.txt
+BLUE, change config txt  /CardsConfig_yy.txt
+BLUE, change config txt  /VipReward_yy.txt
+BLUE, change config txt  /VipLibao_yy.txt
+BLUE, change config txt  /UniversalBuy_yy.txt
+BLUE, change config txt  /AsteroidFieldsGuanka_yy.txt
+BLUE, change config txt  /TalentCard_yy.txt
+BLUE, change config txt  /CollectLongReward_yy.txt
+BLUE, change config txt  /WingBase_yy.txt
+BLUE, change config txt  /WingEvolve_yy.txt
+BLUE, change config txt  /WishPoolConfig_yy.txt
+BLUE, change config txt  /ScoreShopConfig_yy.txt
+BLUE, change config txt  /ShenshuGuardNpc_yy.txt
+BLUE, change config txt  /Fashion_yy.txt
+BLUE, change config txt  /FashionSuit_yy.txt
+BLUE, change config txt  /RMBBankRateConfig_yy.txt
+BLUE, change config txt  /FBReward_yy.txt
+BLUE, change config txt  /KaifuTargetAct_yy.txt
+BLUE, change config txt  /FiveGiftBase_yy.txt
+BLUE, change config txt  /DayFirstPayReward_yy.txt
+BLUE, change config txt  /SDHAct_yy.txt
+BLUE, change config txt  /FB_yy.txt
+BLUE, change config txt  /FBZhangJie_yy.txt
+BLUE, change config txt  /FindBack_yy.txt
+9:29:48 GE_EXC, module(Common.Other.GlobalPrompt), variable(EB_Vision_Dict) has not all translate.
+9:29:48 GE_EXC, module(Game.ThirdParty.QQSummer.QQSummer), variable(ErrorCodeDict) has not all translate.
+9:29:48 GE_EXC, module(Game.ElementSpirit.ElementSpiritConfig), variable(ElementSpirit_SpiritName_Dict) has not all translate.
+9:29:48 GE_EXC LoadLanguageScriptEx error cnt (1772)
+BLUE, change config txt  /Mall_yy.txt
+RED GREEN BLUE << GHL 10002 Server Start At 2016-03-29 09:29:48>>
+BLUE, big table(sys_wonderfulactdata) load data(33) at 2016-03-29 09:29:55
+BLUE, big table(sys_rolefightdata) load data(42) at 2016-03-29 09:29:55
+BLUE, big table(sys_union) load data(10) at 2016-03-29 09:29:55
+BLUE, big table(sys_ring) load data(0) at 2016-03-29 09:29:55
+BLUE, big table(sys_herozdl) load data(5) at 2016-03-29 09:29:55
+BLUE, big table(univerbuy_info) load data(9) at 2016-03-29 09:29:55
+BLUE, big table(sys_role_slave) load data(29) at 2016-03-29 09:29:55
+BLUE, big table(sys_jjc) load data(11) at 2016-03-29 09:29:55
+BLUE, big table(sys_role_view) load data(39) at 2016-03-29 09:29:55
+BLUE, system load all persistence data.
+from Game import RTF
+RTF.CallFunctionBack('Game.Login.LimitLogin', (0,))
+from Game.CDKey import CDKey
+for i in CDKey.CKC.iterkeys():
+    print i
+b45
+b44
+b47
+b46
+b41
+b40
+b43
+b42
+b49
+b48
+c49
+b61
+c46
+7k2
+c16
+yy4
+d1
+7k4
+c19
+c18
+a98
+a95
+a94
+a97
+a96
+a91
+a90
+a93
+a92
+c44
+b58
+b59
+a79
+a78
+a77
+a76
+a75
+a74
+a73
+a72
+a71
+a70
+p12
+c47
+c11
+b51
+a82
+a83
+a80
+a81
+a86
+a87
+a84
+a85
+a88
+a89
+b27
+b70
+a68
+a69
+b29
+b28
+a64
+a65
+a66
+a67
+a60
+a61
+a62
+a63
+b4
+b5
+b6
+b7
+b1
+b2
+b3
+b26
+b74
+b8
+b9
+b75
+c23
+b76
+b77
+c45
+c39
+c38
+b79
+c35
+c34
+c37
+c36
+c31
+c30
+c33
+c32
+b38
+b39
+b34
+b35
+b36
+b37
+b30
+b31
+b32
+b33
+yy2
+b24
+yy3
+e1
+c52
+c22
+h32
+c20
+c21
+c26
+c27
+c24
+c25
+b52
+c28
+c29
+h30
+b71
+h31
+h36
+h37
+b63
+h8
+h9
+h34
+b53
+b62
+h2
+h3
+h1
+h6
+h7
+h4
+h5
+b72
+b60
+c59
+b67
+us3
+b66
+c57
+c56
+c55
+c54
+c53
+b65
+c51
+c50
+b64
+b73
+c58
+a51
+a50
+a53
+a52
+a55
+a54
+a57
+a56
+a59
+a58
+b25
+a33
+a32
+a31
+a30
+a37
+a36
+a35
+a34
+b23
+a39
+a38
+c15
+b22
+c13
+c9
+c8
+b21
+c12
+c3
+c2
+c1
+b20
+c7
+c6
+c5
+c4
+h18
+h19
+us2
+p1
+c40
+c41
+c42
+c43
+h10
+h11
+h12
+h13
+h14
+h15
+h16
+h17
+a46
+a47
+a44
+a45
+a42
+a43
+a40
+a41
+c14
+a48
+a49
+a20
+a21
+a22
+a23
+a24
+a25
+a26
+a27
+a28
+a29
+b69
+b68
+yy6
+yy1
+b54
+h29
+h28
+7k1
+h25
+h24
+h27
+h26
+h21
+h20
+h23
+h22
+b16
+b17
+b14
+b15
+b12
+b13
+b10
+b11
+b55
+b50
+b18
+b19
+a15
+a14
+a17
+a16
+a11
+a10
+a13
+a12
+b78
+b56
+a19
+a18
+b57
+a1
+h33
+a3
+a2
+a5
+a4
+a7
+a6
+a9
+a8
+h38
+h39
+c10
+7k3
+h35
+c64
+c62
+c63
+c60
+c61
+yy5
+us1
+c48
+c17
+from Game.CDKey import CDKey
+for i in CDKey.CKC.iterkeys():
+    print i
+b45
+b44
+b47
+b46
+b41
+b40
+b43
+b42
+b49
+b48
+c49
+b61
+c46
+7k2
+c16
+yy4
+d1
+7k4
+c19
+c18
+a98
+a95
+a94
+a97
+a96
+a91
+a90
+a93
+a92
+c44
+b58
+b59
+a79
+a78
+a77
+a76
+a75
+a74
+a73
+a72
+a71
+a70
+p12
+c47
+c11
+b51
+a82
+a83
+a80
+a81
+a86
+a87
+a84
+a85
+a88
+a89
+b27
+b70
+a68
+a69
+b29
+b28
+a64
+a65
+a66
+a67
+a60
+a61
+a62
+a63
+b4
+b5
+b6
+b7
+b1
+b2
+b3
+b26
+b74
+b8
+b9
+b75
+c23
+b76
+b77
+c45
+c39
+c38
+b79
+c35
+c34
+c37
+c36
+c31
+c30
+c33
+c32
+b38
+b39
+b34
+b35
+b36
+b37
+b30
+b31
+b32
+b33
+yy2
+b24
+yy3
+e1
+c52
+c22
+h32
+c20
+c21
+c26
+c27
+c24
+c25
+b52
+c28
+c29
+h30
+b71
+h31
+h36
+h37
+b63
+h8
+h9
+h34
+b53
+b62
+h2
+h3
+h1
+h6
+h7
+h4
+h5
+b72
+b60
+c59
+b67
+us3
+b66
+c57
+c56
+c55
+c54
+c53
+b65
+c51
+c50
+b64
+b73
+c58
+a51
+a50
+a53
+a52
+a55
+a54
+a57
+a56
+a59
+a58
+b25
+a33
+a32
+a31
+a30
+a37
+a36
+a35
+a34
+b23
+a39
+a38
+c15
+b22
+c13
+c9
+c8
+b21
+c12
+c3
+c2
+c1
+b20
+c7
+c6
+c5
+c4
+h18
+h19
+us2
+p1
+c40
+c41
+c42
+c43
+h10
+h11
+h12
+h13
+h14
+h15
+h16
+h17
+a46
+a47
+a44
+a45
+a42
+a43
+a40
+a41
+c14
+a48
+a49
+a20
+a21
+a22
+a23
+a24
+a25
+a26
+a27
+a28
+a29
+b69
+b68
+yy6
+yy1
+b54
+h29
+h28
+7k1
+h25
+h24
+h27
+h26
+h21
+h20
+h23
+h22
+b16
+b17
+b14
+b15
+b12
+b13
+b10
+b11
+b55
+b50
+b18
+b19
+a15
+a14
+a17
+a16
+a11
+a10
+a13
+a12
+b78
+b56
+a19
+a18
+b57
+a1
+h33
+a3
+a2
+a5
+a4
+a7
+a6
+a9
+a8
+h38
+h39
+c10
+7k3
+h35
+c64
+c62
+c63
+c60
+c61
+yy5
+us1
+c48
+c17
+from Game.CDKey import CDKey
+for config in CDKey.CKC.itervalues():
+    print config.name, config.special
+好康禮盒(5) b45
+好康禮盒(4) b44
+聖誕禮盒(2) b47
+聖誕禮盒(1) b46
+好康禮盒(1) b41
+獨家禮盒(2) b40
+好康禮盒(3) b43
+好康禮盒(2) b42
+聖誕禮盒(4) b49
+聖誕禮盒(3) b48
+金发条奖独家礼包 c49
+4獎禮包 b61
+101xp礼包（8） c46
+龙骑推广礼包1 7k2
+俄罗斯cdk（2） c16
+VIP新游礼包 yy4
+勇者礼包（土耳其） d1
+龙骑VIP礼包 7k4
+俄罗斯cdk（5） c19
+俄罗斯cdk（4） c18
+高级黄钻礼包 a98
+高级黄钻礼包 a95
+中级黄钻礼包 a94
+中级黄钻礼包 a97
+初级黄钻礼包 a96
+精致黄钻礼包 a91
+普通黄钻礼包 a90
+初级黄钻礼包 a93
+顶级黄钻礼包 a92
+RBK礼包（2） c44
+頭獎禮包 b58
+2獎禮包 b59
+公测微博礼包 a79
+屠龙公测礼包 a78
+王者公测礼包 a77
+热血公测礼包 a76
+闪耀公测礼包 a75
+微信五级生命宝石 a74
+微信四级物攻宝石 a73
+微信高级礼包 a72
+微信精英礼包 a71
+儿童不宜礼包 a70
+波兰联运礼包CDK p12
+101xp礼包（9） c47
+esprit礼包（1） c11
+聖誕禮盒(6) b51
+中学礼包 a82
+大学礼包 a83
+龙骑士传管家特权公测礼包 a80
+小学礼包 a81
+空间暑期礼包 a86
+普通黄钻礼包 a87
+普通黄钻礼包 a84
+精致黄钻礼包 a85
+精致黄钻礼包 a88
+顶级黄钻礼包 a89
+超值精選好禮 b27
+超級3獎禮包 b70
+管家特权礼包 a68
+玩童礼包 a69
+1等獎 b29
+基地大放送禮盒 b28
+愚人节快乐礼包 a64
+龙骑士豪华礼包 a65
+龙骑士访客精英礼包 a66
+龙骑士访客黄金礼包 a67
+微信新春礼包 a60
+元宵节媒体礼包 a61
+畅爽精英礼包 a62
+畅爽黄金礼包 a63
+基地CB专属礼包 b4
+基地OB专属礼包 b5
+媒体专属礼包 b6
+圣殿感恩礼包 b7
+新手礼包 b1
+巴哈专属礼包 b2
+奇摩专属礼包 b3
+獨門好康禮盒 b26
+超級7獎禮包 b74
+龙骑粉丝礼包 b8
+圣殿激斗礼包 b9
+超級8獎禮包 b75
+俄罗斯cdk（9） c23
+超級9獎禮包 b76
+超級10獎禮包 b77
+101xp礼包（7） c45
+俄罗斯cdk（19） c39
+俄罗斯cdk（18） c38
+英雄禮包 b79
+俄罗斯101xp新年礼包（1） c35
+俄罗斯okcdk（6） c34
+俄罗斯101xp新年礼包（3） c37
+俄罗斯101xp新年礼包（2） c36
+俄罗斯okcdk（3） c31
+俄罗斯okcdk（2） c30
+俄罗斯okcdk（5） c33
+俄罗斯okcdk（4） c32
+專屬禮包(5) b38
+獨家禮盒(1) b39
+6等獎 b34
+聖誕歡樂禮盒 b35
+專屬禮包(1) b36
+專屬禮包(3) b37
+2等獎 b30
+3等獎 b31
+4等獎 b32
+5等獎 b33
+特权卡礼包 yy2
+OK獨家禮盒 b24
+VIP认证礼包 yy3
+英文版礼包(1) e1
+101xp礼包（11） c52
+俄罗斯cdk（8） c22
+中级黄钻礼包 h32
+俄罗斯cdk（6） c20
+俄罗斯cdk（7） c21
+俄罗斯101xpcdk（12） c26
+俄罗斯101xpcdk（13） c27
+俄罗斯cdk（10） c24
+esprit俄罗斯cdk（11） c25
+精選禮盒(1) b52
+俄罗斯101xpcdk（14） c28
+俄罗斯okcdk（1） c29
+新年礼包 h30
+超級4獎禮包 b71
+初级黄钻礼包 h31
+高级黄钻礼包 h36
+初级黄钻礼包 h37
+6獎禮包 b63
+初级黄钻礼包 h8
+中级黄钻礼包 h9
+初级黄钻礼包 h34
+精選禮盒(2) b53
+5獎禮包 b62
+中级黄钻礼包 h2
+高级黄钻礼包 h3
+初级黄钻礼包 h1
+中级黄钻礼包 h6
+高级黄钻礼包 h7
+管家嘉年华礼包 h4
+初级黄钻礼包 h5
+超級5獎禮包 b72
+3獎禮包 b60
+俄罗斯Esprit礼包(26) c59
+10獎禮包 b67
+北美新手礼包 us3
+9獎禮包 b66
+俄罗斯Esprit礼包(24) c57
+俄罗斯Esprit礼包(23) c56
+俄罗斯Esprit礼包(22) c55
+俄罗斯Esprit礼包(21) c54
+俄罗斯Esprit礼包(20) c53
+8獎禮包 b65
+RBK礼包（3） c51
+101xp礼包（10） c50
+7獎禮包 b64
+超級6獎禮包 b73
+俄罗斯Esprit礼包(25) c58
+管家礼包 a51
+骨灰礼包 a50
+中级新春大礼包 a53
+初级新春大礼包 a52
+龙骑春节达人礼包 a55
+高级新春大礼包 a54
+龙骑签到10日礼包 a57
+龙骑签到5日礼包 a56
+龙骑签到20日礼包 a59
+龙骑签到15日礼包 a58
+全家獨家禮盒 b25
+媒体专属高级礼包 a33
+媒体专属中级礼包 a32
+媒体专属初级礼包 a31
+挖掘机黄金新手礼包 a30
+风云榜礼包 a37
+265G龙虎榜初级礼包 a36
+265G龙虎榜中级礼包 a35
+265G龙虎榜高级礼包 a34
+FB好康禮包 b23
+圣诞中级礼盒 a39
+圣诞初级礼盒 a38
+俄罗斯cdk（1） c15
+FB粉絲好禮禮包 b22
+波兰101xp礼包（2） c13
+101xp礼包（2） c9
+101xp礼包（1） c8
+MyCard滿額禮盒 b21
+波兰101xp礼包（1） c12
+在线欢乐礼包（一） c3
+CDK欢乐礼包(俄罗斯) c2
+欢乐礼包(俄罗斯) c1
+滿千禮盒 b20
+在线欢乐礼包（五） c7
+在线欢乐礼包（四） c6
+在线欢乐礼包（三） c5
+在线欢乐礼包（二） c4
+龙骑勇士礼包 h18
+龙骑尊贵礼包 h19
+Christmas Connection us2
+波兰封测礼包 p1
+101xp礼包（4） c40
+101xp礼包（5） c41
+101xp礼包（6） c42
+RBK礼包（1） c43
+高级黄钻礼包 h10
+龙虎初级礼包 h11
+龙虎高手礼包 h12
+龙虎骨灰礼包 h13
+初级黄钻礼包 h14
+中级黄钻礼包 h15
+高级黄钻礼包 h16
+风云榜尊贵礼包 h17
+每日抽奖二星礼包 a46
+每日抽奖三星礼包 a47
+元旦活动礼包 a44
+每日抽奖一星礼包 a45
+龙骑达人特权礼包 a42
+圣诞活动礼包 a43
+圣诞高级礼盒 a40
+微信长期关注礼盒 a41
+波兰101xp礼包（3） c14
+初级礼包 a48
+中级礼包 a49
+黄金新手卡 a20
+至尊卡 a21
+金翎奖初级礼包 a22
+金翎奖中级礼包 a23
+金翎奖高级礼包 a24
+金翎奖超级礼包 a25
+欢乐礼包 a26
+畅爽礼包 a27
+达人特权礼包 a28
+精英豪华大礼包 a29
+超級2獎禮包 b69
+超級頭獎禮包 b68
+等级礼包 yy6
+新手卡礼包 yy1
+聖．賢者套裝禮包 b54
+白色元旦礼包 h29
+雪地礼包 h28
+龙骑新手卡礼包 7k1
+高级黄钻礼包 h25
+中级黄钻礼包 h24
+寒冬礼包 h27
+腾讯风云榜 h26
+龙骑至尊礼包 h21
+龙骑豪华礼包 h20
+初级黄钻礼包 h23
+双旦礼包 h22
+絕世好包 b16
+土豪禮包 b17
+FB禮包 b14
+會員禮包 b15
+骑兵礼包 b12
+超級新手禮包 b13
+m+礼包 b10
+热战礼包 b11
+血陽神器禮包(一) b55
+聖誕禮盒(5) b50
+推廣禮包 b18
+深海尋寶禮包 b19
+勇者礼包 a15
+给力国庆礼包 a14
+辉煌礼包 a17
+英雄礼包 a16
+音乐节专属礼包 a11
+幸运大礼包 a10
+全民国庆礼包 a13
+超值好礼 a12
+超級11獎禮包 b78
+血陽神器禮包(二) b56
+白银新手卡 a19
+尊贵礼包 a18
+好禮大放送禮盒 b57
+贵宾礼包 a1
+高级黄钻礼包 h33
+白金礼包 a3
+特权礼包 a2
+豪华大礼包 a5
+钻石礼包 a4
+水晶暑期特权礼包 a7
+黄金暑期特权礼包 a6
+爱玩精英礼包 a9
+钻石暑期特权礼包 a8
+中级黄钻礼包 h38
+高级黄钻礼包 h39
+101xp礼包（3） c10
+龙骑推广礼包2 7k3
+中级黄钻礼包 h35
+101xp礼包（16） c64
+101xp礼包（14） c62
+101xp礼包（15） c63
+101xp礼包（12） c60
+101xp礼包（13） c61
+VIP节日礼包 yy5
+KGG礼包 us1
+微信猴年新春礼包 c48
+俄罗斯cdk（3） c17
+10:35:18 Traceback (most recent call last):
+  File "../PyCode/Util/Callback.py", line 81, in CallAllFunctions
+    fun(*argv)
+  File "../PyCode/Game/YYAnti/YYAnti.py", line 48, in AfterLogin
+    from1 = LoginInfo.get('pf', 0)
+ValueError: invalid literal for int() with base 10: ''
+10:35:18 GE_EXC, !!!!!!CallAllFunctions except call Fun (AfterLogin)!!!!!!
+10:55:56 Traceback (most recent call last):
+  File "../PyCode/Util/Callback.py", line 81, in CallAllFunctions
+    fun(*argv)
+  File "../PyCode/Game/YYAnti/YYAnti.py", line 48, in AfterLogin
+    from1 = LoginInfo.get('pf', 0)
+ValueError: invalid literal for int() with base 10: ''
+10:55:56 GE_EXC, !!!!!!CallAllFunctions except call Fun (AfterLogin)!!!!!!
+print 1
+1
+14:34:57 Traceback (most recent call last):
+  File "../PyCode/Util/Callback.py", line 81, in CallAllFunctions
+    fun(*argv)
+  File "../PyCode/Game/YYAnti/YYAnti.py", line 48, in AfterLogin
+    from1 = LoginInfo.get('pf', 0)
+ValueError: invalid literal for int() with base 10: ''
+14:34:57 GE_EXC, !!!!!!CallAllFunctions except call Fun (AfterLogin)!!!!!!
+14:39:3 Traceback (most recent call last):
+  File "../PyCode/Util/Callback.py", line 81, in CallAllFunctions
+    fun(*argv)
+  File "../PyCode/Game/YYAnti/YYAnti.py", line 116, in FirstInitRole
+    from1 = LoginInfo.get('pf', 0)
+ValueError: invalid literal for int() with base 10: ''
+14:39:3 GE_EXC, !!!!!!CallAllFunctions except call Fun (FirstInitRole)!!!!!!
+14:39:3 Traceback (most recent call last):
+  File "../PyCode/Util/Callback.py", line 81, in CallAllFunctions
+    fun(*argv)
+  File "../PyCode/Game/YYAnti/YYAnti.py", line 48, in AfterLogin
+    from1 = LoginInfo.get('pf', 0)
+ValueError: invalid literal for int() with base 10: ''
+14:39:3 GE_EXC, !!!!!!CallAllFunctions except call Fun (AfterLogin)!!!!!!
+14:46:7 Traceback (most recent call last):
+  File "../PyCode/Util/Callback.py", line 81, in CallAllFunctions
+    fun(*argv)
+  File "../PyCode/Game/YYAnti/YYAnti.py", line 48, in AfterLogin
+    from1 = LoginInfo.get('pf', 0)
+ValueError: invalid literal for int() with base 10: 'duowan'
+14:46:7 GE_EXC, !!!!!!CallAllFunctions except call Fun (AfterLogin)!!!!!!
+from Game import RTF
+RTF.CallFunctionBack('Game.Login.LimitLogin', (0,))
+15:5:36 GE_EXC, role(42958262894646) do command(FightEnd(role,1)) error.
+15:5:36 Traceback (most recent call last):
+  File "../PyCode/Game/Role/Command.py", line 58, in OnCommandReturn
+    DoRoleCommand(role, command)
+  File "../PyCode/Game/Role/Command.py", line 86, in DoRoleCommand
+    exec(command)
+  File "<string>", line 1, in <module>
+NameError: name 'FightEnd' is not defined
+right win
+print 1
+1
+from Game import RTF
+RTF.CallFunctionBack('Game.Login.LimitLogin', (0,))
+15:28:55 Traceback (most recent call last):
+  File "../PyCode/Util/Callback.py", line 81, in CallAllFunctions
+    fun(*argv)
+  File "../PyCode/Game/YYAnti/YYAnti.py", line 116, in FirstInitRole
+    from1 = LoginInfo.get('pf', 0)
+ValueError: invalid literal for int() with base 10: ''
+15:28:55 GE_EXC, !!!!!!CallAllFunctions except call Fun (FirstInitRole)!!!!!!
+15:28:55 Traceback (most recent call last):
+  File "../PyCode/Util/Callback.py", line 81, in CallAllFunctions
+    fun(*argv)
+  File "../PyCode/Game/YYAnti/YYAnti.py", line 48, in AfterLogin
+    from1 = LoginInfo.get('pf', 0)
+ValueError: invalid literal for int() with base 10: ''
+15:28:55 GE_EXC, !!!!!!CallAllFunctions except call Fun (AfterLogin)!!!!!!
+16:19:45 Traceback (most recent call last):
+  File "../PyCode/Util/Callback.py", line 81, in CallAllFunctions
+    fun(*argv)
+  File "../PyCode/Game/YYAnti/YYAnti.py", line 116, in FirstInitRole
+    from1 = LoginInfo.get('pf', 0)
+ValueError: invalid literal for int() with base 10: ''
+16:19:45 GE_EXC, !!!!!!CallAllFunctions except call Fun (FirstInitRole)!!!!!!
+16:19:45 Traceback (most recent call last):
+  File "../PyCode/Util/Callback.py", line 81, in CallAllFunctions
+    fun(*argv)
+  File "../PyCode/Game/YYAnti/YYAnti.py", line 48, in AfterLogin
+    from1 = LoginInfo.get('pf', 0)
+ValueError: invalid literal for int() with base 10: ''
+16:19:45 GE_EXC, !!!!!!CallAllFunctions except call Fun (AfterLogin)!!!!!!
+16:25:29 Traceback (most recent call last):
+  File "../PyCode/Util/Callback.py", line 81, in CallAllFunctions
+    fun(*argv)
+  File "../PyCode/Game/YYAnti/YYAnti.py", line 116, in FirstInitRole
+    from1 = LoginInfo.get('pf', 0)
+ValueError: invalid literal for int() with base 10: ''
+16:25:29 GE_EXC, !!!!!!CallAllFunctions except call Fun (FirstInitRole)!!!!!!
+16:25:29 Traceback (most recent call last):
+  File "../PyCode/Util/Callback.py", line 81, in CallAllFunctions
+    fun(*argv)
+  File "../PyCode/Game/YYAnti/YYAnti.py", line 48, in AfterLogin
+    from1 = LoginInfo.get('pf', 0)
+ValueError: invalid literal for int() with base 10: ''
+16:25:29 GE_EXC, !!!!!!CallAllFunctions except call Fun (AfterLogin)!!!!!!
+16:29:30 Traceback (most recent call last):
+  File "../PyCode/Util/Callback.py", line 81, in CallAllFunctions
+    fun(*argv)
+  File "../PyCode/Game/YYAnti/YYAnti.py", line 116, in FirstInitRole
+    from1 = LoginInfo.get('pf', 0)
+ValueError: invalid literal for int() with base 10: ''
+16:29:30 GE_EXC, !!!!!!CallAllFunctions except call Fun (FirstInitRole)!!!!!!
+16:29:30 Traceback (most recent call last):
+  File "../PyCode/Util/Callback.py", line 81, in CallAllFunctions
+    fun(*argv)
+  File "../PyCode/Game/YYAnti/YYAnti.py", line 48, in AfterLogin
+    from1 = LoginInfo.get('pf', 0)
+ValueError: invalid literal for int() with base 10: ''
+16:29:30 GE_EXC, !!!!!!CallAllFunctions except call Fun (AfterLogin)!!!!!!
+ToTime(23,59,58,True)
+now(16:37:58) to(23:59:58) inc(26520)

@@ -1,0 +1,148 @@
+15:33:33 GE_EXC, save time(2016-03-26 11:08:00) <= now(2016-03-25 15:33:33)
+BLUE 0 connect mysql ok.
+BLUE 1 connect mysql ok.
+BLUE 2 connect mysql ok.
+BLUE 3 connect mysql ok.
+BLUE 4 connect mysql ok.
+BLUE 5 connect mysql ok.
+15:33:33 GE_EXC, module(Common.Other.GlobalPrompt), variable(EB_Vision_Dict) has not all translate.
+15:33:33 GE_EXC, module(Game.ThirdParty.QQSummer.QQSummer), variable(ErrorCodeDict) has not all translate.
+15:33:33 GE_EXC LoadLanguageScriptEx error cnt (1772)
+RED GREEN BLUE << D 10002 Server Start At 2016-03-25 15:33:33>>
+BLUE, system load all persistence data.
+../PyCode/DB/PersistenceVisit.py:32: Warning: Invalid utf8 character string: 'F6024B'
+  cur.execute(SavePersistenceDataSQL, (key, info, data))
+../PyCode/DB/RoleVisit.py:135: Warning: Invalid utf8 character string: 'B11A54'
+  cur.execute(SaveRoleSQL, roledata)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'BDC7F3'
+  cur.executemany(sql, rows)
+../PyCode/DB/PersistenceVisit.py:32: Warning: Invalid utf8 character string: 'E00311'
+  cur.execute(SavePersistenceDataSQL, (key, info, data))
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'FFFFFF'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'F4414B'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'C3F356'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'EDCAF3'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'D1D7F3'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'A84273'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'F6564B'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'C64275'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'A77AF6'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'F6414B'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'B2F656'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: '982343'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'FEFFFF'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'C1F656'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'BAECF4'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'E54BE6'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'CB4B00'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'D04B00'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'D24B00'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'DF4B00'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'E14B00'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'E34B00'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'E54B00'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'E74B00'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'E94B00'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'EB4B00'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'ED4B00'
+  cur.executemany(sql, rows)
+../PyCode/DB/PersistenceVisit.py:32: Warning: Invalid utf8 character string: 'F36C4B'
+  cur.execute(SavePersistenceDataSQL, (key, info, data))
+../PyCode/DB/PersistenceVisit.py:32: Warning: Invalid utf8 character string: 'FFFFFF'
+  cur.execute(SavePersistenceDataSQL, (key, info, data))
+../PyCode/DB/PersistenceVisit.py:32: Warning: Invalid utf8 character string: 'F5414B'
+  cur.execute(SavePersistenceDataSQL, (key, info, data))
+../PyCode/DB/RoleVisit.py:135: Warning: Invalid utf8 character string: 'D7540C'
+  cur.execute(SaveRoleSQL, roledata)
+../PyCode/DB/RoleVisit.py:141: Warning: Invalid utf8 character string: 'CD644B'
+  cur.executemany(sql, arg)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'AD024B'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'F2EEF4'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'EEF456'
+  cur.executemany(sql, rows)
+../PyCode/DB/PersistenceVisit.py:32: Warning: Invalid utf8 character string: 'BB4B00'
+  cur.execute(SavePersistenceDataSQL, (key, info, data))
+../PyCode/DB/PersistenceVisit.py:32: Warning: Invalid utf8 character string: 'F04B32'
+  cur.execute(SavePersistenceDataSQL, (key, info, data))
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'D6024B'
+  cur.executemany(sql, rows)
+../PyCode/DB/RoleVisit.py:135: Warning: Invalid utf8 character string: 'FC0100'
+  cur.execute(SaveRoleSQL, roledata)
+../PyCode/DB/RoleVisit.py:135: Warning: Invalid utf8 character string: 'F87708'
+  cur.execute(SaveRoleSQL, roledata)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'B3A64B'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'CBF6F4'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'B0844B'
+  cur.executemany(sql, rows)
+../PyCode/DB/RoleVisit.py:135: Warning: Invalid utf8 character string: 'F80C00'
+  cur.execute(SaveRoleSQL, roledata)
+../PyCode/DB/RoleVisit.py:135: Warning: Invalid utf8 character string: 'CE3A00'
+  cur.execute(SaveRoleSQL, roledata)
+../PyCode/DB/RoleVisit.py:135: Warning: Invalid utf8 character string: 'C80000'
+  cur.execute(SaveRoleSQL, roledata)
+../PyCode/DB/RoleVisit.py:135: Warning: Invalid utf8 character string: 'C0F801'
+  cur.execute(SaveRoleSQL, roledata)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'A04B15'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'A04B02'
+  cur.executemany(sql, rows)
+../PyCode/DB/RoleVisit.py:135: Warning: Invalid utf8 character string: 'B4DE01'
+  cur.execute(SaveRoleSQL, roledata)
+../PyCode/DB/RoleVisit.py:141: Warning: Invalid utf8 character string: 'DC054B'
+  cur.executemany(sql, arg)
+../PyCode/DB/RoleVisit.py:135: Warning: Invalid utf8 character string: 'E00E02'
+  cur.execute(SaveRoleSQL, roledata)
+../PyCode/DB/RoleVisit.py:135: Warning: Invalid utf8 character string: '981A02'
+  cur.execute(SaveRoleSQL, roledata)
+../PyCode/DB/RoleVisit.py:135: Warning: Invalid utf8 character string: 'D22C02'
+  cur.execute(SaveRoleSQL, roledata)
+../PyCode/DB/RoleVisit.py:135: Warning: Invalid utf8 character string: 'AE3202'
+  cur.execute(SaveRoleSQL, roledata)
+../PyCode/DB/RoleVisit.py:135: Warning: Invalid utf8 character string: 'F86B02'
+  cur.execute(SaveRoleSQL, roledata)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: '905F01'
+  cur.executemany(sql, rows)
+../PyCode/DB/RoleVisit.py:135: Warning: Invalid utf8 character string: '930200'
+  cur.execute(SaveRoleSQL, roledata)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'A5034B'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: 'BFA8F6'
+  cur.executemany(sql, rows)
+../PyCode/DB/BigTableVisit.py:91: Warning: Invalid utf8 character string: '81F5F7'
+  cur.executemany(sql, rows)
+../PyCode/DB/RoleVisit.py:135: Warning: Invalid utf8 character string: 'D00700'
+  cur.execute(SaveRoleSQL, roledata)
+../PyCode/DB/RoleVisit.py:135: Warning: Invalid utf8 character string: 'A00F00'
+  cur.execute(SaveRoleSQL, roledata)
+../PyCode/DB/RoleVisit.py:135: Warning: Invalid utf8 character string: '881300'
+  cur.execute(SaveRoleSQL, roledata)

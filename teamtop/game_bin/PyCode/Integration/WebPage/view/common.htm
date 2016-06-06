@@ -1,0 +1,8 @@
+{%if tips%}
+<div class="tips" style="">&nbsp;{{tips|safe}}</div>
+{%endif%}
+{%if url%}
+<script>
+	setTimeout("parent.location.href='{{url}}?scene="+parent.scene+"'",1000);
+</script>
+{%endif%}

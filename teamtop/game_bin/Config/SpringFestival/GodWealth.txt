@@ -1,0 +1,4 @@
+index	needCostRMB	rewardRMB_S
+索引	需要消耗的神石	奖励的神石
+1	0	10
+2	100	188

@@ -1,0 +1,35 @@
+9:29:48 GE_EXC, save time(2016-03-29 09:30:00) <= now(2016-03-29 09:29:48)
+BLUE, change config txt  /TurnTableActive_yy.txt
+BLUE, change config txt  /BraveHeroActive_yy.txt
+BLUE, change config txt  /KuafuFlowerRankActive_yy.txt
+9:29:48 GE_EXC, module(Common.Other.GlobalPrompt), variable(EB_Vision_Dict) has not all translate.
+9:29:48 GE_EXC, module(Game.ThirdParty.QQSummer.QQSummer), variable(ErrorCodeDict) has not all translate.
+9:29:48 GE_EXC LoadLanguageScriptEx error cnt (1772)
+RED GREEN BLUE << C 10002 Server Start At 2016-03-29 09:29:48>>
+BLUE, system load all persistence data.
+print 1
+1
+print 1
+1
+ToTime(23,59,58,True)
+now(16:37:58) to(23:59:58) inc(26520)
+ToTime(23,59,58,True)
+now(00:00:23) to(23:59:58) inc(86375)
+ToTime(23,58,55,True)
+now(00:00:24) to(23:58:55) inc(86311)
+ToTime(23,59,55,True)
+now(00:06:07) to(23:59:55) inc(86028)
+ToTime(23,59,55,True)
+now(00:01:40) to(23:59:55) inc(86295)
+ToTime(23,59,55,True)
+now(00:00:32) to(23:59:55) inc(86363)
+ToTime(23,59,55,True)
+now(00:00:28) to(23:59:55) inc(86367)
+ToTime(23,59,55,True)
+now(00:04:27) to(23:59:55) inc(86128)
+ToTime(23,59,55,True)
+now(00:01:15) to(23:59:55) inc(86320)
+ToTime(23,57,55,True)
+now(00:01:57) to(23:57:55) inc(86158)
+ToTime(23,59,55,True)
+now(00:01:32) to(23:59:55) inc(86303)

@@ -1,0 +1,25 @@
+id	title	shuoming
+序列	标题	更新说明
+1	Legend Knight Official Server	The first server of Legend Knight on 101XP is online now. Players can log in and enjoy the game!#H
+2		#H
+3		There will be a series of events in Legend Knight celebrating the opening of the server, so in the next 46 days, you are in for a treat that is the fun that those events bring you.#H
+4		#B#C(#472C08)#S(14)7-Day Goals#n#n#n#H#S(14)#C(#472C08)
+5		Level-up Enthusiast#H
+6		During the contest, players who reach specified level can get awesome rewards. Top10 players in Level Ranking will get extra rewards.#H
+7		#H
+8		Mount Training Expert#H
+9		During the event, train your Mount to specified Stages and Stars to get awesome rewards.#H
+10		#H
+11		Gem Synthesizing Master#H
+12		During the event, total level of your socketed Gems reaches the specified levels and you will receive rewards.#H
+13		#H
+14		General Battle Rating Booster#H
+15		During the event, boost General Battle Rating to specified amounts to claim rewards. Top10 players in General Battle Rating will get extra rewards.#H
+16		#H
+17		#B#C(#472C08)#S(14)Level it up#n#n#n#H#S(14)#C(#472C08)#H
+18		During the event, reach specified level can get amazing rewards. But numbers of players who can get the rewards are limited. Please take action now!#H
+19		#H
+20		#B#C(#472C08)#S(14)Which is the best Guild#n#n#n#H#S(14)#C(#472C08)#H
+21		At the end of the event, the Top1 guild will get the brilliant prize. Players in the guild who reach 30,000 Battle Rating will get extra rewards.#H
+22		#H
+23		Besides, we have prepared other awesome server-opening events for you! What are you waiting for? Take part in those events now!#H

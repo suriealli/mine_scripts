@@ -1,0 +1,13 @@
+<script>
+$(function(){
+	UI.init();
+	UI.date('.date');
+	UI.checkAll('.checkAll');
+	//init
+	if('{{get.server}}'!=''){
+		$('#server').val('{{get.server}}');
+	}
+});
+</script>
+</body>
+</html>

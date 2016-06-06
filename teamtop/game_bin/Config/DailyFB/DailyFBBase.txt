@@ -1,0 +1,5 @@
+FBLevel	name	openCondition	sweepNeedVIP	passKillNum	maxKillNum
+试炼场等级	物品名字	开启条件(月卡,年卡,贵族等级 前两者or之后与后者and)	扫荡所需贵族等级	通关杀怪数量	最大杀怪数量
+1	初级试炼场	(0,0,0)	8	360	361
+2	中级试炼场	(1,1,0)	8	360	361
+3	高级试炼场	(1,1,7)	8	360	361

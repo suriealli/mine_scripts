@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+a,a:link,a:visited{ color:#686868;text-decoration:none}
+a:hover{ color:#FF6600;text-decoration:none;}
+
+.fs_14 { font-size:14px;}
+
+
+
+.fc_red { color:#FF0000}
+a.fc_red,a.fc_red:link,a.fc_red:visited{ color:#FF0000; text-decoration:none;}
+a.fc_red:hover{ color:#FF0000;text-decoration:none;}
+
+.fc_green { color:#669900}
+a.fc_green,a.fc_green:link,a.fc_green:visited{ color:#669900; text-decoration:none;}
+a.fc_green:hover{ color:#FF0000;text-decoration:none;}
+
+.fc_Yellow { color:#FDF001}
+a.fc_Yellow,a.fc_Yellow:link,a.fc_Yellow:visited{ color:#FDF001; text-decoration:none;}
+a.fc_Yellow:hover{ color:#FF0000;text-decoration:none;}
+
+
+
+
+.fc_1 { color:#33659A;}
+a.fc_1,a.fc_1:link,a.fc_1:visited{ color:#33659A;text-decoration:none;}
+a.fc_1:hover{ color:#FF6600;text-decoration:none;}
+
+.fc_2 { color:#C3E3FB;}
+a.fc_2,a.fc_2:link,a.fc_2:visited{ color:#C3E3FB;text-decoration:none;}
+a.fc_2:hover{ color:#FF6600;text-decoration:none;}
+
+.fc_3 { color:#3F8EC7;}
+a.fc_3,a.fc_3:link,a.fc_3:visited{ color:#3F8EC7;text-decoration:none;}
+a.fc_3:hover{ color:#FF6600;text-decoration:none;}
+
+.fc_4 { color:#4C79A2;}
+a.fc_4,a.fc_4:link,a.fc_4:visited{ color:#4C79A2;text-decoration:none;}
+a.fc_4:hover{ color:#FF6600;text-decoration:none;}
+
+.fc_5 { color:#707070;}
+a.fc_5,a.fc_5:link,a.fc_5:visited{ color:#707070;text-decoration:none;}
+a.fc_5:hover{ color:#FF6600;text-decoration:none;}
+
+
+/*common*/
+.title{font-weight:bold}
+.tips{color:red}
+body{line-height:1.5em;}
+
+
+
+
+

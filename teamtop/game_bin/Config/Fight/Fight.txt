@@ -1,0 +1,130 @@
+fight_type	fight_name	pvp	group	fightMap	flyFight	formation	fightSoundFT	fightSound	player_control	showStar	show_wave1	show_wave2	canJumpFight	canJumpMinRound	isShowFailGuide	viewFightType	useSkillTipRound	skillIndex	useJianShiSkillDesc	useFaShiSkillDesc	roundUseJianShiSkill	roundUseFaShiSkill
+战斗类型	战斗名称	是否是pvp战斗	是否是组队战斗	战斗地图	是否是gve飞行战斗	阵形id（1—pvp，2—pve）	繁体版战斗声音	战斗声音	是否为可操作战斗（0-全自动战斗 1-可操作战斗）	是否显示评分	是否显示进度1（屏幕中间小特效的）	是否显示进度2（要显示数字的评分的）	是否可以跳过战斗	可以跳过战斗的最小回合	是否显示战斗失败提示	观战对应的战斗类型	使用技能指引开始回合	技能索引	剑士使用技能描述	法师使用技能描述	战士回合数控制技能提示	法师回合数控制技能描述
+0	PVP战斗	1	0	6001		1	zhanchang	PVPzhandouyinyue	1						1							
+1	PVE战斗	0	0	6001		2	zhanchang	PVEzhandouyinyue	1						1							
+2	恶魔深渊	0	0	8002		2	zhanchang	zhanchang	1	1	1	0			1							
+3	心魔炼狱	0	0	6001		2	zhanchang	zhanchang	1	1	0	1			1							
+4	地精宝库（pve）	0	0	6001		2	zhanchang	PVPzhandouyinyue	0		0	0	1	1	0							
+5	地精宝库（pvp）	1	0	6001		1	zhanchang	PVEzhandouyinyue	0		0	0	1	1	0							
+6	巨龙宝藏	0	0	6001		2	zhanchang	zhanchang	1						1							
+7	主线	0	0	6001		2	zhanchang	zhanchang	1	1					1							
+8	竞技场战斗	1	0	6006		1	zhanchang	zhanchang	1						1							
+9	英雄祭坛	0	0	8002		2	zhanchang	zhanchang	1						1							
+10	公会魔神	0	0	6004		2	zhanchang	zhanchang	1						1							
+11	新手战斗1	0	0	8008		2	zhanchang	zhanchang	1	1					1			1	点击使用#C(#FFFF00)英勇打击#n	点击使用#C(#FFFF00)英勇打击#n		
+12	新手战斗2	0	0	8008		2	zhanchang	zhanchang	1	1					1			2	#C(#FFFF00)审判，#n能随机攻击前排#C(#FFFF00)两次#n	#C(#FFFF00)审判，#n能随机攻击前排#C(#FFFF00)两次#n		
+13	新手战斗3	0	0	8008		2	zhanchang	zhanchang	1	1					1			3	使用#C(#FFFF00)巨龙突袭，#n可造成#C(#FFFF00)巨量伤害#n	使用#C(#FFFF00)巨龙突袭，#n可造成#C(#FFFF00)巨量伤害#n		
+14	城主轮值（PVP）	1	0	8009		1	zhanchang	PVPzhandouyinyue	0				1	2	0							
+15	城主轮值（PVE）	0	0	8009		2	zhanchang	PVEzhandouyinyue	0				1	2	0							
+16	魔兽入侵	0	0	8007		2	zhanchang	zhanchang	1						0							
+17	副本测试	0	0	6001		2	zhanchang	zhanchang	1	1					1							
+18	荣耀之战（PVP）	1	0	6005		1	zhanchang	PVPzhandouyinyue	0				1	2	0							
+19	荣耀之战（PVE）	0	0	6005		2	zhanchang	PVEzhandouyinyue	1						0							
+20	公会副本-1	0	0	8006		2	zhanchang	zhanchang	1		1				1							
+21	副本1	0	0	6007		2	zhanchang	zhanchang	1	1					1							
+22	副本2	0	0	8008		2	zhanchang	zhanchang	1	1					1							
+23	副本3	0	0	8005		2	zhanchang	zhanchang	1	1					1							
+24	副本4	0	0	6001		2	zhanchang	zhanchang	1	1					1							
+25	副本5	0	0	6003		2	zhanchang	zhanchang	1	1					1							
+26	副本6	0	0	6004		2	zhanchang	zhanchang	1	1					1							
+27	副本7	0	0	6002		2	zhanchang	zhanchang	1	1					1							
+28	副本8	0	0	8001		2	zhanchang	zhanchang	1	1					1							
+29	副本9	0	0	6008		2	zhanchang	zhanchang	1	1					1							
+30	副本10	0	0	6009		2	zhanchang	zhanchang	1	1					1							
+31	英灵神殿	0	0	8004		2	zhanchang	zhanchang	1						1							
+32	公会副本-2	0	0	8005		2	zhanchang	zhanchang	1		1				1							
+33	公会副本-3	0	0	6003		2	zhanchang	zhanchang	1		1				1							
+34	公会副本-4	0	0	8001		2	zhanchang	zhanchang	1		1				1							
+35	勇斗领主主动战斗	1	0	6006		1	zhanchang	zhanchang	1						1							
+36	勇斗领主观看战斗	1	0	6006		1	zhanchang	zhanchang	0						1							
+37	魔域星宫	0	0	8004		2	zhanchang	zhanchang	1						1							
+38	GVE战斗1	0	1	8011	1	2	zhanchang	zhanchang	1	1					0							
+39	GVE战斗2	0	1	8012	1	2	zhanchang	zhanchang	1	1					0							
+40	GVE战斗3	0	1	8013	1	2	zhanchang	zhanchang	1	1					0							
+41	开服BOSS	0	0	8006		2	zhanchang	zhanchang	1		1				1							
+42	勇者英雄坛	0	0	8002		2	zhanchang	zhanchang	1						0							
+43	野外夺宝（多人）	1	0	6007		1	zhanchang	zhanchang	0				1	2	0							
+44	野外夺宝（PVP）	1	0	6007		1	zhanchang	PVPzhandouyinyue	0				1	2	0							
+45	野外夺宝(PVE)	0	0	6007		2	zhanchang	PVEzhandouyinyue	1						0							
+90	情缘PVE战斗	0	0	6001		2	zhanchang	zhanchang	0		0	0	1	1	0							
+91	情缘PVE战斗	0	0	6001		2	zhanchang	zhanchang	0		0	0	1	1	0							
+101	主线4	0	0	8008		2	zhanchang	zhanchang	1	1					1				使用英勇打击可#C(#FFFF00)获得怒气#n	使用英勇打击可#C(#FFFF00)获得怒气#n		
+102	主线5	0	0	6007		2	zhanchang	zhanchang	1	1					1				使用英勇打击可#C(#FFFF00)获得怒气#n	使用英勇打击可#C(#FFFF00)获得怒气#n		
+103	主线6	0	0	8008		2	zhanchang	zhanchang	1	1					1				使用英勇打击可#C(#FFFF00)获得怒气#n	使用英勇打击可#C(#FFFF00)获得怒气#n		
+104	主线7	0	0	6007		2	zhanchang	zhanchang	1	1					1				先攒#C(#FFFF00)怒气，#n再放#C(#FFFF00)巨龙突袭#n	先攒#C(#FFFF00)怒气，#n再放#C(#FFFF00)巨龙突袭#n		
+105	主线8	0	0	8008		2	zhanchang	zhanchang	1	1					1				合理使用#C(#FFFF00)出招顺序#n可以获得3星	合理使用#C(#FFFF00)出招顺序#n可以获得3星		
+106	主线9	0	0	6007		2	zhanchang	zhanchang	1	1					1				#C(#FFFF00)升级之后的英勇打击#n伤害大大提升	#C(#FFFF00)升级之后的英勇打击#n伤害大大提升		
+107	主线10	0	0	8008		2	zhanchang	zhanchang	1	1					1				#C(#FFFF00)升级之后的审判#n伤害大大提升	#C(#FFFF00)升级之后的审判#n伤害大大提升		
+108	主线11	0	0	6007		2	zhanchang	zhanchang	1	1					1				前排英雄能有效保护后排英雄	前排英雄能有效保护后排英雄		
+109	主线12	0	0	8008		2	zhanchang	zhanchang	1	1					1							
+110	主线13	0	0	6007		2	zhanchang	zhanchang	1	1					1							
+111	主线14	0	0	8008		2	zhanchang	zhanchang	1	1					1				#C(#FFFF00)巨龙突袭#n的伤害极高	#C(#FFFF00)巨龙突袭#n的伤害极高		
+112	主线15	0	0	6001		2	zhanchang	zhanchang	1	1					1							
+113	主线16	0	0	8005		2	zhanchang	zhanchang	1	1					1							
+114	主线17	0	0	6001		2	zhanchang	zhanchang	1	1					1							
+115	主线18	0	0	8005		2	zhanchang	zhanchang	1	1					1				白色1星英雄需到达20级才可以进阶	白色1星英雄需到达20级才可以进阶		
+116	主线19	0	0	6001		2	zhanchang	zhanchang	1	1					1							
+117	主线20	0	0	8005		2	zhanchang	zhanchang	1	1					1							
+118	主线21	0	0	6001		2	zhanchang	zhanchang	1	1					1							
+119	主线22	0	0	8005		2	zhanchang	zhanchang	1	1					1				#C(#FFFF00)绝美艳后#n升绿色后可以提升全队攻击属性	#C(#FFFF00)绝美艳后#n升绿色后可以提升全队攻击属性		
+120	主线23	0	0	6001		2	zhanchang	zhanchang	1	1					1				绿色英雄到#C(#FFFF00)30级#n可升阶	绿色英雄到#C(#FFFF00)30级#n可升阶		
+121	主线24	0	0	8005		2	zhanchang	zhanchang	1	1					1							
+122	主线25	0	0	6001		2	zhanchang	zhanchang	1	1					1							
+123	主线26	0	0	8005		2	zhanchang	zhanchang	1	1					1							
+124	主线27	0	0	6001		2	zhanchang	zhanchang	1	1					1							
+125	主线28	0	0	6005		2	zhanchang	zhanchang	1	1					1							
+126	圣辉城主线地图1	0	0	6001		2	zhanchang	zhanchang	1	1					1							
+127	圣辉城主线地图2	0	0	6005		2	zhanchang	zhanchang	1	1					1							
+128	圣辉城主线地图3	0	0	8006		2	zhanchang	zhanchang	1	1					1							
+129	神殿主线底图1	0	0	6003		2	zhanchang	zhanchang	1	1					1							
+130	神殿主线底图2	0	0	6004		2	zhanchang	zhanchang	1	1					1							
+131	神殿主线底图3	0	0	6006		2	zhanchang	zhanchang	1	1					1							
+132	神殿主线底图4	0	0	8005		2	zhanchang	zhanchang	1	1					1							
+133	精灵主线底图1	0	0	6007		2	zhanchang	zhanchang	1	1					1							
+134	精灵主线底图2	0	0	6002		2	zhanchang	zhanchang	1	1					1							
+135	亡灵圣域底图1	0	0	6008		2	zhanchang	zhanchang	1	1					1							
+136	亡灵圣域底图2	0	0	6009		2	zhanchang	zhanchang	1	1					1							
+137	镜·梦幻森林底图1	0	0	6007		2	zhanchang	zhanchang	1	1					1							
+138	镜·梦幻森林底图2	0	0	8008		2	zhanchang	zhanchang	1	1					1							
+139	GVE战斗主线	0	1	8011	1	2	zhanchang	zhanchang	1	1					0			1	点击使用技能#C(#FFFF00)红龙突袭#n	点击使用技能#C(#FFFF00)红龙突袭#n		
+140	GVE战斗主线	0	1	8012	1	2	zhanchang	zhanchang	1	1					0			2	点击使用技能#C(#FFFF00)毁灭#n	点击使用技能#C(#FFFF00)毁灭#n	1&1&点击使用技能#C(#FFFF00)红龙突袭#n@4&2&点击使用技能#C(#FFFF00)毁灭#n	1&1&点击使用技能#C(#FFFF00)红龙突袭#n@4&2&点击使用技能#C(#FFFF00)毁灭#n
+141	组队爬塔战斗1	0	2	6004		3	zhanchang	zhanchang	1	1	0	1			0							
+142	组队爬塔战斗2	0	2	6006		3	zhanchang	zhanchang	1	1	0	1			0							
+143	组队爬塔战斗3	0	2	8005		3	zhanchang	zhanchang	1	1	0	1			0							
+144	组队爬塔战斗4	0	2	8013	1	3	zhanchang	zhanchang	1	1	0	1			0							
+145	组队爬塔战斗5	0	2	6006		3	zhanchang	zhanchang	1	1	0	1			0							
+146	组队爬塔战斗6	0	2	8011	1	3	zhanchang	zhanchang	1	1	0	1			0							
+147	组队爬塔战斗7	0	2	8014		3	zhanchang	zhanchang	1	1	0	1			0							
+148	天天挂机	0	0	6008		2	zhanchang	zhanchang	1	0					1							
+149	群魔乱舞	0	0	6007		2	zhanchang	zhanchang	1						0							
+150	梦幻龙域	0	0	6001		2	zhanchang	zhanchang	1						0							
+151	跨服组队竞技场	1	3	9001		1	zhanchang	zhanchang	1						0	173						
+152	公会副本-5	0	0	6008		2	zhanchang	zhanchang	1		1				1							
+153	组队爬塔战斗8	0	2	8012	1	3	zhanchang	zhanchang	1	1	0	1			0							
+154	组队爬塔战斗9	0	2	8014		3	zhanchang	zhanchang	1	1	0	1			0							
+155	跨服战队争霸	1	3	9001		1	zhanchang	zhanchang	1						0							
+156	繁体主线开场	0	0	6005		2	zhanchang	zhanchang	1	1					0			1	点击使用技能#C(#FFFF00)巨龙突袭#n	点击使用技能#C(#FFFF00)巨龙突袭#n		
+157	繁体主线开场	0	0	8011	1	2	zhanchang	zhanchang	1	1					0			2	点击使用技能#C(#FFFF00)毁灭龙息#n	点击使用技能#C(#FFFF00)毁灭龙息#n	1&1&点击使用技能#C(#FFFF00)巨龙突袭#n@4&2&点击使用技能#C(#FFFF00)毁灭毁灭#n	1&1&点击使用技能#C(#FFFF00)巨龙突袭#n@4&2&点击使用技能#C(#FFFF00)毁灭龙息#n
+158	公会神兽战斗	0	0	8006		2	zhanchang	zhanchang	1		0				1							
+159	勇者试炼场1	0	0	6007		2	zhanchang	zhanchang	1	0					1							
+160	勇者试炼场2	0	0	6008		2	zhanchang	zhanchang	1	0					1							
+161	勇者试炼场3	0	0	6009		2	zhanchang	zhanchang	1	0					1							
+162	组队爬塔战斗10	0	2	8011	1	3	zhanchang	zhanchang	1	1	0	1			0							
+163	组队爬塔战斗11	0	2	6008		3	zhanchang	zhanchang	1	1	0	1			0							
+164	公会神兽战斗	0	0	8005		2	zhanchang	zhanchang	1						1							
+165	龙骑试炼战斗	0	0	8004		2	zhanchang	zhanchang	1						1							
+166	魔域探秘PVE	0	0	8015		2	zhanchang	zhanchang	1						1							
+167	魔域探秘PVP	0	0	8015		1	zhanchang	zhanchang	1						1							
+168	圣域争霸PVP	1	0	8006		1	zhanchang	zhanchang	0				1	2	1							
+169	圣域争霸PVE	0	0	8006		2	zhanchang	zhanchang	0		0	0	1	2	1							
+170	诸神之战PVP	1	0	6001		1	zhanchang	zhanchang	0				1	2	0							
+171	新龙骑试炼战斗	0	0	8004		2	zhanchang	zhanchang	1						1							
+172	抢红包战斗	1	0	6005		1	zhanchang	zhanchang	0				1	1	0							
+173	跨服组队竞技场观战	1	3	9001		1	zhanchang	zhanchang	0				1	1	0							
+174	虚空幻境	0	2	8004		3	zhanchang	zhanchang	1		0	1			0							
+175	神树秘境	0	2	6008		2	zhanchang	zhanchang	1						0							
+176	神树秘境	0	0	6008		2	zhanchang	zhanchang	1						0							
+177	深渊炼狱PVP	1	0	8006		1	zhanchang	zhanchang	1						1							
+178	深渊炼狱PVE	0	0	8006		2	zhanchang	zhanchang	1						1							
+179	混沌神域GVE	0	2	8006		2	zhanchang	zhanchang	1	1		1			1							
+180	跨服战场（PVP）	1	0	8009		1	zhanchang	PVPzhandouyinyue	0				1	2	0							

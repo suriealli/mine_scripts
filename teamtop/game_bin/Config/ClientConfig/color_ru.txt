@@ -1,0 +1,13 @@
+﻿Id	ColorDesc	Color
+1	White	#ffffff
+2	Red	#FF0000
+3	Orange	#FF6600
+4	Green	#66FF00
+5	Blue	#0099FF
+6	Purple	#FF33CC
+7	Yellow	#FFFF00
+8	Grey	#575858
+9	Ivory	#E8CA79
+10	Ash grey	#E9FAFF
+11	Golden	#c37e00
+12	Burnt orange	#FFCC00

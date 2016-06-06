@@ -1,0 +1,5 @@
+goodId	item	originalUnbindRMB	needUnbindRMB	rebateItem	limitCnt
+商品ID	商品(coding,cnt)	原价	现价	回赠商品(coding,cnt)	限购（限购数量）
+1	(37018,1)	1885	1395	(27574,1)	1
+2	(37019,1)	1295	995	(27575,1)	1
+3	(37020,1)	1295	995	(27576,1)	1

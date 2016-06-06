@@ -1,0 +1,7 @@
+SealType	SealName	SealSkillName	SkillIconUrl	SealTabIconUrl	SealSubBgUrl
+圣印类型	圣印名称	圣印技能名称	圣印技能图标名字	圣印页签内图标名字	不同圣印页面的背景图片名字
+1	英勇圣印	英勇祝福	yingyongshengyin2	yingyongshengyin1	yingyongshengyin
+2	虔诚圣印	虔诚祝福	qianchengshengyin2	qianchengshengyin1	qianchengshengyin
+3	博学圣印	博学祝福	boxueshengyin2	boxueshengyin1	boxueshengyin
+4	毁灭圣印	毁灭祝福	huimieshengyin2	huimieshengyin1	huimieshengyin
+5	火焰圣印	火焰领悟	huoyanshengyin2	huoyanshengyin1	huoyanshengyin

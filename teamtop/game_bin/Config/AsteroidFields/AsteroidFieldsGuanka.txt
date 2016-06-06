@@ -1,0 +1,7 @@
+AFId	Name	NameRes	NameRes_US	FirstIndex	LastIndex	LevelNeeded	BackGround	Sample
+星域ID	星域名字	名字艺术字	北美名字艺术字	星域首关卡	星域末关卡	进入星域需要等级	背景	奖励预览
+1	光辉星域	moyuText1	moyuText1_US	1	50	80	moyuBack1	[(25828),(25643),(26272),(35812)]
+2	黑暗星域	moyuText2	moyuText2_US	51	100	100	moyuBack2	[(25828),(25643),(26272),(35813)]
+3	无尽星域	moyuText3	moyuText3_US	101	150	120	moyuBack3	[(25828),(25643),(26272),(35814)]
+4	崩坏星域	moyuText4	moyuText4_US	151	200	140	moyuBack4	[(25828),(25643),(26272),(35815)]
+5	毁灭星域	moyuText5	moyuText4_US	201	250	160	moyuBack5	[(25828),(25643),(26272),(35816)]

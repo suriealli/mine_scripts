@@ -1,0 +1,5 @@
+﻿index	onlineTime	needFill	freeTimes	desc	funcStr
+索引	在线时间（分钟）	是否需要首充	奖励的免费次数	描述内容	功能字符串
+1	0	1	1	每天首次充值1次免费抽奖次数	0
+2	200	0	1	每天在线200分钟1次免费抽奖次数	0
+3	9999999999	0	1	完成每日必做获得1次抽奖次数	OPEN_DO_DAILY

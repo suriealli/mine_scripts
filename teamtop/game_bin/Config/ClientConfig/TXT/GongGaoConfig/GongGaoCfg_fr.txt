@@ -1,0 +1,7 @@
+id	title	shuoming
+序列	标题	更新说明
+1	Bienvenue	Bonjour#H
+2		Nous sommes très contents de vous annoncer l'ouverture officielle de notre jeu Chevalier du dragon#H#H
+3		Nous vous préparons pleins d'activités afin de vous accueillir, profitez-en bien!#H#H
+4		Maintenant, partez dans une nouvelle aventure#H#H
+5		Votre équipe Chevalier du dragon#H#H#H

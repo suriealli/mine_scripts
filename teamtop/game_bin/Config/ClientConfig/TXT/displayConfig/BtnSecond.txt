@@ -1,0 +1,32 @@
+index	ID	btnName	beizhu	btenName	Name	paixu	ch_cn	ch_yy	ch_tw	en_us	ru_russia	tk_turkish	pl_poland	fr_French	esp_Espana	en_101xp	btnAName	jianJie	shuoMing	openString
+类型	id	主界面UI名字	备注	ui名字	界面中的名字	图标排序(只对活动大厅排)，数字小在前	国内版本(开放等级)	国内联运版本(开放等级)	台湾繁体	北美1	俄罗斯	土耳其	波兰	法语版本(开放等级)	西班牙语版本(开放等级)	英文101xp	界面名字艺术字	简介	奖励说明	打开界面字符串
+tzwfBtn	fbBtn	tzwfBtn	挑战活动	UpIcon_FB	副本	0	80	999	80	80	80	80	80	80	80	80	TZWF_TextTZWF	#C(#FF8000)简介#n#C(#00EC00):  每日打副本，海量奖励等你拿。#n	#C(#FF8000)掉落#n#C(#00EC00)：金币，龙晶，装备升阶图纸#n	SHOW_DUNGEON
+tzwfBtn	xmlyBtn	tzwfBtn	挑战活动	UpIcon_XMLY	心魔炼狱	0	80	999	80	80	80	80	80	80	80	80	TZWF_TextTZWF	#C(#FF8000)简介#n#C(#00EC00):  心魔炼狱战斗中还可以免费复活再战哟！#n	#C(#FF8000)掉落#n#C(#00EC00)：古龙血，天灵石，玄铁，龙晶，金币#n	OPEN_LIANYU
+tzwfBtn	yxslcBtn	tzwfBtn	挑战活动	UpIcon_YXSLC	勇者试炼场	0	80	999	80	80	80	999	80	80	80	80	TZWF_TextTZWF	#C(#FF8000)简介#n#C(#00EC00):  这是勇者试炼的地方，快来吧。#n	#C(#FF8000)掉落#n#C(#00EC00)：经验，龙晶#n	OPEN_YONGZHESLC_PANEL
+tzwfBtn	myxgbtn	tzwfBtn	挑战活动	UpIcon_MYXG	魔域星宫	0	80	999	80	80	80	80	80	80	80	80	TZWF_TextTZWF	#C(#FF8000)简介#n#C(#00EC00):  你能达到第几层？我们拭目以待。#n	#C(#FF8000)掉落#n#C(#00EC00)：圣器，圣器洗练石，金币，经验酒#n	MYXG
+tzwfBtn	xycmBtn	tzwfBtn	挑战活动	UpIcon_YLSD	英灵神殿	0	80	999	80	80	80	80	80	80	80	80	TZWF_TextTZWF	#C(#FF8000)简介#n#C(#00EC00):  战力的极致追求，挑战自己的极限。#n	#C(#FF8000)掉落#n#C(#00EC00)：金币，经验酒，英雄兑换以及升阶道具#n	OPEN_YLSD
+tzwfBtn	lqslBtn	tzwfBtn	挑战活动	UpIcon_LQSL	龙骑试炼	0	120	999	120	120	100	120	120	120	100	120	TZWF_TextTZWF	#C(#FF8000)简介#n#C(#00EC00):  谁才能最终战胜恶龙？#n	#C(#FF8000)掉落#n#C(#00EC00)：称号#n	openLQSL
+tzwfBtn	yxsdBtn	tzwfBtn	挑战活动	UpIcon_YXSD	英雄圣殿	0	160	999	160	160	160	999	160	160	160	160	TZWF_TextTZWF	#C(#FF8000)简介#n#C(#00EC00):  想要英雄觉醒吗？想要无上的荣耀吗？来闯关吧！#n	#C(#FF8000)掉落#n#C(#00EC00)：英雄觉醒以及升阶道具#n	OPEN_YXSD
+tzwfBtn	yxjjBtn	tzwfBtn	挑战活动	UpIcon_YXJJ	英雄竞技	0	80	999	80	999	999	999	999	999	999	999	TZWF_TextTZWF	#C(#FF8000)简介#n#C(#00EC00):  全服第一的无上荣耀，谁来争夺？#n	#C(#FF8000)掉落#n#C(#00EC00)：声望#n	OPEN_ARENA
+tzwfBtn	ydlzbtn	tzwfBtn	挑战活动	UpIcon_YDLZ	勇斗领主	0	80	999	80	999	999	999	999	999	999	999	TZWF_TextTZWF	#C(#FF8000)简介#n#C(#00EC00):  勇斗领主拿经验，主仆互动乐无穷！#n	#C(#FF8000)掉落#n#C(#00EC00)：经验#n	NON
+zdzcBtn	ygbhBtn	zdzcBtn	组队战场	UpIcon_GHFB	公会副本	0	80	999	80	80	80	80	80	80	80	80	TZWF_TextZDZC	#C(#FF8000)简介#n#C(#00EC00):  公会组队刷boss。得神器升阶材料！#n	#C(#FF8000)掉落#n#C(#00EC00)：神器，神器进阶图纸，魂石#n	GHFB
+zdzcBtn	zdptBtn	zdzcBtn	组队战场	UpIcon_ZDPT	组队爬塔	0	80	999	80	80	80	80	80	80	80	80	TZWF_TextZDZC	#C(#FF8000)简介#n#C(#00EC00):  组队战胜一切困难，战胜真正的龙！#n	#C(#FF8000)掉落#n#C(#00EC00)：龙骸，龙灵，化石等道具#n	OPEN_ZDPT_DT
+zdzcBtn	qyfbbtn	zdzcBtn	组队战场	UpIcon_QYFB	情缘副本	0	80	999	80	80	80	80	80	80	80	80	TZWF_TextZDZC	#C(#FF8000)简介#n#C(#00EC00):  情侣组队玩刺激副本，得丰厚情缘奖励！#n	#C(#FF8000)掉落#n#C(#00EC00)：姻缘石，龙晶，金币等道具#n	OPEN_QYFB
+zdzcBtn	hdsyBtn	zdzcBtn	组队战场	UpIcon_HDSY	混沌神域	0	130	999	130	999	130	999	130	130	130	130	TZWF_TextZDZC	#C(#FF8000)简介#n#C(#00EC00):  团队协助无坚不摧，来挑战自己的极限吧！#n	#C(#FF8000)掉落#n#C(#00EC00)：圣印纹章、历练值#n	OPEN_HDSY
+tqhdBtn	lqyyBtn	tqhdBtn	特权活动	UpIcon_LQYYDLB	应用大礼包	0	20	999	20	999	999	999	999	20	999	20	TZWF_TextTQHD	#C(#FF8000)简介#n#C(#00EC00):  将游戏快捷方式添加到qq面板，获得奖励。#n	#C(#FF8000)掉落#n#C(#00EC00)：魔晶，坐骑培养石，宝石等道具#n	OPEN_QQLOGIN_FRAME
+tqhdBtn	QQHZbtn	tqhdBtn	特权活动	UpIconQQHZ,UpIconQQLZ	QQ黄钻	0	1	999	1	999	999	999	999	1	999	1	TZWF_TextTQHD	#C(#FF8000)简介#n#C(#00EC00):  新手礼包，每日礼包，成长礼包等你拿。#n	#C(#FF8000)掉落#n#C(#00EC00)：魔晶，龙晶，材料等道具#n	OPEN_HUANGZUAN_LANZUAN_PANEL
+tqhdBtn	fxyjbtn	tqhdBtn	特权活动	UpIcon_FXYJ	分享有奖	0	20	999	20	999	999	999	999	20	999	20	TZWF_TextTQHD	#C(#FF8000)简介#n#C(#00EC00):  分享之后，将会获得大量奖励哟#n	#C(#FF8000)掉落#n#C(#00EC00)：坐骑培养石,宝石礼盒等道具#n	openFXYYJ
+tqhdBtn	UpIcon_GJTQ	tqhdBtn	特权活动	UpIcon_GJTQ	管家	0	1	999	1	999	999	999	999	1	999	1	TZWF_TextTQHD	#C(#FF8000)简介#n#C(#00EC00):  丰厚的管家特权，还在等什么？#n	#C(#FF8000)掉落#n#C(#00EC00)：材料，魔晶，龙晶，姻缘石等道具#n	OPEN_GUANJIA_PANEL
+tqhdBtn	UpIcon_AWTQ	tqhdBtn	特权活动	UpIcon_AWTQ	爱玩	0	1	999	1	999	999	999	999	1	999	1	TZWF_TextTQHD	#C(#FF8000)简介#n#C(#00EC00):  丰厚的爱玩特权，还在等什么？#n	#C(#FF8000)掉落#n#C(#00EC00)：材料，魔晶，龙晶，姻缘石等道具#n	OPEN_AIWAN_PANEL
+tqhdBtn	hzchBtn	tqhdBtn	特权活动	UpIcon_HZCH	黄钻称号	0	1	999	1	999	999	999	999	1	999	1	TZWF_TextTQHD	#C(#FF8000)简介#n#C(#00EC00):  成为黄钻贵族，获得专属称号！#n	#C(#FF8000)掉落#n#C(#00EC00)：称号奖励#n	OPEN_HZ_TITLE_PANEL
+tqhdBtn	lz3366btn	tqhdBtn	特权活动	UpIcon_LZ3366	3366豪礼	0	1	999	1	999	999	999	999	1	999	1	TZWF_TextTQHD	#C(#FF8000)简介#n#C(#00EC00):  3366特权豪礼，还在等什么？#n	#C(#FF8000)掉落#n#C(#00EC00)：龙晶，魔晶，坐骑培养石等道具#n	OPEN_DAILY_PANEL_3366
+tqhdBtn	xzlbBtn	tqhdBtn	特权活动	UpIcon_XZLB	微端下载	0	45	999	45	999	999	999	999	999	999	999	TZWF_TextTQHD	#C(#FF8000)简介#n#C(#00EC00):  微端登录领好礼，还在等什么？#n	#C(#FF8000)掉落#n#C(#00EC00)：龙晶，魔晶，坐骑培养石等道具#n	OPEN_MICRO_XIAZAIPANEL
+tqhdBtn	wdlBtn	tqhdBtn	特权活动	UpIcon_WDLB	微端礼包	0	45	999	45	999	999	999	999	999	999	999	TZWF_TextTQHD	#C(#FF8000)简介#n#C(#00EC00):  微端登录领好礼，还在等什么？#n	#C(#FF8000)掉落#n#C(#00EC00)：龙晶，魔晶，坐骑培养石等道具#n	OPEN_MICRO_PANEL
+hddtBtn	mrbzBtn	hddtBtn	活动大厅	UpIcon_MRBZ	每日必做	1	60	999	60	999	999	999	999	999	999	999				OPEN_DO_DAILY
+hddtBtn	mrflBtn	hddtBtn	活动大厅	UpIcon_MRFL	每日福利	2	45	999	45	999	999	999	999	999	999	999				open_everyday_welfare
+hddtBtn	jlbzBtn	hddtBtn	活动大厅	UpIcon_JLBZ	巨龙宝藏	3	45	999	45	999	999	999	999	999	999	999				OPEN_JLBZ
+hddtBtn	djbkBtn	hddtBtn	活动大厅	UpIcon_DJBK	地精宝库	4	60	999	60	999	999	999	999	999	999	999				OPEN_GOBLIN_EXCHANGE
+hddtBtn	llsrBtn	hddtBtn	活动大厅	UpIcon_LLSR	流浪商人	5	45	999	45	999	999	999	999	999	999	999				openLLSR
+hddtBtn	dthdBtn	hddtBtn	活动大厅	UpIcon_DTHD	问答比赛	6	45	999	45	999	999	999	999	999	999	999				OPEN_QUESTION_MSG
+hddtBtn	ttxlzBtn	hddtBtn	活动大厅	UpIcon_TTXLZ	天天消龙珠	7	45	999	45	999	999	999	999	999	999	999				OPEN_MARBLE_FRAME
+hddtBtn	bs2048Btn	hddtBtn	活动大厅	UpIcon_BS2048	宝石2048	8	60	999	60	999	999	999	999	999	999	999				open_elsbpanel

@@ -1,0 +1,11 @@
+rewardType	rewardLevel	needBuyTimes
+奖励类型	奖励级别	解锁需要购买次数
+1	1	3
+1	2	6
+1	3	9
+2	1	3
+2	2	6
+2	3	9
+3	1	3
+3	2	6
+3	3	9

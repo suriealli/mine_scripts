@@ -1,0 +1,12 @@
+name-name	n	checkTask	fighting	clickNpc	findNpc	flySky	jumpScene	czlzStatus	emsy	fb	wildBoss
+变量名-变量名(互斥填提示文本否则不填，如果你要进入左边这一列是要进入的状态)	状态名字	检测任务	战斗状态	点击npc	寻路找npc	在空中飞行	跳转场景	城主轮值	在恶魔深渊场景内	在副本场景内	在野外夺宝场景内
+checkTask	检测任务										
+fighting	战斗状态										
+clickNpc	点击npc		战斗中无法点击npc			空中飞行中无法点击npc					
+findNpc	寻路找npc		战斗中无法寻路			空中飞行中无法寻路					
+flySky	在空中飞行										
+jumpScene	跳转场景		战斗无法调整场景								
+czlzStatus	城主轮值										
+emsy	在恶魔深渊场景内									副本内不能挑战恶魔深渊	
+fb	在副本场景内								恶魔深渊进行中不能打副本		正在夺宝不能进入副本
+wildBoss	野外夺宝										

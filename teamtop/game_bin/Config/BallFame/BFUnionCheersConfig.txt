@@ -1,0 +1,4 @@
+cheersCnt	needGoalsCnt
+喝彩次数	需要公会进球个数
+0	10
+1	20

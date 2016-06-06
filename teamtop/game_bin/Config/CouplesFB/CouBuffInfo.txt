@@ -1,0 +1,7 @@
+buffId	keeptime	round	fightCD	moveCD	randompro	fightbuff
+buffId(buffId与截图对应。后面填写的数值都为万分比)	持续时间	持续的回合数	减少战斗CD	移动CD	减少触发事件概率	战斗buff增伤
+3	60	0	3000	0	0	0
+4	60	0	0	0	3000	0
+5	60	0	0	3000	0	0
+6	60	0	0	0	0	1000
+7	-1	1	0	0	0	1000

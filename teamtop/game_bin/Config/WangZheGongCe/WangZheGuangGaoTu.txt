@@ -1,0 +1,9 @@
+yeQianId	guanggaotu	guanggaolm
+页签ID	广告图	广告图-联盟
+1	wangzhe1	wangzhe1
+2	wangzhe2	wangzhe2
+3		
+4	wangzhe4	wangzhe4
+5	wangzhe5	wangzhe5
+6	wangzhe6	wangzhe8
+7	wangzhe7	wangzhe7

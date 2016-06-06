@@ -1,0 +1,27 @@
+name	zhname	loginReset
+变量名	中文名	上线处理(0:不需要处理， 1:还原为False)
+ST_FightStatus	战斗状态	1
+ST_Team	组队状态	1
+ST_InMirror	非组队副本中	1
+ST_InTeamMirror	组队相关副本中	1
+ST_TP	传送状态	1
+ST_InCouplesFB	是否在情缘副本中	1
+ST_InWedding	是否在婚礼场景中	1
+ST_WildBoss	野外寻宝状态	1
+ST_UnionFB	是否在公会副本中	1
+ST_Halloween	是否在万圣节宴会中	1
+ST_JTGoToCross	是否可以从本服到跨服组队竞技场	1
+ST_JTMatch	组队竞技场匹配中	1
+ST_MarryParty	结婚Party	1
+ST_Zuma	天天消龙珠游戏中	1
+ST_DailyFB	勇者试炼场	1
+ST_DKCFight	龙骑试炼战斗	1
+ST_DukeOnDuty	城主轮值	1
+ST_DemonDefense	魔兽入侵	1
+ST_HunluanSpace	混乱时空	1
+ST_GloryWar	荣耀之战	1
+ST_ClashOfTitans	诸神之战	1
+ST_QiangHongBao	抢红包	1
+ST_Shenshumijing	神树密境	1
+ST_MDragonCome	魔龙降临	1
+ST_DeepHell	深渊炼狱	1

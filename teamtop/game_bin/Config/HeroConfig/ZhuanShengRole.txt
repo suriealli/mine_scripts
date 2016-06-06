@@ -1,0 +1,5 @@
+ZhuanShengLv	NeedMoney	NeedHaloLv	NeedItem	zhuanshengNeedRes	maxhp	attackspeed	anger	attack_p	defense_p	attack_m	defense_m	crit	critpress	antibroken	notbroken	parry	puncture	damageupgrade	damagereduce
+转生等级	主角转生需要金币	转生需要光环等级	转生需要物品	转生需要道具小图标	基础生命值	攻击速度	怒气	物攻	物防	法攻	法防	暴击	免暴	破防	免破	格挡	破挡	增伤	免伤
+0	1000000000	0	28762, 1000	Pub_IcomLLZ	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	10000000000	50	28762, 5000	Pub_IcomLLZ	1500	0	0	500	0	500	0	500	500	0	0	500	500	0	0
+2	10000000000	999	28762, 5000	Pub_IcomLLZ	2250	0	0	750	0	750	0	750	750	0	0	750	750	0	0

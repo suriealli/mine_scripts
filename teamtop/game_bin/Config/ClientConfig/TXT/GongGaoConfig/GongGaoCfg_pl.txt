@@ -1,0 +1,30 @@
+id	title	shuoming
+序列	標題	更新說明
+1	Aktualizacje 3 marca	#B#C(#472C08)#S(14)#n#n#n#H#S(14)#C(#472C08)
+2		I.Nowy system: Magiczny krąg#H
+3		Wymagany poziom: 120.#H
+4		Zasady:#H
+5		1. Na system składa się ekwipunek, ulepszanie i funkcja rafinacji.#H
+6		2. Postać i bohater muszą osiągnąć lvl 120 by móc posiadać Ducha Magii.#H
+7		3. Każdy Duch Magii posiada jeden tych cechy oraz jeden punkt umiejętności. Przy odpowiedniej ilości punktów będzie można wyposażyć postać / bohatera w daną umiejętność.#H
+8		4. Każdy bohater w formacji może posiadać tylko jedną umiejętność pasywną w walce.#H
+9		5. Przy ulepszaniu Ducha Magii nie zmienia się jego typ. Staje się jedynie silniejszy i otrzymuje więcej punktów umiejętności.#H
+10		6. Przy rafinacji Ducha Magii zmienia się typ cech oraz otrzymuje się więcej punktów umiejętności.#H
+11		7. Można odblokować 6 fantastycznych umiejętności:#H
+12		a. Zamrożenie: Szansa zamrożenia przeciwnika na 2 rundy w wyniku ataku. Zamrożony przeciwnik nie może użyć żadnych umiejętności.#H
+13		b. Odnowienie: podczas walki jest szansa na pominięcie odliczania przed ponowieniem danego ataku.#H
+14		c. Tarcza: Po wejściu w pole walki otrzymasz na jedną rundę Tarczę, która pochłania otrzymane obrażenia (proporcjonalnie do HP postaci - w zależności od punktów Ducha Magii).#H
+15		d. Obrona: Po wejściu w pole walki Twoja obrona znacznie wzrośnie.#H
+16		e. HP: Po wejściu w pole walki Twoja drużyna otrzyma więcej HP w zależności od Twojego maksymalnego HP.#H
+17		f. Dren: Kiedy Twoje HP spadnie poniżej danej ilości, będziesz mógł podnieść HP swoje i bohaterów podczas ataku. Tylko raz podczas walki.#H#H
+18		II. Nowy event: Koło Magii#H
+19		1. Każde zakręcenie kołem kosztuje 88 diamentów. Nagrody: Diabelski Kamień Ulepszania lub Duch Magii lvl 1.#H
+20		2. Duchy Magii umieszcza się w Magicznym Kręgu. Do podnoszenia poziomu Ducha Magii potrzebny jest Diabelski Kamień Ulepszania.#H#H
+21		III.Nowy system: kuźnia klejnotów o podwójnych cechach.#H
+22		1. Otwiera się na poziomie 120.#H
+23		2. Klejnoty lvl 10 lub wyższe mogą zostać przekute w klejnoty o podwójnych cechach.#H
+24		3. Możesz przekuwać posiadane klejnoty.#H
+25		4. Istnieje 12 rodzajów podwójnych klejnotów: AtakFiz, HP i AtakMag łączą się z: Kryt, Anty-Kryt, Blok i ŁamanieBloku.#H
+26		5. W zależności od przekuwanych klejnotów, zostanie użyty Kamień Kuźni i wymagany klejnot obrony.#H
+27		6. Klejnoty o podwójnych cechach otrzymają bonus z Pieczęci Klejnotu - tak samo jak zwykłe klejnoty.#H
+28		7. Istnieją 3 rodzaje Kamieni Kuźni: AtakFiz, HP i AtakMag. Można za ich pomocą przekuwać różne klejnoty.#H#H

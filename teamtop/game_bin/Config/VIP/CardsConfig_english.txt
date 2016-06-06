@@ -1,0 +1,7 @@
+cardID	unbindRMB	originalPrice	fanquan	chestCoding	time	effectiveDays	buydesc	cardWordArt	timerWordArt	descNum	desc1	desc2	desc3	desc4	desc5	desc6
+卡片ID（周卡-1、月卡-2、半年卡-3）	购买需要元宝	原价	每日返券	宝箱Coding	时效（秒）	有效期天数	购买描述	卡片艺术字	卡片持续时间艺术字	描述数量	卡片描述1	卡片描述2	卡片描述3	卡片描述4	卡片描述5	卡片描述6
+1	295	400	50	26472	604800	7	7天周卡	YK_BM_TextZK	YK_BM_YXQ	0	秒CD	秒CD	秒CD	秒CD	秒CD	秒CD
+2	995	1400	100	26473	2592000	30	30天月卡	YK_BM_TextYK	YK_BM_YXQ30	2	英雄竞技挑战  免CD	恶魔深渊扫荡  免CD	秒CD	秒CD	秒CD	秒CD
+3	5395	7200	120	26475	15552000	180	180天半年卡	YK_BM_TextBNK	YK_BM_YXQ180	4	英雄竞技挑战  免CD	恶魔深渊扫荡  免CD	强化装备      免CD	副本扫荡      免CD	秒CD	秒CD
+4	2835	3800	110	26474	7776000	90	90天季度卡	YK_BM_TextJDK	YK_BM_YXQ90	3	英雄竞技挑战  免CD	恶魔深渊扫荡  免CD	强化装备      免CD	秒CD	秒CD	秒CD
+5	9555	12800	150	26476	31104000	360	360天年卡	YK_BM_TextNK	YK_BM_YXQ365	6	英雄竞技挑战  免CD	恶魔深渊扫荡  免CD	强化装备      免CD	副本扫荡      免CD	炼金收益加成      +10%	副本金币收益加成      +10%

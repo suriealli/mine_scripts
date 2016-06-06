@@ -1,0 +1,3 @@
+talentSkillId	talentSkillName	passiveSkillId
+天赋技能ID	天赋技能名称	被动技能ID
+1	左勾拳	890

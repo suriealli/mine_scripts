@@ -1,0 +1,4 @@
+stageID	sceneID	posX	posY	goldCount
+副本层数	场景ID	进入x坐标	进入y坐标	本层金币个数
+1	66	503	889	15
+2	66	503	889	15

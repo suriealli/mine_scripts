@@ -1,0 +1,4 @@
+groupType	titleRes	des	halfBody	flagRes
+阵营类型	阵营标题资源	描述	半身像	阵营标记资源
+gloryWarLYC	RYZZ_TextLYC	为了烈阳城的荣耀，奋勇杀敌吧！！！	40008	RYZZ_DW_Yang
+gloryWarAYC	RYZZ_TextANYJ	暗月郡的勇士，预祝武运昌隆！！！	10009	RYZZ_DW_Yie

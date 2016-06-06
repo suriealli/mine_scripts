@@ -1,0 +1,8 @@
+targetType	isLastTarget	targetNameImg	targetRankName	beginDay	continueDay	targetRankAward	targetTaskDes	picture
+活动ID	是否最后一个活动(最后一个活动结束的时候结算排行榜奖励)	活动名称	活动排行榜名称	开服后第几天开启活动	活动持续时间	活动排行奖励	活动任务描述	图片显示
+1	0	QRMB_TextCJ	冲级榜:主角≥30	0	1	27527	主角升至以上等级,可领取奖励	
+2	0	QRMB_TextZQ	坐骑达人	0	2		坐骑达到以上等级,可领取奖励	qiri4
+3	0	QRMB_TextBS	宝石达人	0	3		装备上宝石等级之和达到以上等级,可领取奖励	qiri1
+4	0	QRMB_TextZZL	战斗力榜:战斗力≥50000	0	7	27529	总战力达到以上条件,可领取奖励	
+5	0	QRMB_TextXF	消费达人	3	4		活动期间累计消费达到以上条件,可领取奖励	qiri2
+6	1	QRMB_TextCZ	充值达人	3	4		活动期间累计充值达到以上条件,可领取奖励	qiri3

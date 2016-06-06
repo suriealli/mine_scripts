@@ -1,0 +1,211 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML style="padding:0px;">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>龙骑管理后台</title>
+<meta name="keywords" content="">
+<meta name="description" content="description String">
+<meta name="robots" content="all">
+<meta name="author" content="author string">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link href="/site_medias/css/main.css" rel="stylesheet" type="text/css">
+<link href="/site_medias/css/layout.css" rel="stylesheet" type="text/css">
+<link href="/site_medias/css/font.css" rel="stylesheet" type="text/css">
+<script src="/site_medias/js/js.js"></script>
+<script src="/site_medias/js/jquery.js"></script>
+<script src="/site_medias/js/UI.js"></script>
+<script src="/site_medias/js/me.js"></script>
+<script>
+function DateInfo(){
+	var day="";
+	var month="";
+	var ampm="";
+	var ampmhour="";
+	var myweekday="";
+	var year="";
+	mydate=new Date();
+	myweekday=mydate.getDay();
+	mymonth=mydate.getMonth()+1;
+	myday= mydate.getDate();
+	myyear= mydate.getYear();
+	year=(myyear > 200) ? myyear : 1900 + myyear;
+	if(myweekday == 0)
+	weekday=" 星期日";
+	else if(myweekday == 1)
+	weekday=" 星期一";
+	else if(myweekday == 2)
+	weekday=" 星期二";
+	else if(myweekday == 3)
+	weekday=" 星期三";
+	else if(myweekday == 4)
+	weekday=" 星期四";
+	else if(myweekday == 5)
+	weekday=" 星期五";
+	else if(myweekday == 6)
+	weekday=" 星期六";
+	document.write(year+"年"+mymonth+"月"+myday+"日"+weekday);
+}
+
+function get_title(title){
+	$("#msg_title").html(title);
+}
+$(document).ready(function(){
+	$("#sidebar li a").click(function(){
+		$(this).css({ color: "#ffffff" });
+		$(this).parent("li").css({ background: "#40b3ec" });
+		$("#sidebar li a").not($(this)).css({ color: "#34659d" });
+		$("#sidebar li a").not($(this)).parent("li").css({  background: "#f4f9fd" });
+	});
+});
+function reconnect(){
+	server = document.getElementById("transserver").value;
+	if('' == server){
+		alert("请选择游戏服");
+	}
+	else openurl(server);
+}
+function openurl(value){
+	if(''==value){
+		$("#linkagain").hide();
+		$("#clientversion").hide();
+		$("#serverversion").hide();
+		$("#opentime").hide();
+		$("#updatetime").hide();
+		$("#opendays").hide();
+	}
+	else{
+		$("#linkagain").show();
+		$("#clientversion").show();
+		$("#serverversion").show();
+		$("#opentime").show();
+		$("#updatetime").show();
+		$("#opendays").show();
+		var stv= new Array(); //定义一数组
+		stv=value.split("svtime"); //字符分割
+		time = stv[1].split("t");//opentime,updatetime
+		opdays = parseInt((time[2]-time[0])/86400);
+		myOpenDate = new Date(parseInt(time[0]) * 1000);
+		opy = myOpenDate.getFullYear();
+		opm = myOpenDate.getMonth()+1;       //获取当前月份(0-11,0代表1月)
+		opd = myOpenDate.getDate();        //获取当前日(1-31)
+		optime = opy+"-"+opm+"-"+opd;
+		myUpdateDate = new Date(parseInt(time[1]) * 1000);
+		upy = myUpdateDate.getFullYear();
+		upm = myUpdateDate.getMonth()+1;       //获取当前月份(0-11,0代表1月)
+		upd = myUpdateDate.getDate();        //获取当前日(1-31)
+		uptime = upy+"-"+upm+"-"+upd;
+		version = stv[2].split("sversion");//客服端版本，服务器端版本
+		$("#clientversion").html('客服端版本:'+version[0]);
+		$("#serverversion").html('服务器版本:'+version[1]);
+		$("#opentime").html('开服时间:'+optime);
+		$("#updatetime").html('更新时间:'+uptime);
+		$("#opendays").html('开服天数:'+opdays);
+		window.open(value,'if_content_t');
+	}
+}
+
+function gettransid(value){
+	if(''==value){
+		slttransport= document.getElementById("transserver");
+		slttransport.style.display="none";
+	}
+	else{
+		slttransport= document.getElementById("transserver");
+		slttransport.style.display="block";
+	}
+	$("#linkagain").hide();
+	$("#clientversion").hide();
+	$("#serverversion").hide();
+	$("#opentime").hide();
+	$("#updatetime").hide();
+	$("#opendays").hide();
+	id='game'+value;
+	deleteOptions('transserver','all');
+	reservedMoveOption(id,'transserver','all');
+}
+</script>
+</head>
+<BODY style=" background:#CCE3F8; overflow-y:hidden">
+<TABLE cellSpacing=0 cellPadding=0 id="maintab">
+  <TR>
+    <TD id="m_top"><div id="A_head">
+        <div id="hostname">
+        </b>(&nbsp;<a href="/model" target="_top" style="color:white">后台首页</a>&nbsp;|&nbsp;<a href="/model/user/exit" style="color:white">安全退出</a>&nbsp;)&nbsp;&nbsp;卐 欢迎使用龙骑管理后台，大家认真工作，注意休息!|-_-... </div>
+        <div id="mtright">
+          
+          <div id="mtr_time">
+            <script>DateInfo();</script>
+          </div>
+        </div>
+      </div>
+      
+      <div id="m_min-width">
+        <!--控制最小宽度-->
+      </DIV></TD>
+  </TR>
+  <TR>
+  <TD id="m_top_gamestate" >
+     <div id="selectgame">
+     <ul>
+     	<li>
+		<select id="server" name="server" val="{{get.server}}">
+		<option value="">切换游戏服</option>
+		{%for key,val in servers.items%}
+		<option value="{{key}}">&nbsp;{{val.name|safe}}&nbsp;&nbsp;</option>
+		{%endfor%}
+		</select>
+		&nbsp;<span style="color:green">{{server_tips}}</span>
+		<script>
+		$('#server').val({{server}}).change(function(){
+			window.location.href="/model?server="+$(this).val();
+		});
+		</script>
+		</li>
+     </ul>
+     </div>
+     <div id="gamestate" style="text-align:right"></div>
+   </TD>
+  </TR>
+  <TR>
+    <TD id="m_middle">
+    <DIV id="sidebar">
+		{%for category,value in guides.items%}
+        <div class="item_list" id="category_{{category}}">
+			<div class="il_title" onClick='onechangClass("category_{{category}}","item_list","item_list open")'>※{{category}}</div>
+			<ul>
+				{%for v in value%}
+				<li><a href="{{v.url}}" target="if_content_t" title="{{v.name}}" onClick="get_title(this.title);">{{v.name}}</a></li>
+				{%endfor%}
+			</ul>
+		</div>
+		{%endfor%}
+      </DIV>
+      <DIV id="content">
+      	<div style="position:absolute; z-index:55; left:0; width:100%; top:0; height:100%;">
+        <div id="content_title">
+          <div id="content_t_s">
+            <div id="content_t_s_l">&nbsp;</div>
+            <div id="content_t_s_c">您现在的位置：<span id="msg_title">欢迎进入平台管理后台！</span></div>
+            <div id="content_t_s_r">&nbsp;</div>
+          </div>
+        </div>
+        <iframe style="padding:28px 0 0px 0px;" id="if_content" name="if_content_t" scrolling="auto" frameborder="0" src="/site_medias/welcome.htm"></iframe>
+      </DIV>
+      </DIV></TD>
+  </TR>
+  <tr>
+    <td id="m_bottom"></td>
+  </tr>
+</TABLE>
+<div style="display:none">
+<!--{foreach name=s from=$server item=val key=key1}-->
+<select id="game<!--{$key1}-->">
+<option value="">请选择游戏服</option>
+<!--{foreach name=g from=$val item=val2}-->
+<option value="sh_dbselect.php?svname=<!--{$val2.sysid}-->&severname=<!--{$val2.ab_gamename|escape:'url'}-->&svtime<!--{$val2.ab_opentime}-->t<!--{$val2.ab_updatetime}-->t<!--{$nowtime}-->svtime<!--{$val2.ab_clientversion}-->sversion<!--{$val2.ab_serverversion}-->"><!--{$val2.ab_gamename}--></option>
+<!--{/foreach}-->
+</select>
+<!--{/foreach}-->
+</div>
+</BODY>
+</HTML>

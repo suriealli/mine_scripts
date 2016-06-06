@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3E900DB2-DA7A-4777-8D08-B6FE28A3EECB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ComplexServer</RootNamespace>
+    <ProjectName>ComplexServer</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Bin_d\</OutDir>
+    <IncludePath>D:\boost_1_48_0;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\boost_1_48_0\stage\lib;$(LibraryPath)</LibraryPath>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Bin\</OutDir>
+    <IncludePath>D:\boost_1_48_0;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\boost_1_48_0\stage\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>"$(SolutionDir)Include";</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DisableSpecificWarnings>4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)CLib;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>python27_d.lib;libmysql.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>"$(SolutionDir)Include";</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DisableSpecificWarnings>4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)CLib;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>python27.lib;libmysql.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/nodefaultlib:libboost_thread-vc100-mt-sgd-1_48 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GameEngine\GameEngine.vcxproj">
+      <Project>{d3d002e8-447c-4d60-96c0-2d01cec01994}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Area.cpp" />
+    <ClCompile Include="AreaMap.cpp" />
+    <ClCompile Include="GatewayForward.cpp" />
+    <ClCompile Include="LogTransaction.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="ComplexServer.cpp" />
+    <ClCompile Include="MapMgr.cpp" />
+    <ClCompile Include="Mirror.cpp" />
+    <ClCompile Include="NPC.cpp" />
+    <ClCompile Include="NPCMgr.cpp" />
+    <ClCompile Include="NPCTemplate.cpp" />
+    <ClCompile Include="PublicScene.cpp" />
+    <ClCompile Include="PyComplexServer.cpp" />
+    <ClCompile Include="PyGatewayForward.cpp" />
+    <ClCompile Include="PyLogTransaction.cpp" />
+    <ClCompile Include="PyMultiMirrorScene.cpp" />
+    <ClCompile Include="PyNPC.cpp" />
+    <ClCompile Include="PyNPCMgr.cpp" />
+    <ClCompile Include="PyPublicScene.cpp" />
+    <ClCompile Include="PyRole.cpp" />
+    <ClCompile Include="PyRoleArray.cpp" />
+    <ClCompile Include="PyRoleContain.cpp" />
+    <ClCompile Include="PyRoleDataMgr.cpp" />
+    <ClCompile Include="PyRoleGather.cpp" />
+    <ClCompile Include="PyRoleMgr.cpp" />
+    <ClCompile Include="PySceneMgr.cpp" />
+    <ClCompile Include="PyScriptMgr.cpp" />
+    <ClCompile Include="PySingleMirrorScene.cpp" />
+    <ClCompile Include="Role.cpp" />
+    <ClCompile Include="RoleData.cpp" />
+    <ClCompile Include="RoleDataMgr.cpp" />
+    <ClCompile Include="RoleMgr.cpp" />
+    <ClCompile Include="SceneBase.cpp" />
+    <ClCompile Include="SceneMgr.cpp" />
+    <ClCompile Include="ScriptMgr.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Area.h" />
+    <ClInclude Include="AreaDefine.h" />
+    <ClInclude Include="AreaMap.h" />
+    <ClInclude Include="ClutterDefine.h" />
+    <ClInclude Include="GatewayForward.h" />
+    <ClInclude Include="LogTransaction.h" />
+    <ClInclude Include="MapMgr.h" />
+    <ClInclude Include="Mirror.h" />
+    <ClInclude Include="NPC.h" />
+    <ClInclude Include="NPCMgr.h" />
+    <ClInclude Include="NPCTemplate.h" />
+    <ClInclude Include="PublicScene.h" />
+    <ClInclude Include="PyComplexServer.h" />
+    <ClInclude Include="ComplexServer.h" />
+    <ClInclude Include="MessageDefine.h" />
+    <ClInclude Include="PyGatewayForward.h" />
+    <ClInclude Include="PyLogTransaction.h" />
+    <ClInclude Include="PyMultiMirrorScene.h" />
+    <ClInclude Include="PyNPC.h" />
+    <ClInclude Include="PyNPCMgr.h" />
+    <ClInclude Include="PyPublicScene.h" />
+    <ClInclude Include="PyRole.h" />
+    <ClInclude Include="PyRoleArray.h" />
+    <ClInclude Include="PyRoleContain.h" />
+    <ClInclude Include="PyRoleDataMgr.h" />
+    <ClInclude Include="PyRoleGather.h" />
+    <ClInclude Include="PyRoleMgr.h" />
+    <ClInclude Include="PySceneMgr.h" />
+    <ClInclude Include="PyScriptMgr.h" />
+    <ClInclude Include="PySingleMirrorScene.h" />
+    <ClInclude Include="Role.h" />
+    <ClInclude Include="RoleData.h" />
+    <ClInclude Include="RoleDataMgr.h" />
+    <ClInclude Include="RoleMgr.h" />
+    <ClInclude Include="SceneBase.h" />
+    <ClInclude Include="SceneMgr.h" />
+    <ClInclude Include="ScriptMgr.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

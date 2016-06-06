@@ -1,0 +1,152 @@
+index	exam_type	title	answer1	answer2	right
+题库索引	题目类型	题目	答案A	答案B	正确答案（1 or 2）
+1	30	Au Moyen-Âge, comment appelait-on les villages fortifiés ?	Tour	Bastide	2
+2	30	Dans quel film un couple en croisière va-t-il recueillir un naufragé qui va les terrifier ?	Tempête en mer	Calme blanc	2
+3	50	Quel acteur français avait le premier rôle dans le film de Luchino Visconti "Le Guépard" ?	Alain Delon	Jean Gabin	1
+4	30	Quel film à succès a réuni sur les écrans Sean Connery et Christophe Lambert ?	Greystoke	Highlander	2
+5	30	Comment appelle-t-on le fruit du plaqueminier ?	Kacha	Kaki	2
+6	40	Qui était le compagnon de saint Paul ?	Saint Jean	Saint Luc	2
+7	40	Dans quel film John Travolta incarne-t-il un ange tombé du ciel ?	Michael	Johnny	1
+8	40	Dans quelle région se situe la Côte de Nacre	En Basse-Normandie	En Haute-Normandie	1
+9	40	Lequel de ces 2 acteurs incarnait le rôle de John Rambo ?	Sylvester Stallone	Bruce Willis	1
+10	30	Hô Chi Minh est le fondateur du Parti Communiste ...	Vietnamien	Cambodgien	1
+11	40	Dans "Les Malheurs de Sophie", comme se nomme le cousin de Sophie ?	Antoine	Paul	2
+12	50	Le baeckeoffe est un plat traditionnel ...	Lorrain	Alsacien	2
+13	50	Le Livre sur la Place est un salon du livre qui se déroule au mois de Septembre à ...	Nancy	Metz	1
+14	30	A quel auteur doit-on le roman "Illusions Perdues" ?	Honoré de Balzac	Guy de Maupassant	1
+15	30	Tirée de faits réels, la série "Band of Brothers" se déroule lors ...	De la Deuxième Guerre Mondiale	De la Première Guerre Mondiale	1
+16	30	Vive les mariés ! Quelle est cette voiture dans laquelle vont prendre place les jeunes mariés ?	Une Citroen DS	Une Citroen Traction	2
+17	30	Quelle île est séparée de la Corse par les bouches de Bonifacio ?	La Sicile	La Sardaigne	2
+18	50	Quand on met le « couvert à la française » où met-on le couteau par rapport à l'assiette ?	A gauche	A droite	2
+19	30	Quel plat d'été est à base d'aubergine ?	La moussaka	La pissaladière	1
+20	60	Qui était le président des Etats-Unis en 2000 ?	George Bush père	Bill Clinton	2
+21	50	Quelle plante d'origine asiatique est un arbre miniaturisé ?	Un bonsaï	Un dimsum	1
+22	60	Au tarot comment est surnommé l'atout qui porte le chiffre 1 ?	Le minuscule	 Le petit	2
+23	30	Quel est le nom du “dictateur” dans le film homonyme de Charlie Chaplin ?	Hynkel	Heinrich	1
+24	60	Quel est le plus grand poisson vivant actuellement dans nos océans ?	L'épaulard.	Le requin-baleine.	2
+25	50	Quelles sont les trois boissons les plus consommées dans le monde (dans l'ordre) ?	L'eau, le lait et le vin.	L'eau, le thé et la bière.	2
+26	50	Quelle chaîne du groupe France Télévisions est représentée par un logo orange ?	France Ô.	France 4.	1
+27	30	Qu'est-ce qu'une chiquenaude ?	Une friandise.	Un coup de doigt.	2
+28	30	A quelle période la Prohibition (de l'alcool) était-elle d'application aux Etats-Unis ?	De 1919 à 1933.	De 1879 à 1893.	1
+29	30	Savez-vous où se trouve le fameux Madison Square Garden ?	A New York.	A Londres.	1
+30	30	Si je vous dis "Fosbury", à quelle discipline sportive pensez-vous ?	Le ski alpin.	Le saut en hauteur.	2
+31	60	Qu'est-ce qu'un coussin berlinois ?	Une bouillotte.	Un ralentisseur.	2
+32	30	Dans quelle catégorie classe-t-on parfois ce petit rongeur	Les timides	Les nuisibles.	2
+33	31	Qu'est-ce qu'un "potomane" n'oublie jamais d'emporter avec lui ?	Ses clés.	Sa bouteille d'eau	2
+34	30	Quel site archéologique crétois témoigne de l'histoire minoenne ?	Knossos ou Cnossos.	Kolos ou Colos.	1
+35	30	Quand le World Wide Web a-t-il été créé ?	1989	1979	1
+36	30	En allemand, faut-il mettre un "Umlaut" au mot "Umlaut" ?	Non, ça s'écrit 'Umlaut'.	 Oui, sur le premier 'U'.	1
+37	32	Lequel de ces chanteurs a sorti le titre "The Most Beautiful Girl in the World" en 1994 ?	Seal.	Prince.	2
+38	30	Qui a vraiment le sang bleu ?	La limule.	Le schtroumpf.	1
+39	60	Qu'est-ce qu'un bachibouzouk ?	Un cavalier de l'armée ottomane.	Un genre de machicador.	1
+40	30	Comment s'appelait le dernier tsar de Russie ?	Nicolas II.	Vladimir II.	1
+41	30	Quel groupe australien a intitulé une de ses chansons "T.N.T." ?	AC/DC.	INXS.	1
+42	40	Y a-t-il une vie avant la mort ?	Oui.	Non	1
+43	50	Histoire - Quel événement ne s'est pas déroulé en 1789 ?	Le Congrès de Vienne.	La prise de la Bastille	1
+44	50	Langue française - Laquelle de ces expressions n'est pas correcte ?	Il faut se méfier des apparences !	Il faut se méfier du chien enragé !	2
+45	40	Voyages - Dans quelle ville êtes-vous si vous empruntez une traboule ?	Lyon.	 Bordeaux.	1
+46	30	Sport - Dans quelle discipline olympique l'Uchi-Mata est-il une technique d'attaque ?	Judo.	Taekwondo.	1
+47	30	Cinéma - Dans quel film Bruce Willis est-il pieds nus tout au long de l'histoire ?	'Le Dernier Samaritain'.	Piège de cristal'.	2
+48	30	Combien a-t-on de paires d'abdominaux	3 paires	5 paires	2
+49	30	Parmi ces bières, laquelle est française ?	Pelforth	Heineken	1
+50	30	L'hippodrome de Vincennes a été construit au __e siècle.	18	19	2
+51	30	Quelle est la nationalité de Mohamed Ali ?	Algerienne	Américaine	2
+52	30	Quelle est la célèbre théorie de Albert Einstein ?	E=mc2	E=m6	1
+53	30	Qui a créé Star Wars ?	James Cameron	George Lucas	2
+54	30	Quelle est la longueur d'une baguette ?	80 cm	70 cm	2
+55	30	Quel est le plus gros consommateur de chips au monde ?	 Les États-Unis	La Chine	1
+56	30	Quel aliment n'entre pas dans la composition d'un sushi ?	Pâtes	Algue	1
+57	30	Les licornes existent (Oubliez le narval ! ) :	Vrai	Faux	2
+58	30	Où a-t-on eu l'idée de faire un fauteuil roulant pour les handicapés en 525 avant J-C ?	En Chine	En Italie	1
+59	30	Y a-t-il un mode "Zombies" dans le jeu 'Call of Duty, Black Ops 2' ?	Oui	Non	1
+60	30	Quelle est l'espérance de vie du lapin domestique ?	6 ans	 7 ans	2
+61	30	Parmi ces bières, laquelle est d'origine chinoise ?	Tsingtao	Castle	1
+62	30	Sur les 2 mains, combien a-t-on de phalanges ?	28	26	1
+63	30	Combien de temps Nicolas Sarkozy est-il resté président de la République française ?	5 ans	6 ans	1
+64	30	Le 20 septembre 2013 est sorti un nouvel IPhone, quel est son nom ?	IPhone 6	IPhone 5C	2
+65	30	À partir de combien de km/h peut-on entendre un "Bang" ?	500 km/h	1 000 km/h	2
+66	30	En quelle année la marque Skoda a-t-elle été créée ?	1818	1919	2
+67	30	 Quelle espèce d'ours n'existe pas ?	L'ours à collier.	L'ours à crinière.	2
+68	30	La construction de la Sagrada Familia a débuté en 1882 mais quand a-t-elle été achevée ?	En 1883.	Elle est toujours en construction.	2
+69	30	Quelle est la plus grande île des Antilles ?	La Jamaïque	L'île de Cuba.	2
+70	30	 Que représentait le mur d'Hadrien au début de notre ère ?	La frontière ouest de l'empire byzantin.	La frontière nord de l'empire romain.	2
+71	30	Quelle est la valeur de la lettre "J" dans la version française du Scrabble ?	4 points.	8 points.	2
+72	30	 Quel est l'organe le plus transplanté dans le monde en 2013 ?	L'intestin.	Le rein.	2
+73	30	Qui casse le nez du sphinx dans le film réalisé en 2002 par Alain Chabat 	Edouard Baer.	Gérard Depardieu.	2
+74	30	En quelle année est mort Elvis Presley	1967	1977	2
+75	30	Dans quel pays ne trouverez-vous pas de McDonald's ?	Bolivie	 Inde	1
+76	30	Laquelle de ces fleurs est représentative de la Toussaint ?	Chrysanthème	Muguet	1
+77	30	Lequel de ces pays n'est pas limitrophe avec la France ?	Le Portugal	L'Allemagne	1
+78	30	Parmi ces marques de voitures, laquelle n'est pas allemande ?	Fiat	BMW	1
+79	30	Dans les "Simpson", comment s'appelle le meilleur ami de Bart ?	Troy	Milhouse	2
+80	30	D'après sa chanson, quel chanteur est "Né quelque part" ?	Daniel Balavoine	Maxime le Forestier	2
+81	30	Lequel de ces sports n'utilisent pas de raquettes ?	Le polo	Le tennis	1
+82	30	De quelle région la brageole est-elle une spécialité ?	Languedoc-Roussillon	Bretagne	1
+83	30	quel poète français a écrit 'Le bateau ivre' 	Arthur Rimbaud	Paul Verlaine	1
+84	30	 comment s'appelle cette configuration au bowling ? (piste 31)	Split	Spare	1
+85	30	où s'est déroulée l'édition 2012 du rallye Paris-Dakar ?	En Amérique du Sud.	En Europe et en Afrique.	1
+86	30	Louis Pasteur a-t-il reçu le Prix Nobel pour sa découverte du vaccin contre la rage ?	Non, la remise des Prix Nobel n'existait pas à l'époque.	Oui. Il a aussi reçu la grande-croix de la Légion d'honneur en 1881.	1
+87	30	bonne chance ! (ou bonne m... )	Le tyrannosaure tyrannique a attrapé la dysenterie.	Le tyranosaure tyranique a attrapé la dissentrie	1
+88	30	 quel organe en forme de poire est accolé au foie 	La vésicule biliaire.	L'appendice.	1
+89	30	quelle équipe de football arbore une louve sur son blason	AEK Athènes	AS Rome	2
+90	30	 l'atoll de Bikini est-il un endroit de rêve pour passer une retraite tranquille ?	Non, cet atoll est fortement déconseillé aux touristes et animaux en tout genre.	Oui, c'est une destination paradisiaque très prisée des retraités.	1
+91	30	Quelle est l'appellation la plus courante de la punaise la plus répandue en Europe ?	Le gendarme.	Le policier.	1
+92	30	Comment s'appelle cette canalisation stratégique destinée au transport du pétrole ?	Un viaduc.	Un oléoduc.	2
+93	30	La dune du Pilat (ou Pyla) est la plus haute d'Europe, mais quelle étendue d'eau lui fait face ?	L'océan Atlantique.	La mer du Nord.	1
+94	30	Trouvez le synonyme du mot "anachorète".	Simple d'esprit.	Ermite.	2
+95	30	Qui a chanté "Relax" en premier ?	Frankie Goes to Hollywood.	Cali.	1
+96	30	Quel est le jour le plus long de l'année (dans l'hémisphère Nord) ?	Le solstice d'été.	L'éclipse de mai.	1
+97	30	Lequel de ces départements est le plus peuplé ?	La Seine-et-Marne (77	La Haute-Garonne (31)	1
+98	30	Quel est le symbole chimique du Fer ?	 F	Fe	2
+99	30	Quel est le numéro de la Polynésie-Française ?	987	988	1
+100	30	Dans quelle marque automobile française trouve-t-on des modèles portant le nom "Picasso" ?	 Peugeot	Citroen	2
+101	30	En quelle année a eu lieu la catastrophe nucléaire de Tchernobyl ?	En 1966	En 1986	2
+102	30	Laquelle de ces affirmations concernant le fleuve Loire est fausse ?	Elle est le plus long fleuve de France	Elle prend sa source sur le Plateau de Langres	2
+103	30	En héraldique, comment appelle-t-on la couleur verte ?	Sinople	Sable	1
+104	30	Quel saurien couvert d'écailles épineuses est parfois appelé "diable cornu" ?	Le moloch.	Le boloch.	1
+105	30	Comment appelle-t-on un poète qui chantait des épopées grecques antiques ?	Un barde.	Un aède.	2
+106	30	Qui est Louise Brown ?	C'est le premier bébé éprouvette	C'est le nom donné à un squelette d'Australopithèque.	1
+107	30	A quand remonte la création de l'Etat d'Israël ?	1918	1948	2
+108	30	Comment écrit-on "1500" en chiffres romains ?	MD.	ML.	1
+109	30	Retrouvez le trio de réalisateurs n'ayant jamais été oscarisés :	Alfred Hitchcock, Orson Welles et David Lynch.	ohn Ford, David Lean et Milos Forman	1
+110	30	Avec quelle chanson Shaggy a-t-il fait un carton en 1995 ?	'Boombastic'.	 'Sex Bomb'.	1
+111	30	Qui a peint ce tableau intitulé "La Blanchisseuse" ?	Henri de Toulouse-Lautrec	Jules Bastien-Lepage	1
+112	30	Dans quel film rencontre-t-on tous ces acteurs ?	Les Tontons flingueurs	Ne nous fâchons pas !	1
+113	30	uelle est la préfecture du Tarn ?	Albi	Montauban	1
+114	30	Quelle était la nationalité du Pape Jean-Paul II ?	Polonaise	Hongroise	1
+115	30	Laquelle de cette céréale entre dans la composition du saké ?	Le riz	L'orge	1
+116	30	De quel état américain Arnold Schwarzenegger était-il le gouverneur ?	De la Californie	Du Texas	1
+117	30	Vrai ou faux : le cumulonimbus fait partie des nuages les plus inoffensifs.	Faux	Vrai	1
+118	30	Dans quel état se situe la ville de Chicago ?	L'Illinois	L'Arkansas	1
+119	30	Quelle est l'expression favorite de Gaston Lagaffe ?	M'enfin	Cool !	1
+120	30	Quelle année du XXIe siècle a connu une canicule européenne d'une ampleur exceptionnelle?	2003	2000	1
+121	30	Que désigne le mot "sifflante" ?	Une consonne particulière	Un surnom donné aux machines à vapeur au XIXe siècle	1
+122	30	Quel animal est représenté sur le drapeau du Sri Lanka ?	Un lion	Un tigre	1
+123	30	Quelle est la longueur d'une piscine olympique ?	50 mètres	100 mètres	1
+124	30	La reine Victoria régna sur le Royaume-Uni au XIXe siècle. De quelle dynastie fait-elle partie?	Hanovre	Saxe-Cobourg et Gotha	1
+125	30	En quelle année fut diffusée la toute première saison de "Koh-Lanta" sur TF1 ?	2001	2002	1
+126	30	Parmi ces fruits de mer, lequel n'est pas comestible 	L'étoile de mer	L'oursin	1
+127	30	Parmi ces trois fleuves, lequel est le plus long ?	Le Nil	 Le Yangzi Jiang	1
+128	30	Parmi ces mots, lequel désigne certaines pierres ?	Gemmes	Cabochon	1
+129	30	Dans quel pays la température la plus élevée a-t-elle jamais été enregistrée ?	La Lybie	Le Lesotho	1
+130	30	Qui sont les plus gros consommateurs au monde de somnifères ?	Les Français	Les Autrichiens	1
+131	30	Quel âge avait le plus jeune nageur médaillé d'or de l'histoire des Jeux Olympiques ?	14 ans	12 ans	1
+132	30	Après Paris, quelle ville française possède le plus d'hôtels ?	Lourdes	 St Malo	1
+133	30	Combien de fenêtres l'Empire State Building comporte-t-il ?	Environ 6400	Environ 800	1
+134	30	Lequel de ces animaux court le plus vite ?	L'autruche	La girafe	1
+135	30	Dans l'Antiquité, avec quoi le légionnaire romain était-il parfois payé ?	Du sel	Du poivre	1
+136	30	Combien de tornades ont balayé les Etats-Unis entre le 2 et le 11 mai 2003 ?	430	124	1
+137	30	Sur quel continent le deuxième plus grand lac au monde est-il situé ?	 L'Océanie	L'Amérique	2
+138	30	En France, à partir de quel âge une femme peut-elle légalement se marier ?	18 ans	12 ans	1
+139	30	Laquelle des ces villes ne se situe pas en Savoie (73) ?	Le Grand-Bornand	La Motte-Servolex	1
+140	30	Pour visiter le Fort de Brégançon, rendez-vous dans le département ...	Du Var	Des Bouches-du-Rhône	1
+141	30	Laquelle de ces couleurs n'est pas associée au Périgord ?	Vert	Jaune	2
+142	30	Parmi ces trois villes, laquelle est la plus peuplée ?	La ville de Madrid	à moins que ce soit la ville de Londres	1
+143	30	Attention, alerte météo ! Dans les vigilances de Météo-France, nous trouvons ...	4 couleurs	3 couleurs	1
+144	30	Rendu célèbre par Daniel Prévost, le village de Montcuq se situe dans le département ...	Du Lot	Du Lot-et-Garonne	1
+145	30	Quelle taille peut atteindre la plus grande scolopendre du monde ?	Jusqu'à 20 centimètres	Jusqu'à 40 centimètres	2
+146	30	Où se situe la ville de Tchernobyl ?	En Roumanie	En Ukraine	2
+147	30	Quelle ville du Sud de la France est surnommée "la capitale du parfum" ?	Menton	Grasse	2
+148	30	Quel est l'autre nom de la plie commune	Le carrelet.	Le barbeau.	1
+149	30	Où se trouve la ville d'Ushuaïa ?	En Argentine.	 Au Chili	1
+150	30	Quand le dernier guillotiné de l'histoire de France a-t-il été exécuté ?	Le 10 septembre 1977.	Le 14 juillet 1789.	1

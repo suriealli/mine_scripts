@@ -1,0 +1,9 @@
+19:26:15 GE_EXC, save time(2016-03-28 19:27:00) <= now(2016-03-28 19:26:15)
+BLUE, change config txt  /TurnTableActive_yy.txt
+BLUE, change config txt  /BraveHeroActive_yy.txt
+BLUE, change config txt  /KuafuFlowerRankActive_yy.txt
+19:26:15 GE_EXC, module(Common.Other.GlobalPrompt), variable(EB_Vision_Dict) has not all translate.
+19:26:15 GE_EXC, module(Game.ThirdParty.QQSummer.QQSummer), variable(ErrorCodeDict) has not all translate.
+19:26:15 GE_EXC LoadLanguageScriptEx error cnt (1772)
+RED GREEN BLUE << C 10002 Server Start At 2016-03-28 19:26:15>>
+BLUE, system load all persistence data.

@@ -1,0 +1,4 @@
+happyIndex	needKuafuMoney	happy
+操作索引（1-送花， 2-放烟花）	需要跨服币	增加喜庆度
+1	20	39
+2	225	499

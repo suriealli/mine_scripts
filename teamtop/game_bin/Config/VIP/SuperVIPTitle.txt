@@ -1,0 +1,4 @@
+﻿titleId	needRoleLevel	needVIPLevel
+称号ID，与Title表中的titleId对应	需要的人物等级	需要的vip等级
+29	40	17
+30	40	20

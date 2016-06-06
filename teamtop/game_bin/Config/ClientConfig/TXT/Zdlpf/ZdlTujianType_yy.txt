@@ -1,0 +1,14 @@
+Index	Name	BtnName	OpenString	Level	pingfenType	Type
+序号	名字	按钮名字	打开命令	等级	类型（和ZdlpfList表类型对应）	类型（和ZdlTuijian表类型对应）
+1	英雄推荐星级	英雄提升	YXOPEN	20	1	yingxing
+2	坐骑推荐星级	坐骑提升	ZQPY	20	2	zuoqi
+3	装备推荐星级	装备提升	ZB	20	3	zhuangbei
+4	宝石推荐星级	宝石提升	BS	35	4	baoshi
+5	占卜推荐星级	占卜提升	OPEN_TAROT_PANEL	50	5	zhanbo
+6	神器推荐星级	神器提升	OPEN_XZ_QH	60	6	shenqi
+7	符文推荐星级	符文提升	FW	60	7	fuwen
+8	翅膀推荐星级	翅膀提升	OPEN_WING	65	8	chibang
+9	宠物推荐星级	宠物提升	PET	70	9	chongwu
+10	圣器推荐星级	圣器提升	OPEN_HALLOWS_XL	80	11	shengqi
+11	神龙推荐星级	神龙提升	open_traindragonmain	45	12	shenlong
+12	时装推荐星级	时装提升	OPEN_CLOTHES_PANEL	85	13	shuzhuang

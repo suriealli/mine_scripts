@@ -1,0 +1,5 @@
+﻿scoreIndex	minScore	rewardCoding
+积分编号	最小积分	奖励物品coding
+1	4500	27606
+2	12000	27607
+3	30000	27608

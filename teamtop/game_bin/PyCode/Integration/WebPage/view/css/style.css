@@ -1,0 +1,43 @@
+@charset "utf-8";
+body { margin:0; padding:0; background:#fff; font-size:12px;}
+a{text-decoration:none; color: #fff;}
+ul{ margin:0; padding:0; list-style:none;}
+a:hover{ text-decoration:none;}
+ul{ margin:0; padding:0; list-style:none;}
+img{ margin:0; padding:0; border:0;}
+input,label,form,h1,h2,h3,h4,h5,h6,p,select,textarea{ margin:0; padding:0}
+.quleft{ width:148px; border:1px solid #bdd3e1; background:#ddedfa; height: 100%; overflow:hidden; padding-bottom: 5px;}
+.quright{ width:auto; border:1px solid #bdd3e1; height:auto; overflow:hidden; margin-left:10px;  color:#707070; overflow:hidden }
+.btn ,.bjqu{ height:21px; width:76px;  line-height:21px; float:left}
+.btn a{ height:21px; width:76px; background:url(../../images/btn.jpg) no-repeat; text-align:center;  color:#707070; display:block; overflow:hidden}
+.bjqu a{ clear:both; height:21px; width:76px; background:url(../../images/bjbtn.jpg) no-repeat; text-align:center; line-height:23px; color:#e77200; display:block; overflow:hidden}
+.wz{ height:21px; line-height:21px; margin-left:10px; float:left; display:inline}
+.tab{ border:1px solid #bdd3e1; border-left:none; border-right:none; height:auto; border-collapse:collapse;}
+.mr{ margin-left:10px; }
+.tab td{ border-right:1px solid #bdd3e1; border-bottom:1px solid #bdd3e1; padding:5px 10px;}
+.bh{ font-size:12px; font-weight:bold; color:#027cd2;}
+.ynr{line-height:24px; color:#707070 }
+.col_gre{ color:#009900}
+.col_bl{ color:#027ad1;cursor:pointer}
+.ribtn{ width:162px; float:right; overflow:hidden}
+.ribtn1{ width:162px; float:left; overflow:hidden}
+.tab2{ border:1px solid #bdd3e1; border-left:none; border-right:none; border-bottom:none; height:auto; border-collapse:collapse; background:#fff}
+.selcs{ border:1px solid #c3c3c3;  color:#707070 }
+.inpcs{ height:19px; border:1px solid #c3c3c3; width:300px;}
+.widt{ width:150px;}
+
+.texcs{ width:500px; height:150px; border:1px solid #c3c3c3}
+.gamename{ width:auto; height:24px; color:#fff; line-height:24px; margin-top:20px; padding-left:5px;}
+.fllist li{ float:left; width:100%; height:auto; line-height:28px;}
+.fllist li a{ padding-left:20px; width:108px; padding-right:20px;  height:28px;  display:block;color:#647787; cursor:pointer}
+.flname{ float:left; line-height:28px; width:66px;}
+.lnum{ color:#a9a3a1; font-family:Tahoma;}
+.fllist li a:hover{ background:#f0f8ff}
+.twolist li a{ padding-left:30px; width:110px; padding-right:18px;  height:28px; display:block; color:#6689a5;  cursor:pointer}
+.flname em{ height:28px; width:7px; background:url(../../images/icon.gif) no-repeat 0px 11px;  float:left; margin-left:2px; display:inline}
+.flname b{ float:left; font-size:12px; font-weight:normal}
+.hoon{background:#f0f8ff;}
+.tab3{ border:1px solid #bdd3e1;  height:auto; border-collapse:collapse; background:#f6fbff; margin-bottom:10px; color:#707070;}
+.tlef{ float:left; margin:0 10px;}
+
+.grade1{background:none repeat scroll 0 0 #6689A5;display:block;}

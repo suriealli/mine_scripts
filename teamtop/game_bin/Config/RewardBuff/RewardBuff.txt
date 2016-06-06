@@ -1,0 +1,13 @@
+buffId	buffIndex	name	buffCoef	buffbeishu	needWorldLevel	beginTime	endTime	mainIcon	desc	picture	openStr
+活动buffid	活动buff索引	名称	buff加成系数	加成倍数（客户端用）	需要世界等级	开始时间	结束时间	小图标	悬浮描述	图片	进入活动功能字符串
+1	5	诸神之战	20000	2	30	(2016,2,19,0,0,0)	(2016,2,19,23,59,59)	Pub_Buff_ZSZZJL	#C(#FF0000)【诸神之战】#n奖励加成Buff，本次加成效果为#C(#FF0000)100%#n#H#C(#00FF00)剩余时间：{0}	WZGC_PicZSZZ	OPEN_HUN_LUAN_SPACE_PANEL
+2	3	荣耀之战	20000	2	45	(2016,2,20,0,0,0)	(2016,2,20,23,59,59)	Pub_Buff_RYZZ	#C(#FF0000)【荣耀之战】#n奖励加成Buff，本次加成效果为#C(#FF0000)100%#n#H#C(#00FF00)剩余时间：{0}	WZGC_PicRYZZ	OPEN_DAILY_PANEL
+3	6	勇者试练场	20000	2	30	(2016,2,20,0,0,0)	(2016,2,20,23,59,59)	Pub_Buff_YZSL	#C(#FF0000)【勇者试练场】#n奖励加成Buff，本次加成效果为#C(#FF0000)100%#n#H#C(#00FF00)剩余时间：{0}	JQQY_PicYZSL	OPEN_YONGZHESLC_PANEL
+4	2	城主轮值	20000	2	30	(2016,2,21,0,0,0)	(2016,2,21,23,59,59)	Pub_Buff_ChengZhu	#C(#FF0000)【城主轮值】#n奖励加成Buff，本次加成效果为#C(#FF0000)100%#n#H#C(#00FF00)剩余时间：{0}	WZGC_PicCZLZ	OPEN_DAILY_PANEL
+5	6	勇者试练场	20000	2	30	(2016,2,21,0,0,0)	(2016,2,21,23,59,59)	Pub_Buff_YZSL	#C(#FF0000)【勇者试练场】#n奖励加成Buff，本次加成效果为#C(#FF0000)100%#n#H#C(#00FF00)剩余时间：{0}	JQQY_PicYZSL	OPEN_YONGZHESLC_PANEL
+6	5	诸神之战	20000	2	30	(2016,2,22,0,0,0)	(2016,2,22,23,59,59)	Pub_Buff_ZSZZJL	#C(#FF0000)【诸神之战】#n奖励加成Buff，本次加成效果为#C(#FF0000)100%#n#H#C(#00FF00)剩余时间：{0}	WZGC_PicZSZZ	OPEN_HUN_LUAN_SPACE_PANEL
+7	7	举办派对	20000	2	30	(2016,2,22,0,0,0)	(2016,2,22,23,59,59)	Pub_Buff_JHPD	#C(#FF0000)【举办派对】#n奖励加成Buff，本次加成效果为#C(#FF0000)100%#n#H#C(#00FF00)剩余时间：{0}	JQQY_PicJHPD	OPEN_WED_PARTY_PANEL
+8	1	群魔乱舞	20000	2	30	(2016,2,23,0,0,0)	(2016,2,23,23,59,59)	Pub_Buff_HLSK	#C(#FF0000)【群魔乱舞】#n奖励加成Buff，本次加成效果为#C(#FF0000)100%#n#H#C(#00FF00)剩余时间：{0}	WZGC_PicHLSK	OPEN_HUN_LUAN_SPACE_PANEL
+9	5	诸神之战	20000	2	30	(2016,2,24,0,0,0)	(2016,2,24,23,59,59)	Pub_Buff_ZSZZJL	#C(#FF0000)【诸神之战】#n奖励加成Buff，本次加成效果为#C(#FF0000)100%#n#H#C(#00FF00)剩余时间：{0}	WZGC_PicZSZZ	OPEN_HUN_LUAN_SPACE_PANEL
+10	7	举办派对	20000	2	30	(2016,2,24,0,0,0)	(2016,2,24,23,59,59)	Pub_Buff_JHPD	#C(#FF0000)【举办派对】#n奖励加成Buff，本次加成效果为#C(#FF0000)100%#n#H#C(#00FF00)剩余时间：{0}	JQQY_PicJHPD	OPEN_WED_PARTY_PANEL
+11	2	城主轮值	20000	2	30	(2016,2,25,0,0,0)	(2016,2,25,23,59,59)	Pub_Buff_ChengZhu	#C(#FF0000)【城主轮值】#n奖励加成Buff，本次加成效果为#C(#FF0000)100%#n#H#C(#00FF00)剩余时间：{0}	WZGC_PicCZLZ	OPEN_DAILY_PANEL

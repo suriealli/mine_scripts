@@ -1,0 +1,12 @@
+ZjId	index	RoleLevel	MapDes	CjId	mapId	JiHuo	bigYsz	bigYsz_US	smYsz	smYsz_US
+章节	大陆	主角等级	地图名称	场景ID	地图id	是否开放（1.开放。0.）	大艺术字	北美大艺术字	小艺术字	北美小艺术字
+1	1	1	梦幻森林	15	7000	1	big1	big1_US	Lv2_DT_Text1_MHSL	Lv2_DT_Text1_MHSL_US
+1	2	15	圣辉城	16	1	1	big2	big2_US	Lv2_DT_Text1_SHC	Lv2_DT_Text1_SHC_US
+1	3	27	龙骑神殿	17	7004	1	big3	big3_US	Lv2_DT_Text1_LQSD	Lv2_DT_Text1_LQSD_US
+1	4	40	精灵大陆	18	7002	1	big4	big4_US	Lv2_DT_Text1_JLDL	Lv2_DT_Text1_JLDL_US
+1	5	60	亡灵圣域	19	7003	1	big5	big5_US	Lv2_DT_Text1_WLSY	Lv2_DT_Text1_WLSY_US
+2	1	80	镜·梦幻森林	20	7000	1	big6	big6_US	Lv2_DT_Text1_JMHSL	Lv2_DT_Text1_JMHSL_US
+2	2	100	镜·圣辉城	21	1	1	big7	big7_US	Lv2_DT_Text1_JSHC	Lv2_DT_Text1_JSHC_US
+2	3	120	镜·龙骑神殿	22	7004	1	big8	big8_US	Lv2_DT_Text1_JLQSD	Lv2_DT_Text1_JLQSD_US
+2	4	140	镜·精灵大陆	23	7002	1	big9	big9_US	Lv2_DT_Text1_JJLDL	Lv2_DT_Text1_JJLDL_US
+2	5	160	镜·亡灵圣域	24	7003	1	big10	big10_US	Lv2_DT_Text1_JWLSY	Lv2_DT_Text1_JWLSY_US

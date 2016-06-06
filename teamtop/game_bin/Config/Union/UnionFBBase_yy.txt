@@ -1,0 +1,4 @@
+fbId	sceneId	defaultPos	fightType	eliteName	eliteNpcType	elitePos	eliteCampId	rewardItemList	rewardItemList_fcm	rewardMoney	rewardMoney_fcm	uiName	Yulan	JieMianDitu	zhangName
+副本ID	场景ID	默认进入坐标	战斗类型	精英名称	精英NPC类型	精英坐标	精英战斗阵营ID	奖励道具，数量	奖励道具，数量	奖励金币	奖励金币	ui艺术字	副本奖励预览	界面底图	章节名字
+1	11	(342,1727)	20	精英·众神之王	3079	(1752,758)	7060	[(25971,28),(25639,20),(25683,98)]	[(25971,14),(25639,10),(25683,49)]	300000	150000	GHFB_ZJ_TextMHSL	[(35700,1),(35701,1),(35702,1),(35703,1),(35704,1),(35705,1)]	ghfb003	梦幻森林
+2	12	(220,1981)	32	精英·天空射手	3080	(1022,1448)	7091	[(25971,42),(25640,20),(25684,98)]	[(25971,21),(25640,10),(25684,49)]	500000	250000	GHFB_ZJ_TextSHC	[(25972,1),(25973,1),(25974,1),(25975,1),(25976,1),(25977,1)]	ghfb004	圣辉城

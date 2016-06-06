@@ -1,0 +1,4 @@
+cardType	turnOverOdds
+卡牌类型（1为英雄2为女神）	翻出概率
+1	7500
+2	2500

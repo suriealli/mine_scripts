@@ -1,0 +1,21 @@
+body{padding:0;margin:0;font-size:12px;line-height:1.5em;background:#444;color:white;}
+a,a:hover,a:visited{color:white}
+.left{float:left;height:100%;background:#333;padding:5px;line-height:1.8em;border:none;border-radius:0 0 8px 0}
+.left a{margin-left:8px;cursor:pointer;float:left;clear:both;text-decoration:none;}
+.left .link{margin-left:8px;cursor:pointer;clear:none;color:white}
+ .left a:hover{text-decoration:underline;color:white}
+ .left a:visited{color:white}
+ .left .title{height:24px;line-height:24px;background:#222;color:whitefont-weight:bold;margin-bottom:10px;border-radius:4px;}
+.tips{padding:5px;margin:5px 0 12px 0;background:#456;border:1px solid #666;border-radius:4px;}
+.right{height:100%;float:left;margin-left:1%;}
+ #right_content{height:100%;border:none}
+ 
+table{font-size:12px}
+table.list {border:1px solid #555;}
+table.list tr.even.title{font-weight:bold;background:#222;text-align:center;line-height:2em;height:2em;}
+table.list tr.even{background:#333;}
+input.btn{cursor:pointer;padding:3px 9px;border-radius:2px;color:white;display:inline-block;margin:2px;border:none;
+		background:-moz-linear-gradient(top, #6699cc,#5287cf);
+		background:-webkit-gradient(linear, 0 0, 0 100%, from(#6699cc), to(#5287cf));
+		filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#6699cc', endColorstr='#5287cf'); /* IE6,IE7 */
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#6699cc', endColorstr='#5287cf')"; /* IE8 */}

@@ -1,0 +1,533 @@
+﻿maleFirst	femaleFirst	maleSecond	femaleSecond
+Acar	Acar	Abdullah	AygüL
+Akan	Akan	Abidin  	Adalet
+Aksu	Aksu	Adam	Adile
+Altintop	Altintop	Adil	Afet
+Arslan	Arslan	Adnan	Ahsen
+Ataman	Ataman	Agah	Ahu
+Aydın	Aydın	Ahmet	Ajda
+Basturk	Basturk	Akçay	Alara
+Batur	Batur	Akhun	Alev
+Benazoglu	Benazoglu	Alaattin	Aliye
+Bora	Bora	Ali	Artemis
+Budak	Budak	Alim	Arzu
+Çelik	Çelik	Alp	Asiye
+Dal	Dal	Alparslan	ASLI
+Demir	Demir	Alpay 	Asuman
+Dikmen	Dikmen	Alper 	Asya
+Durak	Durak	Alptekin	AYLIN
+Elmas	Elmas	Altan	Aycan
+Emin	Emin	Altay	Aydan
+Emre	Emre	Altuğ	Ayfer
+Ince	Ince	Aral	Aygen
+Kaş	Kaş	Aras	Ayhun
+Kaya	Kaya	Arda	Ayla
+Kaya	Kaya	Argun	Aylin
+Kent	Kent	Artaç 	Aysel
+Keser	Keser	Asil	Aysu
+Keskin	Keskin	Aslan	Aysun
+Khavici	Khavici	Arslan	Ay
+Kılıç	Kılıç	Ata	Ayten
+Köse	Köse	Atabey	Azime
+Kurt	Kurt	Atagün 	Azize
+Kut	Kut	Atakan	Banu
+Namli	Namli	Atan 	Bahar
+Oz	Oz	Atanur 	Bahriye
+Özdemir	Özdemir	Atay 	Bak
+Öztürk	Öztürk	Ates	Bedia
+Şahin	Şahin	Atilla	Bedriye
+Sanli	Sanli	Avni	Behice
+Suker	Suker	Aybars	Behiye
+Toner	Toner	Ayberk	Belgin
+Topal	Topal	Aydın	Belig
+Turk	Turk	Ayhan 	Belma
+Yıldırım	Yıldırım	Aykan 	Benan
+Yıldız	Yıldız	Aytaç	Bengi
+Yılmaz	Yılmaz	Aytekin 	Bengisu
+		Aziz	Bensu
+		Azmi	Berfu
+		Bahri	Beria
+		Bahtiyar	Beril
+		Baki	Berna
+		Bala	Berrak
+		Balaban	Berrin
+		Baler	Beste
+		Barbaros 	Betil
+		Bariş	Beyhan
+		Basri 	Beyza
+		Battal	Bihter
+		Batu 	Bikem
+		Batuhan 	Bilge
+		Batur	Billur
+		Bayar	Binnaz
+		Bayram	Binnur
+		Bedirhan 	Birdal
+		Bedrettin 	Birsen
+		Bedri 	Birsu
+		Behcet 	Buket
+		Behiç 	Burcu
+		Behlil	Cahide
+		Bekir	Canan
+		Benan	Cansu
+		Berk	Cemile
+		Berkant 	Cemre
+		Bertan 	Cennet
+		Besim	Ceyda
+		Beyazit 	Ceyden
+		Bilgin	Ceylan
+		Birol	Ceylin
+		Boğaçhan 	Damla
+		Bora	Defne
+		Bozkurt	Demet
+		Buğra	Deniz
+		Buğra	Deren
+		Bülent	Derya
+		Bulut	Destan
+		Bumin	Deste
+		Bunyamin	Dicle
+		Burak	Didem
+		Burç	Dilan
+		Burhan	Dilar
+		Burhan 	Dilara
+		Burhanettin 	Diler
+		Cabbar 	Dilhan
+		Cafer 	Dilruba
+		Çağ	Duygu
+		Çağan 	Ebru
+		Çağatay	Ece
+		Çağın 	Ekin
+		Çağlayan	Ela
+		Cahit	Elif
+		Can	Elmas
+		Cankut 	Elvan
+		Celal	Emel
+		Celalettin	Emine
+		Çelik	Enise
+		Celil 	Esel
+		Cem 	Esen
+		Cemal	Eser
+		Cemil	Esin
+		Cengiz	Esma
+		Cenk	Esmeray
+		Çetin	Esra
+		Ceyhun	Esrin
+		Cihan	Eti
+		Cihangir	Fadik
+		Çınar	Fadime
+		Civan	Fahriye
+		Cumhur	Fatma
+		Cüneyt	Fazilet
+		Deha	Fehime
+		Demir	Fem
+		Deniz	Ferah
+		Derviş 	Feray
+		Derya	Ferda
+		Devrim	Feride
+		Dilaver	Feriha
+		Dinçer	Feyza
+		Direnç	Fidan
+		Doğan 	Figen
+		Doğu	Fikriye
+		Doğukan	Filiz
+		Doruk	Firdevs
+		Dünya	Fitnat
+		Dursun	Fulin
+		Durukan	Fulya
+		Durul	Fuldem
+		Duyal	Fulden
+		Duygu	Funda
+		Edip 	Gamze
+		Ediz 	Gaye
+		Efe	Gizem
+		Ege	Gonca
+		Egemen	Hafize
+		Ejder	Hale
+		Ekber	Hamide
+		Ekmel	Hamiyet
+		Ekrem	Handan
+		Elvan	Hande
+		Emek 	Hanife
+		Emin	Harika
+		Emir	Hasibe
+		Emrah 	Havva
+		Emre	Hayal
+		Ender	Hayat
+		Engin	Hayriye
+		Enis	Hazan
+		Enver	Hediye
+		Ercan 	Hilal
+		Ercüment 	Huri
+		Erdal 	Huriye
+		Erdem	Kader
+		Erdemir 	Kadriye
+		Erden 	Kamelya
+		Erdinç	Kamile
+		Erem 	Kamuran
+		Eren	Katife
+		Erenay	Kevser
+		Ergin	Kezban
+		Ergun 	Kumru
+		Erhan	Kutlay
+		Erim	Kiraz
+		Erkan	Lale
+		Erkin	Lalehan
+		Erman	Latife
+		Erol	Leman
+		Erol 	Leyla
+		Ersin	Macide
+		Ertaç 	Mahfuze
+		Ertan	Makbule
+		Ertan 	Manolya
+		Ertem 	Masal
+		Erten 	Mefkure
+		Ertuğrul 	Mehpare
+		Esad	Mehtap
+		Eser	Melda
+		Ethem 	Melek
+		Etkin	Meliha
+		Evren	Melike
+		Evrim	Melis
+		Fadıl	Melisa
+		Fahrettin	Melodi
+		Fahri	Meltem
+		Fahri 	Menek
+		Faik	Meral
+		Fakir	Merih
+		Fatih	Merve
+		Fazıl	Meryem
+		Fehmi	Mihriban
+		Ferda	Mine
+		Ferdi	Mualla
+		Ferhan	Mukadder
+		Ferhat	Mukaddes
+		Ferit	Munise
+		Fevzi	Mutlu
+		Feyzi	Muzaffer
+		Feza	Naciye
+		Fikret	Nadide
+		Fikri	Nadire
+		Fırat	Nade
+		Fuat	Nalan
+		Galip	Naz
+		Gani	Nazan
+		Garip	Nazmiye
+		Gazi	Nebahat
+		Giray	Necla
+		Gökay	Necmiye
+		Gokberk	Ne
+		Gokcan	Nehir
+		Gökçe	Nergis
+		Göker	Neriman
+		Gökhan 	Nermin
+		Gökhun	Neslihan
+		Gökmen 	Neslih
+		Göksel	Nesrin
+		Göktuğ	Netice
+		Göktürk 	Nevcivan
+		Gülhan	Nevin
+		Gültekin	Nevra
+		Gündüz	Nevriye
+		Güner	Nezaket
+		Güneş	Nezihe
+		Günfer 	Nigar
+		Günhan	Nihal
+		Günter	Nihan
+		Güray	Nil
+		Gürcan	Nimet
+		Gürel	Nisa
+		Gürsel	Nisan
+		Güven 	Nur
+		Güvenç	Nural
+		Habib	Nuran
+		Hadis	Nuray
+		Hafız	Nurcan
+		Hakan	Nurhan
+		Hakkı 	Nuriye
+		Haldun	Nursel
+		Halil	Nurseli
+		Halim	Nursen
+		Halis	Nurn
+		Halit	Nurten
+		Haluk	Olcay
+		Hamdi	Omay
+		Hamit	Oya
+		Hasan 	Pakize
+		Hasbi	Papatya
+		Haşim	Pelin
+		Haşmet	Pembe
+		Hatay	Peri
+		Hayati	Perihan
+		Haydar	Perran
+		Hayri	Pertev
+		Hazım	Pervin
+		Hikmet	Petek
+		Hikmet 	Piraye
+		Hilmi	Rabia
+		Himmet	Rana
+		Hıncal	Renan
+		Hişam	Rengin
+		Hızır	Reyhan
+		Hüdaverdi	Reyyan
+		Hulusi	Rezzan
+		Hun	Saadet
+		Hurşit	Sebahat
+		Hüsamettin	Sabite
+		Hüseyin	Sabriye
+		Hüsnü	Sacide
+		İ	Safiye
+		İbrahim	Sahiba
+		İdris	Saliha
+		İhsan	Salime
+		İlhami	Sam
+		İlhan	Samime
+		İlkay	Sanem
+		İlker	Saniye
+		İlkin	Seda
+		İmdat	Sedef
+		İnan 	Seden
+		İnanç 	Seher
+		İnsan	Selda
+		İsa	Selen
+		İshak	Selin
+		İskender	Selma
+		İslam	Selva
+		İsmail	Selvi
+		İsmet	Sema
+		Izer 	Semahat
+		İzgü	Semiha
+		İzzet	Semiramis
+		İzzettin	Semra
+		Kaan	Sena
+		Kadir	Senay
+		Kadri	Seniha
+		Kamber	Serap
+		Kamer	Serin
+		Kamil	Serpil
+		Kamuran	Serra
+		Kamran	Sevda
+		Kartal	Sevdi
+		Kaya	Sevgi
+		Kayahan	Sevil
+		Kazım	Sevim
+		Kemal	Sevtap
+		Kenan	Sevval
+		Kent	Seyhan
+		Kerem	Seyyal
+		Kerim	Sezen
+		Kıvanç	Sezer
+		Koksal	Sibel
+		Koray	Sim
+		Korkmaz	Simge
+		Kubilay	Simten
+		Kudret	Sinem
+		Kumsal	Siren
+		Kürşat	Solmaz
+		Kurt	Sonay
+		Kutlu	Su
+		Kutsal	Suat
+		Kutsi	Sultan
+		Kuzey	Sumru
+		Latif	Suna
+		Lemi	Sunay
+		Levent	Sungu
+		Lokman	Suzan
+		Lütfü	Tansu
+		Macit	Tanyeli
+		Mahir	Tayyibe
+		Mahmut	Tezer
+		Mahzun	Tuba
+		Mazhar	Turhan
+		Mecnun	Turna
+		Mehmet	Tutku
+		Melih	Vahide
+		Melik	Verda
+		Menderes	Vesile
+		Mengüç	Vicdan
+		Mert	Vildan
+		Mestan	Yakut
+		Mesut	Yaprak
+		Mete	Yasemin
+		Metin	Yagmur
+		Mevlut	Yelda
+		Mihram	Yeliz
+		Mirata 	Yeter
+		Muammer	Yonca
+		Mücahit	Yosun
+		Mucip	Yurdanur
+		Muhammed	Zafer
+		Muhammet 	Zaide
+		Muhan	Zehra
+		Muhittin	Zekiye
+		Muhsin	Zerrin
+		Muhtar	Zeynep
+		Muhteşem	Zeyno
+		Müjdat	Ziynet
+		Mümin	Zeliha
+		Muslim	
+		Mümtaz	
+		Münir	
+		Munis	
+		Murat	
+		Musa	
+		Müşfik	
+		Mustafa	
+		Muzaffer	
+		Naci 	
+		Nazif 	
+		Nazım 	
+		Nihat 	
+		Nurettin	
+		Nuri 	
+		Nurullah	
+		Oğuz 	
+		Okan 	
+		Oktan 	
+		Oktay 	
+		Ömer 	
+		Ömür	
+		Orhan	
+		Osman	
+		Ozan	
+		Özcan 	
+		Özdemir	
+		Özgü 	
+		Özgür 	
+		Özkan 	
+		Özker 	
+		Raif 	
+		Ramadan	
+		Ramazan	
+		Rauf 	
+		Refik 	
+		Remzi 	
+		Rıfkı 	
+		Rıza 	
+		Şaban 	
+		Salih 	
+		Şenol 	
+		Serdar	
+		Serhan	
+		Serhat 	
+		Serkan 	
+		Şevki 	
+		Sezgin 	
+		Soykan 	
+		Suat	
+		Şükrü	
+		Süleyman	
+		Tacettin	
+		Tahir	
+		Tahsin	
+		Talat	
+		Talip	
+		Tamer 	
+		Tan	
+		Taner	
+		Tanju 	
+		Tankut	
+		Tansel	
+		Tarık	
+		Tarkan	
+		Taşkın	
+		Tayfun	
+		Taygun	
+		Taylan	
+		Tayyar	
+		Tayyib	
+		Tekin	
+		Temel	
+		Teoman	
+		Tevfik	
+		Tevrat	
+		Tezcan	
+		Timucin	
+		Timur	
+		Toktam	
+		Tolan	
+		Tolga	
+		Tolunay	
+		Toros	
+		Tosun	
+		Toygar	
+		Tufan	
+		Tuğrul	
+		Tulon	
+		Tuluğhan	
+		Tümay	
+		Tuna	
+		Tunay	
+		Tunç	
+		Tuncay	
+		Tuncer	
+		Turgay	
+		Turgut	
+		Turhan	
+		Türkay	
+		Türkekul	
+		Türker	
+		Türkol	
+		Turusan	
+		Tutku	
+		Ü	
+		Ufuk	
+		Uğur	
+		Ulu	
+		Uluç	
+		Uluğ	
+		Ulvi	
+		Ümit	
+		Umur	
+		Umut	
+		Ünal	
+		Ünver	
+		Ünyay	
+		Utkan	
+		Utku	
+		Uygur	
+		Uzay	
+		Vadim	
+		Vahit	
+		Varol	
+		Vecdi	
+		Vecihi	
+		Vedat	
+		Vefa	
+		Veli	
+		Volkan	
+		Vural	
+		Vuslat	
+		Yahya	
+		Yakup	
+		Yalçın	
+		Yalım	
+		Yalın	
+		Yaman	
+		Yaşar	
+		Yaşin	
+		Yavuz	
+		Yekta	
+		Yiğit	
+		Yıldıray	
+		Yıldırım	
+		Yılmaz	
+		Yücel	
+		Yüksel	
+		Yunus	
+		Yurdakul	
+		Yurdun	
+		Yurtsev	
+		Yusuf	
+		Zafer	
+		Zafer	
+		Zekai	
+		Zekai	
+		Zeki	
+		Zeki	
+		Zeynel	
+		Zeynel	
+		Zihni	
+		Zihni	
+		Ziya	
+		Ziya	
+		Zülfü	
+		Zülfü	

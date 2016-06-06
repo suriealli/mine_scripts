@@ -1,0 +1,3 @@
+rewardIndex	rewardItems	rewardMoney	rewardBindRMB	rewardPreviwe
+奖励索引	奖励物品	奖励金币	奖励魔晶	奖励预览
+1	[(27368,1),(26033,1),(26119,1)]	398000	0	[(27368,1),(26033,1),(26119,1),(25828,398000)]

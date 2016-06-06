@@ -1,0 +1,423 @@
+from Game import RTF
+RTF.CallFunctionBack('Game.Login.LimitLogin', (0,))
+19:20:45 GE_EXC, role(42958262894645) do command((29505,3)
+(29506,3)
+(29507,3)
+(29508,3)
+(29509,3)
+(29510,3)
+(29511,3)
+(29512,3)
+(29513,3)
+(29514,3)) error.
+19:20:45 Traceback (most recent call last):
+  File "../PyCode/Game/Role/Command.py", line 58, in OnCommandReturn
+    DoRoleCommand(role, command)
+  File "../PyCode/Game/Role/Command.py", line 82, in DoRoleCommand
+    moduleName, functionName, param = eval(command)
+  File "<string>", line 2
+    (29506,3)
+    ^
+SyntaxError: invalid syntax
+19:21:24 GE_EXC, AddItem can not find fun , coding = (29505)
+19:21:24 Traceback(show stack):
+  File "../PyCode/Game/Role/Command.py", line 58, in OnCommandReturn
+    DoRoleCommand(role, command)
+  File "../PyCode/Game/Role/Command.py", line 86, in DoRoleCommand
+    exec(command)
+  File "<string>", line 1, in <module>
+  File "../PyCode/Game/Item/FunGather.py", line 12, in AddItem
+    return packMgr.AddItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 53, in AddItem
+    return self.AddCanNotOverlaoItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 66, in AddCanNotOverlaoItem
+    Trace.StackWarn("AddItem error")
+StackError:AddItem error
+19:21:24 GE_EXC, AddItem can not find fun , coding = (29506)
+19:21:24 Traceback(show stack):
+  File "../PyCode/Game/Role/Command.py", line 58, in OnCommandReturn
+    DoRoleCommand(role, command)
+  File "../PyCode/Game/Role/Command.py", line 86, in DoRoleCommand
+    exec(command)
+  File "<string>", line 2, in <module>
+  File "../PyCode/Game/Item/FunGather.py", line 12, in AddItem
+    return packMgr.AddItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 53, in AddItem
+    return self.AddCanNotOverlaoItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 66, in AddCanNotOverlaoItem
+    Trace.StackWarn("AddItem error")
+StackError:AddItem error
+19:21:24 GE_EXC, AddItem can not find fun , coding = (29507)
+19:21:24 Traceback(show stack):
+  File "../PyCode/Game/Role/Command.py", line 58, in OnCommandReturn
+    DoRoleCommand(role, command)
+  File "../PyCode/Game/Role/Command.py", line 86, in DoRoleCommand
+    exec(command)
+  File "<string>", line 3, in <module>
+  File "../PyCode/Game/Item/FunGather.py", line 12, in AddItem
+    return packMgr.AddItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 53, in AddItem
+    return self.AddCanNotOverlaoItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 66, in AddCanNotOverlaoItem
+    Trace.StackWarn("AddItem error")
+StackError:AddItem error
+19:21:24 GE_EXC, AddItem can not find fun , coding = (29508)
+19:21:24 Traceback(show stack):
+  File "../PyCode/Game/Role/Command.py", line 58, in OnCommandReturn
+    DoRoleCommand(role, command)
+  File "../PyCode/Game/Role/Command.py", line 86, in DoRoleCommand
+    exec(command)
+  File "<string>", line 4, in <module>
+  File "../PyCode/Game/Item/FunGather.py", line 12, in AddItem
+    return packMgr.AddItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 53, in AddItem
+    return self.AddCanNotOverlaoItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 66, in AddCanNotOverlaoItem
+    Trace.StackWarn("AddItem error")
+StackError:AddItem error
+19:21:24 GE_EXC, AddItem can not find fun , coding = (29509)
+19:21:24 Traceback(show stack):
+  File "../PyCode/Game/Role/Command.py", line 58, in OnCommandReturn
+    DoRoleCommand(role, command)
+  File "../PyCode/Game/Role/Command.py", line 86, in DoRoleCommand
+    exec(command)
+  File "<string>", line 5, in <module>
+  File "../PyCode/Game/Item/FunGather.py", line 12, in AddItem
+    return packMgr.AddItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 53, in AddItem
+    return self.AddCanNotOverlaoItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 66, in AddCanNotOverlaoItem
+    Trace.StackWarn("AddItem error")
+StackError:AddItem error
+19:21:24 GE_EXC, AddItem can not find fun , coding = (29510)
+19:21:24 Traceback(show stack):
+  File "../PyCode/Game/Role/Command.py", line 58, in OnCommandReturn
+    DoRoleCommand(role, command)
+  File "../PyCode/Game/Role/Command.py", line 86, in DoRoleCommand
+    exec(command)
+  File "<string>", line 6, in <module>
+  File "../PyCode/Game/Item/FunGather.py", line 12, in AddItem
+    return packMgr.AddItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 53, in AddItem
+    return self.AddCanNotOverlaoItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 66, in AddCanNotOverlaoItem
+    Trace.StackWarn("AddItem error")
+StackError:AddItem error
+19:21:24 GE_EXC, AddItem can not find fun , coding = (29511)
+19:21:24 Traceback(show stack):
+  File "../PyCode/Game/Role/Command.py", line 58, in OnCommandReturn
+    DoRoleCommand(role, command)
+  File "../PyCode/Game/Role/Command.py", line 86, in DoRoleCommand
+    exec(command)
+  File "<string>", line 7, in <module>
+  File "../PyCode/Game/Item/FunGather.py", line 12, in AddItem
+    return packMgr.AddItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 53, in AddItem
+    return self.AddCanNotOverlaoItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 66, in AddCanNotOverlaoItem
+    Trace.StackWarn("AddItem error")
+StackError:AddItem error
+19:21:24 GE_EXC, AddItem can not find fun , coding = (29512)
+19:21:24 Traceback(show stack):
+  File "../PyCode/Game/Role/Command.py", line 58, in OnCommandReturn
+    DoRoleCommand(role, command)
+  File "../PyCode/Game/Role/Command.py", line 86, in DoRoleCommand
+    exec(command)
+  File "<string>", line 8, in <module>
+  File "../PyCode/Game/Item/FunGather.py", line 12, in AddItem
+    return packMgr.AddItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 53, in AddItem
+    return self.AddCanNotOverlaoItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 66, in AddCanNotOverlaoItem
+    Trace.StackWarn("AddItem error")
+StackError:AddItem error
+19:21:24 GE_EXC, AddItem can not find fun , coding = (29513)
+19:21:24 Traceback(show stack):
+  File "../PyCode/Game/Role/Command.py", line 58, in OnCommandReturn
+    DoRoleCommand(role, command)
+  File "../PyCode/Game/Role/Command.py", line 86, in DoRoleCommand
+    exec(command)
+  File "<string>", line 9, in <module>
+  File "../PyCode/Game/Item/FunGather.py", line 12, in AddItem
+    return packMgr.AddItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 53, in AddItem
+    return self.AddCanNotOverlaoItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 66, in AddCanNotOverlaoItem
+    Trace.StackWarn("AddItem error")
+StackError:AddItem error
+19:21:24 GE_EXC, AddItem can not find fun , coding = (29514)
+19:21:24 Traceback(show stack):
+  File "../PyCode/Game/Role/Command.py", line 58, in OnCommandReturn
+    DoRoleCommand(role, command)
+  File "../PyCode/Game/Role/Command.py", line 86, in DoRoleCommand
+    exec(command)
+  File "<string>", line 10, in <module>
+  File "../PyCode/Game/Item/FunGather.py", line 12, in AddItem
+    return packMgr.AddItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 53, in AddItem
+    return self.AddCanNotOverlaoItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 66, in AddCanNotOverlaoItem
+    Trace.StackWarn("AddItem error")
+StackError:AddItem error
+19:23:4 GE_EXC, AddItem can not find fun , coding = (29505)
+19:23:4 Traceback(show stack):
+  File "../PyCode/Game/Role/Command.py", line 58, in OnCommandReturn
+    DoRoleCommand(role, command)
+  File "../PyCode/Game/Role/Command.py", line 86, in DoRoleCommand
+    exec(command)
+  File "<string>", line 3, in <module>
+  File "../PyCode/Game/Item/FunGather.py", line 12, in AddItem
+    return packMgr.AddItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 53, in AddItem
+    return self.AddCanNotOverlaoItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 66, in AddCanNotOverlaoItem
+    Trace.StackWarn("AddItem error")
+StackError:AddItem error
+19:23:4 GE_EXC, AddItem can not find fun , coding = (29506)
+19:23:4 Traceback(show stack):
+  File "../PyCode/Game/Role/Command.py", line 58, in OnCommandReturn
+    DoRoleCommand(role, command)
+  File "../PyCode/Game/Role/Command.py", line 86, in DoRoleCommand
+    exec(command)
+  File "<string>", line 4, in <module>
+  File "../PyCode/Game/Item/FunGather.py", line 12, in AddItem
+    return packMgr.AddItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 53, in AddItem
+    return self.AddCanNotOverlaoItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 66, in AddCanNotOverlaoItem
+    Trace.StackWarn("AddItem error")
+StackError:AddItem error
+19:23:4 GE_EXC, AddItem can not find fun , coding = (29507)
+19:23:4 Traceback(show stack):
+  File "../PyCode/Game/Role/Command.py", line 58, in OnCommandReturn
+    DoRoleCommand(role, command)
+  File "../PyCode/Game/Role/Command.py", line 86, in DoRoleCommand
+    exec(command)
+  File "<string>", line 5, in <module>
+  File "../PyCode/Game/Item/FunGather.py", line 12, in AddItem
+    return packMgr.AddItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 53, in AddItem
+    return self.AddCanNotOverlaoItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 66, in AddCanNotOverlaoItem
+    Trace.StackWarn("AddItem error")
+StackError:AddItem error
+19:23:4 GE_EXC, AddItem can not find fun , coding = (29508)
+19:23:4 Traceback(show stack):
+  File "../PyCode/Game/Role/Command.py", line 58, in OnCommandReturn
+    DoRoleCommand(role, command)
+  File "../PyCode/Game/Role/Command.py", line 86, in DoRoleCommand
+    exec(command)
+  File "<string>", line 6, in <module>
+  File "../PyCode/Game/Item/FunGather.py", line 12, in AddItem
+    return packMgr.AddItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 53, in AddItem
+    return self.AddCanNotOverlaoItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 66, in AddCanNotOverlaoItem
+    Trace.StackWarn("AddItem error")
+StackError:AddItem error
+19:23:4 GE_EXC, AddItem can not find fun , coding = (29509)
+19:23:4 Traceback(show stack):
+  File "../PyCode/Game/Role/Command.py", line 58, in OnCommandReturn
+    DoRoleCommand(role, command)
+  File "../PyCode/Game/Role/Command.py", line 86, in DoRoleCommand
+    exec(command)
+  File "<string>", line 7, in <module>
+  File "../PyCode/Game/Item/FunGather.py", line 12, in AddItem
+    return packMgr.AddItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 53, in AddItem
+    return self.AddCanNotOverlaoItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 66, in AddCanNotOverlaoItem
+    Trace.StackWarn("AddItem error")
+StackError:AddItem error
+19:23:4 GE_EXC, AddItem can not find fun , coding = (29510)
+19:23:4 Traceback(show stack):
+  File "../PyCode/Game/Role/Command.py", line 58, in OnCommandReturn
+    DoRoleCommand(role, command)
+  File "../PyCode/Game/Role/Command.py", line 86, in DoRoleCommand
+    exec(command)
+  File "<string>", line 8, in <module>
+  File "../PyCode/Game/Item/FunGather.py", line 12, in AddItem
+    return packMgr.AddItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 53, in AddItem
+    return self.AddCanNotOverlaoItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 66, in AddCanNotOverlaoItem
+    Trace.StackWarn("AddItem error")
+StackError:AddItem error
+19:23:4 GE_EXC, AddItem can not find fun , coding = (29511)
+19:23:4 Traceback(show stack):
+  File "../PyCode/Game/Role/Command.py", line 58, in OnCommandReturn
+    DoRoleCommand(role, command)
+  File "../PyCode/Game/Role/Command.py", line 86, in DoRoleCommand
+    exec(command)
+  File "<string>", line 9, in <module>
+  File "../PyCode/Game/Item/FunGather.py", line 12, in AddItem
+    return packMgr.AddItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 53, in AddItem
+    return self.AddCanNotOverlaoItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 66, in AddCanNotOverlaoItem
+    Trace.StackWarn("AddItem error")
+StackError:AddItem error
+19:23:4 GE_EXC, AddItem can not find fun , coding = (29512)
+19:23:4 Traceback(show stack):
+  File "../PyCode/Game/Role/Command.py", line 58, in OnCommandReturn
+    DoRoleCommand(role, command)
+  File "../PyCode/Game/Role/Command.py", line 86, in DoRoleCommand
+    exec(command)
+  File "<string>", line 10, in <module>
+  File "../PyCode/Game/Item/FunGather.py", line 12, in AddItem
+    return packMgr.AddItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 53, in AddItem
+    return self.AddCanNotOverlaoItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 66, in AddCanNotOverlaoItem
+    Trace.StackWarn("AddItem error")
+StackError:AddItem error
+19:23:4 GE_EXC, AddItem can not find fun , coding = (29513)
+19:23:4 Traceback(show stack):
+  File "../PyCode/Game/Role/Command.py", line 58, in OnCommandReturn
+    DoRoleCommand(role, command)
+  File "../PyCode/Game/Role/Command.py", line 86, in DoRoleCommand
+    exec(command)
+  File "<string>", line 11, in <module>
+  File "../PyCode/Game/Item/FunGather.py", line 12, in AddItem
+    return packMgr.AddItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 53, in AddItem
+    return self.AddCanNotOverlaoItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 66, in AddCanNotOverlaoItem
+    Trace.StackWarn("AddItem error")
+StackError:AddItem error
+19:23:4 GE_EXC, AddItem can not find fun , coding = (29514)
+19:23:4 Traceback(show stack):
+  File "../PyCode/Game/Role/Command.py", line 58, in OnCommandReturn
+    DoRoleCommand(role, command)
+  File "../PyCode/Game/Role/Command.py", line 86, in DoRoleCommand
+    exec(command)
+  File "<string>", line 12, in <module>
+  File "../PyCode/Game/Item/FunGather.py", line 12, in AddItem
+    return packMgr.AddItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 53, in AddItem
+    return self.AddCanNotOverlaoItem(coding, cnt)
+  File "../PyCode/Game/Item/PackMgr.py", line 66, in AddCanNotOverlaoItem
+    Trace.StackWarn("AddItem error")
+StackError:AddItem error
+19:26:15 GE_EXC, save time(2016-03-28 19:27:00) <= now(2016-03-28 19:26:15)
+BLUE, change config txt  /MountIllusion_yy.txt
+BLUE, change config txt  /MountItem_yy.txt
+BLUE, change config txt  /MountGrade_yy.txt
+BLUE, change config txt  /MountExchange_yy.txt
+BLUE, change config txt  /KaifuBossMonster_yy.txt
+BLUE, change config txt  /Item_yy.txt
+BLUE, change config txt  /StarGirlBase_yy.txt
+BLUE, change config txt  /PowerProperty_yy.txt
+BLUE, change config txt  /DailyDoConfig_yy.txt
+BLUE, change config txt  /DailyDoRewardConfig_yy.txt
+BLUE, change config txt  /Title_yy.txt
+BLUE, change config txt  /CircularActive_yy.txt
+BLUE, change config txt  /BraveHeroActive_yy.txt
+BLUE, change config txt  /LianChongRebateActive_yy.txt
+BLUE, change config txt  /SuperPromptionControl_yy.txt
+BLUE, change config txt  /TurnTableActive_yy.txt
+BLUE, change config txt  /GuBaoTanMiActive_yy.txt
+BLUE, change config txt  /KuafuFlowerRankActive_yy.txt
+BLUE, change config txt  /WonderfulAct_yy.txt
+BLUE, change config txt  /WonderfulReward_yy.txt
+BLUE, change config txt  /God_yy.txt
+BLUE, change config txt  /UnionFBBase_yy.txt
+BLUE, change config txt  /UnionExploreTreasureReward_yy.txt
+BLUE, change config txt  /MarryGrade_yy.txt
+BLUE, change config txt  /PartyBless_yy.txt
+BLUE, change config txt  /HoneymoonGrade_yy.txt
+BLUE, change config txt  /Ring_yy.txt
+BLUE, change config txt  /TeamTowerReward_yy.txt
+BLUE, change config txt  /TeamTower_yy.txt
+BLUE, change config txt  /VIPBase_yy.txt
+BLUE, change config txt  /CardsConfig_yy.txt
+BLUE, change config txt  /VipReward_yy.txt
+BLUE, change config txt  /VipLibao_yy.txt
+BLUE, change config txt  /UniversalBuy_yy.txt
+BLUE, change config txt  /AsteroidFieldsGuanka_yy.txt
+BLUE, change config txt  /TalentCard_yy.txt
+BLUE, change config txt  /CollectLongReward_yy.txt
+BLUE, change config txt  /WingBase_yy.txt
+BLUE, change config txt  /WingEvolve_yy.txt
+BLUE, change config txt  /WishPoolConfig_yy.txt
+BLUE, change config txt  /ScoreShopConfig_yy.txt
+BLUE, change config txt  /ShenshuGuardNpc_yy.txt
+BLUE, change config txt  /Fashion_yy.txt
+BLUE, change config txt  /FashionSuit_yy.txt
+BLUE, change config txt  /RMBBankRateConfig_yy.txt
+BLUE, change config txt  /FBReward_yy.txt
+BLUE, change config txt  /KaifuTargetAct_yy.txt
+BLUE, change config txt  /FiveGiftBase_yy.txt
+BLUE, change config txt  /DayFirstPayReward_yy.txt
+BLUE, change config txt  /SDHAct_yy.txt
+BLUE, change config txt  /FB_yy.txt
+BLUE, change config txt  /FBZhangJie_yy.txt
+BLUE, change config txt  /FindBack_yy.txt
+19:26:15 GE_EXC, module(Common.Other.GlobalPrompt), variable(EB_Vision_Dict) has not all translate.
+19:26:15 GE_EXC, module(Game.ThirdParty.QQSummer.QQSummer), variable(ErrorCodeDict) has not all translate.
+19:26:15 GE_EXC, module(Game.ElementSpirit.ElementSpiritConfig), variable(ElementSpirit_SpiritName_Dict) has not all translate.
+19:26:15 GE_EXC LoadLanguageScriptEx error cnt (1772)
+BLUE, change config txt  /Mall_yy.txt
+RED GREEN BLUE << GHL 10002 Server Start At 2016-03-28 19:26:15>>
+BLUE, big table(sys_wonderfulactdata) load data(33) at 2016-03-28 19:26:22
+BLUE, big table(sys_rolefightdata) load data(38) at 2016-03-28 19:26:22
+BLUE, big table(sys_union) load data(10) at 2016-03-28 19:26:22
+BLUE, big table(sys_ring) load data(0) at 2016-03-28 19:26:22
+BLUE, big table(sys_herozdl) load data(5) at 2016-03-28 19:26:22
+BLUE, big table(univerbuy_info) load data(9) at 2016-03-28 19:26:22
+BLUE, big table(sys_role_slave) load data(29) at 2016-03-28 19:26:22
+BLUE, big table(sys_jjc) load data(11) at 2016-03-28 19:26:22
+BLUE, big table(sys_role_view) load data(35) at 2016-03-28 19:26:22
+BLUE, system load all persistence data.
+from Game import RTF
+RTF.CallFunctionBack('Game.Login.LimitLogin', (0,))
+19:26:56 Traceback (most recent call last):
+  File "../PyCode/Util/Callback.py", line 81, in CallAllFunctions
+    fun(*argv)
+  File "../PyCode/Game/YYAnti/YYAnti.py", line 116, in FirstInitRole
+    from1 = int(LoginInfo.get('pf', 0))
+ValueError: invalid literal for int() with base 10: ''
+19:26:56 GE_EXC, !!!!!!CallAllFunctions except call Fun (FirstInitRole)!!!!!!
+19:26:56 Traceback (most recent call last):
+  File "../PyCode/Util/Callback.py", line 81, in CallAllFunctions
+    fun(*argv)
+  File "../PyCode/Game/YYAnti/YYAnti.py", line 48, in AfterLogin
+    from1 = int(LoginInfo.get('pf', 0))
+ValueError: invalid literal for int() with base 10: ''
+19:26:56 GE_EXC, !!!!!!CallAllFunctions except call Fun (AfterLogin)!!!!!!
+19:32:55 Traceback (most recent call last):
+  File "../PyCode/Util/Callback.py", line 81, in CallAllFunctions
+    fun(*argv)
+  File "../PyCode/Game/YYAnti/YYAnti.py", line 48, in AfterLogin
+    from1 = int(LoginInfo.get('pf', 0))
+ValueError: invalid literal for int() with base 10: ''
+19:32:55 GE_EXC, !!!!!!CallAllFunctions except call Fun (AfterLogin)!!!!!!
+19:36:8 Traceback (most recent call last):
+  File "../PyCode/Util/Callback.py", line 81, in CallAllFunctions
+    fun(*argv)
+  File "../PyCode/Game/YYAnti/YYAnti.py", line 116, in FirstInitRole
+    from1 = int(LoginInfo.get('pf', 0))
+ValueError: invalid literal for int() with base 10: ''
+19:36:8 GE_EXC, !!!!!!CallAllFunctions except call Fun (FirstInitRole)!!!!!!
+19:36:8 Traceback (most recent call last):
+  File "../PyCode/Util/Callback.py", line 81, in CallAllFunctions
+    fun(*argv)
+  File "../PyCode/Game/YYAnti/YYAnti.py", line 48, in AfterLogin
+    from1 = int(LoginInfo.get('pf', 0))
+ValueError: invalid literal for int() with base 10: ''
+19:36:8 GE_EXC, !!!!!!CallAllFunctions except call Fun (AfterLogin)!!!!!!
+19:36:41 Traceback (most recent call last):
+  File "../PyCode/Util/Callback.py", line 81, in CallAllFunctions
+    fun(*argv)
+  File "../PyCode/Game/YYAnti/YYAnti.py", line 116, in FirstInitRole
+    from1 = int(LoginInfo.get('pf', 0))
+ValueError: invalid literal for int() with base 10: ''
+19:36:41 GE_EXC, !!!!!!CallAllFunctions except call Fun (FirstInitRole)!!!!!!
+19:36:41 Traceback (most recent call last):
+  File "../PyCode/Util/Callback.py", line 81, in CallAllFunctions
+    fun(*argv)
+  File "../PyCode/Game/YYAnti/YYAnti.py", line 48, in AfterLogin
+    from1 = int(LoginInfo.get('pf', 0))
+ValueError: invalid literal for int() with base 10: ''
+19:36:41 GE_EXC, !!!!!!CallAllFunctions except call Fun (AfterLogin)!!!!!!
+DukeOnDuty.SetDukeUnion is OK {1: 655491076, 2: 6, 3: [], 4: 1, 5: 655491076}

@@ -1,0 +1,5 @@
+careerId	name	activeSkill1	activeSkill2	activeSkill3	passiveSkill1	description	icon	icon1	skillSort	careerSkill	wordArt	speed	mountId
+职业ID	职业名	主动技能1	主动技能2	主动技能3	被动技能1	职业描述	背景图标	界面圆背景	技能在面板上的排序	选人界面技能	艺术字ID	速度	gve战斗中坐骑的资源id
+1	红龙刺客	2004	2005	2006	2502	#C(#ffffff)信仰红龙神力的输出职业#H乘骑飞马战斗	ZDZY_ZY3	ZDSL3	[2004,2005,2006,2502]	[2005,2502]	pix3	快	6
+2	蓝龙武士	2001	2002	2003	2501	#C(#ffffff)信仰蓝龙神力的肉盾职业#H乘骑鹫马战斗	ZDZY_ZY2	ZDSL2	[2001,2002,2003,2501]	[2002,2501]	pix2	中	5
+3	绿龙祭祀	2007	2008	2009	2503	#C(#ffffff)信仰绿龙神力的辅助职业#H乘骑狮鹫战斗	ZDZY_ZY1	ZDSL1	[2007,2008,2009,2503]	[2008,2503]	pix1	慢	7

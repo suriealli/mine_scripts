@@ -1,0 +1,72 @@
+index	exam_type	title	answer1	answer2	right
+题库索引	题目类型	题目	答案A	答案B	正确答案（1 or 2）
+1	30	Where does rugby come from?	England	The United States	1
+2	30	What is the name of the necklace in "Titanic"?	Tears of the Goddess	Heart of the Ocean	2
+3	50	Who wrote "The Merchant of Venice"?	Shakespeare	Lebron James	1
+4	30	Who invented the electric lamp?	Thomas Alva Edison	Stephen William Hawking	1
+5	30	How often is the World Cup?	5	4	2
+6	40	When was the first computer invented?	1990	1946	2
+7	40	How many teeth do people normally have?	32	40	1
+8	40	Where did ballet originate?	France	Italy	2
+9	40	In which German city is Oktoberfest held?	Munich 	Hamburg	1
+10	30	What three colors are on the French flag? Red, blue and _____	Green	White	2
+11	30	Which Ocean is Hawaii in ?	Indian	Pacific	2
+12	40	In which part of the UK is England located?	South	East	2
+13	50	Which month is abbreviated to "Jul"?	July	June	1
+14	50	How many patents does Edison, the King of invention, have?	1099	99	1
+15	30	Who is considered the greatest football player in football history?	Pele	Beckham	1
+16	30	Which is China's national treasure?	Panda	Kangaroo	1
+17	30	What is the abbreviation for the Federal Bureau of Investigation?	FNC	FBI	2
+18	30	Which state is San Diego in?	California	New Jersey	1
+19	50	Which NBA player played for the San Antonio Spurs and was called the "Argentina Runner"?	Tim Duncan	Manu Ginóbili	2
+20	50	Yellowstone National Park was the first national park in the world. Which mountain is located within it?	Rocky Mountains	Appalachian Mountain	1
+21	30	Which country in Europe is famous for red wine, fashion and lavender, and has a capital city that is know as the "City of Romance"?	Germany	France	2
+22	60	1 terabyte is equal to how many gigabytes?	1000	1024	2
+23	50	What is both called a Roentgen Ray, and has strong penetration abilities?	Laser	X-Ray	2
+24	60	When is Children's Day?	June 1st	August 1st	1
+25	30	Who sang Rolling in the Deep ?	Adele Adkins	Taylor Swift	1
+26	60	Which "Shaquille" is in "Hack-a-Shaq"?	O'Neal	Tim Duncan	1
+27	50	Which national football team has Didier Drogb and is known as the "African Elephants"?	Ghana	Cote d'Ivoire	2
+28	50	Little Red Riding Hood was eaten by a wolf while visiting who?	Grandmother	Mother	1
+29	30	Which country's capital is Rome?	Spain	Italy	2
+30	30	Which sport is know as the greatest gentleman's sports?	Snooker	Golf	2
+31	30	Which country is called the "Country of Kangaroos"?	Australia	the USA 	1
+32	30	Which team played against the Americans in London's Olympic Men's Basketball final?	Spain	Greece	1
+33	60	Which country in South America is called the "Coffee Kingdom"?	Chile	Brazil	2
+34	30	Who plays James Bond in Casino Royale?	Daniel Craig	Leonardo	1
+35	31	Which sea has the highest salinity in the world?	The Red Sea	The Blue Sea	1
+36	30	Which city in the USA is called the "City of Angels"?	Las Vegas	Los Angeles 	2
+37	30	Which city were the 1996 Olympic games held in?	San Francisco	Atlanta	2
+38	31	Which NBA player is called "The Answer"?	Iverson	James	1
+39	30	Which city do the protagonists want to return to in Madagascar 3?	New York	Sydney	1
+40	30	What kind of files are .avi format?	Video files	Audio files	1
+41	32	Which European country was called the "Sea Coachman" in the 17th century?	Italy	Netherlands	2
+42	30	What color besides red flashes when a police car turns on their lights?	Yellow	Blue	2
+43	30	Where is the Golden Gate Bridge?	Mexico	The United States	2
+44	60	Basketball, volleyball, and ______ are the most popular sports in the world.	Badminton	Football	2
+45	30	Which sport is the most popular in Japan?	Baseball	Football	1
+46	30	Which animal enticed Adam and Eve to taste the Forbidden Fruit?	Snake	Fox	1
+47	60	Who was called the "Star of the East" by the British media? 	Junhui Ding	Marco Fu	1
+48	30	Which city contains the biggest financial center in Germany?	Hamburg	Frankfurt	2
+49	40	Which western diva performed Without You and Hero? 	Taylor Swift	Mariah Carey	2
+50	50	Hello Kitty was first designed in which country?	Japan	Korea	1
+51	40	What is the best browser game?	Legend Knight	Others	1
+52	40	Is the character's attack Magical Attack or Physical Attack?	Magical Attack	Physical Attack	2
+53	50	What can you receive when you clear a dungeon?	Mount Training Whip	Turquoise	2
+54	60	What's the fastest way to level up the character?	Crypt	Dungeon	1
+55	70	How can you get Bound Balens?	From Treasure Hunt	From Alchemy	1
+56	40	What is the fastest way to get a purple hero?	Divine Altar	Arena	1
+57	30	How to get the materials to upgrade the Equipment?	Alchemy	Hero Trial	2
+58	30	How to get more Stamina?	Gold Alchemy	Devotion	2
+59	30	How to get Gold?	Alchemy	Spin Wheel of Rune	1
+60	30	Would it be useful to socket PATK Gem onto the equipment of a MATK hero?	Yes	No	2
+61	30	Would it be useful to socket MATK Gem onto the equipment of a PATK hero?	No	Yes	1
+62	30	What kind of rewards can you claim at 22:00?	ArenaRanking Reward	Toilet paper	1
+63	30	Are the attributes of mounts added into character's Battle Rating in all cases?	Yes	No	2
+64	30	Can Defense Gems get effects boost from Soul Engraving?	Yes	No	2
+65	30	How to get the Glowing Crystal to enchant Sacred Weapons?	Guild Dungeon 	Guild Master	1
+66	30	What's the best reward from the Wheel of Fortune?	Pink singing sheep 	A lot of Balens 	2
+67	30	Is consuming EXP items only way to level up heroes?	No 	Yes 	2
+68	30	How can the strongest player in the guild help other players?	Help Guild Dungeon 	Telling jokes 	1
+69	30	Where should a defensive hero be put in the formation?	Position 1 	Position 5 	1
+70	30	How do the heroes that aren't in the formation help level up Battle Rating?	Join Backup	Cheer for character	1

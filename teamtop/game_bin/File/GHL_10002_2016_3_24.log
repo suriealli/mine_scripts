@@ -1,0 +1,159 @@
+BLUE, change config txt  /MountIllusion_yy.txt
+BLUE, change config txt  /MountItem_yy.txt
+BLUE, change config txt  /MountGrade_yy.txt
+BLUE, change config txt  /MountExchange_yy.txt
+BLUE, change config txt  /KaifuBossMonster_yy.txt
+BLUE, change config txt  /Item_yy.txt
+BLUE, change config txt  /StarGirlBase_yy.txt
+BLUE, change config txt  /DailyDoConfig_yy.txt
+BLUE, change config txt  /DailyDoRewardConfig_yy.txt
+BLUE, change config txt  /Title_yy.txt
+BLUE, change config txt  /CircularActive_yy.txt
+BLUE, change config txt  /BraveHeroActive_yy.txt
+BLUE, change config txt  /LianChongRebateActive_yy.txt
+BLUE, change config txt  /SuperPromptionControl_yy.txt
+BLUE, change config txt  /TurnTableActive_yy.txt
+BLUE, change config txt  /GuBaoTanMiActive_yy.txt
+BLUE, change config txt  /KuafuFlowerRankActive_yy.txt
+BLUE, change config txt  /WonderfulAct_yy.txt
+BLUE, change config txt  /WonderfulReward_yy.txt
+BLUE, change config txt  /UnionExploreTreasureReward_yy.txt
+BLUE, change config txt  /MarryGrade_yy.txt
+BLUE, change config txt  /PartyBless_yy.txt
+BLUE, change config txt  /HoneymoonGrade_yy.txt
+BLUE, change config txt  /Ring_yy.txt
+BLUE, change config txt  /TeamTowerReward_yy.txt
+BLUE, change config txt  /TeamTower_yy.txt
+BLUE, change config txt  /VIPBase_yy.txt
+BLUE, change config txt  /CardsConfig_yy.txt
+BLUE, change config txt  /VipReward_yy.txt
+BLUE, change config txt  /VipLibao_yy.txt
+BLUE, change config txt  /UniversalBuy_yy.txt
+BLUE, change config txt  /AsteroidFieldsGuanka_yy.txt
+BLUE, change config txt  /TalentCard_yy.txt
+BLUE, change config txt  /CollectLongReward_yy.txt
+BLUE, change config txt  /WingBase_yy.txt
+BLUE, change config txt  /WingEvolve_yy.txt
+BLUE, change config txt  /WishPoolConfig_yy.txt
+BLUE, change config txt  /ScoreShopConfig_yy.txt
+BLUE, change config txt  /Fashion_yy.txt
+BLUE, change config txt  /FashionSuit_yy.txt
+BLUE, change config txt  /RMBBankRateConfig_yy.txt
+BLUE, change config txt  /FBReward_yy.txt
+BLUE, change config txt  /FiveGiftBase_yy.txt
+BLUE, change config txt  /FB_yy.txt
+BLUE, change config txt  /FBZhangJie_yy.txt
+BLUE, change config txt  /FindBack_yy.txt
+16:20:7 GE_EXC, module(Common.Other.GlobalPrompt), variable(EB_Vision_Dict) has not all translate.
+16:20:7 GE_EXC, module(Game.ThirdParty.QQSummer.QQSummer), variable(ErrorCodeDict) has not all translate.
+16:20:7 GE_EXC, module(Game.ElementSpirit.ElementSpiritConfig), variable(ElementSpirit_SpiritName_Dict) has not all translate.
+16:20:7 GE_EXC LoadLanguageScriptEx error cnt (1771)
+BLUE, change config txt  /Mall_yy.txt
+RED GREEN BLUE << GHL 10002 Server Start At 2016-03-24 16:20:07>>
+BLUE, big table(sys_wonderfulactdata) load data(33) at 2016-03-24 16:20:14
+BLUE, big table(sys_rolefightdata) load data(20) at 2016-03-24 16:20:14
+BLUE, big table(sys_union) load data(4) at 2016-03-24 16:20:14
+BLUE, big table(sys_ring) load data(0) at 2016-03-24 16:20:14
+BLUE, big table(sys_herozdl) load data(3) at 2016-03-24 16:20:14
+BLUE, big table(univerbuy_info) load data(9) at 2016-03-24 16:20:14
+BLUE, big table(sys_role_slave) load data(13) at 2016-03-24 16:20:14
+BLUE, big table(sys_jjc) load data(4) at 2016-03-24 16:20:14
+BLUE, big table(sys_role_view) load data(19) at 2016-03-24 16:20:14
+BLUE, system load all persistence data.
+from Game import RTF
+RTF.CallFunctionBack('Game.Login.LimitLogin', (0,))
+16:20:58 GE_EXC, role(42958262894620) through time same process.
+0
+16:22:18 GE_EXC, role(42958262894599) through time same process.
+16:24:31 GE_EXC, role(42958262894615) through time same process.
+16:33:17 GE_EXC, role(42958262894617) through time same process.
+ToTime(16,59,58,True)
+now(16:37:40) to(16:59:58) inc(1338)
+ToTime(19,59,58,True)
+now(17:07:32) to(19:59:58) inc(10346)
+ToTime(20,34,58,True)
+now(20:00:03) to(20:34:58) inc(2095)
+ToTime(20,39,58,True)
+now(20:35:02) to(20:39:58) inc(296)
+ToTime(21,4,58,True)
+now(20:41:26) to(21:04:58) inc(1412)
+DukeOnDuty.SetDukeUnion is OK {1: 655491076L, 2: 0, 3: [[655491077, '3', 540]], 4: 1, 5: 655491076L}
+ToTime(21,8,58,True)
+now(21:05:25) to(21:08:58) inc(213)
+ToTime(21,9,58,True)
+now(21:09:05) to(21:09:58) inc(53)
+ToTime(23,59,58,True)
+now(21:11:08) to(23:59:58) inc(10130)
+17:21:7 GE_EXC, save time(2016-03-26 20:24:00) <= now(2016-03-24 17:21:07)
+BLUE, change config txt  /MountIllusion_yy.txt
+BLUE, change config txt  /MountItem_yy.txt
+BLUE, change config txt  /MountGrade_yy.txt
+BLUE, change config txt  /MountExchange_yy.txt
+BLUE, change config txt  /KaifuBossMonster_yy.txt
+BLUE, change config txt  /Item_yy.txt
+BLUE, change config txt  /StarGirlBase_yy.txt
+BLUE, change config txt  /DailyDoConfig_yy.txt
+BLUE, change config txt  /DailyDoRewardConfig_yy.txt
+BLUE, change config txt  /Title_yy.txt
+BLUE, change config txt  /CircularActive_yy.txt
+BLUE, change config txt  /BraveHeroActive_yy.txt
+BLUE, change config txt  /LianChongRebateActive_yy.txt
+BLUE, change config txt  /SuperPromptionControl_yy.txt
+BLUE, change config txt  /TurnTableActive_yy.txt
+BLUE, change config txt  /GuBaoTanMiActive_yy.txt
+BLUE, change config txt  /KuafuFlowerRankActive_yy.txt
+BLUE, change config txt  /WonderfulAct_yy.txt
+BLUE, change config txt  /WonderfulReward_yy.txt
+BLUE, change config txt  /UnionExploreTreasureReward_yy.txt
+BLUE, change config txt  /MarryGrade_yy.txt
+BLUE, change config txt  /PartyBless_yy.txt
+BLUE, change config txt  /HoneymoonGrade_yy.txt
+BLUE, change config txt  /Ring_yy.txt
+BLUE, change config txt  /TeamTowerReward_yy.txt
+BLUE, change config txt  /TeamTower_yy.txt
+BLUE, change config txt  /VIPBase_yy.txt
+BLUE, change config txt  /CardsConfig_yy.txt
+BLUE, change config txt  /VipReward_yy.txt
+BLUE, change config txt  /VipLibao_yy.txt
+BLUE, change config txt  /UniversalBuy_yy.txt
+BLUE, change config txt  /AsteroidFieldsGuanka_yy.txt
+BLUE, change config txt  /TalentCard_yy.txt
+BLUE, change config txt  /CollectLongReward_yy.txt
+BLUE, change config txt  /WingBase_yy.txt
+BLUE, change config txt  /WingEvolve_yy.txt
+BLUE, change config txt  /WishPoolConfig_yy.txt
+BLUE, change config txt  /ScoreShopConfig_yy.txt
+BLUE, change config txt  /Fashion_yy.txt
+BLUE, change config txt  /FashionSuit_yy.txt
+BLUE, change config txt  /RMBBankRateConfig_yy.txt
+BLUE, change config txt  /FBReward_yy.txt
+BLUE, change config txt  /KaifuTargetAct_yy.txt
+BLUE, change config txt  /FiveGiftBase_yy.txt
+BLUE, change config txt  /SDHAct_yy.txt
+BLUE, change config txt  /FB_yy.txt
+BLUE, change config txt  /FBZhangJie_yy.txt
+BLUE, change config txt  /FindBack_yy.txt
+17:21:7 GE_EXC, module(Common.Other.GlobalPrompt), variable(EB_Vision_Dict) has not all translate.
+17:21:7 GE_EXC, module(Game.ThirdParty.QQSummer.QQSummer), variable(ErrorCodeDict) has not all translate.
+17:21:7 GE_EXC, module(Game.ElementSpirit.ElementSpiritConfig), variable(ElementSpirit_SpiritName_Dict) has not all translate.
+17:21:7 GE_EXC LoadLanguageScriptEx error cnt (1771)
+BLUE, change config txt  /Mall_yy.txt
+RED GREEN BLUE << GHL 10002 Server Start At 2016-03-24 17:21:07>>
+BLUE, big table(sys_wonderfulactdata) load data(33) at 2016-03-24 17:21:14
+BLUE, big table(sys_rolefightdata) load data(27) at 2016-03-24 17:21:14
+BLUE, big table(sys_union) load data(6) at 2016-03-24 17:21:14
+BLUE, big table(sys_ring) load data(0) at 2016-03-24 17:21:14
+BLUE, big table(sys_herozdl) load data(4) at 2016-03-24 17:21:15
+BLUE, big table(univerbuy_info) load data(9) at 2016-03-24 17:21:15
+BLUE, big table(sys_role_slave) load data(20) at 2016-03-24 17:21:15
+BLUE, big table(sys_jjc) load data(7) at 2016-03-24 17:21:15
+BLUE, big table(sys_role_view) load data(24) at 2016-03-24 17:21:15
+BLUE, system load all persistence data.
+from Game import RTF
+RTF.CallFunctionBack('Game.Login.LimitLogin', (0,))
+ToTime(12,49,58,True)
+now(17:26:04) > to(12:49:58)
+ToTime(12,59,58,True)
+now(17:26:09) > to(12:59:58)
+ToTime(23,59,58,True)
+now(17:26:34) to(23:59:58) inc(23604)

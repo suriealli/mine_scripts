@@ -1,0 +1,7 @@
+boxId	title	icon	guideDes	showLevel	unShowLevel	btnName	linkGM
+提示框id	标题艺术字	图标	指引描述	显示等级	消失等级	按钮名字	链接GM命令
+1	Fighting_SBTS_TextTSDJ	dengjitisheng	玩家可以通过提升等级达到提升战斗力的目的	26	50	提升等级	EMSY
+2	Fighting_SBTS_TextYXJH	yingxiongjinhua	主角与英雄的进化可以获得更强的属性加成，从而提升战斗力	28	55	英雄进化	YXJINJIE
+3	Fighting_SBTS_TextZBQH	zhuangbeiqianghua	装备的强化、升阶、神铸都能大幅提升战斗力	35	60	装备强化	ZB
+4	Fighting_SBTS_TextXQBS	xiangqianbaoshi	多多镶嵌宝石，来提升自己的实力吧！！！	40	119	镶嵌宝石	BS
+5	Fighting_SBTS_TextZB	zhanbu	可以通过获得更高品阶的命魂或是给命魂升级提升战斗力	50	119	占卜	OPEN_TAROT_PANEL

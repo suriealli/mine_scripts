@@ -1,0 +1,8 @@
+qinmiGrade	needRoleLevel	needQinmi	needQinmiLevel	maxLevel	attack_p	attack_m	maxhp	defense_p	defense_m	crit	critpress	parry	puncture	titleId
+亲密品阶	需要角色等级	升级需要亲密度	需要亲密等级	最高阶	物攻	法攻	生命	物防	法防	暴击	免暴	格挡	破挡	获得称号id
+0	60	0	100	5	0	0	0	0	0	0	0	0	0	0
+1	65	0	200	5	0	0	0	0	0	500	500	500	500	37
+2	70	0	300	5	0	0	0	0	0	1000	1000	1000	1000	38
+3	75	0	400	5	0	0	0	0	0	1750	1750	1750	1750	39
+4	80	0	500	5	0	0	0	0	0	2750	2750	2750	2750	40
+5	100	0	99999	5	0	0	0	0	0	4000	4000	4000	4000	41

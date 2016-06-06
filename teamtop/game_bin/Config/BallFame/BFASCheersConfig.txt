@@ -1,0 +1,4 @@
+cheersCnt	needGoalsCnt
+喝彩次数	需要全服进球个数
+0	20
+1	40

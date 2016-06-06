@@ -1,0 +1,7 @@
+buffName	icon
+buff名字	小图标
+totom	buff1000
+jueDou1	buff3
+jueDou2	buff3
+jueDou3	buff3
+worldBoss	buff1002

@@ -1,0 +1,11 @@
+groupId	groupRewardType	groupData	groupOdds	rewardContent	rewardItem	GroupName	IconName
+组合ID	女神组合奖励类型	女神组合（女神图标Id组合）	组合出现概率(万分率)	奖励说明或奖励道具Coding	奖励数量	客户端用组合名	客户端用资源名
+1	1	(14,12,6)	800	额外开启4张未开启卡牌	[]	双子座,双鱼座,天秤座	shuangziS,shuangyuS,tianchengS
+2	1	(14,12,8)	950	额外开启3张未开启卡牌	[]	双子座,双鱼座,处女座	shuangziS,shuangyuS,chunvS
+3	1	(14,7,10)	1150	额外开启2张未开启卡牌	[]	双子座,摩羯座,白羊座	shuangziS,mojieS,baiyangS
+4	1	(12,8,6)	1400	额外开启1张未开启卡牌	[]	双鱼座,处女座,天秤座	shuangyuS,chunvS,tianchengS
+5	1	(13,11,9)	950	额外开启任意女神周围8张中未开启的卡牌4张	[]	狮子座,金牛座,巨蟹座	shiziS,jinniuS,juxieS
+6	1	(13,11,10)	1150	额外开启任意女神周围8张中未开启的卡牌3张	[]	狮子座,金牛座,白羊座	shiziS,jinniuS,baiyangS
+7	1	(13,4,7)	1350	额外开启任意女神周围8张中未开启的卡牌2张	[]	狮子座,天蝎座,摩羯座	shiziS,tianxieS,mojieS
+8	1	(11,7,9)	1450	额外开启任意女神周围8张中未开启的卡牌1张	[]	金牛座,摩羯座,巨蟹座	jinniuS,mojieS,juxieS
+9	1	(15,10,12)	800	下次开启奖励翻倍	[]	水瓶座,白羊座,双鱼座	shuipingS,baiyangS,shuangyuS

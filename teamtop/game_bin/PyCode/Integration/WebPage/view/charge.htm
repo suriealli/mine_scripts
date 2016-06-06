@@ -1,0 +1,187 @@
+{%include "header.htm"%}
+
+{%ifequal action "check"%}
+<table style="line-height:1.5em;" class="p_table" cellspacing="1" cellpadding="3" border="0" width="100%">
+  <tr>
+     <td colspan="6">
+    	<div align="left">
+    	<form name="myform" method="Post" action="">
+			查看月份&nbsp;<span><input name="month" value="{{get.month}}" type="text" style="padding-left:5px;" size="12" id="datestart" format="yyyy-MM" class="date"/></span>&nbsp;
+			<input type="submit" name="Submit" value="查看充值" />
+			&nbsp;<input type="checkbox" name="server" value="0"/>&nbsp;全服
+		</form>
+    	</div>   
+    </td>
+	</tr>
+</table>
+{%if data%}
+<div id="chartdiv"></div>
+{%if chart%}
+<script language="JavaScript" src="/site_medias/js/Charts.js"></script>
+<script type="text/javascript">
+   var chart = new FusionCharts("/site_medias/charts/ScrollLine2D.swf", "ChartId", "100%", "350", "0", "0");
+   chart.setJSONData({{chart|safe}});		   
+   chart.render("chartdiv");
+</script>
+{%endif%}
+<table class="p_table_order p_table" id="myTable" style="text-align:center" cellspacing="1" cellpadding="3" border="0" width="100%">
+	<thead>
+		<tr>
+			<th>日期</th>
+			<th>充值总额/元</th>
+			<th>充值人数</th>
+			<th>充值次数</th>
+			<th>人均充值(ARPU)/元</th>
+		</tr>
+	</thead>
+	<tbody>
+		{%for v in month%}
+		<tr style="font-weight:bold">
+			<td>{{v.month}}</td>
+			<td style="color:red">{{v.pay_sum}}</td>
+			<td>{{v.pay_num}}</td>
+			<td>{{v.pay_times}}</td>
+			<td>{{v.arpu}}</td>
+		</tr>
+		{%endfor%}
+		{%for v in data%}
+		<tr>
+			<td>{{v.date}}</td>
+			<td style="color:red">{{v.pay_sum}}</td>
+			<td>{{v.pay_num}}</td>
+			<td>{{v.pay_times}}</td>
+			<td>{{v.arpu}}</td>
+		</tr>
+		{%endfor%}
+	</tbody>
+	<tfoot>
+	</tfoot>
+</table>
+{%endif%}
+{%endifequal%}
+
+{%ifequal action "checkPayitem"%}
+<table style="line-height:1.5em;" class="p_table" cellspacing="1" cellpadding="3" border="0" width="100%">
+  <tr>
+     <td colspan="6">
+    	<div align="left">
+    	<form name="myform" method="Post" action="">
+			开始日期&nbsp;<span><input name="date_start" value="{{get.date_start}}" type="text" style="padding-left:5px;" size="12" id="date_start" format="yyyy-MM-dd" class="date"/></span>  &nbsp;&nbsp;
+			结束日期&nbsp;<span><input name="date_end" value="{{get.date_end}}" type="text" style="padding-left:5px;" size="12" id="date_end" format="yyyy-MM-dd" class="date"/></span>&nbsp;
+			<input type="submit" name="Submit" value="查看排行" />
+		</form>
+    	</div>   
+    </td>
+	</tr>
+</table>
+{%if data%}
+<table class="p_table_order p_table" id="myTable" style="text-align:center" cellspacing="1" cellpadding="3" border="0" width="100%" id="myTable">
+	<thead>
+		<tr>
+			<th>道具ID</th>
+			<th>道具名称</th>
+			<th>消耗数量</th>
+			<th>消耗总额</th>
+		</tr>
+	</thead>
+	<tbody>
+		{%for k,v in data.items%}
+		<tr style="font-weight:bold">
+			<td>{{k}}</td>
+			<td>{{v.name}}</td>
+			<td>{{v.num_pay}}</td>
+			<td>{{v.sum_pay}}</td>
+		</tr>
+		{%endfor%}
+	</tbody>
+	<tfoot>
+	</tfoot>
+</table>
+{%endif%}
+{%endifequal%}
+
+{%ifequal action "rank"%}
+<table style="line-height:1.5em;" class="p_table" cellspacing="1" cellpadding="3" border="0" width="100%">
+  <tr>
+     <td colspan="6">
+    	<div align="left">
+    	<form name="myform" method="Post" action="">
+			开始日期&nbsp;<span><input name="start_date" value="{{get.start_date}}" type="text" style="padding-left:5px;" size="12" id="datestart" format="yyyy-MM-dd" class="date"/></span>  &nbsp;&nbsp;
+			结束日期&nbsp;<span><input name="end_date" value="{{get.end_date}}" type="text" style="padding-left:5px;" size="12" id="dateend" format="yyyy-MM-dd" class="date"/></span>&nbsp;
+			红色标识&nbsp;<input name="red" onkeyup="value=value.replace(/\D+/g,'')" value="{{get.red}}" type="text" style="padding-left: 5px" size="3" /> 天&nbsp;&nbsp;
+			<input type="submit" name="Submit" value="查看排行" />
+		</form>
+    	</div>   
+    </td>
+	</tr>
+</table>
+{%if data%}
+<table class="p_table_order p_table" id="myTable" style="text-align:center" cellspacing="1" cellpadding="3" border="0" width="100%">
+<thead>
+ <tr>
+    <th>排名</th><th>角色帐号</th><th>角色ID</th><th>角色昵称</th><th>充值总额/元</th>
+ </tr>
+ {%for v in data%}
+ <tr>
+    <td>{{forloop.counter}}</td> <td>{{v.account}}</td><td><a style="color:green" href="/model/role/check?type=roleid&id={{v.role_id}}">{{v.role_id}}</a></td><td>{{v.name}}</td><td>{{v.pay_sum}}</td>
+ </tr>
+ {%endfor%}
+</table>
+{{range|safe}}
+{%endif%}
+{%endifequal%}
+{%ifequal action "checkRolePay"%}
+<form  action="" method="post">
+<table style="line-height:1.5em;" class="p_table" cellspacing="1" cellpadding="3" border="0" width="100%">
+<tr><td>
+	开始日期&nbsp;<span><input name="start_date" value="{{get.start_date}}" type="text" style="padding-left:5px;" size="12" id="datestart" format="yyyy-MM-dd" class="date"/></span>  &nbsp;&nbsp;
+	结束日期&nbsp;<span><input name="end_date" value="{{get.end_date}}" type="text" style="padding-left:5px;" size="12" id="dateend" format="yyyy-MM-dd" class="date"/></span>&nbsp;<br/>
+	<select id="type" name="type" val="{{get.type}}">
+		<option value="name">角色名称</option>
+		<option value="roleid">角色ID</option>
+		<option value="account">角色帐号</option>
+	</select>
+	<input name="id" value="{{get.id}}"/>
+	<select id="server" name="server" val="{{get.server}}">
+		<option value="">选择游戏服</option>
+		{%for key,val in servers.items%}
+		<option value="{{key}}">&nbsp;{{val.name|safe}}&nbsp;&nbsp;</option>
+		{%endfor%}
+	</select>
+	<script>
+	$(function(){
+		if($('#type').attr('val')!="name"){$('#type').val($('#type').attr('val'));}
+		toggleServer();
+		$('#type').change(function(){
+			toggleServer();
+		});
+	});
+	function toggleServer(){
+		if($('#type').val()!="roleid"){
+			$('#server').show();
+		}else{
+			$('#server').hide();
+		}
+	}
+	</script>
+	<input type="submit" class="btn" value="查询">    * 非角色ID需要选择游戏服
+</td></tr>
+</table>
+</form>
+{%if data%}
+<table class="p_table_order p_table" style="text-align:center" cellspacing="1" cellpadding="3" border="0" width="100%" id="myTable">
+	<tr>
+		<td>角色ID</td><td>充值额</td><td>充值时间</td>
+	</tr>
+	<tr style="font-weight:bold">
+		<td>{{sum.role_id}}</td><td>{{sum.pay_sum}}</td><td>{{get.start_date}}~{{get.end_date}}</td>
+	</tr>
+	{%for v in data%}
+	<tr>
+		<td>{{v.role_id}}</td><td>{{v.pay_sum}}</td><td>{{v.date}}</td>
+	</tr>
+	{%endfor%}
+</table>
+{%endif%}
+{%endifequal%}
+{%include "footer.htm"%}

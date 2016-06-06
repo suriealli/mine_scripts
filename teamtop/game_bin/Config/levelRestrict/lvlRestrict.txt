@@ -1,0 +1,4 @@
+systemID	systemName	needLevel
+系统ID	系统名字	开启需要等级
+JTXLC	军团训练场	35
+JTWJSL	军团无尽森林	48

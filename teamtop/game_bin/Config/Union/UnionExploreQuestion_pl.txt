@@ -1,0 +1,62 @@
+questionId	question	answer1	answer2	right
+问题ID	问题	答案A	答案B	正确答案（1 or 2）
+1	Walka mieczem to atak magiczny czy fizyczny?	Atak mag.	Atak fiz.	2
+2	Co możesz otrzymać, gdy przejdziesz loch?	Bat Treningowy Wierzchowca	Złoto	2
+3	Gdzie zdobędziesz najwięcej EXP?	Krypta	Loch	1
+4	Skąd możesz zdobyć Zablokowane Diamenty?	Polowanie na Skarb	Alchemia	1
+5	Jaki najszybciej zdobyć fioletowego bohatera?	Boski Ołtarz	Arena	1
+6	Jak zdobyć materiały do ulepszania ekwipunku?	Alchemia	Próba Bohatera	2
+7	Jak zdobyć cząstkę duszy do pomarańczowego ekwipunku?	Zrabuj skarb	Praktykuj alchemię	1
+8	Kiedy możesz wziąć udział w quizie?	O 13:00	O 24:00	1
+9	Skąd zdobyć więcej Wytrzymałości?	Walka w Lochu	Nagroda poświęcenia	2
+10	Jak zdobyć Złoto?	Alchemia	Koło runiczne	1
+11	Czy bohater ataku magicznego potrzebuje klejnotów ataku ficzycznego?	Tak	Nie	2
+12	Jak zwiększyć przydział kupna Wytrzymałości?	Podnieś poziom VIP	Odśwież grę	1
+13	Jakie są przywileje jednomiesięcznego duchowego porozumienia?	Otrzymasz Zabl.Diamenty	Darmowy bilet lotniczy	1
+14	Co powinieneś zrobić, jeśli znajdziesz BŁĄD w grze?	Zgłoś do GM.	Żyj z tym.	1
+15	Jakie nagrody możesz pobrać o 22:00?	Nagrody Rankingu Areny	Papier toaletowy	1
+16	Czy atrybuty wierzchowców zawsze wpływają na ocenę bitwy postaci?	Tak.	Nie	2
+17	Jak zdobyć punkty umiejętności postaci?	Wyślij wiadomość do GM	Ulepsz postać	2
+18	Czy niebieski ekwipunek lvl 20 może być ulepszany?	Tak	Nie	2
+19	Jak zdobyć kamienie runiczne?	Zakręć kołem fortuny.	Praktykuj alchemię.	1
+20	Jak uniknąć wchłonięcia gwiazd?	Zablokuj je.	Przetwórz je.	1
+21	Czy skrzydła dają postaci większą moc?	Tak.	Nie	1
+22	Jak zdobyć Błyszczący Kryształ, by udoskonalić Broń Sakralną?	W lochu gildii.	Od Lidera gildii.	1
+23	Czy gracze Sojuszu mogą dołączyć do gildii Hordy?	Tak	Nie	2
+24	Czy gracze Hordy mogą dołączyć do gildii Sojuszu?	Tak	Nie	2
+25	Jaka jest najlepsza nagroda Koła Fortuny?	Różowa owca	Dużo Diamentów	2
+26	Czy możesz ulepszać postać owocami EXP?	Tak.	Nie	2
+27	Skąd zdobyć Wytrzymałość?	Nagrody Poświęcenia	Wesele	1
+28	Gdzie najsilniejszy gracz gildii może pomóc innym?	W walce lochu gildii.	Na weselu	1
+29	Gdzie broniący bohater powinien być umieszczony w formacji?	Z przodu	Na tyłach	1
+30	Którego bohatera lepiej nie umieszczać z przodu formacji?	Atakującego	Broniącego	1
+31	Jak zdobyć Prestiż?	Na weselu	Walka w Arenie	2
+32	Co otrzymuje gildia broniąca w bitwie gildii?	BUFF	Dwudaniowy obiad	1
+33	Jak odblokować bardziej zaawansowane pozycje uzbrojenia?	Zdobywając prestiż	Przez modlitwę	1
+34	Po co są minerały?	Ulepszanie cech	Wymiana materiałów	2
+35	Co jeśli twój plecak jest pełny?	Płacz	Powiększ plecak	2
+36	Co otrzymasz w nagrodach Poświęcenia?	Wytrzymałość	Podróż dookoła świata	1
+37	Jak zdobyć przedmioty EXP?	Walka w Arenie	Przejście krypty	2
+38	Do czego używa się Gwiazd?	Podnoszenie oceny bitwy	Uzdrawianie postaci	1
+39	Od którego poziomu można rafinować ekwipunek?	10	100	2
+40	Jak szybko przejść loch?	Klikaj dalej	Nalot	2
+41	Jaki proces ulepsza gwiazdy?	Pochłanianie /synteza	Modlitwa	1
+42	Jaka jest korzyść z dawania bohaterom pełnego ekwipunku?	Jajo smoka	Bonusowy wzrost oceny	2
+43	Co możesz zdobyć w Najeźdźcach?	Mnóstwo Złota	Małe potwory	1
+44	Czy zmiana wierzchowca wpłynie na jego atrybuty?	Tak	Nie	2
+45	Jaki jest efekt BUFF'u gildii broniącej w bitwie gildii?	Przyciąganie uwagi	Wzrost EXP i Złota	2
+46	Jak zdobyć tytuł nieśmiertelnego pogromcy smoków?	Miejsce 5-10 w Arenie	1 miejsce w Arenie	1
+47	Gdzie zdobyć nawróconą Pneumę?	Poświęć bohatera	Kup w sklepie	1
+48	Jak zdobyć broń sakralną?	W lochu gildii	W odważnej grze	1
+49	Jak zdobyć Zwierzę w grze?	Otrzymać od kogoś	Kupić w sklepie	2
+50	Jak zdobyć pomarańczowego bohatera?	Weż pigułkę mocy	Ulepsz fioletowego bohatera	2
+51	Kto jest bogiem oceanów w mitologii greckiej?	Posejdon	Zeus	1
+52	Z iloma krajami graniczy Polska?	7	15	1
+53	W którym z tych krajów panuje król?	Polska	Szwecja	2
+54	Które z tych miast jest kojarzone ze smokiem?	Kraków	Sosnowiec	1
+55	Jaki był ulubiony napój starożytnych Rzymian?	Sok pomarańczowy	Wino	2
+56	Na jakim instrumencie grał Jimmy Hendrix?	Kontrabas	Gitara	2
+57	Co wchodzi w skład pizzy hawajskiej?	Ananas	Małże	1
+58	Czy Rosja należy do Unii Europejskiej?	Nie	Tak	1
+59	Co było pierwsze: jajko czy kura?	Nie wiadomo	Szop pracz	1
+60	Czy w Polsce jest 50 województw?	Tak	Nie	2

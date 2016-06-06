@@ -1,0 +1,10 @@
+posIndex	needElementSpiritId
+印记位置索引	需要达到的元素之灵ID
+1	1
+2	5
+3	6
+4	9
+5	11
+6	12
+7	14
+8	17

@@ -1,0 +1,7 @@
+jobId	jobName	jobNameColor	jobMaxCnt	recruit	kickOut	notice	allotJob	buildingLevelUp	skillResearch	shenshouUpGrade	goodActivate	callShenShou
+职位等级	职位名称	颜色	职位人数	招人	踢人	公告	分配职位	公会建筑升级	技能研究	神兽升阶	商店激活	神兽召唤
+1	会长	橙色	1	1	1	1	1	1	1	1	1	1
+2	副会长	紫色	1	1	1	1	0	1	1	1	1	1
+3	元老	蓝色	2	1	0	0	0	0	0	0	0	0
+4	精英	绿色	6	0	0	0	0	0	0	0	0	0
+5	成员	白色	999	0	0	0	0	0	0	0	0	0

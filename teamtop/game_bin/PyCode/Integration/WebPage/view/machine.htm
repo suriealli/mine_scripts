@@ -1,0 +1,136 @@
+{%include "header.htm" %}
+<script type="text/javascript">
+confirmAction=function(url){var fuck=confirm("真的要删除"+url + "吗？");if(fuck){window.location.target="_blank";window.location.href=url;}}
+
+function checkAll(name){ 
+	var el = document.getElementsByTagName('input'); 
+	var len = el.length; 
+	for(var i=0; i<len; i++){ 
+		if((el[i].type=="checkbox") && (el[i].name==name)) { 
+			el[i].checked = true; 
+		} 
+	} 
+} 
+
+function clearAll(name){ 
+	var el = document.getElementsByTagName('input'); 
+	var len = el.length; 
+	for(var i=0; i<len; i++) { 
+		if((el[i].type=="checkbox") && (el[i].name==name)) { 
+			el[i].checked = false; 
+		} 
+	} 
+} 
+</script>
+
+{% ifequal action "ShowFile" %}
+{% if browse %}
+<p>{{ browse.currentdir.pathname }}</p><br />
+{% if browse.query %}
+<p><a href="?{{ browse.query }}">← 返回上级目录</a></p><br />
+{% endif %}
+
+{% if browse.currentdir.getFiles %}
+<form name="file_selection" action="" method="post">
+<table class="p_table_order  p_table" style="text-align:middle" cellspacing="1" cellpadding="3" border="0">
+	<tr>
+		<td><input type="radio" name="task" value="delete" checked="checked" />删除</td>
+	</tr>
+</table>
+<input type="hidden" name="chdir" value="{{ browse.currentdir.pathname }}"/>
+<input type="submit" value=" 执行 " />
+<br />
+<table class="p_table_order  p_table" style="text-align:middle" cellspacing="1" cellpadding="3" border="0" width="50%">
+	<tr>
+		<th><input type="checkbox" name="filepath_full" value="" onclick="if(this.checked==true) { checkAll('filepath'); } else { clearAll('filepath'); }" />全选</th>
+		<th>文件名</th>
+		<th>"Traceback"数</th>
+		<th>大小(KB)</th>
+	</tr>
+	{% for file in browse.currentdir.getFiles %}
+	<tr>
+		<td><input type="checkbox" name="filepath" value="{{ file.pathname }}" onclick="filepath_full.checked=false" /></td>
+		<td><a target="_blank" href="?task=scan&{{ file.geturl }}">{{ file.basename }}</a></td>
+		<td>{{ file.getCountOfTraceback }}</td>
+		<td>{{ file.getSizeInKB }} KB</td>
+	</tr>
+	{% endfor %}
+</table>
+</form>
+{% else %}
+	<p>(空)</p>
+{% endif %}
+
+{% if browse.currentdir.getBranches %}
+<table class="p_table_order  p_table" style="text-align:middle" cellspacing="1" cellpadding="3" border="0" width="20%">
+	<th>子目录</th>
+	{% for d in browse.currentdir.getBranches %}
+		<tr>
+			<td><a href="{{ d.geturl }}">{{ d.basename }}</a></td>
+		</tr>
+	{% endfor %}
+</table>
+<br />
+{% endif %}
+{% endif %}
+
+{% if delete %}
+
+{% if delete.fail %}	
+<table class="p_table_order  p_table" style="text-align:middle" cellspacing="1" cellpadding="3" border="0">
+	<th>删除失败！文件已不存在或超越{{ rootpath }}范围</th>
+	{% for f in delete.fail %}
+		<tr>
+			<td>{{ f }}</td>
+		</tr>
+	{% endfor %}
+</table>
+{% endif %}
+
+{% if delete.success %}	
+<table class="p_table_order  p_table" style="text-align:middle" cellspacing="1" cellpadding="3" border="0">
+	<th>删除成功</th>
+	{% for f in delete.success %}
+		<tr>
+			<td>{{ f }}</td>
+		</tr>
+	{% endfor %}
+</table>
+{% endif %}
+
+{% endif %}
+
+{% if scan %}
+<style type="text/css">
+	{% for color in scan.artist.colors %}
+		span.{{ color.5 }}{color:rgb({{ color.1 }},{{ color.2 }},{{ color.3 }}); font-weight:bold;}
+	{% endfor %}
+</style>
+	<pre id="log">{{ scan.text|safe }}</pre> 
+{% endif %}
+
+{% endifequal %}
+
+{%ifequal action "syncClient"%}
+<form  action="" method="post">
+<table style="line-height:1.5em;" class="p_table" cellspacing="1" cellpadding="3" border="0" width="100%">
+<tr><td>
+	<a href="/model/machine/syncClient?confirm=true">确认同步</a>
+</td></tr>
+</table>
+{{result|safe}}
+</form>
+{% endifequal %}
+{%ifequal action "changeClientLocation"%}
+<form  action="" method="post">
+<table style="line-height:1.5em;" class="p_table" cellspacing="1" cellpadding="3" border="0" width="100%">
+<tr><td>
+	<input type="hidden" name="confirm" value="true"/>
+	&nbsp;<input type="radio" name="location" value="cdn" checked/>&nbsp;CDN&nbsp;<input type="radio" name="location" value="cvm"/>&nbsp;CVM&nbsp;
+	<input type="submit" value="更改客户端资源路径">
+</td></tr>
+</table>
+{{result|safe}}
+</form>
+{% endifequal %}
+{% include "footer.htm" %}

@@ -1,0 +1,18 @@
+id	title	shuoming
+序列	标题	更新说明
+1	Legend Knight Official Server	#B#C(#472C08)#S(14)#n#n#n#H#S(14)#C(#472C08)
+2		#B#C(#472C08)#S(14)Updates:#n#n#n#H#S(14)#C(#472C08)
+3		The following updates are for all servers:#H
+4		1. We re-launched Daily Snipe. (Duration: 3/18/2016 - 3/24/2016)#H
+5		#H
+6		The following updates are for servers that have been open for at least 30 days:#H
+7		1. We re-launched Bonus for consecutive Recharge. (Duration: 3/11/2016 - 3/22/2016)#H
+8		2. We re-launched Group Sales. (Duration: 3/11/2016 - 3/17/2016)#H
+9		3. We re-launched Ancestors Tree. (Duration: 3/11/2016 - 3/17/2016)#H
+10		4. We re-launched Mysterious Shop. (Duration: 3/11/2016 - 3/13/2016)#H
+11		5. We re-launched Treasure of the Gods. (Duration: 3/11/2016 - 3/17/2016)#H
+12		6. We re-launched Dicing event. (Duration: 3/18/2016 - 3/24/2016)#H
+13		7. We re-launched Goddess Card. (Duration: 3/18/2016 - 3/24/2016)#H
+14		8. We re-launched Draw Card. (Duration: 3/18/2016 - 3/24/2016)#H
+15		9. We re-launched Ocean Hunt. (Duration: 3/18/2016 - 3/24/2016)#H
+16		10. We updated Carnival Event. (Duration: 3/11/2016 - 3/24/2016)#H

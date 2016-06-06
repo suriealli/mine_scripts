@@ -1,0 +1,17 @@
+level	medalName	nameColor	iconBackgroundColor	crystalPostion	icon	bigIcon	isShow	needJTexp	maxhp	attackspeed	anger	attack_p	defense_p	attack_m	defense_m	crit	critpress	antibroken	notbroken	parry	puncture	damageupgrade	damagereduce
+勋章等级	勋章名称	勋章颜色	图标背景颜色（1、绿色2、蓝色、3、紫色、4、黄色、5、橙色）	解锁的晶石插槽位置	勋章图标	大图标	是否显示在功勋结算面板	勋章需要功勋	生命	攻击速度	怒气	物攻	物防	法攻	法防	暴击	免暴	破防	免破	格挡	破挡	增伤	免伤
+1	1级勋章	蓝色	2	[1,2,3,4,5,6,7,8]	huizhang1	bighuizhang1	1	5000	2400	0	0	800	0	0	0	500	0	400	0	0	500	0	0
+2	2级勋章	蓝色	2	[1,2,3,4,5,6,7,8]	huizhang2	bighuizhang2	1	10000	4800	0	0	1600	0	0	0	1000	0	800	0	0	1000	0	0
+3	3级勋章	蓝色	2	[1,2,3,4,5,6,7,8]	huizhang3	bighuizhang3	1	20000	7200	0	0	2400	0	0	0	1500	0	1200	0	0	1500	0	0
+4	4级勋章	紫色	3	[1,2,3,4,5,6,7,8]	huizhang4	bighuizhang4	1	35000	9600	0	0	3200	0	0	0	2000	0	1600	0	0	2000	0	0
+5	5级勋章	紫色	3	[1,2,3,4,5,6,7,8]	huizhang5	bighuizhang5	1	55000	12000	0	0	4000	0	0	0	2500	0	2000	0	0	2500	0	0
+6	6级勋章	紫色	3	[1,2,3,4,5,6,7,8]	huizhang6	bighuizhang6	1	80000	14400	0	0	4800	0	0	0	3000	0	2400	0	0	3000	0	0
+7	7级勋章	金色	4	[1,2,3,4,5,6,7,8]	huizhang7	bighuizhang7	1	110000	16800	0	0	5600	0	0	0	3500	0	2800	0	0	3500	0	0
+8	8级勋章	金色	4	[1,2,3,4,5,6,7,8]	huizhang8	bighuizhang8	1	150000	19200	0	0	6400	0	0	0	4000	0	3200	0	0	4000	0	0
+9	9级勋章	金色	4	[1,2,3,4,5,6,7,8]	huizhang9	bighuizhang9	1	200000	21600	0	0	7200	0	0	0	4500	0	3600	0	0	4500	0	0
+10	10级勋章	橙色	5	[1,2,3,4,5,6,7,8]	huizhang10	bighuizhang10	1	260000	24000	0	0	8000	0	0	0	5000	0	4000	0	0	5000	0	0
+11	11级勋章	橙色	5	[1,2,3,4,5,6,7,8]	huizhang11	bighuizhang11	0	330000	26400	0	0	8800	0	0	0	5500	0	4400	0	0	5500	0	0
+12	12级勋章	橙色	5	[1,2,3,4,5,6,7,8]	huizhang12	bighuizhang12	0	410000	28800	0	0	9600	0	0	0	6000	0	4800	0	0	6000	0	0
+13	13级勋章	红色	6	[1,2,3,4,5,6,7,8]	huizhang13	bighuizhang13	0	500000	31200	0	0	10400	0	0	0	6500	0	5200	0	0	6500	0	0
+14	14级勋章	红色	6	[1,2,3,4,5,6,7,8]	huizhang14	bighuizhang14	0	600000	33600	0	0	11200	0	0	0	7000	0	5600	0	0	7000	0	0
+15	15级勋章	红色	6	[1,2,3,4,5,6,7,8]	huizhang15	bighuizhang15	0	710000	36000	0	0	12000	0	0	0	7500	0	6000	0	0	7500	0	0
