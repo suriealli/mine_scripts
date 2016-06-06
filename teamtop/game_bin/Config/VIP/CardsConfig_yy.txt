@@ -1,7 +1,0 @@
-cardID	unbindRMB	restitution	fanquan	chestCoding	time	effectiveDays	buydesc	cardWordArt	timerWordArt	descNum	desc1	desc2	desc3	desc4	coding	picture	halfYear
-卡片ID（周卡-1、月卡-2、半年卡-3）	购买需要元宝	返还魔石	每日返券	宝箱Coding	时效（秒）	有效期天数	购买描述	卡片艺术字	卡片持续时间艺术字	描述数量	卡片描述1	卡片描述2	卡片描述3	卡片描述4	赠送卡	特权图片（1:城主轮值 2：荣耀之战 3：魔兽入侵 4：混乱时空 5：工会副本 6 ：魔龙降临 7：神树秘境 8：工会魔神 9：竞技场 10：巨龙宝藏  11：金币+10% 12：恶魔深渊CD 13：英雄竞技CD ）	半年卡专属
-1	70	70	50	25654	604800	7	7天周卡	YK_BM_TextZK	YK_BM_YXQ	0	秒CD	秒CD	秒CD	秒CD	26460		
-2	300	300	100	25654	2592000	30	30天月卡	YK_BM_TextYK	YK_BM_YXQ30	2	英雄竞技挑战  免CD	恶魔深渊扫荡  免CD	秒CD	秒CD	26461	11,12,13,1,7,2,3,5,8	
-3	1800	1800	120	25654	15552000	180	180天半年卡	YK_BM_TextBNK	YK_BM_YXQ180	4	英雄竞技挑战  免CD	恶魔深渊扫荡  免CD	强化装备      免CD	副本扫荡      免CD	26462	11,12,13,1,7,2,3,5,8	11
-4	900	900	110	25654	7776000	90	90天季度卡	YK_BM_TextJDK	YK_BM_YXQ90	3	英雄竞技挑战  免CD	恶魔深渊扫荡  免CD	强化装备      免CD	秒CD			
-5	3600	3600	150	25654	31104000	360	360天年卡	YK_BM_TextNK	YK_BM_YXQ365	4	英雄竞技挑战  免CD	恶魔深渊扫荡  免CD	强化装备      免CD	副本扫荡      免CD			

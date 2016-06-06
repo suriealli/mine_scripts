@@ -1,5 +1,0 @@
-feedType	costMoney	costUnbindRMB	growthValue	incContribution
-喂养类型（1：普通 2:高级 3:完美） 	每次消耗金币	每次消耗神石	每次成长值增加	每次增加个人贡献
-1	80000	0	1	10
-2	0	20	10	150
-3	0	2	1	5

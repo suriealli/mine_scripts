@@ -1,3 +1,0 @@
-taskIndex	needLevel	rewardExp	rewardMoney	rewardBindRMB	rewardItems
-任务索引	接取需要等级	奖励经验	奖励金币	奖励魔晶	奖励物品
-1	1	0	0	50	[(25681,20),(25600,20)]

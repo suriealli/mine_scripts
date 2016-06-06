@@ -1,6 +1,0 @@
-activityType	fightIdx	dropOdds	dropItemCoding	needLevel
-活动类型(1=副本，2=英灵神殿)	战斗场次	探宝器掉落概率	掉落物品coding	需要等级
-1	1	3000	27172	75
-1	2	3000	27172	75
-1	3	6000	27172	75
-2	1	10000	27172	75

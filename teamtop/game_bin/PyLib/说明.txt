@@ -1,7 +1,0 @@
-DLLs目录存放Win64下Python2.7的dll模块。
-Python27.zip是Win64下Python2.7的基础库文件。
-
-include和lib目录是模拟Python2.7在linux下的寻址结构路径，对应的PYTHONHOME要设置为PyLib目录
-
-site-packages目录是按照的第三方Python模块：
-1>> MySQLdb

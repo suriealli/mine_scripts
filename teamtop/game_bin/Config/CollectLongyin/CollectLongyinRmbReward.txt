@@ -1,4 +1,0 @@
-rewardIndex	needRMB	rewardLongyin
-充值神石奖励索引	需要充值神石	奖励龙印个数
-1	100	1
-2	1000	3

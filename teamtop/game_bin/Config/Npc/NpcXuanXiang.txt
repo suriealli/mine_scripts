@@ -1,6 +1,0 @@
-NPCType	des	did1	dtext1	open	dconditiion1	serverscript1
-npc类型	备注	选项id	选项内容	打开面板	显示选项的条件	服务器脚本
-1083	结婚NPC	1	#C(#00ffff)<u>我要表白</u>#n	#K(dlg,OPEN_WED_EXPRESS_PANEL)		
-1083	结婚NPC	2	#C(#00ffff)<u>我要宣誓</u>#n	#K(dlg,WANT_TO_SWEAR)		
-1084	结婚NPC	1	#C(#00ffff)<u>取消订婚</u>#n	#K(dlg,WED_CANCEL_ENGAGE)		
-1084	结婚NPC	2	#C(#00ffff)<u>我要离婚</u>#n	#K(dlg,WED_DIVORCE)		

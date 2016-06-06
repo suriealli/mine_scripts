@@ -1,5 +1,0 @@
-grade	needRMB	candyCoding	qinmi
-派对喜糖档次	需要的神石	喜糖coding	增加的亲密度
-1	288	27163	1500
-2	588	27164	3000
-3	988	27884	5000

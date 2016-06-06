@@ -1,5 +1,0 @@
-partyGrade	qinmiPercent	addGlamour
-结婚派对档次 1-高级, 2-豪华, 3-跨服	亲密度加成百分比	魅力值收益
-1	15	30
-2	25	200
-3	25	200

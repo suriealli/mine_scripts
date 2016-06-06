@@ -1,3 +1,0 @@
-activeName	startTime	endTime	totalDay
-活动名称	开启时间	结束时间	活动开启总天数
-团购狂欢	(2015,4,24,0,0,0)	(2015,4,30,23,59,59)	5

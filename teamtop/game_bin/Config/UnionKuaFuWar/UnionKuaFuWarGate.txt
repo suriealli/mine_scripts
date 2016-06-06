@@ -1,5 +1,0 @@
-gateId	gateName	winScore	lostScore	guardMCID	gateHp	winStreakFactor
-城门ID	城门名称	胜利得到积分	失败扣除积分	守卫阵营ID	城门血量	连杀系数
-1	主城门	120	50	17019	10000	10
-2	左城门	60	12	17018	7000	5
-3	右城门	30	0	17017	4000	3

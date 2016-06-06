@@ -1,6 +1,0 @@
-id	desc	levellimit	funcType	funcStr
-编号id	描述	等级限制	是否循环活动 ，1代表是	打开功能字符串
-1	超值大礼消耗神石	30	0	open_superworthgifgpanel
-2	商城消费神石	30	0	SC
-3	幸运转盘消耗神石	30	0	OPEN_LUCK_WHEEL
-4	许愿池消耗神石	30	0	WishPool

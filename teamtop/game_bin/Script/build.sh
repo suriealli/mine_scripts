@@ -1,9 +1,0 @@
-cd ..
-cd CCode
-cd GameEngine
-make clean
-make -j4
-cd ../ComplexServer
-make clean
-make -j4
-cd ../../Script

@@ -1,3 +1,0 @@
-awardid	LimitCnt
-奖励ID	限制数量
-1	999999999

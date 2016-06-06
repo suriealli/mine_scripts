@@ -1,7 +1,0 @@
-star	expFactor	resourceFactor	contributionFactor
-公会任务星级	经验系数(百分比)	公会资源系数(百分比)	个人贡献系数(百分比)
-1	50	100	50
-2	65	100	65
-3	75	100	75
-4	90	100	90
-5	100	100	100

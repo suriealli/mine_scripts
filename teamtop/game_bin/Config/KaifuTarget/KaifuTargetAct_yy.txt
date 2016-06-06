@@ -1,9 +1,0 @@
-targetType	isLastTarget	targetNameImg	targetRankName	beginDay	continueDay	targetRankAward	targetTaskDes
-活动ID	是否最后一个活动(最后一个活动结束的时候结算排行榜奖励)	活动名称	活动排行榜名称	开服后第几天开启活动	活动持续时间	活动排行奖励	活动任务描述
-1	0	QRMB_TextCJ	冲级榜	9999	1	27527	主角升至以上等级,可领取奖励
-2	0	QRMB_TextZQ	坐骑榜	9999	1	35626	坐骑达到以上等级,可领取奖励
-3	0	QRMB_TextBS	宝石榜	9999	1	27528	装备上宝石等级之和达到以上等级,可领取奖励
-4	0	QRMB_TextHJ	婚戒榜	9999	1	35625	婚戒达到以上等阶,可领取奖励
-5	0	QRMB_TextYXZL	英雄战斗力榜	9999	1	35627	按照排行榜排名,有机会多次领取奖励哟
-6	0	QRMB_TextZJZL	主角战斗力榜	9999	1	35624	主角战力达到以上条件,可领取奖励
-7	1	QRMB_TextZZL	总战斗力榜	9999	1	27529	总战力达到以上条件,可领取奖励

@@ -1,2 +1,0 @@
-moduleName	moduleWhat	env_valid	env_Unvalid
-模块名	对应系统说明	只有这些环境才生效(如果这里非空，则进行判断，如果是空，则所有环境都生效)	只有这些环境下才不生效

@@ -1,6 +1,0 @@
-zjID	zjLvl	zjName	zjBg	mzzy	halfBody	firstFBId	endFBId
-章节ID	章节开启等级	章节名字	章节背景图片	名字资源	半身像	起始副本id	结束副本id
-1	1	第一章.龙战圣辉	FbBg2	Fbmz1_US	30031	1	5
-2	50	第二章.大风战歌	FbBg3	Fbmz2_US	30033	6	15
-3	100	第三章.龙神在天	FbBg4	Fbmz3_US	30034	16	25
-4	150	第四章.封魔无敌	FbBg5	Fbmz4_US	30035	26	35

@@ -1,3 +1,0 @@
-activeID	activeTitle	beginDate	endDate
-活动Id	活动名称	开始时间	结束时间
-1	3366一周豪礼	(2014,9,19,0,0,0)	(2014,9,25,23,59,59)

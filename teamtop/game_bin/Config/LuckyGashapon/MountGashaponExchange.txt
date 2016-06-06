@@ -1,4 +1,0 @@
-index	rewardItems	needItemCnt	needLevel
-物品索引	奖励物品	兑换需要碎片数量	需要角色的最小等级
-1	(29461,1)	1	40
-2	(29460,1)	1	40

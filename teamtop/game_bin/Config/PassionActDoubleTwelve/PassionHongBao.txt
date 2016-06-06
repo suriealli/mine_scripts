@@ -1,3 +1,0 @@
-itemCoding	cnts	RMB	maxPercent
-红包Coding	红包可发放个数	红包对应神石数	红包随机金额最大百分比
-29064	(5,10,15)	100	60

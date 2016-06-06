@@ -1,5 +1,0 @@
-exchangeId	needCnt	item
-兑换ID	需要蓝钻水晶数量	兑换的物品(coding,cnt)
-1	12	(28972,1)
-2	12	(37059,1)
-3	12	(27039,1)

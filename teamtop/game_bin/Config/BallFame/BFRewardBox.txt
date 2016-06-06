@@ -1,5 +1,0 @@
-activeId	goalsBoxCoding	cheersBoxCoding
-活动编号	进球奖励宝箱	喝彩奖励宝箱
-9	26236	26237
-55	26937	26938
-56	26939	26940

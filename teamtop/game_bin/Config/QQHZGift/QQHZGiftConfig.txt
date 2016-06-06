@@ -1,3 +1,0 @@
-activeID	activeType	activeTitle	beginDate	endDate	needLevel
-活动Id	活动类型	活动名称	开始时间	结束时间	等级限制
-1	0	黄钻转大礼	(2014,11,21,0,0,0)	(2014,11,27,23,59,59)	20

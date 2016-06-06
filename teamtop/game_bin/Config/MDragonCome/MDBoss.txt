@@ -1,3 +1,0 @@
-index	bossCampId
-索引	boss阵营ID
-0	18092

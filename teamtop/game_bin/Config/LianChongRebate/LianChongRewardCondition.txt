@@ -1,5 +1,0 @@
-rewardType	needBuyRMB
-奖励类型	完成需要购买神石数
-1	500
-2	1000
-3	5000

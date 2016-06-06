@@ -1,3 +1,0 @@
-activeIndex	activeName	startTime	endTime
-活动索引(客户端用)	名称	开始时间	结束时间
-1	页游节充值返利	(2015,5,24,0,0,0)	(2015,5,27,23,59,58)

@@ -1,6 +1,0 @@
-career	HallowsName	ResourceOne	ResourceTwo	ResourceThree	backGround
-职业（1-防御， 2-法攻， 3-辅助，主角-4）	圣器名字	资源名字1（图片）	资源名字2	资源名字3	背景资源
-1	寒霜光盾	shengqi1	shengqi11	shengqi12	shengqi6264
-2	天雷战斧	shengqi2	shengqi21	shengqi22	shengqi6262
-3	龙裔法典	shengqi3	shengqi31	shengqi32	shengqi6263
-4	烈焰圣剑	shengqi4	shengqi41	shengqi42	shengqi6261

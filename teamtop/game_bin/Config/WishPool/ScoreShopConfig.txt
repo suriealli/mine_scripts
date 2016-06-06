@@ -1,8 +1,0 @@
-coding	rank	needScore	needUnbindRMB	needLevel	limitCnt
-物品coding	商店排序	兑换需要积分	兑换需要神石	兑换需要等级	每日限购数量(0-不限购)
-25600	1	5		30	0
-26344	2	5		30	0
-26446	3	10		65	0
-26447	4	40		65	0
-26448	5	60		65	0
-26449	6	80		65	0

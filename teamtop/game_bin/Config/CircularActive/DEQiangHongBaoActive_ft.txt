@@ -1,3 +1,0 @@
-activeIndex	activeName	beginTime	endTime	totalDay
-活动索引(客户端用)	名称	开始时间	结束时间	总天数
-1	双十一抢红包	(2015,11,11,0,0,0)	(2015,11,17,23,59,58)	7

@@ -1,8 +1,0 @@
-skillId	roleStatus	icon	name	desc
-迷失之境技能索引	角色外观状态	技能图标	技能名字	技能描述
-1	0	mishizhijingjisu	疾速	使用后提高自身移动速度150%，持续5秒，冷却时间9秒。
-2	0	mishizhijingzhenc	侦测	使用后侦测周围，当周围有隐匿者时自身头上将出现提示特效，冷却时间5秒。
-3	0	mishizhijingbuzhuo	捕捉	鼠标点击目标使用，若目标是玩家则捕捉成功，冷却时间5秒。
-4	11	mishizhijingbianshen1	我变	我就是黑暗中最亮的那盏灯！
-5	12	mishizhijingbianshen2	我变变	点我试试就知道了…
-6	13	mishizhijingbianshen3	我变变变	看不见我，看不见我。

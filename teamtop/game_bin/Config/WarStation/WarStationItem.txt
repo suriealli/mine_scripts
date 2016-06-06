@@ -1,3 +1,0 @@
-coding	maxhp	attackspeed	anger	attack_p	defense_p	attack_m	defense_m	crit	critpress	antibroken	notbroken	parry	puncture	damageupgrade	damagereduce
-道具ID	生命	攻击速度	怒气	物攻	物防	法攻	法防	暴击	免暴	破防	免破	格挡	破挡	增伤	免伤
-28588	75	0	0	20	0	20	0	5	0	0	0	0	5	0	0

@@ -1,2 +1,0 @@
-﻿module_variable_name	source_text	target_text	need_translate
-模块名和变量名	原文	译文	是否需要重新翻译

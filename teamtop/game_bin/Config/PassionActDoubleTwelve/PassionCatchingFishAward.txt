@@ -1,3 +1,0 @@
-AwardId	AwardItems	Items
-奖励id	捕鱼达人奖励	奖励道具（客户端）
-1	(28653, 1)	(28653, 1)

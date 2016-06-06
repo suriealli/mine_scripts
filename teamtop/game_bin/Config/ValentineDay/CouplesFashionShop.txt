@@ -1,3 +1,0 @@
-goodId	item	originalUnbindRMB	needUnbindRMB	rebateItem	libaoItem	clothesPart	limitCnt
-商品ID	商品(coding,cnt)	原价	现价	回赠商品(coding,cnt)	礼包中的物品	时装部件	限购（限购数量）
-1	(37032,1)	1248	998	(27881,1)	[(26450,4),(26026,1)]	[37031,37032,37033,37034]	1

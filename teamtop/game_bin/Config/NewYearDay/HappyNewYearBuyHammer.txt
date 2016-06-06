@@ -1,5 +1,0 @@
-BuyIndex	NeedRMB	Hammers
-充值索引	需要充值数	获得锤子数
-1	10	1
-2	500	3
-3	1500	5

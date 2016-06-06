@@ -1,3 +1,0 @@
-activeName	startTime	endTime	kaifuDay
-名称	开始时间	结束时间	开服最小天数
-激情消费排行榜	(2015,4,25,0,0,0)	(2015,5,1,23,59,59)	8

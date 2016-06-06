@@ -1,3 +1,0 @@
-needXiqing	jiaBinReward	xinRenReward
-需要喜庆度	嘉宾奖励	新人奖励
-10000	28275	28276

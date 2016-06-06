@@ -1,9 +1,0 @@
-TaskId	buffId	reward	desc
-任务ID	需要的buffId	奖励	任务描述
-1	0	(26033,1)	<font color='#ffffff'>在宴会每隔<font color='#66FF00'>10分钟</font>可领取一次奖励</font>
-2	0	(27030,1)	<font color='#ffffff'>在宴会每隔<font color='#66FF00'>10分钟</font>可领取一次奖励</font>
-3	0	(26044,1)	<font color='#ffffff'>在宴会每隔<font color='#66FF00'>10分钟</font>可领取一次奖励</font>
-4	0	(26344,5)	<font color='#ffffff'>在宴会每隔<font color='#66FF00'>10分钟</font>可领取一次奖励</font>
-5	0	(25600,5)	<font color='#ffffff'>在宴会每隔<font color='#66FF00'>10分钟</font>可领取一次奖励</font>
-6	0	(25600,3)	<font color='#ffffff'>在宴会每隔<font color='#66FF00'>10分钟</font>可领取一次奖励</font>
-7	0	(26026,1)	<font color='#ffffff'>在宴会每隔<font color='#66FF00'>10分钟</font>可领取一次奖励</font>

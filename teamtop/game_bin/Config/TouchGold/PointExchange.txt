@@ -1,3 +1,0 @@
-goodsId	needPoint	items
-商品ID	需要的积分	商品
-1	1000	(28844,1)

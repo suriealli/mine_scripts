@@ -1,5 +1,0 @@
-index	needRMB	needFillRMB	extendreward	needDay1	dayreward1	needDay2	dayreward2	needDay3	dayreward3	needDay4	dayreward4	needDay5	dayreward5	needDay6	dayreward6	needDay7	dayreward7	needDay8	dayreward8	needDay9	dayreward9	needDay10	dayreward10
-宝箱索引	需要的神石	需要充值神石	额外奖励Id	需要的天数	第一天对应的奖励ID	需要的天数	第2天对应的奖励ID	需要的天数	第3天对应的奖励ID	需要的天数	第4天对应的奖励ID	需要的天数	第5天对应的奖励ID	需要的天数	第6天对应的奖励ID	需要的天数	第7天对应的奖励ID	需要的天数	第8天对应的奖励ID	需要的天数	第9天对应的奖励ID	需要的天数	第10天对应的奖励ID
-1	5000	2500	31	0	1	1	2	2	3	3	4	4	5	5	6	6	7	7	8	8	9	9	10
-2	1000	500	32	0	11	1	12	2	13	3	14	4	15	5	16	6	17	7	18	8	19	9	20
-3	200	100	33	0	21	1	22	2	23	3	24	4	25	5	26	6	27	7	28	8	29	9	30

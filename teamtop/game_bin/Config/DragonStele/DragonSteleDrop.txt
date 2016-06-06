@@ -1,6 +1,0 @@
-activityType	fightIdx	dropRate	proCoding
-活动类型(1=副本，2=英灵神殿)	战斗场次	掉落概率	龙币coding
-1	1	6000	27166
-1	2	6000	27166
-1	3	10000	27166
-2	1	10000	27166

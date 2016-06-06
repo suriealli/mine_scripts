@@ -1,6 +1,0 @@
-suitId	needCardId	suitIcon
-图鉴组id	激活需要的图鉴id：不要留多余空格	选项卡资源名字
-1	1,2,3,4	KPTJ_TextMFTX
-2	5,6,7,8,9,10,11,12	KPTJ_TextHTZL
-3	13,14,15,16,17,18,19,20	KPTJ_TextJLSH
-4	21,22,23,24,25,26,27,28	KPTJ_TextZYZD

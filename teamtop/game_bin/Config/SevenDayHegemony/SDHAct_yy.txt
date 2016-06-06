@@ -1,5 +1,0 @@
-actType	isLastAct	targetNameImg	Name	beginDay	continueDay	targetRankAward	targetTaskDes	targetRankName
-活动ID	是否最后一个活动(最后一个活动结束的时候结算排行榜奖励)	活动名称	活动排行榜名称	开服后第几天开启活动	活动持续时间	活动排行奖励	活动任务描述	活动排行榜名称
-1	0	QRZB_TextXMZB	心魔争霸	9999	2	25929	在心魔炼狱玩法中获得对应的评价，可领取奖励	心魔争霸
-2	0	QRZB_TextPTZB	爬塔争霸	9999	2	27677	在组队爬塔中获得对应的评价，可领取奖励	爬塔争霸
-3	1	QRZB_TextGHZB	公会争霸	9999	3	25672	公会副本达到一定进度，全体公会成员可领取对应奖励	公会争霸

@@ -1,3 +1,0 @@
-﻿coding	needCoding	needCnt
-年兽coding	需要的道具	需要的数量
-27864	27865	60

@@ -1,8 +1,0 @@
-StaticId	Name	AddHp	AddAttack	PhysicsResistance	MagicResistance	AdvancedReward1	AdvancedReward2	AdvancedReward3	AdvancedReward4	AdvancedLimit1	AdvancedLimit2	AdvancedLimit3	AdvancedLimit4	AdvancedLimit5
-身份Id	名字	生命	攻击	物理抵抗	法术抵抗	进阶奖励1	进阶奖励2	进阶奖励3	进阶奖励4	进阶限制1	进阶限制2	进阶限制3	进阶限制4	进阶限制5
-1	御剑士													
-2	轩辕剑豪	生命+720	物理攻击+300	物理抗性+60	法术抗性+60	增加1个主动技能出战栏位	增加1个被动技能出战栏位			主角等级达到40级	完成“进阶修行”任务			
-3	破天神君	生命+2520	物理攻击+1050	物理抗性+210	法术抗性+210	增加1个主动技能出战栏位	增加1个被动技能出战栏位			主角等级达到70级	完成“重获仙身”任务			
-4	御气师													
-5	玄冥祭师	生命+720	法术攻击+300	物理抗性+60	法术抗性+60	增加1个主动技能出战栏位	增加1个被动技能出战栏位			主角等级达到40级	完成“进阶修行”任务			
-6	荡魔星君	生命+2520	法术攻击+1050	物理抗性+210	法术抗性+210	增加1个主动技能出战栏位	增加1个被动技能出战栏位			主角等级达到70级	完成“重获仙身”任务			

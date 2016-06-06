@@ -1,6 +1,0 @@
-petType	maxhp	attackspeed	anger	attack_p	defense_p	attack_m	defense_m	crit	critpress	parry	puncture	antibroken	notbroken	damageupgrade	damagereduce
-宠物类型	生命	攻击速度	怒气	物攻	物防	法攻	法防	暴击	免暴	格挡	破挡	破防	免破	增伤	免伤
-1	300	0	0	100	0	0	0	100	100	100	100	100	100	0	0
-2	300	0	0	0	0	100	0	100	100	100	100	100	100	0	0
-3	300	0	0	100	0	0	0	100	100	100	100	100	100	0	0
-4	300	0	0	100	0	0	0	100	100	100	100	100	100	0	0

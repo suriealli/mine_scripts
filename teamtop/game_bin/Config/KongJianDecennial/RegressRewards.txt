@@ -1,3 +1,0 @@
-rewardIndex	rewardItems	rewardMoney	rewardBindRMB	rewardPreviwe
-奖励索引	奖励物品	奖励金币	奖励魔晶	奖励预览
-1	[(27587,20),(26676,1),(28031,1),(26485,4)]	0	800	[(25829,800),(27587,20),(26676,1),(28031,1),(26485,4)]

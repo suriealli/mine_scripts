@@ -1,7 +1,0 @@
-id	title	shuoming
-序列	标题	更新说明
-1	Anuncio beta cerrada	Estimados jugadores: Bienvenido al Dragon Knight. Durante la semana se puede disfrutar del juego.#H
-2		Nuestra beta finalizará el próximo martes, mientras que la apertura oficial.#H
-3		Vamos a borrar los datos al final de los jugadores de la beta cerrada. No se preocupe si usted hace una recarga, daremos el 1,5 veces de la compensación después de la apertura oficial.（Sólo en S1）#H
-4		Si usted tiene alguna pregunta, por favor, póngase en contacto con nosotros o haga clic en GM#H
-5		Para obtener más información, visite nuestra página de Facebook https://www.facebook.com/DRAGONKNIGHTES/ #H#H
