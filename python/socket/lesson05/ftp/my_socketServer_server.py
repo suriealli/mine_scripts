@@ -14,20 +14,20 @@ class MyRequestHandler(SocketServer.BaseRequestHandler):
 	#print self.request.recv(1024)
 	#self.request.send('Username')
 	#----------Auth part----------
-	if self.request.recv(1024) == 'auth':
-	    print 'auth'
-	    while 1:
-		self.request.send('Username')
-		username = self.request.recv(1024)
-
-		if username == 'Joklin':
-		    self.request.send('correct')
-		    print 'login success,Welcome!'
-		    break
-		else:
-		    self.request.send('incorrect')
-		    continue
-
+#	if self.request.recv(1024) == 'auth':
+#	    print 'auth'
+#	    while 1:
+#		self.request.send('Username')
+#		username = self.request.recv(1024)
+#
+#		if username == 'Joklin':
+#		    self.request.send('correct')
+#		    print 'login success,Welcome!'
+#		    break
+#		else:
+##		    self.request.send('incorrect')
+#		    continue
+#        self.request.send('\033[031;1minvalid_instruction\033[0m')
 	def SendFromClient(filename):
 	    print 'start receiving data ...'
 	    f = file(filename,'wb')
