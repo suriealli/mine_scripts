@@ -5,12 +5,10 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
 
-#HOST = "smtp.sina.com"
 HOST = "smtp.163.com"
-USER = "suriealli@163.com"
-PWD = 'Joklin1456'
-TO = "shunchang.lin@teamtopgame.com"
-#TO = "3163227596@qq.com"
+USER = ""
+PWD = ''
+TO = ""
 TITLE = "test"
 IMAGE = "./1.jpg"
 def addimg(src,imgid):
