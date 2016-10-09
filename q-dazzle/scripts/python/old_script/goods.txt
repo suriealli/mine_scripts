@@ -1,8 +1,0 @@
-1:Car		80000	
-2:PC		3999
-3:Iphone	5999
-4:Coffee	35
-5:Watch		59
-6:Mac		9899
-7:Shirt		178
-8:water		15

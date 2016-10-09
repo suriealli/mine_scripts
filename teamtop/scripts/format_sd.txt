@@ -1,9 +1,0 @@
-#区ID 区名 机器名 区MySQL名 日志MySQL名 世界 角色名前缀 端口
-469	名捕39区	z正式5	sd_data1	sd_houtai1	431	s39.	7039	
-470	名捕40区	z正式5	sd_data1	sd_houtai1	431	s40.	7040	
-472	名捕41区	z正式5	sd_data1	sd_houtai1	431	s41.	7041	
-474	名捕42区	z正式5	sd_data1	sd_houtai1	431	s42.	7042	
-476	名捕43区	z正式4	sd_data1	sd_houtai1	431	s43.	7043	
-477	名捕44区	z正式2	sd_data1	sd_houtai1	431	s44.	7044	
-478	名捕45区	z正式5	sd_data1	sd_houtai1	431	s45.	7045	
-546	联盟1区		z正式2	sd_data1	sd_log1		431	u1.	7008	
