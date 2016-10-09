@@ -62,8 +62,8 @@ exe_back_data(){
 	rm -rf ${plat}_${db_name}_${Tdate}
 	echo "${Tdate} ${db_name} backup ${Result}!!" 2>&1 
 	if [[ "$merge_zids_list" != "" ]];then
-		for i in $merge_zids_list;do 
-			$script_path/rsync.sh $plat $i data
+		for i in ${merge_zids_list[@]};do 
+			/bin/sh $script_path/rsync.sh $plat $i data
 		done
 	fi
 }
