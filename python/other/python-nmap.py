@@ -4,8 +4,9 @@ import sys
 import nmap
 
 scan_row=[]
-input_data = raw_input('Please input hosts and port: ')
-scan_row = input_data.split(" ")
+# input_data = raw_input('Please input hosts and port: ')
+# scan_row = input_data.split(" ")
+scan_row = ['192.168.8.142','1-10000']
 if len(scan_row)!=2:
     print "Input errors,example \"192.168.1.0/24 80,443,22\""
     sys.exit(0)
